@@ -1,0 +1,124 @@
+{
+  "course": "mathematics",
+  "title": "Mathematics",
+  "placeholder": true,
+  "sources": [],
+  "flashcards": [
+    {
+      "topic": "Calculus",
+      "front": "Derivative of x^n?",
+      "back": "n·x^(n−1) (power rule)."
+    },
+    {
+      "topic": "Calculus",
+      "front": "Product rule?",
+      "back": "(f·g)' = f'·g + f·g'"
+    },
+    {
+      "topic": "Calculus",
+      "front": "Chain rule?",
+      "back": "(f(g(x)))' = f'(g(x)) · g'(x)"
+    },
+    {
+      "topic": "Calculus",
+      "front": "Derivative of e^x and ln(x)?",
+      "back": "(e^x)' = e^x; (ln x)' = 1/x (x > 0)."
+    },
+    {
+      "topic": "Optimisation",
+      "front": "First-order condition for a local extremum of f at x₀?",
+      "back": "f'(x₀) = 0 (necessary condition, for an interior point of a differentiable function)."
+    },
+    {
+      "topic": "Optimisation",
+      "front": "How do you tell a local max from a local min with the second derivative?",
+      "back": "f'(x₀) = 0 and f''(x₀) < 0 → local maximum; f''(x₀) > 0 → local minimum; f''(x₀) = 0 → test inconclusive."
+    },
+    {
+      "topic": "Linear algebra",
+      "front": "When is a square matrix A invertible?",
+      "back": "If and only if det(A) ≠ 0 (equivalently, its columns are linearly independent)."
+    },
+    {
+      "topic": "Linear algebra",
+      "front": "Determinant of [[a, b], [c, d]]?",
+      "back": "ad − bc"
+    }
+  ],
+  "quiz": [
+    {
+      "topic": "Calculus",
+      "question": "What is the derivative of f(x) = 3x² + 5x − 7?",
+      "options": [
+        "6x + 5",
+        "3x + 5",
+        "6x² + 5",
+        "6x − 7"
+      ],
+      "answer": 0,
+      "explanation": "Power rule term by term: (3x²)' = 6x, (5x)' = 5, constants vanish."
+    },
+    {
+      "topic": "Calculus",
+      "question": "What is the derivative of f(x) = e^(2x)?",
+      "options": [
+        "e^(2x)",
+        "2e^(2x)",
+        "2x·e^(2x−1)",
+        "e^(2x)/2"
+      ],
+      "answer": 1,
+      "explanation": "Chain rule: outer derivative e^(2x) times inner derivative 2."
+    },
+    {
+      "topic": "Optimisation",
+      "question": "f(x) = −x² + 4x. Where is the maximum?",
+      "options": [
+        "x = 0",
+        "x = 2",
+        "x = 4",
+        "x = −2"
+      ],
+      "answer": 1,
+      "explanation": "f'(x) = −2x + 4 = 0 → x = 2; f''(x) = −2 < 0, so it is a maximum (f(2) = 4)."
+    },
+    {
+      "topic": "Linear algebra",
+      "question": "det([[2, 1], [4, 3]]) = ?",
+      "options": [
+        "2",
+        "10",
+        "−2",
+        "6"
+      ],
+      "answer": 0,
+      "explanation": "ad − bc = 2·3 − 1·4 = 2. Since det ≠ 0, the matrix is invertible."
+    }
+  ],
+  "summary": [
+    {
+      "title": "Key rules",
+      "content": [
+        "> **Sample content.** No PDFs were found in `cours/mathematics/`. Replace this file (`data/mathematics.json`) with your own material.",
+        "",
+        "## Differentiation",
+        "| Function | Derivative |",
+        "|---|---|",
+        "| x^n | n·x^(n−1) |",
+        "| e^x | e^x |",
+        "| ln x | 1/x |",
+        "| f·g | f'g + fg' |",
+        "| f(g(x)) | f'(g(x))·g'(x) |",
+        "",
+        "## Finding extrema",
+        "1. Solve **f'(x) = 0** (candidates).",
+        "2. Check **f''(x)**: < 0 max, > 0 min.",
+        "3. Compare with boundary points if the domain is closed.",
+        "",
+        "## Matrices",
+        "- 2×2 determinant: **ad − bc**.",
+        "- A is invertible ⇔ **det(A) ≠ 0**."
+      ]
+    }
+  ]
+}
