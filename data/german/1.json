@@ -1,0 +1,243 @@
+{
+  "id": "1",
+  "number": "1",
+  "title": "Review (pp. 1–70) and Kapitel 4: Von morgens bis abends",
+  "sources": ["Lecture 1 (15 Sept 2026, 22 p.)", "Textbook pages shown: Buscha/Szita, Spektrum Deutsch A1+, pp. 71–72"],
+  "summary": {
+    "bigPicture": [
+      "Course: **German A2 – Deutsch für Anfänger** (Dr. phil. Judith Michelmann). Textbook: **Buscha/Szita, *Spektrum Deutsch A1+*** with free online material (Audio-App and App **„Wort + Satz“**).",
+      "Lecture 1 **reviews the basics of pp. 1–70**: articles and noun genders, present-tense conjugation (regular and irregular verbs), *sein*, the **accusative**, cases, **possessive articles** and **word order**.",
+      "Key idea: in German the **verb is always in position 2** of a statement, and the **article (case) shows who does what**, so word order can change.",
+      "It then starts **Kapitel 4 „Von morgens bis abends“**: daily activities with times (*Um 9.00 Uhr frühstückt Martin*) and telling the time (*Es ist Viertel nach fünf*)."
+    ],
+    "concepts": [
+      {
+        "id": "course-materials",
+        "name": "Course and materials",
+        "slides": "Slides 1–5",
+        "simple": "One main book (Spektrum Deutsch A1+) with free apps for listening and vocabulary; two optional extra books.",
+        "exam": "Main literature: **Buscha/Szita, *Spektrum Deutsch A1+*** (ISBN 978-3-941323-29-2; ≈ CHF 31.60 via exlibris.ch / € 26.50 via amazon.de) including free online material: **„Audio-App“** and App **„Wort + Satz“** (schubert-verlag.de). Two optional additional books are shown (ISBN 978-3-19-201575-5 and 978-3-941323-09-4). The first session starts with a **partner interview**.",
+        "example": "The „Wort + Satz“ app has the vocabulary of each chapter as cards and exercises (see Lecture 2)."
+      },
+      {
+        "id": "vocabulary-pictures",
+        "name": "Vocabulary review with pictures",
+        "slides": "Slides 6–8",
+        "simple": "Three slides show everyday objects to name in German.",
+        "exam": "Picture review (no words written on the slides): e.g. a painting, a bag, a pen, a piece of cake, a clock; a tower block, a lamp, a coffee, music notes, newspapers. Practise naming each object **with its article** (der/die/das).",
+        "example": "Always learn nouns with their article: *die Tasche*, *die Zeitung*, *die Uhr* (these three appear in the textbook tables)."
+      },
+      {
+        "id": "articles",
+        "name": "Nouns and articles",
+        "slides": "Slide 9",
+        "simple": "Every German noun is masculine, feminine or neuter, and the little word before it shows which. *Ein* means ‘a’, *kein* means ‘no / not a’.",
+        "exam": [
+          "| | maskulin | feminin | neutral | Plural |",
+          "|---|---|---|---|---|",
+          "| bestimmter Artikel | **der** Drucker | **die** Tasche | **das** Auto | **die** Bücher |",
+          "| unbestimmter Artikel | **ein** Drucker | **eine** Tasche | **ein** Auto | — Bücher |",
+          "| negativer Artikel | **kein** Drucker | **keine** Tasche | **kein** Auto | **keine** Bücher |"
+        ],
+        "example": "There is **no** indefinite article in the plural: *Bücher* (not *eine Bücher*)."
+      },
+      {
+        "id": "conjugation",
+        "name": "Present-tense conjugation (regular verbs)",
+        "slides": "Slide 10",
+        "simple": "Take the stem (*wohn-*) and add the ending for the person: *ich wohne, du wohnst, er wohnt…*",
+        "exam": [
+          "| | wohnen | kommen | machen |",
+          "|---|---|---|---|",
+          "| ich | wohn**e** | komm**e** | mach**e** |",
+          "| du | wohn**st** | komm**st** | mach**st** |",
+          "| er/sie (es) | wohn**t** | komm**t** | mach**t** |",
+          "| wir | wohn**en** | komm**en** | mach**en** |",
+          "| ihr | wohn**t** | komm**t** | mach**t** |",
+          "| sie / Sie (formell) | wohn**en** | komm**en** | mach**en** |"
+        ],
+        "example": "*Sie* (formal ‘you’) always takes the same form as *sie* (they): *Wohnen Sie in St. Gallen?*"
+      },
+      {
+        "id": "irregular",
+        "name": "Verbs with special forms (Besonderheiten)",
+        "slides": "Slides 11–12",
+        "simple": "Some verbs change their vowel for *du* and *er/sie* (*lesen → du liest*), some add an *e* to be pronounceable (*arbeiten → du arbeitest*), and *haben* and *möchten* are special.",
+        "exam": [
+          "- **Vowel change** (only du, er/sie/es): *lesen* → du **liest**, er **liest**; *essen* → du **isst**, er **isst**; *fahren* → du **fährst**, er **fährt**; *nehmen* → du **nimmst**, er **nimmt**; *sehen* → du **siehst**, er **sieht**.",
+          "- **Extra -e-** when the stem ends in **-t/-d** (and similar): *arbeiten* → du arbeit**est**, er arbeit**et**, ihr arbeit**et**; *unterrichten* → du unterricht**est**; *landen* → du land**est**; *starten* → du start**est**.",
+          "- *entwickeln*: ich entwick**le**, wir/sie entwickel**n**.",
+          "- *haben*: ich habe, du **hast**, er **hat**, wir haben, ihr habt, sie haben.",
+          "- *möchten*: ich **möchte**, du möchtest, er/sie **möchte** (no -t!), wir möchten, ihr möchtet, sie möchten."
+        ],
+        "example": "*Er fährt nach Köln. Sie nimmt den Bus. Du isst ein Eis.*"
+      },
+      {
+        "id": "sein",
+        "name": "The verb *sein*: present and Präteritum",
+        "slides": "Slide 13",
+        "simple": "*Sein* (‘to be’) is completely irregular; its past form *war* is used a lot.",
+        "exam": [
+          "| | Präsens | Präteritum |",
+          "|---|---|---|",
+          "| ich | bin | **war** |",
+          "| du | bist | **warst** |",
+          "| er/sie/es | ist | **war** |",
+          "| wir | sind | **waren** |",
+          "| ihr | seid | **wart** |",
+          "| sie/Sie | sind | **waren** |"
+        ],
+        "example": "*Gestern war ich in Zürich. Wo wart ihr?*"
+      },
+      {
+        "id": "accusative",
+        "name": "The accusative and free word order",
+        "slides": "Slides 14–15",
+        "simple": "The thing being drunk, eaten or greeted is in the accusative. Only the masculine article changes (*der → den*, *ein → einen*). Because the article shows the role, you can put the object first.",
+        "exam": [
+          "- *Der Mann trinkt **der** Wein.* → **falsch!** · *Der Mann trinkt **den** Wein.* ✓ · *Den Wein trinkt der Mann.* ✓",
+          "- *Die Frau isst ein Eis.* ✓ · *Ein Eis isst die Frau.* ✓ · *Der Lehrer grüßt die Studentin.* ✓ · *Die Studentin grüßt der Lehrer.* ✓ (the teacher still greets!)",
+          "",
+          "| Kasus | maskulin | feminin | neutral | Plural |",
+          "|---|---|---|---|---|",
+          "| Nominativ | der / ein / kein Kaffee | die / eine / keine Limonade | das / ein / kein Wasser | die / — / keine Limonaden |",
+          "| Akkusativ | **den / einen / keinen** Kaffee | die / eine / keine Limonade | das / ein / kein Wasser | die / — / keine Limonaden |"
+        ],
+        "example": "*Ich möchte einen Kaffee und eine Limonade.* (Only *Kaffee*, masculine, changes.)"
+      },
+      {
+        "id": "possessive",
+        "name": "Possessive articles (nominative and accusative)",
+        "slides": "Slide 16",
+        "simple": "‘My, your, his…’ work like *ein*: they take the same endings (*mein Computer, meine Uhr, meinen Computer*).",
+        "exam": [
+          "Stems: ich → **mein**, du → **dein**, er/es → **sein**, sie → **ihr**, wir → **unser**, ihr → **euer**, sie/Sie → **ihr/Ihr**.",
+          "- **Nominativ:** *Das ist mein Computer* (der), *mein Auto* (das), *meine Uhr* (die). Plural/feminine: *meine, deine, seine, ihre, unsere, eure, ihre/Ihre*.",
+          "- **Akkusativ:** masculine adds **-en**: *Ich suche mein**en** / dein**en** / sein**en** / ihr**en** / unser**en** / eur**en** / ihr**en**/Ihr**en** Computer*; neuter unchanged (*mein Auto*); feminine *meine Uhr*.",
+          "- Same with *kein*: *Das ist (k)ein Computer / Ich habe (k)einen Computer, (k)ein Auto, (k)eine Uhr.*"
+        ],
+        "example": "Note *euer* → *eure / euren* (the second -e- drops)."
+      },
+      {
+        "id": "word-order",
+        "name": "Word order (Satzbau)",
+        "slides": "Slide 17",
+        "simple": "Think of four boxes: position 1, position 2 (the conjugated verb), the middle, and the end. In a yes/no question the verb jumps to position 1.",
+        "exam": [
+          "| | Position 1 | Position 2 | Mittelfeld | Satzende |",
+          "|---|---|---|---|---|",
+          "| Aussagesatz | Ich | **möchte** | gern einen Kaffee. | |",
+          "| Aussagesatz | Ich | **möchte** | gern einen Kaffee | **trinken.** |",
+          "| Fragesatz mit Fragewort | Was | **möchten** | Sie | **trinken?** |",
+          "| Ja-Nein-Frage | **Möchten** | Sie | einen Kaffee | **trinken?** |",
+          "",
+          "Rule: the conjugated verb is in **position 2** in statements and W-questions, in **position 1** in yes/no questions; a second verb (infinitive) goes to the **end**."
+        ],
+        "example": "*Heute möchte ich Deutsch lernen.* (*heute* takes position 1, so *ich* moves behind the verb.)"
+      },
+      {
+        "id": "daily-routine",
+        "name": "Kapitel 4: Wer macht was am Montag?",
+        "slides": "Slides 18–19 (Spektrum pp. 71–72)",
+        "simple": "Describing what people do at what time: *Um 9.30 Uhr lernt Peter für eine Prüfung.*",
+        "exam": [
+          "Textbook sentences (with the verb in position 2 after the time):",
+          "- *Martin **frühstückt** um 9.00 Uhr.* · *Um 9.30 Uhr **lernt** Peter für eine Prüfung.* · *Um 10.00 Uhr **macht** Vera Gymnastik.*",
+          "- *Um 10.15 Uhr **fährt** Konrad nach Köln.* · *Um 10.30 Uhr **geht** Max zum Arzt.* · *Olaf **schreibt** um 10.45 Uhr eine E-Mail.*",
+          "- *Otto **telefoniert** um 11.00 Uhr mit Frau Köhler.* · *Um 11.30 Uhr **hat** der Chef eine Besprechung.* · *Um 12.00 Uhr **macht** Roger Pause.*",
+          "Gap-fill verbs: machen (2×), fahren, frühstücken, haben, lernen, gehen, telefonieren, schreiben."
+        ],
+        "example": "Pattern: *Um* + time + verb + subject + rest."
+      },
+      {
+        "id": "time-intro",
+        "name": "Telling the time (first look)",
+        "slides": "Slide 20 (Spektrum p. 72)",
+        "simple": "Official time uses numbers (*13.00 Uhr*); everyday time uses *nach, vor, Viertel, halb* (*halb drei* = 2:30!).",
+        "exam": [
+          "| Official | Everyday |",
+          "|---|---|",
+          "| Es ist 13.00 Uhr. | Es ist eins. *Der Unterricht beginnt um eins.* |",
+          "| Es ist 14.30 Uhr. | Es ist **halb drei**. |",
+          "| Es ist 16.10 Uhr. | Es ist zehn (Minuten) **nach** vier. |",
+          "| Es ist 17.15 Uhr. | Es ist **Viertel nach** fünf. |",
+          "| Es ist 18.45 Uhr. | Es ist **Viertel vor** sieben. |",
+          "| Es ist 20.55 Uhr. | Es ist fünf (Minuten) **vor** neun. |",
+          "",
+          "*14.30 Uhr* is read **„vierzehn Uhr dreißig“**. Questions: *Wie spät ist es? Wann beginnt der Unterricht?*"
+        ],
+        "example": "Trap: *halb drei* = 2:30 (half **to** three), not 3:30."
+      }
+    ],
+    "connections": [
+      "**Word order → Lecture 3:** modal verbs (*können*) and separable verbs follow the same position-2 / Satzende pattern.",
+      "**Accusative → Lectures 2 and 6:** *um* + accusative (time), *kein-* + accusative in negation (*keinen Alkohol*), adjective endings in the accusative (*französischen Käse*).",
+      "**Telling the time → Lecture 2:** full treatment of the clock, *Zeitpunkt* and *Dauer*.",
+      "**Irregular verbs (*essen, nehmen, fahren*) → Lectures 4–6:** food, restaurant and daily routine."
+    ],
+    "examFocus": {
+      "questions": [
+        "Choose the correct article (der/die/das; ein/eine; kein/keine) or the accusative form (den/einen/keinen).",
+        "Conjugate regular and irregular verbs (lesen, essen, fahren, nehmen, sehen, arbeiten, haben, möchten) and *sein* (present and Präteritum).",
+        "Choose the correct possessive article in nominative or accusative (*meinen Computer*).",
+        "Put words in the right order (verb in position 2; yes/no question with the verb first; infinitive at the end).",
+        "Read or write times (official and everyday) and describe a daily routine with *um*."
+      ],
+      "traps": [
+        "Only the **masculine** article changes in the accusative (der → **den**, ein → **einen**, kein → **keinen**, mein → **meinen**).",
+        "*Die Studentin grüßt der Lehrer* means the **teacher** greets: look at the article, not the position.",
+        "*er möchte* (no -t), *du isst*, *er nimmt*, *du arbeitest*.",
+        "*halb drei* = 2:30.",
+        "No indefinite article in the plural (*Bücher*, but negative *keine Bücher*)."
+      ],
+      "mistakes": [
+        "Putting the verb in position 3 after a time expression (*Um 9 Uhr ich frühstücke* ✗ → *Um 9 Uhr frühstücke ich*).",
+        "Forgetting the vowel change for *du/er* only (not for *ich*: *ich lese*, *ich fahre*)."
+      ]
+    },
+    "memorize": [
+      "**Articles:** der/die/das/die · ein/eine/ein/– · kein/keine/kein/keine.",
+      "**Akkusativ masculine:** den / einen / keinen / meinen.",
+      "**Endings:** -e, -st, -t, -en, -t, -en.",
+      "**Vowel change:** lesen–liest, essen–isst, fahren–fährt, nehmen–nimmt, sehen–sieht.",
+      "**sein:** bin, bist, ist, sind, seid, sind · war, warst, war, waren, wart, waren.",
+      "**Possessives:** mein, dein, sein, ihr, unser, euer, ihr/Ihr.",
+      "**Satzbau:** verb in position 2 (statement, W-question), position 1 (yes/no question); infinitive at the end.",
+      "**Time:** Viertel nach / Viertel vor / halb (+ next hour) / fünf vor / zehn nach."
+    ],
+    "gaps": [
+      "The vocabulary review slides (6–8) show **pictures only**, without the German words.",
+      "The partner interview (slide 3) was an oral activity; no content is in the PDF.",
+      "The optional additional books are shown only by ISBN, without titles in the PDF text."
+    ]
+  },
+  "practice": [
+    { "topic": "accusative", "question": "Choose the correct sentence.", "options": ["Der Mann trinkt der Wein.", "Der Mann trinkt den Wein.", "Den Mann trinkt der Wein.", "Der Mann trinkt dem Wein."], "answer": 1, "explanation": "Wein is masculine; the object of *trinken* is in the accusative: *den Wein*." },
+    { "topic": "accusative", "question": "„Die Studentin grüßt der Lehrer.“ Who greets whom?", "options": ["The student greets the teacher", "The teacher greets the student", "The sentence is wrong", "Both greet each other"], "answer": 1, "explanation": "*der Lehrer* is nominative (subject); *die Studentin* is the object, placed first." },
+    { "topic": "articles", "question": "Which is the negative article for ‘Bücher’ (plural)?", "options": ["kein", "keine", "keinen", "keiner"], "answer": 1, "explanation": "Plural: *keine Bücher*." },
+    { "topic": "irregular", "question": "Complete: „Du ___ ein Buch.“ (lesen)", "options": ["lest", "liest", "lesst", "lesen"], "answer": 1, "explanation": "Vowel change e → ie for du/er: *du liest*." },
+    { "topic": "irregular", "question": "Complete: „Er ___ nach Berlin.“ (fahren)", "options": ["fahrt", "fährt", "fahrst", "fähren"], "answer": 1, "explanation": "a → ä for du/er: *er fährt*." },
+    { "topic": "irregular", "question": "Complete: „Du ___ heute lange.“ (arbeiten)", "options": ["arbeitst", "arbeitest", "arbeitet", "arbeiten"], "answer": 1, "explanation": "Stem ending in -t: add -e-: *du arbeitest*." },
+    { "topic": "irregular", "question": "Complete: „Sie (she) ___ einen Kaffee.“ (möchten)", "options": ["möchtet", "möchte", "möchtest", "möcht"], "answer": 1, "explanation": "*er/sie möchte* has no -t." },
+    { "topic": "sein", "question": "Präteritum of *sein*: „Wir ___ gestern im Kino.“", "options": ["war", "waren", "wart", "sind"], "answer": 1, "explanation": "wir waren; ihr wart; ich/er war." },
+    { "topic": "possessive", "question": "„Ich suche ___ Computer.“ (my)", "options": ["mein", "meine", "meinen", "meinem"], "answer": 2, "explanation": "Computer is masculine; accusative → *meinen*." },
+    { "topic": "possessive", "question": "Which is the possessive article for ‘ihr’ (you, plural)?", "options": ["ihr", "euer", "unser", "Ihr"], "answer": 1, "explanation": "ich mein, du dein, er sein, sie ihr, wir unser, **ihr euer**, sie/Sie ihr/Ihr." },
+    { "topic": "word-order", "question": "Which is a correct yes/no question?", "options": ["Sie möchten einen Kaffee trinken?", "Möchten Sie einen Kaffee trinken?", "Möchten Sie trinken einen Kaffee?", "Trinken Sie möchten einen Kaffee?"], "answer": 1, "explanation": "Conjugated verb in position 1, infinitive at the end." },
+    { "topic": "daily-routine", "question": "Correct word order:", "options": ["Um 10.15 Uhr Konrad fährt nach Köln.", "Um 10.15 Uhr fährt Konrad nach Köln.", "Um 10.15 Uhr nach Köln fährt Konrad.", "Fährt um 10.15 Uhr Konrad nach Köln."], "answer": 1, "explanation": "Time in position 1 → verb in position 2 → subject." },
+    { "topic": "time-intro", "question": "„Es ist halb drei.“ What time is it?", "options": ["3:30", "2:30", "3:00", "2:15"], "answer": 1, "explanation": "*halb drei* = half to three = 2:30 (14.30 Uhr)." },
+    { "topic": "time-intro", "question": "18.45 Uhr in everyday German:", "options": ["Viertel nach sechs", "Viertel vor sieben", "halb sieben", "Viertel vor sechs"], "answer": 1, "explanation": "15 minutes before seven." }
+  ],
+  "mock": {
+    "questions": [
+      { "type": "mc", "points": 2, "topic": "accusative", "question": "„Ich trinke ___ Kaffee und ___ Wasser.“", "options": ["der / das", "den / das", "den / den", "dem / das"], "answer": 1, "explanation": "Masculine accusative *den Kaffee*; neuter unchanged *das Wasser*." },
+      { "type": "mc", "points": 2, "topic": "articles", "question": "„Das ist ___ Tasche.“ (no / not a)", "options": ["kein", "keine", "keinen", "keins"], "answer": 1, "explanation": "Tasche is feminine: *keine Tasche*." },
+      { "type": "mc", "points": 2, "topic": "irregular", "question": "Which form is correct?", "options": ["du nehmst", "er nimmt", "ich nimme", "er nehmt"], "answer": 1, "explanation": "nehmen: ich nehme, du nimmst, er nimmt." },
+      { "type": "mc", "points": 2, "topic": "possessive", "question": "„Habt ihr ___ Auto hier?“ (your, plural)", "options": ["euer", "eure", "euren", "eurem"], "answer": 0, "explanation": "Auto is neuter; accusative neuter unchanged: *euer Auto*." },
+      { "type": "mc", "points": 2, "topic": "word-order", "question": "Put in order: *heute · ich · möchte · lernen · Deutsch*", "options": ["Heute ich möchte Deutsch lernen.", "Heute möchte ich Deutsch lernen.", "Heute möchte ich lernen Deutsch.", "Heute lernen ich möchte Deutsch."], "answer": 1, "explanation": "Position 1 heute, position 2 möchte, infinitive at the end." },
+      { "type": "mc", "points": 2, "topic": "sein", "question": "„___ du gestern zu Hause?“ (sein, Präteritum)", "options": ["Warst", "Wart", "War", "Bist"], "answer": 0, "explanation": "du warst." },
+      { "type": "mc", "points": 2, "topic": "time-intro", "question": "Which everyday expression matches 20.55 Uhr?", "options": ["fünf nach neun", "fünf vor neun", "fünf vor acht", "halb neun"], "answer": 1, "explanation": "Five minutes before nine." },
+      { "type": "open", "points": 6, "topic": "daily-routine", "question": "Write three sentences about Peter's Monday with these cues, putting the time first each time:\n(a) 9.30 Uhr – lernen – für eine Prüfung\n(b) 10.30 Uhr – gehen – zum Arzt\n(c) 12.00 Uhr – machen – Pause", "model": "(a) Um 9.30 Uhr lernt Peter für eine Prüfung.\n(b) Um 10.30 Uhr geht Peter zum Arzt.\n(c) Um 12.00 Uhr macht Peter Pause.", "keyPoints": [ { "text": "‘Um’ + time in position 1 in all three sentences", "points": 1.5 }, { "text": "Conjugated verb in position 2, subject after the verb (all three)", "points": 2.5 }, { "text": "Correct verb forms (lernt, geht, macht)", "points": 2 } ] },
+      { "type": "open", "points": 6, "topic": "accusative", "question": "Explain in English why both „Der Mann trinkt den Wein“ and „Den Wein trinkt der Mann“ are correct, but „Der Mann trinkt der Wein“ is wrong. Then write the accusative of: der Kaffee, die Limonade, das Wasser, ein Kaffee.", "model": "German marks the role of a noun with its article (case): *der Mann* is nominative (subject), *den Wein* accusative (object). Because the case shows who does what, the object can stand in position 1, while the verb stays in position 2. *der Wein* would be nominative, so the sentence would have two subjects and no object → wrong. Accusative: den Kaffee, die Limonade, das Wasser, einen Kaffee.", "keyPoints": [ { "text": "Case/article shows the role (subject vs. object), so word order can change", "points": 2 }, { "text": "Explains why ‘der Wein’ is wrong (nominative, not object)", "points": 1 }, { "text": "den Kaffee", "points": 0.75 }, { "text": "die Limonade", "points": 0.75 }, { "text": "das Wasser", "points": 0.75 }, { "text": "einen Kaffee", "points": 0.75 } ] }
+    ]
+  }
+}

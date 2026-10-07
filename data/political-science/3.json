@@ -1,0 +1,359 @@
+{
+  "id": "3",
+  "number": "3",
+  "title": "Ideology",
+  "sources": ["Session 3: Political Ideologies (slides, 34 p.)", "Reading: Heywood (2021), Political Ideologies, Ch. 1 & Ch. 13", "Lecture 3 Ideology Study Guide", "Lecture 3 Ideology Practice Test"],
+  "summary": {
+    "bigPicture": [
+      "“Ideology” has **three uses**: a **rigid thinking pattern** (individual, pejorative), an **instrument of domination** (society, pejorative/critical) and an **action-oriented paradigm** (political competition, neutral/analytical).",
+      "The **critical** use (Lukes' 3rd dimension, Marx, Adorno) asks why people accept conditions against their own ‘objective’ interests and still feel free, and faces the problem of the analyst's privileged view.",
+      "The **analytical** use (Heywood): every ideology has (a) a **world-view**, (b) a vision of the **good society**, (c) a **theory of change**; it has **functions** (making sense, moral purpose, forging the collective) and a **structure** (core, adjacent, peripheral concepts; thick vs. thin-centred).",
+      "**Liberalism, conservatism and socialism** differ in core concepts, world-view, good society and theory of change.",
+      "The climate crisis is a **different kind of problem** for each ideology, and a **common challenge** for all three: **anthropocentrism**."
+    ],
+    "concepts": [
+      {
+        "id": "three-uses",
+        "name": "Three uses of the term ‘ideology’",
+        "slides": "Slide 3",
+        "simple": "The word ‘ideology’ is used in three ways. As an insult for a closed mind (“you're so ideological”), as a name for ideas that trick people into obeying, and as a neutral label for a political worldview like ‘liberalism’.",
+        "exam": [
+          "| Ideology as … | Level | Charge |",
+          "|---|---|---|",
+          "| a (particularly) **rigid thinking pattern** | in the **individual** | **pejorative** |",
+          "| an **instrument of domination** | in **society** | **pejorative (critical)** |",
+          "| an **action-oriented paradigm** | in **political competition** | **neutral (analytical)** |"
+        ],
+        "example": "“That politician is an ideologue” = use 1; “consumer culture keeps workers quiet” = use 2; “the FDP is a liberal party” = use 3."
+      },
+      {
+        "id": "origins",
+        "name": "Origins and history of the concept (reading)",
+        "slides": "Heywood (2021), Ch. 1, reading",
+        "simple": "The word was invented during the French Revolution for a ‘science of ideas’. Marx turned it into an accusation; later thinkers made it neutral again.",
+        "exam": [
+          "- **Coined** during the French Revolution by **Antoine Destutt de Tracy**, first used publicly in **1796**: a new ‘science of ideas’ (idea-ology).",
+          "- **Marx:** ideology = ruling-class ideas; delusion and mystification (‘**false consciousness**’, Engels' term); a manifestation of power; a temporary phenomenon that ends with class society.",
+          "- **Lenin and later Marxists:** every class has an ideology → term loses its pejorative sense. **Gramsci:** bourgeois **hegemony**: ideas that become the ‘common sense of the age’ (art, education, media, language, popular culture). **Marcuse** (Frankfurt School, *One-Dimensional Man*, 1964): even tolerance in liberal capitalism serves a repressive purpose.",
+          "- **Mannheim** (*Ideology and Utopia*, 1929): ideologies defend the existing order, **utopias** imply radical change; ‘particular’ vs. ‘total’ ideologies; objectivity possible only for the ‘**socially unattached intelligentsia**’.",
+          "- **Liberal critique** (Popper, Arendt, Talmon, Crick, Cold War): ideologies = ‘**closed**’ systems claiming a **monopoly of truth** (fascism, communism); liberalism as an ‘open’ system. **Conservative critique** (Oakeshott, *Rationalism in Politics*): ideology = abstract, dogmatic thought divorced from experience; preference for **pragmatism** and tradition.",
+          "- Since the 1960s: **neutral, social-scientific** concept (e.g. Seliger 1976: action-oriented system of thought, neither good nor bad, true nor false).",
+          "- **‘End of ideology’** (Daniel **Bell**, 1960): post-war consensus; really a temporary consensus on managed capitalism. **‘End of history’** (Francis **Fukuyama**, 1989): liberal democracy triumphed; challenged by nationalism, religious fundamentalism, ‘clash of civilizations’ (Huntington)."
+        ],
+        "example": "Exam distractors for ‘who coined ideology?’: Marx (made it critical), Gramsci (hegemony), Heywood (textbook definition). Answer: Destutt de Tracy."
+      },
+      {
+        "id": "rigid-thinking",
+        "name": "Ideology as a rigid thinking pattern (individual)",
+        "slides": "Slides 2–3 · Heywood (2021), Ch. 13",
+        "simple": "Ask someone “what can you do with a brick?” A flexible thinker lists many uses; a rigid one says only “build a wall”. Being ‘ideological’ in this sense means a mind stuck on one way of seeing things.",
+        "exam": [
+          "Use 1: ideology as a **particularly rigid thinking pattern in the individual** (pejorative). The slide shows a brick and a paper clip (objects with many possible uses).",
+          "Reading (Heywood Ch. 13, ‘**imprisoning the mind**’): ideologies as paradigms can foster **tunnel vision** and become ‘intellectual prisons’, resembling **political religions**. Cognitive dispositions behind this:",
+          "- **Sunk cost fallacy**: not giving up a cause because we don't want to admit we were wrong to invest in it.",
+          "- **Confirmation bias**: seeking, interpreting and remembering information that confirms existing beliefs.",
+          "- **Cognitive entrenchment**: the more familiar we are with an issue, the harder it is to approach it open-mindedly (trade-off between expertise and flexibility)."
+        ],
+        "example": "Someone who dismisses every new climate study because it contradicts their party line shows confirmation bias."
+      },
+      {
+        "id": "critical-puzzle",
+        "name": "Ideology in the Critical Theory tradition: the puzzle",
+        "slides": "Slides 4–5",
+        "simple": "Imagine a school where older kids take everyone's lunch money, and the younger kids think that's normal and even feel free. Why don't they complain? That's the puzzle of ideology as domination.",
+        "exam": "Use 2: ideology as an **instrument of domination** (in society, pejorative/critical). Guiding questions: **Why do people accept social and political conditions that are contrary to their own ‘objective’ interests?** **How can subjects who are in fact subject to relations of domination feel free?** Answer of the tradition: ideology shapes perceptions and preferences so that domination appears natural or chosen.",
+        "example": "The quotation marks around ‘objective’ signal the problem: who decides what someone's objective interest is? (→ ‘the analyst problem’)."
+      },
+      {
+        "id": "lukes",
+        "name": "Steven Lukes: three dimensions of power",
+        "slides": "Slide 6 (source: Hay, p. 180)",
+        "simple": "Power has three levels. (1) Who wins the vote? (2) Who decides what's even on the menu? (3) Who decides what you feel like eating in the first place? The third is the sneakiest: you think the craving is yours.",
+        "exam": [
+          "| | 1st dimension | 2nd dimension | 3rd dimension |",
+          "|---|---|---|---|",
+          "| **Power as…** | ability to succeed in **decision-making** | ability to **set the agenda** (“non-decision power”) | ability to **shape preferences** |",
+          "| **Focus** | formal political arena | formal arena and informal processes (“corridors of power”) | civil society, esp. the **public sphere** where preferences are shaped |",
+          "| **Method** | ‘counting’ votes and decisions | **ethnography of the corridors of power** | **ideology critique**: show how actors misperceive their own material interests |",
+          "| **Nature** | visible, transparent | invisible to the public but can be made visible | largely invisible, must be “demystified” |",
+          "| **Climate example** | vote on a climate law in parliament | long absence of fossil fuels from international climate negotiations | **CO₂ footprint** turns climate protection into a question of individual consumption |"
+        ],
+        "example": "The CO₂ footprint idea makes citizens blame their own flights and diet rather than asking about producers or rules: preference-shaping (3rd dimension)."
+      },
+      {
+        "id": "marx",
+        "name": "Karl Marx: ruling ideas, base and superstructure",
+        "slides": "Slides 7–8 · Heywood Ch. 1",
+        "simple": "Whoever owns the factories also owns the loudspeakers. The economy is the foundation of a house; laws, religion and art are the upper floors. The foundation shapes the upper floors, and the upper floors make the foundation look solid and fair.",
+        "exam": [
+          "- “**The ideas of the ruling class are in every epoch the ruling ideas.**” (Marx & Engels, *The German Ideology*). The class that controls material production also controls ‘mental production’.",
+          "- Ideology comprises the dominant “**legal, political, religious, aesthetic or philosophic**” elements of society (*Preface to A Contribution to the Critique of Political Economy*).",
+          "- **Material basis ↔ ideational superstructure:** the slide's arrows read ‘shapes / maintains’ and ‘maintains / legitimises / shapes’. The material base shapes the superstructure; the superstructure **legitimises and maintains** the material base.",
+          "- Heywood: Marx used ideology as a critical concept (delusion, mystification, ‘camera obscura’ image), linked to class and power, and temporary; liberalism (rights only the propertied can exercise, presented as universal) is ‘the classic example of ideology’."
+        ],
+        "example": "Property law presented as neutral and eternal although it protects those who own the means of production."
+      },
+      {
+        "id": "adorno",
+        "name": "Theodor W. Adorno: total shaping",
+        "slides": "Slide 9",
+        "simple": "Marx said people are tricked. Adorno is darker: people are shaped so deeply, down to what they want and feel, that they no longer even feel like resisting. Like a fish that never wonders about water.",
+        "exam": "Adorno (1903–1969), Frankfurt School: “The subjects are so profoundly shaped – **down to their psychological and physical impulses** – that **no resistance to the relations of domination stirs in them any longer**.” (Jaeggi & Celikates, p. 104, lecturers' translation). Ideology becomes a total condition: a “**comprehensive context of delusion**”.",
+        "example": "Heywood describes a related Frankfurt School view (Marcuse): even apparent tolerance and free debate can conceal ideological control."
+      },
+      {
+        "id": "analyst-problem",
+        "name": "The critique of the critique: the analyst's privileged position",
+        "slides": "Slide 10",
+        "simple": "If everybody wears fog-glasses, how come the professor alone sees clearly? And isn't it arrogant to tell people “you don't really know what you want”?",
+        "exam": "“**How is it possible for the analyst – and for her or him alone – to see through the fog of the ‘comprehensive context of delusion’?**” If delusion is total, the critic is inside it too; attributing ‘objective’ interests to people against their stated preferences is problematic; 3rd-dimension power is largely invisible and hard to demonstrate. Heywood: Mannheim located objectivity only in a ‘socially unattached intelligentsia’, which is exactly the contested privileged position.",
+        "example": "A researcher says SUV buyers act against their objective interests; buyers reply that they weigh safety and comfort differently. Who decides?"
+      },
+      {
+        "id": "need-disagreement",
+        "name": "From the need for politics to ideologies",
+        "slides": "Slide 12 (link to Lecture 1)",
+        "simple": "We need politics because we can choose, resources are scarce, and we disagree. Ideologies are the big ‘teams’ in that disagreement: they tell us what people disagree about.",
+        "exam": "Politics = “the activity through which people make, preserve and amend the general rules under which they live”. Preconditions: choice/freedom (vs. necessity), scarcity, **diversity/disagreement**. Slide 12 asks: **but what do people disagree about?** → ideologies (use 3) structure that disagreement.",
+        "example": "In the Swiss CO₂ Act debate people disagreed not only about costs but about the role of the state, freedom and fairness: ideological questions."
+      },
+      {
+        "id": "heywood-definition",
+        "name": "Heywood's definition and the three features (a)(b)(c)",
+        "slides": "Slides 13–14 · Heywood Ch. 1",
+        "simple": "An ideology is a package of ideas that tells a group what to do politically: keep things, fix things, or tear them down. Like a GPS: (a) you are here, (b) destination, (c) route.",
+        "exam": [
+          "“**An ideology is a more or less coherent set of ideas that provides the basis for organized political action, whether this is intended to preserve, modify or overthrow the existing system of power.**” (Heywood)",
+          "All ideologies:",
+          "- **(a)** advance an **account of the existing order**, usually in the form of a ‘**world-view**’;",
+          "- **(b)** outline a **model of the desired future**, a vision of the ‘**good society**’;",
+          "- **(c)** explain **how political change can and should be brought about**: how to get from (a) to (b).",
+          "",
+          "Reading: ideologies straddle **descriptive and normative** thought (‘is’ and ‘ought’); they are **applied political philosophies**, only **more or less coherent**, overlapping (hybrids like conservative nationalism); their key terms are **essentially contested concepts** (Gallie)."
+        ],
+        "example": "Socialism: (a) capitalism creates classes and inequality → (b) community of equals → (c) collective action (revolution or reform)."
+      },
+      {
+        "id": "functions",
+        "name": "Key functions of ideologies (and their dangers)",
+        "slides": "Slide 15 · Heywood Ch. 13",
+        "simple": "Ideologies are a map (help you understand the world), a compass (tell you what's right) and a team jersey (make you part of a ‘we’). But the map can become a prison, the compass can bend the truth, and the jersey can turn others into enemies.",
+        "exam": [
+          "Functions (Heywood Ch. 13, ‘why we need political ideologies’):",
+          "- **Making sense of the world:** ideologies as ‘lenses’ and **paradigms** (Kuhn); they widen and deepen our perceptual field; rival paradigms can be **incommensurable** (they ‘talk past one another’).",
+          "- **Investing politics with moral purpose:** linking ‘is’ to ‘ought’; a post-ideological age would be ‘without hope, without vision’; ‘de-ideologized’ parties lose members.",
+          "- **Forging the collective:** **social cement** giving groups a sense of belonging (e.g. classes); can be natural or imposed (official ideologies).",
+          "",
+          "Dangers (‘do ideologies matter too much?’): **imprisoning the mind** (tunnel vision), **distorting ‘truth’** (ideologies as Foucault's ‘regimes of truth’, linked to power), **pitting ‘us’ against ‘them’** (in-group/out-group, culture wars)."
+        ],
+        "example": "Climate strikes: a green world-view explains extreme weather (sense-making), frames inaction as unjust to future generations (moral purpose), and creates a ‘we’ (collective)."
+      },
+      {
+        "id": "structure",
+        "name": "Structure: core, adjacent, peripheral; thick vs. thin-centred",
+        "slides": "Slide 16 · Heywood (2021), Fig. 1.2",
+        "simple": "An ideology is like a room: the furniture in the centre (core) tells you it's a kitchen; the nearby furniture (adjacent) gives it its style; decorations (peripheral) change over time. Some ideologies are full rooms (thick); others are like a style you can apply to different rooms (thin).",
+        "exam": [
+          "Following **Michael Freeden's morphology** (Heywood): each ideology is a cluster of **core**, **adjacent** and **peripheral** concepts (like furniture distinguishing a kitchen from a bedroom). Not all need to be present for a doctrine to belong to the ideology, but abandoning a core concept means losing its identity.",
+          "- **Conventional (‘thick’) ideologies:** broad, distinctive sets of values (liberalism, conservatism, socialism).",
+          "- **‘Cross-cutting’ ideologies** with a **‘thin-centred’** core: they incorporate elements from ‘thicker’ host traditions. Heywood names **anarchism and feminism** as more thin-centred; whether **nationalism and multiculturalism** are ideologies in their own right or embellishments to host ideologies is debated."
+        ],
+        "example": "Socialist feminism combines feminism's thin core with socialism's thick structure."
+      },
+      {
+        "id": "landscape",
+        "name": "The ideological landscape; classical vs. new ideologies",
+        "slides": "Slide 18 · Heywood Ch. 1",
+        "simple": "There are many families of political ideas. The lecture zooms in on the three oldest and biggest, which overlap in the middle.",
+        "exam": [
+          "Slide 18: **liberalism, conservatism, socialism** (overlapping, centre) surrounded by anarchism, nationalism, fascism, feminism, green ideology/ecologism, multiculturalism, populism, religious fundamentalism.",
+          "Reading: **classical** ideologies (liberalism, conservatism, socialism; also nationalism, anarchism, fascism) arose with the transition to **industrial capitalism**: liberalism ↔ rising middle class, conservatism ↔ aristocracy, socialism ↔ working class. **New** ideologies (feminism, green ideology, multiculturalism, fundamentalism, postcolonialism, populism?) shift from **economics to culture**, towards **identity** and individualization. Left/right originates from the 1789 Estates General seating; alternatives: horseshoe, two-dimensional (Eysenck), **open/closed** divide."
+        ],
+        "example": "Bobbio: the left/right divide rests on attitudes to equality."
+      },
+      {
+        "id": "liberalism",
+        "name": "Liberalism (classical vs. social)",
+        "slides": "Slides 20–21",
+        "simple": "Liberals see society as a crowd of individuals who can think for themselves; the biggest danger is a bully with too much power. Two kinds: one wants the state to leave you alone; the other wants the state to give you real chances (school, health care).",
+        "exam": [
+          "**Core:** liberty · individual · reason (limited power). **Adjacent:** rights · property · markets · toleration. **Peripheral:** free trade · welfare state.",
+          "- **(a) World-view:** society consists of individuals endowed with reason and rights; main threat: **concentrated, arbitrary power**.",
+          "- **(b) Good society:** individuals pursue their own idea of a good life, protected by **constitutional government and toleration**.",
+          "- **(c) Change:** **gradual reform** through law, rights, markets and education; progress is possible.",
+          "",
+          "| | Classical liberalism | Social (modern) liberalism |",
+          "|---|---|---|",
+          "| Core | liberty · individual · reason | **same core** |",
+          "| Adjacent / peripheral | property, market, minimal state; free trade, low taxes | equal opportunity, welfare state; social insurance, public education |",
+          "| Liberty | **freedom from interference (negative liberty)** | **freedom to develop oneself (positive liberty)** |",
+          "| State | **night-watchman** | **enabler** |"
+        ],
+        "example": "“Same core – different neighbours”: both value liberty, but one cuts taxes, the other funds public education."
+      },
+      {
+        "id": "conservatism",
+        "name": "Conservatism",
+        "slides": "Slide 22",
+        "simple": "Conservatives see society like an old tree that grew over centuries; nobody could design it from scratch. Trust traditions, they hold the wisdom of many generations. Change only carefully, like pruning, never cutting the tree down.",
+        "exam": [
+          "**Core:** tradition · imperfection · organic society. **Adjacent:** authority · hierarchy · property · community. **Peripheral:** nation · family · religion · monarchy · free markets.",
+          "- **(a) World-view:** society is an **organic whole** grown over time; **human reason is limited**; inherited institutions store experience no one could design.",
+          "- **(b) Good society:** a **stable, ordered society** held together by authority, duty and bonds across generations (**Burke**).",
+          "- **(c) Change:** cautious and gradual: **“change in order to conserve”**; blueprints and radical change are rejected."
+        ],
+        "example": "Defending established institutions and opposing radical constitutional experiments."
+      },
+      {
+        "id": "socialism",
+        "name": "Socialism",
+        "slides": "Slide 23",
+        "simple": "Socialists think humans are team players. Capitalism splits people into owners and workers, rich and poor. The goal: a fair team where everyone's needs are met and people help each other instead of competing.",
+        "exam": [
+          "**Core:** community · equality · solidarity. **Adjacent:** social class · common ownership. **Peripheral:** nationalisation · planning · welfare policies.",
+          "- **(a) World-view:** humans are **social and cooperative**; **capitalism divides society into classes** and produces inequality.",
+          "- **(b) Good society:** a **community of equals** in which everyone's needs are met and **solidarity replaces competition**.",
+          "- **(c) Change:** **collective action**, either through **revolution** or **gradual reform**."
+        ],
+        "example": "Comparison table (slide 24): Liberalism: gradual reform through law, rights, markets, education. Conservatism: ‘change in order to conserve’. Socialism: collective action, revolution or reform."
+      },
+      {
+        "id": "climate-voices",
+        "name": "Four voices on the climate crisis",
+        "slides": "Slides 25–26",
+        "simple": "Four people look at the same burning house and shout different things, because each wears different ‘ideological glasses’.",
+        "exam": "Four statements: “**Let's create carbon markets!**” · “**Radicalism won't get us far – step by step!**” · “**What we need is a just transition!**” · “**Our way of thinking needs to change!**”. They match the following slides: market instruments (liberalism), gradualism (conservatism), justice for workers and the poor (socialism), changing how we think about nature (ecologism). Analytical template for slides 27–29: **What kind of problem? → Example → Where does the configuration come under strain? (tension) → Re-configuration.**",
+        "example": "The slide itself doesn't label the speakers; the assignment follows from the content of slides 27–30."
+      },
+      {
+        "id": "liberalism-climate",
+        "name": "Liberalism and the climate crisis",
+        "slides": "Slide 27",
+        "simple": "For liberals, polluting is like a neighbour's loud music: your freedom ends where you harm others. Polluting is currently ‘free’, so fix the price and let people choose. But the harm is spread across the planet and hits people not born yet, which makes the rule hard to apply.",
+        "exam": "**Problem:** a **market failure**, and **harm to the liberty of others**. **Example:** **CO₂ levy**: the state sets a price signal; revenue is returned to the population; individuals remain free to choose. **Tension (liberty ↔ limits):** the **harm principle** struggles with harm that is **diffuse, global and in the future**; **state neutrality vs. the need to change lifestyles**. **Re-configuration:** **extending liberty over time** (German Constitutional Court, 2021).",
+        "example": "The 2021 German Constitutional Court ruling treated insufficient climate action as a threat to the future freedom of young people."
+      },
+      {
+        "id": "conservatism-climate",
+        "name": "Conservatism and the climate crisis",
+        "slides": "Slide 28",
+        "simple": "For conservatives, climate change can threaten everything they want to preserve, or climate policy itself can look like the threat. The paradox: to preserve, you may now need fast change.",
+        "exam": "**Problem:** a **threat to what we cherish**, or **climate policy as the threat**. **Example:** **Burke's partnership of the living, the dead and those yet to be born** vs. conservative opposition to the **Swiss CO₂ Act (rejected 2021)**. **Tensions (preservation ↔ gradual change):** to preserve, **rapid and far-reaching change** is now required; **experience vs. scientific forecasts**; **local roots vs. a global problem**. **Re-configuration:** **stewardship across generations**; the **local community** as a source of motivation.",
+        "example": "A farmer protecting the land for their grandchildren is conservative stewardship."
+      },
+      {
+        "id": "socialism-climate",
+        "name": "Socialism and the climate crisis",
+        "slides": "Slide 29",
+        "simple": "For socialists, the climate crisis is unfair: the rich pollute most and the poor suffer most. But socialism has long promised progress through factories and growth, and unions defend coal jobs.",
+        "exam": "**Problem:** an **injustice produced by capitalism**. **Example:** those who emit least suffer most (**Oxfam 2020: richest 10 % ≈ half of emissions 1990–2015**); **gilets jaunes** (France, 2018): no climate policy without social justice → “**just transition**”. **Tension (equality ↔ growth·jobs / ecology):** a **productivist tradition** ties progress to industry and growth; **unions defend coal jobs**; **urgency vs. system change**. **Re-configuration:** **eco-socialism, sufficiency, degrowth**: growth moves to the periphery, or drops out.",
+        "example": "A just transition fund retraining coal workers for renewable-energy jobs."
+      },
+      {
+        "id": "anthropocentrism",
+        "name": "Where is ‘nature’? Anthropocentrism and ecologism",
+        "slides": "Slide 30",
+        "simple": "In all three big ideologies, the core is about relations between humans (freedom, tradition, equality). Nature is just the stage or the raw material. Ecologism moves nature to the centre.",
+        "exam": "**Anthropocentrism:** liberty, tradition and equality are **relations between humans**; nature appears, if at all, at the **periphery**, as a **resource or backdrop**. **Ecologism** puts **nature at the core**, e.g. **rights of nature in Ecuador's constitution (2008)** → a **polity** question: **who belongs to the political community?**",
+        "example": "Granting a river legal rights changes who counts as a member of the political community."
+      },
+      {
+        "id": "key-points",
+        "name": "Key points",
+        "slides": "Slide 32",
+        "simple": "Ideologies shape what people think and do; to win majorities you must work with people who think differently; ideologies disagree about the diagnosis, the goal and the route; they're messier than people think; and climate challenges them all.",
+        "exam": [
+          "- Political ideologies **shape political views, attitudes and behaviour**.",
+          "- Organising majorities often requires **accommodating** those with different views.",
+          "- Ideologies differ in their **diagnoses**, **normative goals** and **“theories of change”**.",
+          "- Ideologies are (a) **less coherent** and (b) **more fraught with tension** than widely assumed.",
+          "- The climate crisis poses **different kinds of challenges** for different ideologies; they also face a **common challenge: anthropocentrism**."
+        ],
+        "example": "Diagnosis = (a) world-view; normative goal = (b) good society; theory of change = (c)."
+      }
+    ],
+    "connections": [
+      "**Lecture 1 → 3:** the need for politics (choice, scarcity, disagreement) leads to ideologies as structures of disagreement; the anthropocentrism question is a **polity** question (who belongs?).",
+      "**Lecture 2 → 3:** Lukes' three dimensions (announced in L2) are power theory; the 3rd dimension = ideology as domination. Foucault's productive power ↔ Heywood's ideologies as ‘regimes of truth’.",
+      "**Arendt appears twice:** power as acting in concert (L2) and, in the reading, as a liberal critic of ideology as closed, totalitarian thought.",
+      "**Core/adjacent/peripheral → climate slides:** each ‘tension’ is a conflict inside an ideology's configuration (liberty vs. limits; preservation vs. gradual change; equality vs. growth/jobs and ecology).",
+      "**Economics link:** liberalism's ‘market failure’ framing of climate change corresponds to externalities in Microeconomics (Part 2.2)."
+    ],
+    "examFocus": {
+      "questions": [
+        "Name the three uses of ‘ideology’ and say which is neutral.",
+        "Who coined the term (de Tracy, 1796)? How did Marx, Gramsci, Mannheim, liberals and conservatives use it? (reading)",
+        "Lukes' three dimensions: definition, focus, method, nature, climate example; especially 2nd vs. 3rd.",
+        "Marx's ruling ideas and base/superstructure; Adorno; the analyst problem and why ‘objective’ is in quotation marks.",
+        "Heywood's definition and features (a)(b)(c); the three functions; core/adjacent/peripheral; thick vs. thin-centred.",
+        "Compare liberalism, conservatism and socialism (core concepts, world-view, good society, change); classical vs. social liberalism (negative vs. positive liberty).",
+        "Apply the template (problem, example, tension, re-configuration) to the climate crisis for an ideology; name the common challenge (anthropocentrism) and ecologism's answer."
+      ],
+      "traps": [
+        "Only use 3 (action-oriented paradigm) is **neutral**; uses 1 and 2 are pejorative.",
+        "De Tracy **coined** the term; Marx made it **critical**; Gramsci developed **hegemony**.",
+        "The fossil-fuel absence from negotiations = **2nd** dimension (agenda-setting); the CO₂ footprint = **3rd** (preferences).",
+        "Classical vs. social liberalism share the **same core**; they differ in adjacent/peripheral concepts.",
+        "Negative liberty = freedom **from** interference (classical); positive liberty = freedom **to** develop oneself (social).",
+        "Conservatism does **not** reject all change: ‘change in order to conserve’.",
+        "Socialism's change: revolution **or** gradual reform.",
+        "Thin-centred ≠ few supporters: it means a narrow core that borrows from host ideologies."
+      ],
+      "mistakes": [
+        "Writing that ideologies are fully coherent systems (Heywood: only ‘more or less coherent’).",
+        "Mixing up the four voices (carbon markets = liberal; step by step = conservative; just transition = socialist; change our way of thinking = ecologism).",
+        "Forgetting the re-configuration examples: German Constitutional Court 2021 (liberalism), stewardship (conservatism), eco-socialism/degrowth (socialism)."
+      ]
+    },
+    "memorize": [
+      "**Three uses:** rigid thinking pattern (individual, pejorative); instrument of domination (society, critical); action-oriented paradigm (political competition, neutral).",
+      "**Heywood:** “An ideology is a more or less coherent set of ideas that provides the basis for organized political action, whether this is intended to preserve, modify or overthrow the existing system of power.”",
+      "**Features:** (a) world-view, (b) good society, (c) theory of change.",
+      "**Functions:** making sense of the world; investing politics with moral purpose; forging the collective.",
+      "**Structure:** core / adjacent / peripheral concepts (Freeden); thick vs. thin-centred (cross-cutting).",
+      "**Lukes:** 1st decision-making (count votes) · 2nd agenda-setting (ethnography of corridors of power) · 3rd shaping preferences (ideology critique).",
+      "**Marx:** “The ideas of the ruling class are in every epoch the ruling ideas.” Base ↔ superstructure.",
+      "**Coined by** Antoine Destutt de Tracy (1796).",
+      "**Liberalism:** liberty · individual · reason. **Conservatism:** tradition · imperfection · organic society. **Socialism:** community · equality · solidarity.",
+      "**Negative liberty / positive liberty:** freedom from interference (night-watchman state) / freedom to develop oneself (enabler state).",
+      "**Climate:** liberalism = market failure (CO₂ levy); conservatism = threat to what we cherish (Burke's partnership; CH CO₂ Act rejected 2021); socialism = injustice of capitalism (Oxfam 2020; just transition). Common challenge: **anthropocentrism**; ecologism puts nature at the core (Ecuador 2008)."
+    ],
+    "gaps": [
+      "Slide 2 is blank in the PDF and slide 3 only shows images for use 1 (rigid thinking). The slides do not develop this use; the explanation above uses Heywood Ch. 13 (‘imprisoning the mind’).",
+      "The section numbering on the slides jumps from 3.1 to 3.3 (there is no 3.2).",
+      "Slide 8's diagram labels the arrows ‘shapes / maintains’ and ‘maintains / legitimises / shapes’ without showing clearly which direction each runs; the reading above (base shapes superstructure, superstructure legitimises and maintains base) follows Marx as presented in Heywood.",
+      "Slide 26 does not say who makes which statement; the assignment comes from slides 27–30.",
+      "Your study guide adds some items marked [general knowledge] (e.g. Zmigrod's brain research, Isaiah Berlin as source of the negative/positive liberty distinction, populism as the typical thin-centred ideology). They are **not** in your slides or in the Heywood excerpt, so they are left out here. Heywood names anarchism and feminism as thin-centred."
+    ]
+  },
+  "practice": [
+    { "topic": "origins", "question": "Who coined the term ‘ideology’?", "options": ["Karl Marx", "Antonio Gramsci", "Antoine Destutt de Tracy", "Andrew Heywood"], "answer": 2, "explanation": "De Tracy, during the French Revolution (first public use 1796), as a ‘science of ideas’." },
+    { "topic": "three-uses", "question": "Which use of the term ideology is neutral (analytical)?", "options": ["A rigid thinking pattern in the individual", "An instrument of domination in society", "False consciousness of subordinate classes", "An action-oriented paradigm in political competition"], "answer": 3, "explanation": "Uses 1 and 2 are pejorative; use 3 is neutral." },
+    { "topic": "lukes", "question": "The long absence of fossil fuels from international climate negotiations illustrates which of Lukes' dimensions?", "options": ["1st: success in decision-making", "2nd: agenda-setting (non-decision power)", "3rd: shaping preferences", "None"], "answer": 1, "explanation": "Keeping an issue off the agenda = 2nd dimension." },
+    { "topic": "lukes", "question": "Which method does Lukes' 3rd dimension call for?", "options": ["Counting votes", "Ethnography of the corridors of power", "Ideology critique", "Comparative analysis of electoral systems"], "answer": 2, "explanation": "Ideology critique shows how actors misperceive their own material interests." },
+    { "topic": "marx", "question": "In Marx's model, the ideational superstructure…", "options": ["is fully independent of the economy", "legitimises and maintains the material base", "consists only of state institutions", "replaces the material base after the revolution"], "answer": 1, "explanation": "Base shapes superstructure; superstructure legitimises and maintains the base." },
+    { "topic": "liberalism", "question": "How do classical and social liberalism relate according to the lecture?", "options": ["Different cores, same periphery", "Social liberalism removes liberty from the core", "Same core, different adjacent and peripheral concepts", "Classical liberalism is thin-centred"], "answer": 2, "explanation": "“Same core – different neighbours.”" },
+    { "topic": "liberalism", "question": "‘Freedom to develop oneself’, with the state as enabler, describes…", "options": ["negative liberty, classical liberalism", "positive liberty, social liberalism", "negative liberty, social liberalism", "positive liberty, classical liberalism"], "answer": 1, "explanation": "Classical = freedom from interference, night-watchman state." },
+    { "topic": "conservatism", "question": "The conservative theory of change is best captured by…", "options": ["rejecting all change", "a rationally designed blueprint", "‘change in order to conserve’: cautious and gradual", "revolutionary collective action"], "answer": 2, "explanation": "Blueprints and radical change are rejected, but cautious change is accepted." },
+    { "topic": "structure", "question": "A ‘thin-centred’ ideology is one that…", "options": ["has a narrow core and borrows elements from ‘thick’ host ideologies", "has very few supporters", "has no core concepts", "is imposed by the state"], "answer": 0, "explanation": "Cross-cutting ideologies incorporate elements from thicker traditions (Heywood: e.g. anarchism, feminism)." },
+    { "topic": "socialism-climate", "question": "Which tension does the lecture identify for socialism in the climate crisis?", "options": ["The harm principle struggles with diffuse, future harm", "Experience vs. scientific forecasts", "A productivist tradition ties progress to industry and growth", "State neutrality vs. need to change lifestyles"], "answer": 2, "explanation": "A and D are liberalism's tensions; B is conservatism's." },
+    { "topic": "functions", "question": "Which is NOT one of the three key functions of ideologies on slide 15?", "options": ["Making sense of the world", "Investing politics with moral purpose", "Forging the collective", "Guaranteeing objective truth"], "answer": 3, "explanation": "Heywood stresses that ideologies have an unreliable relationship with truth (‘regimes of truth’)." },
+    { "topic": "heywood-definition", "question": "Which is one of the three features of all ideologies (Heywood)?", "options": ["A party organization", "A vision of the ‘good society’", "A written constitution", "A charismatic leader"], "answer": 1, "explanation": "(a) world-view, (b) good society, (c) theory of change." },
+    { "topic": "anthropocentrism", "question": "What common challenge does the climate crisis pose for liberalism, conservatism and socialism?", "options": ["Populism", "Anthropocentrism: nature appears only at the periphery", "Lack of coherence", "Globalization"], "answer": 1, "explanation": "Their cores are relations between humans; ecologism puts nature at the core (Ecuador 2008)." },
+    { "topic": "conservatism-climate", "question": "Which example does the lecture use for conservatism and climate?", "options": ["German Constitutional Court 2021", "Burke's partnership of the living, the dead and those yet to be born vs. opposition to the Swiss CO₂ Act", "Oxfam 2020", "Gilets jaunes"], "answer": 1, "explanation": "Germany 2021 = liberalism; Oxfam and gilets jaunes = socialism." },
+    { "topic": "analyst-problem", "question": "What is the main objection to ideology as domination raised on slide 10?", "options": ["It ignores the economy", "How can the analyst alone see through the ‘comprehensive context of delusion’?", "It is too neutral", "It only applies to fascism"], "answer": 1, "explanation": "If delusion is total, the analyst's privileged insight is questionable." }
+  ],
+  "mock": {
+    "questions": [
+      { "type": "mc", "points": 2, "topic": "three-uses", "question": "Calling an opponent ‘ideological’ because they refuse to look at new evidence uses the term in which sense?", "options": ["Action-oriented paradigm (neutral)", "Instrument of domination (critical)", "Rigid thinking pattern in the individual (pejorative)", "Thin-centred ideology"], "answer": 2, "explanation": "Use 1: individual, pejorative." },
+      { "type": "mc", "points": 2, "topic": "lukes", "question": "The idea of a personal CO₂ footprint, which turns climate protection into a question of individual consumption, is the lecture's example for…", "options": ["Lukes' 1st dimension", "Lukes' 2nd dimension", "Lukes' 3rd dimension", "Popitz's power of action"], "answer": 2, "explanation": "Shaping preferences in the public sphere = 3rd dimension." },
+      { "type": "mc", "points": 2, "topic": "origins", "question": "Which statement about the history of the concept is correct (reading)?", "options": ["Marx coined the term in 1846", "Gramsci argued that bourgeois ideas become the ‘common sense of the age’ (hegemony)", "Mannheim claimed all classes are equally objective", "Fukuyama argued that fascism triumphed in 1989"], "answer": 1, "explanation": "De Tracy coined it (1796); Mannheim reserved objectivity for the socially unattached intelligentsia; Fukuyama: liberal democracy triumphed." },
+      { "type": "mc", "points": 2, "topic": "structure", "question": "According to the morphological view, what happens if an ideology abandons a core concept?", "options": ["Nothing; only peripheral concepts matter", "It loses its identity (or is absorbed into another ideology)", "It becomes thick", "It becomes a new party"], "answer": 1, "explanation": "Heywood: there is a limit to incoherence; e.g. liberalism without liberty would no longer be liberalism." },
+      { "type": "mc", "points": 2, "topic": "liberalism-climate", "question": "Which re-configuration does the lecture name for liberalism in the climate crisis?", "options": ["Eco-socialism and degrowth", "Stewardship across generations", "Extending liberty over time (German Constitutional Court, 2021)", "Abolishing markets"], "answer": 2, "explanation": "B = conservatism; A = socialism." },
+      { "type": "mc", "points": 2, "topic": "socialism", "question": "Which set contains socialism's core concepts?", "options": ["liberty · individual · reason", "tradition · imperfection · organic society", "community · equality · solidarity", "nation · family · religion"], "answer": 2, "explanation": "D are conservative peripheral concepts." },
+      { "type": "mc", "points": 2, "topic": "climate-voices", "question": "Which statement on slide 26 corresponds to the socialist perspective?", "options": ["“Let's create carbon markets!”", "“Radicalism won't get us far – step by step!”", "“What we need is a just transition!”", "“Our way of thinking needs to change!”"], "answer": 2, "explanation": "Just transition = no climate policy without social justice (gilets jaunes)." },
+      { "type": "open", "points": 6, "topic": "lukes", "question": "Explain the difference between Lukes' 2nd and 3rd dimensions of power (power as…, focus, method, visibility). Use the lecture's climate examples.", "model": "2nd dimension: power as the ability to set the agenda (‘non-decision power’); focus on the formal arena plus informal processes (‘corridors of power’); method: ethnography of those corridors; invisible to the public but can be made visible. Example: the long absence of fossil fuels from international climate negotiations. 3rd dimension: power as the ability to shape preferences; focus on civil society, especially the public sphere; method: ideology critique, showing how actors misperceive their own material interests; largely invisible, must be ‘demystified’. Example: the CO₂ footprint turns climate protection into individual consumption.", "keyPoints": [ { "text": "2nd = agenda-setting / non-decision power", "points": 1 }, { "text": "3rd = shaping preferences", "points": 1 }, { "text": "Correct focus and method for both (corridors of power / ethnography; public sphere / ideology critique)", "points": 1.5 }, { "text": "Visibility: can be made visible vs. largely invisible, must be demystified", "points": 1 }, { "text": "Correct climate example for each", "points": 1.5 } ] },
+      { "type": "open", "points": 8, "topic": "conservatism-climate", "question": "Choose TWO of liberalism, conservatism and socialism. For each, explain (a) what kind of problem the climate crisis represents from its perspective, (b) where its configuration comes under strain, (c) one re-configuration. Conclude with the challenge all three share.", "model": "Liberalism: (a) a market failure and harm to the liberty of others (example: CO₂ levy with revenue returned, people stay free to choose); (b) tension between liberty and limits: the harm principle struggles with diffuse, global, future harm; state neutrality vs. need to change lifestyles; (c) extending liberty over time (German Constitutional Court, 2021). Conservatism: (a) a threat to what we cherish, or climate policy as the threat (Burke's partnership of generations vs. opposition to the Swiss CO₂ Act, rejected 2021); (b) to preserve, rapid far-reaching change is needed; experience vs. scientific forecasts; local roots vs. global problem; (c) stewardship across generations, local community as motivation. Socialism: (a) an injustice produced by capitalism (Oxfam 2020: richest 10 % ≈ half of emissions; gilets jaunes → just transition); (b) productivist tradition ties progress to growth; unions defend coal jobs; urgency vs. system change; (c) eco-socialism, sufficiency, degrowth. Common challenge: anthropocentrism: their core concepts are relations between humans; nature is at the periphery as resource or backdrop; ecologism puts nature at the core (rights of nature, Ecuador 2008).", "keyPoints": [ { "text": "Ideology 1: correct problem type with example", "points": 1 }, { "text": "Ideology 1: correct tension (strain in its configuration)", "points": 1 }, { "text": "Ideology 1: correct re-configuration", "points": 1 }, { "text": "Ideology 2: correct problem type with example", "points": 1 }, { "text": "Ideology 2: correct tension", "points": 1 }, { "text": "Ideology 2: correct re-configuration", "points": 1 }, { "text": "Common challenge named: anthropocentrism, explained (nature at the periphery)", "points": 1.5 }, { "text": "Ecologism's answer (nature at the core, e.g. Ecuador 2008)", "points": 0.5 } ] }
+    ]
+  }
+}

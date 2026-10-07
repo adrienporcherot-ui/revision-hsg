@@ -1,0 +1,244 @@
+{
+  "id": "3",
+  "number": "3",
+  "title": "Strategy I: Setting Course (External Analysis)",
+  "sources": ["M03 Handout Lecture Slides BA-A (30 p.)", "BA-A Mock Recap Exam, Lecture 3"],
+  "summary": {
+    "bigPicture": [
+      "Average profitability differs strongly **between industries** (median operating margins FY2021–2025). Why?",
+      "**Strategy** serves to gain and maintain a **competitive advantage**: unique positioning, choices about what not to do, differentiation, sustainable value capture, long-term commitments. **Operational effectiveness is not a strategy** (Porter); a good strategy has a **kernel**: diagnosis, guiding policy, coherent action (Rumelt).",
+      "**Porter's Five Forces** (industrial organization economics) explain why some industries are more profitable: threat of new entry, supplier power, buyer power, threat of substitution, industry rivalry. ASML illustrates a very strong position.",
+      "The wider **PESTEL** environment and **M&A** (e.g. Bayer–Monsanto) can put competitive advantage under pressure.",
+      "Firms try to **tame competition** (build an **economic moat**); regulators try to **increase competition**: their goals are **polar opposites**."
+    ],
+    "concepts": [
+      {
+        "id": "recap",
+        "name": "Recap of Lecture 2 and motivation",
+        "slides": "Slides 2–4",
+        "simple": "Last time: firms cooperate to create value. Now: why are some industries (like tech) much more profitable than others (like energy)?",
+        "exam": "Recap: companies collaborate to create value (Williamson's graph); cooperation requires governance mechanisms (Grünenthal termination right); platforms help govern large-scale collaboration. Motivation: **median operating margins by sector (FY2021–2025)** differ widely (energy, utilities, materials, industrials, communication services, consumer staples, consumer discretionary, health care, information technology). The question: **why do industries differ in average profitability?** → external analysis.",
+        "example": "Strategy is about **capturing** value (course map: organizing = why firms exist; strategy = capture value)."
+      },
+      {
+        "id": "what-strategy-is",
+        "name": "What strategy is (and is not)",
+        "slides": "Slides 5–6 (Porter 1996; Rumelt 2012)",
+        "simple": "Strategy means choosing a special place in the market and deciding what you will NOT do, so customers come to you and not to others. Just doing the same things a bit faster is not a strategy.",
+        "exam": [
+          "Strategy serves to **gain and maintain a competitive advantage**:",
+          "- **Activities designed to achieve unique market positioning**;",
+          "- **Decisions about what to do and what not to do**;",
+          "- **Differentiation** from competitors;",
+          "- **Capturing value in a sustainable way**;",
+          "- **Long-term commitments** that are often **irreversible**.",
+          "**Operational effectiveness is not a strategy!** Slide 6: Porter identifies **three major mistakes** in defining strategy (video)."
+        ],
+        "example": "Cutting costs 5 % like every rival = operational effectiveness; deciding to serve only premium customers and drop the rest = strategy."
+      },
+      {
+        "id": "good-strategy",
+        "name": "A good strategy: Rumelt's kernel",
+        "slides": "Slide 7",
+        "simple": "A good strategy first says what the real problem is, then picks a general approach, then lists actions that fit together.",
+        "exam": "A good strategy **identifies the key challenge that needs to be overcome**. The **core (‘kernel’) of strategy** (Rumelt): **(1) rich diagnosis** (what is going on, what is the key challenge?), **(2) guiding policy** (the overall approach to deal with it), **(3) coherent action** (coordinated steps that implement the policy).",
+        "example": "Mock exam B1: name and explain the three kernel elements (3 points)."
+      },
+      {
+        "id": "asml",
+        "name": "Example: ASML",
+        "slides": "Slides 9–10",
+        "simple": "ASML, a Dutch company, is the only firm in the world that builds the super-complex machines needed to print the tiniest computer chips.",
+        "exam": "ASML (Advanced Semiconductor Materials Lithography): founded **1984**; semiconductor industry; customers are **chip manufacturers**; one **EUV lithography machine costs ≈ USD 300–400 m**. **Extreme ultraviolet (EUV)** light can carve very small structures; it **cannot be focused like lasers**, **exists only in a vacuum**, and requires **mirrors so smooth that deviations are on the order of individual atoms**. Question: how did it become Europe's most valuable technology company?",
+        "example": "Mock exam case: Canon and Nikon also make lithography machines, but not EUV; ASML's optics come from a close partnership with Zeiss."
+      },
+      {
+        "id": "five-forces",
+        "name": "Porter's Five Forces (industrial organization economics)",
+        "slides": "Slides 11–12 (Porter 2008)",
+        "simple": "Five pressures decide how much money an industry lets firms keep: new competitors coming in, powerful suppliers, powerful customers, other products doing the same job, and fighting among existing rivals. The weaker the pressures, the more profit.",
+        "exam": "Porter's model explains **why some industries are more profitable than others**: **threat of new entry** (emergence of new rivals), **supplier power** (bargaining power of critical suppliers), **buyer power** (bargaining power of key customers), **threat of substitution** (alternative products), with **industry rivalry** (competitive intensity) in the centre. Average industry profitability tends to be **highest when the five forces are weak**.",
+        "example": "Mock exam A1: profitability is highest when the forces are **weak** (not strong)."
+      },
+      {
+        "id": "new-entry",
+        "name": "Threat of new entry",
+        "slides": "Slide 15",
+        "simple": "If it's cheap and easy to start a rival business (an app instead of a fleet of cars), new competitors will rush in.",
+        "exam": "The threat of new entrants is **high** when: **switching costs for customers are low**; **capital requirements are low**; **retaliatory measures are unlikely**; established companies do **not** have **proprietary technology**, **established brands**, **exclusive distribution channels**. Example **Uber vs. taxis**: low capital requirements (an app instead of a company-owned fleet), low switching costs for passengers, virtually no proprietary technology (MyTaxi rebrands as ‘Free Now’).",
+        "example": "Mock exam A2: low customer switching costs **increase** the threat of entry; proprietary technology, high capital needs and likely retaliation lower it."
+      },
+      {
+        "id": "supplier-power",
+        "name": "Supplier power",
+        "slides": "Slide 16",
+        "simple": "If only a few suppliers have what you absolutely need and you can't switch, they can charge you a lot.",
+        "exam": "Suppliers have strong bargaining power when: **forward integration** poses a credible threat; there are **no substitutes** for the supplier's products; the products are **differentiated**; established firms face **high switching costs**; the product is an **important input** for the buyer. High: **rare earths** (concentrated reserves, China leading). Low: farmers selling to the **few major food retail chains** (Feuerborn: “only four major food retail chains… if, as a farmer, I don't agree to the price terms, I won't be able to sell my produce”).",
+        "example": "Mock exam A3: from the retail chains' perspective, the farmers' complaint illustrates **high buyer power** (the chains are the buyers)."
+      },
+      {
+        "id": "buyer-power",
+        "name": "Buyer power",
+        "slides": "Slide 17",
+        "simple": "Customers are powerful if there are few big ones, if the product is the same everywhere, if switching is free and if they know all the prices.",
+        "exam": "Buyers have strong bargaining power when: there are **few, large buyers**; buyers purchase **large quantities** relative to a seller's size; products are **standardized**; buyers face **little or no switching costs**; **backward integration** is credible; the buyer has **complete information**. Example **electricity via Verivox/Check24**: many small private households (normally a sign of low buyer power), **but** a **standardized product**, **comprehensive information** through comparison websites (platforms) and **virtually no switching costs** (automated switching, sign-up bonuses) → **high** buyer power.",
+        "example": "Mock exam C2 asks exactly this argument (3 points)."
+      },
+      {
+        "id": "substitution",
+        "name": "Threat of substitution",
+        "slides": "Slide 18",
+        "simple": "A substitute is a different product that does the same job: car-sharing instead of owning a car.",
+        "exam": "Substitutes **meet the same customer need in a different way**. The threat is high when: the substitute offers **good value for money**; **switching costs** to the substitute are **low**. Example: **buying a car in a big city**: high purchase and maintenance costs vs. mobility benefits; **car-sharing** is generally well developed in major cities with **low switching costs** (just app registration).",
+        "example": "Mock exam A4: for car manufacturers, car-sharing is a **threat of substitution**."
+      },
+      {
+        "id": "rivalry",
+        "name": "Industry rivalry",
+        "slides": "Slides 19–20",
+        "simple": "When many similar firms fight in a market that isn't growing and can't easily leave, they cut prices and spend heavily: everyone earns less.",
+        "exam": "Rivalry = competition for **market share and industry profits**. High when: **many competitors**; companies **similar in size**; **slow industry growth or shrinking** industry; **high exit barriers**; **contractual obligations** exist; **geographic or historical ties** exist; products and services are **direct substitutes**. Example: the **“streaming wars”** (Netflix, Prime, Disney+, Paramount+, Apple TV, HBO Max, RTL+).",
+        "example": "Mock exam B2: rivalry = same product, existing competitors; substitution = different product, same need."
+      },
+      {
+        "id": "asml-forces",
+        "name": "Application: ASML's Five Forces",
+        "slides": "Slide 21",
+        "simple": "ASML is hard to copy and has no substitute, so it's very strong, even though its few big customers and key suppliers are powerful too.",
+        "exam": [
+          "| Force | Slide facts | Assessment |",
+          "|---|---|---|",
+          "| Threat of new entry | technological complexity, patent protection, high capital requirements, established customer relationships | **low** |",
+          "| Supplier power | specialized components, few key suppliers, high switching costs, long-term relationships | **high** |",
+          "| Buyer power | concentrated, large customers with significant bargaining power, **but** ASML's technology is central to their production | **mixed / high but limited** |",
+          "| Threat of substitution | no comparable technology, industry standards built around ASML, patent protection | **low** |",
+          "| Industry rivalry | few, but a strong incentive for those involved; rapid technological change | **low (few rivals in EUV)** |",
+          "",
+          "Headline: **ASML is in a strong position due to the high barriers to entry.**"
+        ],
+        "example": "Mock exam C1 (8 points): assess four forces for ASML with case facts."
+      },
+      {
+        "id": "pestel",
+        "name": "PESTEL: the sociopolitical environment",
+        "slides": "Slide 23",
+        "simple": "Around the industry there's a bigger world: politics, the economy, society, technology, nature and laws, all of which can help or hurt a firm.",
+        "exam": [
+          "Layers: **firm → strategic group → industry → PESTEL environment**.",
+          "| Dimension | Examples on the slide |",
+          "|---|---|",
+          "| **Political** | government policy, political stability, fiscal policy |",
+          "| **Economic** | economic growth, exchange rates, interest rates |",
+          "| **Social** | population, demographics, lifestyle |",
+          "| **Technological** | technology development, automation, R&D activities |",
+          "| **Environmental** | weather, climate, environmental policy |",
+          "| **Legal** | labour law, consumer protection, occupational safety and health law |"
+        ],
+        "example": "Mock exam A5: labour law and consumer protection = **Legal**."
+      },
+      {
+        "id": "ma",
+        "name": "M&A as market consolidation; Bayer–Monsanto",
+        "slides": "Slides 24–25",
+        "simple": "Buying a competitor removes a rival, so the industry becomes less competitive. But it can go badly wrong, as Bayer found after buying Monsanto.",
+        "exam": "According to Porter's model, **M&As reduce competition and concentrate market power** (e.g. top-10 agrochemical firms, 2015). **Failed M&A:** Bayer bought **Monsanto**; Bayer's share price plummeted and a **wave of lawsuits** (Roundup) hit the company. CEO Bill Anderson: “We are slowly reaching a point where the litigation industry could force us to stop marketing this system-critical product.” Lessons: **competitive advantages are repeatedly called into question**; **even though market competition decreased, the hoped-for increase in profitability did not materialize**.",
+        "example": "Less rivalry on paper ≠ higher profits in practice."
+      },
+      {
+        "id": "moat",
+        "name": "Taming competition: the economic moat",
+        "slides": "Slide 26",
+        "simple": "A moat is the water around a castle that keeps attackers out. A firm's ‘moat’ is whatever keeps competitors from stealing its profits.",
+        "exam": "Companies have an interest in **taming competition** to generate higher profits → **sustainable competitive advantage** = an **economic moat**. Five sources: **intangible assets**, **cost advantage**, **switching costs**, **network effects**, **efficient scale**. Reference: Peter Thiel, “**Competition is for losers**” (*Zero to One*).",
+        "example": "Mock exam A6: ‘high industry growth’ is NOT a moat source."
+      },
+      {
+        "id": "regulation",
+        "name": "Politics and strategy: regulation vs. corporate strategy",
+        "slides": "Slides 27–28",
+        "simple": "Firms want less competition (higher prices); regulators want more competition (lower prices). Their goals pull in opposite directions.",
+        "exam": "**Regulatory bodies are interested in increasing competition to lower prices.** Examples: EU fines **Apple and Meta ≈ €700 m**; **New York City's crackdown on Airbnb**; the European Commission **prohibits HeidelbergCement and Schwenk's takeover of Cemex Croatia**. **Punchline:** (1) strategy aims to create and maintain a competitive advantage; (2) the five forces shape it; (3) **the goals of corporate strategy and regulation are polar opposites**.",
+        "example": "In Porter's logic firms want weak forces (moats, consolidation), regulators want strong forces (entry, rivalry) → opposite goals."
+      }
+    ],
+    "connections": [
+      "**Microeconomics 2.1 ↔ BA 3:** the market-structure taxonomy (monopoly, oligopoly, polypoly) and the buyer/seller perspective (monopsony) underlie the Five Forces; the welfare loss of market power explains why regulators fight it.",
+      "**Lecture 2 → 3:** network effects and winner-takes-all reappear as a **moat** source; platforms (Verivox, Check24) raise buyer power.",
+      "**Lecture 1 → 3:** switching costs and hold-up ↔ supplier power and buyer power.",
+      "**Lecture 3 → 4:** Five Forces = external, market-based view; Lecture 4 adds the internal, resource-based view; **non-substitutability** (VRIN) ↔ threat of substitution."
+    ],
+    "examFocus": {
+      "questions": [
+        "What strategy is and is not (Porter); Rumelt's kernel.",
+        "Name the five forces and the determinants of each; classify statements (e.g. low switching costs → higher threat of entry).",
+        "Apply the Five Forces to a case (ASML-style), with facts for each force.",
+        "Explain why buyer power can be high with many small buyers (electricity comparison platforms).",
+        "Rivalry vs. substitution with examples.",
+        "PESTEL classification.",
+        "Economic moat and its five sources; why strategy and regulation are polar opposites."
+      ],
+      "traps": [
+        "Profitability is highest when the forces are **weak**.",
+        "Low switching costs **raise** the threat of entry and of substitution, and raise buyer power.",
+        "The farmers–retailers quote: from the **retailers'** viewpoint = **high buyer power**.",
+        "Car-sharing for car manufacturers = **substitution**, not rivalry.",
+        "Many small buyers usually mean **low** buyer power, unless standardized products, full information and zero switching costs.",
+        "Operational effectiveness is **not** strategy.",
+        "M&A reduces rivalry but doesn't guarantee higher profits (Bayer)."
+      ],
+      "mistakes": [
+        "Listing forces without case facts (mock exams demand justification).",
+        "Mixing up supplier power and buyer power perspectives.",
+        "Naming ‘high industry growth’ as a moat source."
+      ]
+    },
+    "memorize": [
+      "**Strategy:** unique positioning; what to do and not do; differentiation; sustainable value capture; long-term, often irreversible commitments. Operational effectiveness ≠ strategy.",
+      "**Rumelt's kernel:** diagnosis, guiding policy, coherent action.",
+      "**Five forces:** threat of new entry, supplier power, buyer power, threat of substitution, industry rivalry.",
+      "**New entry high:** low switching costs, low capital requirements, unlikely retaliation, incumbents lack proprietary technology/brands/exclusive channels.",
+      "**Supplier power high:** credible forward integration, no substitutes, differentiated products, high switching costs, important input.",
+      "**Buyer power high:** few large buyers, large volumes, standardized products, low switching costs, credible backward integration, complete information.",
+      "**Substitution high:** good value for money, low switching costs.",
+      "**Rivalry high:** many and similar-sized competitors, slow growth, high exit barriers, contractual obligations, geographic/historical ties, direct substitutes.",
+      "**PESTEL:** political, economic, social, technological, environmental, legal.",
+      "**Economic moat sources:** intangible assets, cost advantage, switching costs, network effects, efficient scale."
+    ],
+    "gaps": [
+      "Slide 6 (Porter's **three major mistakes** in defining strategy) and slide 7 (Rumelt) rely on **videos**; the PDF doesn't list the three mistakes.",
+      "The slides don't explain the five moat sources one by one (only the labels).",
+      "The ASML slide lists facts per force without explicitly saying ‘high’ or ‘low’; the assessments in the table above are derived from the headline (‘strong position due to high barriers to entry’) and the facts.",
+      "Slide 29 is missing from the handout numbering."
+    ]
+  },
+  "practice": [
+    { "topic": "five-forces", "question": "According to Porter's Five Forces model, the average profitability of an industry tends to be highest when…", "options": ["the five forces are strong", "the five forces are weak", "rivalry is high as long as entry is low", "buyer power is high"], "answer": 1, "explanation": "Weak forces leave more value for incumbents." },
+    { "topic": "new-entry", "question": "Which condition increases the threat of new entry?", "options": ["Incumbents own proprietary technology", "Entry requires very high capital investments", "Customers face low switching costs", "Incumbents are likely to retaliate strongly"], "answer": 2, "explanation": "The other three are entry barriers." },
+    { "topic": "supplier-power", "question": "With only four major food retail chains left, a farmer who rejects their price terms cannot sell his produce. From the retail chains' perspective, this illustrates…", "options": ["high supplier power", "an increase in rivalry", "high buyer power", "high threat of substitution"], "answer": 2, "explanation": "The chains are the buyers; few large buyers = high buyer power." },
+    { "topic": "substitution", "question": "For a city resident, well-developed car-sharing is relevant to the car manufacturing industry as…", "options": ["an increase in rivalry", "a threat of new entry", "a threat of substitution", "an increase in supplier power"], "answer": 2, "explanation": "Different product, same need (mobility)." },
+    { "topic": "pestel", "question": "In the PESTEL model, labour law and consumer protection belong to…", "options": ["Political", "Social", "Economic", "Legal"], "answer": 3, "explanation": "Legal: labour law, consumer protection, occupational safety and health law." },
+    { "topic": "moat", "question": "Which is NOT one of the five sources of an economic moat in the lecture?", "options": ["Network effects", "Efficient scale", "High industry growth", "Switching costs"], "answer": 2, "explanation": "The five: intangible assets, cost advantage, switching costs, network effects, efficient scale." },
+    { "topic": "good-strategy", "question": "Rumelt's kernel of a good strategy consists of…", "options": ["vision, mission, values", "diagnosis, guiding policy, coherent action", "analysis, formulation, evaluation", "cost leadership, differentiation, focus"], "answer": 1, "explanation": "Slide 7." },
+    { "topic": "what-strategy-is", "question": "Which statement is NOT part of the lecture's description of strategy?", "options": ["Decisions about what to do and what not to do", "Long-term, often irreversible commitments", "Operational effectiveness", "Differentiation from competitors"], "answer": 2, "explanation": "“Operational effectiveness is not a strategy!”" },
+    { "topic": "buyer-power", "question": "Why is buyer power high in electricity markets despite many small household buyers?", "options": ["Because households can integrate backward into power plants", "Standardized product, full information via comparison platforms and almost no switching costs", "Because there are few suppliers", "Because electricity is a luxury good"], "answer": 1, "explanation": "Verivox/Check24 example." },
+    { "topic": "rivalry", "question": "Which condition increases industry rivalry?", "options": ["Rapid industry growth", "Low exit barriers", "Competitors of similar size", "Highly differentiated products"], "answer": 2, "explanation": "Also: many competitors, slow growth, high exit barriers, direct substitutes." },
+    { "topic": "ma", "question": "What lesson does the Bayer–Monsanto case teach according to the slides?", "options": ["M&A always raises profitability", "Even with less competition, the hoped-for profitability increase may not materialize", "Regulators always block M&A", "Lawsuits never affect strategy"], "answer": 1, "explanation": "Competitive advantages are repeatedly called into question." },
+    { "topic": "regulation", "question": "Why does the lecture call corporate strategy and regulation ‘polar opposites’?", "options": ["Both want lower prices", "Firms want to tame competition (higher profits), regulators want more competition (lower prices)", "Regulators set firms' strategies", "Firms ignore regulation"], "answer": 1, "explanation": "Punchline, slide 28." },
+    { "topic": "asml-forces", "question": "Which fact on the ASML slide supports a LOW threat of substitution?", "options": ["Few key suppliers", "Industry standards built around ASML", "Concentrated large customers", "High capital requirements"], "answer": 1, "explanation": "Also: no comparable technology, patent protection." },
+    { "topic": "supplier-power", "question": "Which condition gives suppliers strong bargaining power?", "options": ["Many substitutes for their products", "Low switching costs for buyers", "A credible threat of forward integration", "Standardized products"], "answer": 2, "explanation": "Also: no substitutes, differentiated products, high switching costs, important input." }
+  ],
+  "mock": {
+    "questions": [
+      { "type": "mc", "points": 1, "topic": "five-forces", "question": "Which is NOT one of Porter's five forces?", "options": ["Threat of new entry", "Buyer power", "Government subsidies", "Threat of substitution"], "answer": 2, "explanation": "Government is part of the PESTEL environment, not a force." },
+      { "type": "mc", "points": 1, "topic": "new-entry", "question": "Uber's entry into the taxi market was easy mainly because…", "options": ["capital requirements were high", "it needed only an app instead of a company-owned fleet, and passengers' switching costs were low", "incumbents had exclusive distribution channels", "retaliation was certain"], "answer": 1, "explanation": "Low capital requirements, low switching costs, virtually no proprietary technology." },
+      { "type": "mc", "points": 1, "topic": "pestel", "question": "Exchange rates and interest rates belong to which PESTEL dimension?", "options": ["Political", "Economic", "Social", "Legal"], "answer": 1, "explanation": "Economic: growth, exchange rates, interest rates." },
+      { "type": "mc", "points": 1, "topic": "rivalry", "question": "The ‘streaming wars’ illustrate high…", "options": ["supplier power", "industry rivalry", "threat of substitution", "buyer power"], "answer": 1, "explanation": "Many similar competitors fighting for market share." },
+      { "type": "mc", "points": 1, "topic": "moat", "question": "An economic moat refers to…", "options": ["a firm's debt level", "a sustainable competitive advantage protecting profits from competitors", "a regulatory barrier imposed by the state", "a short-term marketing campaign"], "answer": 1, "explanation": "Sources: intangible assets, cost advantage, switching costs, network effects, efficient scale." },
+      { "type": "mc", "points": 1, "topic": "substitution", "question": "The threat of substitution is high when…", "options": ["the substitute offers good value for money and switching costs are low", "there are few competitors", "suppliers are concentrated", "the product is an important input"], "answer": 0, "explanation": "Slide 18." },
+      { "type": "open", "points": 3, "topic": "good-strategy", "question": "According to Richard Rumelt, a good strategy has a ‘kernel’ of three elements. Name them and briefly explain each.", "model": "(1) Diagnosis: identifies and explains the key challenge the firm must overcome (what is going on?). (2) Guiding policy: the overall approach chosen to deal with that challenge. (3) Coherent action: coordinated, mutually consistent steps that put the guiding policy into practice.", "keyPoints": [ { "text": "Diagnosis named and explained (key challenge)", "points": 1 }, { "text": "Guiding policy named and explained (overall approach)", "points": 1 }, { "text": "Coherent action named and explained (coordinated steps)", "points": 1 } ] },
+      { "type": "open", "points": 4, "topic": "moat", "question": "Explain what an economic moat is and how it relates to sustainable competitive advantage. Name three of its sources and briefly describe one of them.", "model": "An economic moat is a firm's protection against competitors, like a moat around a castle: it lets the firm ‘tame competition’ and keep earning high profits over time. A moat is therefore the basis of a sustainable competitive advantage. Sources (lecture): intangible assets, cost advantage, switching costs, network effects, efficient scale. E.g. network effects: the product becomes more valuable as more people use it, so new rivals struggle to attract users (winner-takes-all).", "keyPoints": [ { "text": "Moat defined (protection against competitors / taming competition)", "points": 1 }, { "text": "Link to sustainable competitive advantage", "points": 1 }, { "text": "Three correct sources named", "points": 1 }, { "text": "One source correctly described", "points": 1 } ] },
+      { "type": "open", "points": 8, "topic": "asml-forces", "question": "ASML is the only company producing EUV lithography machines (≈ USD 300–400 m each, a few dozen per year). EUV light exists only in a vacuum and requires mirrors with atomic-scale precision. Canon and Nikon make lithography machines, but not EUV. ASML's optics come from a close partnership with Zeiss. Assess (high/low, with case facts) for ASML: (a) threat of new entry, (b) supplier power, (c) buyer power, (d) industry rivalry.", "model": "(a) Low: extreme technological complexity (vacuum, atomic-precision mirrors), patents, very high capital requirements, established customer relationships. (b) High: specialized components and few key suppliers (e.g. Zeiss optics), high switching costs and long-term relationships. (c) Mixed/high but limited: customers are few, large, concentrated chip manufacturers with significant bargaining power, but ASML's EUV technology is central to their production and has no alternative, which limits their power. (d) Low: in EUV there is no direct rival (Canon/Nikon only non-EUV); few players, though rapid technological change keeps a strong incentive to compete.", "keyPoints": [ { "text": "(a) Low, with at least two case facts", "points": 2 }, { "text": "(b) High, with justification (few key suppliers, Zeiss, switching costs)", "points": 2 }, { "text": "(c) Concentrated powerful buyers BUT dependence on ASML → limited", "points": 2 }, { "text": "(d) Low (no EUV rival; Canon/Nikon not EUV), with justification", "points": 2 } ] },
+      { "type": "open", "points": 3, "topic": "regulation", "question": "Explain the statement ‘the goals of corporate strategy and regulation are polar opposites’ using Porter's logic, with one example from the lecture.", "model": "Porter: industry profitability is high when the five forces are weak. Firms therefore try to tame competition, e.g. through moats or consolidation via M&A, to capture higher profits. Regulators aim to increase competition to lower prices for consumers, e.g. by blocking mergers or fining dominant firms. Example: the European Commission prohibited HeidelbergCement and Schwenk's takeover of Cemex Croatia (or EU fines on Apple and Meta, NYC's crackdown on Airbnb).", "keyPoints": [ { "text": "Firms want weak forces / tamed competition → higher profits", "points": 1 }, { "text": "Regulators want more competition → lower prices", "points": 1 }, { "text": "Correct example from the lecture", "points": 1 } ] }
+    ]
+  }
+}

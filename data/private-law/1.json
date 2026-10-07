@@ -1,0 +1,244 @@
+{
+  "id": "1",
+  "number": "1",
+  "title": "Conclusion of Contracts and Persons",
+  "sources": ["Introduction to Private Law, Lecture 1 (slides, 41 p.)", "Validity of Contracts: Exam Guide & Summary", "Exercise 1: Creation of Obligations (questions)"],
+  "summary": {
+    "bigPicture": [
+      "The course covers the **basics of Swiss contract and tort law**: fundamentals and conclusion of contracts, performance, breach and liability, termination. You must be able to **analyse cases and draft concise, legally substantiated solutions**, citing the statutes.",
+      "A contract is concluded by a **mutual expression of intent** (offer + acceptance). Whether the parties agree is tested with the **consensus** scheme (natural vs. normative consensus, open vs. hidden dissent).",
+      "A contract is only valid if several **conditions** are met: consensus, form, permissible content, capacity to act, and no grounds for contestation (defects of intent, unfair advantage) plus valid agency.",
+      "Distinguish the **act of commitment** (the contract creates obligations) from the **act of performance** (fulfilling them), and the **grounds** from which obligations arise (legal transaction vs. statute).",
+      "Who can be a party? **Natural persons and legal entities** have legal personality; **capacity to act** requires being of age and capable of judgment (CC 13 ff.)."
+    ],
+    "concepts": [
+      {
+        "id": "course",
+        "name": "Course objectives, structure and materials",
+        "slides": "Slides 4–11",
+        "simple": "You'll learn how Swiss contracts and liability work and practise solving cases like a lawyer. Bring the statute book to every lecture: working with the legal texts is a big part of the exam.",
+        "exam": [
+          "- **Objectives:** understand the basics of Swiss private law (sources, structures, fundamental principles, main content); **analyse contractual and tort law issues, detect the legal difficulties and draft concise and legally substantiated solutions**.",
+          "- **Topics:** (1) fundamentals of contract law, (2) conclusion, (3) performance, (4) breach of contract and liability (non-performance, bad performance, contractual and non-contractual liability for auxiliary persons, product liability), (5) termination of the obligation to perform.",
+          "- **Structure:** lectures; exercises and independent studies (six classroom sessions with cases); **three online formative assessments** with exam-type questions.",
+          "- **Materials:** mandatory reading Roberto/Schister, *Introduction to Business Law I: Contract Law and Liability* (8th ed., 2023); **St.Gallen Compilation of Statutes (CC and CO)**, 13th ed., 2026; exercise collection and study cards (Roberto).",
+          "- Content questions to exercise instructors by **14 Dec 2026**; organizational questions by **18 Dec 2026**."
+        ],
+        "example": "Exam answers earn points by citing articles: “Under CO 19/20 the contract is void because…”."
+      },
+      {
+        "id": "validity-conditions",
+        "name": "Conditions for the validity of a contract",
+        "slides": "Slide 15 (repeated in L2) · Validity summary",
+        "simple": "A contract is like a building that needs several supports. If a basic support is missing, the building never stood (void). If a later problem appears, the building stands, but one party may be allowed to tear it down (contest it).",
+        "exam": [
+          "Conditions on the slide: **consensus**; **form requirements**; **permissible content** (not unlawful/immoral/impossible); **capacity to act**; **contestability**: **no defects of intent**, **no unfair advantage**; **valid agency**.",
+          "",
+          "Your validity summary groups them:",
+          "| Condition missing | Consequence |",
+          "|---|---|",
+          "| capacity to act, consensus, valid form, permissible content | contract **null and void** |",
+          "| no unfair advantage, no defect of intent | contract **valid but contestable** |"
+        ],
+        "example": "Selling cocaine: content unlawful → void. Buying under fraud: valid, but contestable by the deceived party."
+      },
+      {
+        "id": "offer-acceptance",
+        "name": "Conclusion of contracts: offer and acceptance",
+        "slides": "Slides 13–16",
+        "simple": "One side says “I offer you this bike for this price”, the other says “yes”. When both ‘yeses’ match, there's a contract.",
+        "exam": "The conclusion of a contract requires a **mutual expression of intent** by the parties: (1) **offer**: Sports Ltd. offers the “TREK Powerfly 7 FS Plus” for CHF 5,175 (list price 5,500 + accessories 250 = 5,750, minus 10 % discount = 5,175, VAT incl.; collection in 2–3 months; deposit CHF 500, rest on pickup; 2-year warranty); (2) **acceptance**: Ms. Smith agrees. The contract is valid because it is **both parties' intent** (validity summary: CO 1 and 18).",
+        "example": "A written offer by a shop and a ‘yes’ by phone: the acceptance can be oral unless a form is required (see form)."
+      },
+      {
+        "id": "consensus",
+        "name": "Consensus: natural and normative consensus, open and hidden dissent",
+        "slides": "Slides 17–21",
+        "simple": "First ask: did both really want the same thing? If yes, that's what counts, even if someone misspoke. If not, ask: did their *words* match, as a reasonable outsider would understand them? If yes, the words count (and the person who misspoke may later escape). If the words didn't match, there's no contract.",
+        "exam": [
+          "1. **Do the actual intents of the parties match?** → Yes: **natural consensus** (the common actual intent applies, even if the declarations were wrong).",
+          "2. If no: **Do the declarations of intent match?** Apply the **principle of trust**: would a **reasonable third party** have understood the declaration as one of the parties did?",
+          "   - Yes → **normative consensus** (contract with the content of the declarations; the party in error may contest it, see L2).",
+          "   - No, and the parties notice → **open dissent**; no, and they don't notice → **hidden dissent**. In both cases **no contract**.",
+          "",
+          "Slide exercises (TREK bikes; same pattern as Exercise 1 with Brunello/Barolo):",
+          "- I: Anton means Powerfly, says “Verve+”; Patrik confirms “Verve+” → declarations match → normative consensus on **Verve+**, contestable by Anton (error).",
+          "- II: Anton orders Powerfly; Patrik absentmindedly confirms but understood Verve+ → declarations match (Powerfly) → contract for **Powerfly**, contestable by the seller.",
+          "- III: Anton orders the fast-charging battery; Patrik “confirms” the standard battery → declarations don't match → **no contract** (dissent).",
+          "- IV: Anton types “Verve+” but Patrik correctly assumes he means Powerfly → actual intents match → **natural consensus** on **Powerfly**, no contestation."
+        ],
+        "example": "Exercise 1, scenario 4: Tony says “a case” but Gary knows he always buys single bottles and understands “a bottle” → natural consensus on one bottle."
+      },
+      {
+        "id": "essentialia",
+        "name": "Essentialia negotii, pacta sunt servanda, freedom of contract",
+        "slides": "Slide 22 · Validity summary",
+        "simple": "You only have to agree on the essential points (what and for how much). Small details can be filled in later. Once agreed, you must keep your word, even if you regret it.",
+        "exam": [
+          "- Consensus is required only on the **essential elements** (**essentialia negotii**); **ancillary/secondary terms** (payment terms, delivery terms, warranty rights…) may be added by the court (**CO 2**).",
+          "- Regret afterwards? Principle: **“pacta sunt servanda”** (agreements must be kept).",
+          "- Can the parties freely determine the content? **Yes**, but **CO 19/20** applies.",
+          "- Validity summary, **freedom of contract**: freedom of conclusion, choice of partner, content (limited by CO 19 ff.), termination and amendment, form (with exceptions)."
+        ],
+        "example": "Agreeing on bike model and price is enough; if the delivery date is missing, the court can fill the gap."
+      },
+      {
+        "id": "impermissible-content",
+        "name": "Impermissible content (CO 19/20)",
+        "slides": "Slides 23–24",
+        "simple": "You can't make a valid contract to do something impossible, illegal or immoral. A deal to beat someone up is not a contract a court will enforce.",
+        "exam": "The contract is **invalid** if its content is (**initially objectively**) **impossible**, **unlawful** or **immoral** (CO 19/20). Examples: (a) Flora pays Eric CHF 100 (half up front) to **beat up her ex-boyfriend**: unlawful content → invalid; (b) CHF 100 for **5 g of cocaine**: unlawful → invalid.",
+        "example": "‘Initially’ = at conclusion; ‘objectively’ = impossible for anyone, not just for this party."
+      },
+      {
+        "id": "form",
+        "name": "Form requirements",
+        "slides": "Slides 25–27",
+        "simple": "Most contracts can be made by talking, nodding or even silence. Only where the law demands it, or where the parties themselves agreed on it, must a contract be in writing or notarized.",
+        "exam": [
+          "**Principle: freedom of form**, except (1) **statutory form requirements (CO 11)**, (2) **contractually reserved form (CO 16)**.",
+          "",
+          "| No special form | Simple written form | Qualified written form | Public deed |",
+          "|---|---|---|---|",
+          "| verbal, implied or tacit expressions of intent suffice | written declaration + **handwritten signature** (CO 13/14) | as simple written form **plus** e.g. handwritten declarations | as simple written form **plus notarization** |",
+          "",
+          "Exercise: Alpha Ltd. and Beta LLC agree **from the outset** that the contract is to be concluded in writing (reserved form, CO 16). After a verbal agreement, Beta does not sign → the reserved form was not observed, so no binding contract yet."
+        ],
+        "example": "Accepting a shop's written offer by phone is fine (freedom of form). If the shop says it needs “something in writing”, the parties reserved written form."
+      },
+      {
+        "id": "simulation",
+        "name": "Special case: simulation",
+        "slides": "Slide 28",
+        "simple": "Two people agree on one price but write a different (fake) price in the contract, e.g. to save taxes. The written contract is a show.",
+        "exam": "Slide example: the parties **agree on a purchase price of CHF 2.5 m**, but the **contract states CHF 1.8 m**. The written (simulated) declaration does not reflect the parties' true common intent. (Validity summary: consensus is determined under CO 1 and **18**.)",
+        "example": "Exam point: identify the real intent (2.5 m) vs. the simulated declaration (1.8 m)."
+      },
+      {
+        "id": "commitment-performance",
+        "name": "Act of commitment vs. act of performance",
+        "slides": "Slides 29–30",
+        "simple": "Signing the contract is a promise (‘I will give you the bike’). Handing over the bike is keeping the promise. You can promise something that doesn't exist yet, and you only become owner when it's handed over.",
+        "exam": "**Act of commitment:** upon conclusion of the contract, the parties **undertake** to render performance (Sports Ltd. undertakes to transfer ownership of a bike). **Act of performance:** the obligor **renders** performance (Sports Ltd. transfers ownership). Questions on the slide: can I buy a bike not yet manufactured? resell it before delivery? when do I become owner? → the commitment and the transfer of ownership are separate steps.",
+        "example": "Buying a bike that will be built in 2–3 months: the contract exists now; ownership passes only with performance."
+      },
+      {
+        "id": "grounds",
+        "name": "Grounds for the creation of obligations",
+        "slides": "Slide 31 · Exercise 1, tasks 2–3",
+        "simple": "Obligations come either from a deal you made (contract) or from the law: when you damage something (tort), when you got money you shouldn't have (unjust enrichment), or a few other cases.",
+        "exam": [
+          "- **Legal transaction** (e.g. a contract).",
+          "- **Statutory ground / jurisprudence:** **tort**; **unjust enrichment**; **other grounds**: **culpa in contrahendo**, **agency without authority**, **other legal obligations**."
+        ],
+        "example": "Exercise 1: Klara breaks a wine bottle in the supermarket before buying it (no contract yet → think tort); Yvonne is overpaid by mistake (think unjust enrichment)."
+      },
+      {
+        "id": "legal-personality",
+        "name": "Rights and obligations of a person: legal personality",
+        "slides": "Slides 33–36",
+        "simple": "To be party to a contract you must be a ‘person’ in law: either a human, or an organisation the law treats like a person (e.g. a company). A partnership of friends isn't a person by itself.",
+        "exam": [
+          "| With legal personality | Without legal personality |",
+          "|---|---|",
+          "| **Natural persons** | **Groups of persons without legal personality**, e.g. **partnerships** (simple, general, limited partnerships) |",
+          "| **Legal entities**: **corporate entities** (e.g. Ltd., LLC) and **independent bodies** (e.g. foundation) | |",
+          "",
+          "Company limited by shares: **shareholders own the Ltd.**; governing bodies and auxiliary persons: general meeting, board of directors, external auditor, executives, employees. A contract with the customer is a contract **between two persons** (customer and Ltd.).",
+          "Slide question: Ms. Smith negotiates a discount with salesperson Patrik (after he checks with the managing director). Her contractual partner is **Sports Ltd.**, not Patrik, the director or the shareholders."
+        ],
+        "example": "Exercise 1, task 5: Dr. Klenk buys ampules on behalf of Pharma Ltd.: the contract is between Pharma Ltd. and Production Ltd."
+      },
+      {
+        "id": "capacity",
+        "name": "Capacity to act (CC 12 ff.)",
+        "slides": "Slides 37–40",
+        "simple": "To sign contracts on your own you must be 18 and able to think clearly. A 17-year-old can think clearly but still needs the parents' OK for big purchases; small everyday buys, gifts and spending your own wages are fine.",
+        "exam": [
+          "- **CC 13:** a person who is **of age** and **capable of judgment** has the capacity to act.",
+          "- **CC 14:** of age = **18+**. **CC 16:** capable of judgment if not lacking the capacity to act rationally by virtue of being under age, mental disability, mental disorder, **intoxication** or similar.",
+          "- **CC 17:** minors and persons incapable of judgment **do not have** the capacity to act.",
+          "- **Limited incapacity to act:** capable of judgment but lacking capacity (e.g. minors): contracts can be **approved by the legal representatives**, even **tacitly and in advance (CC 19 I)**; no authorization needed for **advantages free of charge** and **minor everyday transactions (CC 19 II)**.",
+          "- **CC 323 I:** a minor may spend the **wage received for their own work** at their own discretion."
+        ],
+        "example": "Béatrice, heavily drunk, buys a laptop for CHF 1,000: incapable of judgment (CC 16) → no capacity (CC 17) → no valid contract. Sandro (17) buys a Rolex for CHF 10,300: limited incapacity; not an everyday transaction → needs parental approval; until then the contract is pending."
+      }
+    ],
+    "connections": [
+      "**Consensus (L1) → errors (L2):** normative consensus binds a party to a declaration they didn't mean; L2 explains when that party can **contest** (error in declaration, CO 24).",
+      "**Validity conditions → L2:** unfair advantage, defects of intent and agency complete the list started here.",
+      "**Legal personality → agency (L2):** a company acts through people (bodies, employees); the contract binds the company, not the salesperson.",
+      "**Commitment vs. performance → L3/L4:** performance (place, time, persons) and passing of risk in sales contracts.",
+      "**Grounds for obligations → later lectures:** tort and unjust enrichment are statutory grounds; agency without authority (L2) and culpa in contrahendo are ‘other grounds’."
+    ],
+    "examFocus": {
+      "questions": [
+        "Consensus cases (bike/wine scenarios): which contract (if any) was concluded, and is it contestable?",
+        "List and group the validity conditions; state whether a defect makes the contract void or contestable.",
+        "Form: when is a special form required (CO 11, CO 16)? Simple vs. qualified written form vs. public deed.",
+        "Impermissible content (CO 19/20): impossible, unlawful, immoral.",
+        "Capacity to act: drunk person, minor buying an expensive item, minor accepting a gift or spending own wages (CC 13–19, CC 323).",
+        "Who is the contractual partner when an employee of a company negotiates?"
+      ],
+      "traps": [
+        "Natural consensus beats the wording: if both actually meant the same thing, a slip of the tongue doesn't matter.",
+        "Normative consensus = contract **with the declared content**, but the mistaken party may contest (L2).",
+        "Only the **essentialia negotii** need consensus (CO 2).",
+        "Freedom of form is the rule; a **contractually reserved** form (CO 16) also counts.",
+        "A minor is usually **capable of judgment**: the issue is *limited* incapacity (CC 19), not total incapacity.",
+        "The contractual partner is the **legal entity**, not the employee or shareholders."
+      ],
+      "mistakes": [
+        "Writing ‘no contract’ whenever someone made a mistake (often there is a contract that is contestable).",
+        "Forgetting to cite articles (CC 13, 14, 16, 17, 19; CO 1, 2, 11, 16, 19/20).",
+        "Mixing up commitment (obligation created) and performance (ownership transferred)."
+      ]
+    },
+    "memorize": [
+      "**Contract:** mutual expression of intent (offer + acceptance).",
+      "**Consensus test:** actual intents match → natural consensus; else declarations match under the **principle of trust** (reasonable third party) → normative consensus; else open/hidden dissent → no contract.",
+      "**CO 2:** consensus on essentialia negotii suffices; court may add ancillary terms.",
+      "**CO 19/20:** content (initially objectively) impossible, unlawful or immoral → invalid.",
+      "**Form:** freedom of form, except statutory (CO 11) or reserved form (CO 16); simple written form = written declaration + handwritten signature (CO 13/14); qualified written form; public deed (+ notarization).",
+      "**Void vs. contestable:** capacity, consensus, form, content → void; unfair advantage, defects of intent → contestable.",
+      "**Legal personality:** natural persons; legal entities (corporate entities, independent bodies); partnerships have none.",
+      "**Capacity to act (CC 13):** of age (18, CC 14) + capable of judgment (CC 16); none for minors and persons incapable of judgment (CC 17); limited incapacity: approval by legal representative (CC 19 I), free advantages and minor everyday transactions (CC 19 II); own wages (CC 323 I).",
+      "**Grounds of obligations:** legal transaction; statute: tort, unjust enrichment, other (culpa in contrahendo, agency without authority, other legal obligations)."
+    ],
+    "gaps": [
+      "Most slide exercises show only the question and answer options; the **official solutions are not in your PDFs**. The answers above apply the slide rules (consensus scheme, CC 13–19, CO 19/20) and should be checked against the exercise class.",
+      "The **simulation** slide (CHF 2.5 m vs. 1.8 m) shows only the facts; the legal consequences (e.g. CO 18, and form issues if the true price was not notarized) are not explained on the slides.",
+      "Exercise 1 (Brunello wine, Klara, Yvonne, Maria, Pharma, contract classification) contains questions only, no solutions.",
+      "The mandatory textbook (Roberto/Schister) and the statute book are not among your PDFs."
+    ]
+  },
+  "practice": [
+    { "topic": "consensus", "question": "Tony wants 10 bottles of Brunello but by mistake orders “20 bottles of Brunello”. Gary understands and confirms “20 bottles”. What is the legal situation?", "options": ["A contract for 10 bottles, contestable", "A contract for 20 bottles, contestable by Tony", "No contract has been concluded", "A contract for 20 bottles that cannot be contested"], "answer": 1, "explanation": "Actual intents differ, but the declarations match (20 bottles) as a reasonable third party understands them → normative consensus on 20; Tony made an error in declaration and may contest (L2)." },
+    { "topic": "consensus", "question": "Tony orders “a bottle of Brunello”. Gary has none left and “confirms” “a bottle of Barolo”. Result?", "options": ["Contract for Brunello", "Contract for Barolo", "No contract has been concluded", "Contract for Brunello, contestable"], "answer": 2, "explanation": "The declarations don't match → dissent → no contract (Gary's reply is at most a new offer)." },
+    { "topic": "consensus", "question": "Tony says “a case of Brunello” by mistake. Gary knows Tony always buys single bottles and understands “a bottle”. Result?", "options": ["Contract for a bottle (natural consensus)", "Contract for a case, contestable", "No contract", "Contract for a case, not contestable"], "answer": 0, "explanation": "Both actually intended one bottle → natural consensus; the wording doesn't matter." },
+    { "topic": "consensus", "question": "The ‘principle of trust’ asks whether…", "options": ["both parties trusted each other", "a reasonable third party would have understood the declaration as one of the parties did", "the court trusts the buyer", "the contract was notarized"], "answer": 1, "explanation": "It is the test for normative consensus when actual intents differ." },
+    { "topic": "essentialia", "question": "The parties agreed on the object and price but not on the payment terms. Is there a contract?", "options": ["No, all terms must be agreed", "Yes, consensus on the essentialia negotii suffices; the court can add ancillary terms (CO 2)", "Only if in writing", "Only if a court approves"], "answer": 1, "explanation": "CO 2: ancillary/secondary terms like payment or delivery terms can be added by the court." },
+    { "topic": "impermissible-content", "question": "Flora promises Eric CHF 100 to beat up her ex-boyfriend and pays half in advance. The contract is…", "options": ["valid", "valid but contestable", "invalid because its content is unlawful (CO 19/20)", "pending"], "answer": 2, "explanation": "Unlawful content → invalid." },
+    { "topic": "form", "question": "Which is the principle regarding the form of contracts?", "options": ["Written form is always required", "Freedom of form, unless the law (CO 11) or the parties (CO 16) require a form", "Public deed for all contracts above CHF 1,000", "Only oral contracts are valid"], "answer": 1, "explanation": "Verbal, implied or tacit declarations suffice unless a statutory or reserved form applies." },
+    { "topic": "form", "question": "Simple written form requires…", "options": ["a notary", "a written declaration with a handwritten signature (CO 13/14)", "the whole contract to be handwritten", "two witnesses"], "answer": 1, "explanation": "Qualified written form adds e.g. handwriting; public deed adds notarization." },
+    { "topic": "capacity", "question": "Sandro (17) buys a Rolex for CHF 10,300 without his parents' consent. The contract is…", "options": ["valid", "void", "pending (requires approval by the legal representative)", "valid but contestable"], "answer": 2, "explanation": "Capable of judgment but a minor → limited incapacity (CC 19 I); not a minor everyday transaction → needs approval." },
+    { "topic": "capacity", "question": "Which can a 17-year-old capable of judgment do alone?", "options": ["Buy a car on credit", "Accept a free gift of CHF 5,000 / spend wages from their own work", "Book a CHF 4,000 trip", "Sell their parents' house"], "answer": 1, "explanation": "CC 19 II: advantages free of charge; CC 323 I: own wages." },
+    { "topic": "legal-personality", "question": "Which has NO legal personality?", "options": ["A company limited by shares", "A foundation", "A general partnership", "A natural person"], "answer": 2, "explanation": "Partnerships are groups of persons without legal personality." },
+    { "topic": "legal-personality", "question": "Ms. Smith negotiates a discount with salesperson Patrik of Sports Ltd. Who is her contractual partner?", "options": ["Patrik", "Sports Ltd.", "The managing director", "The shareholders"], "answer": 1, "explanation": "The contract is between Ms. Smith and the legal entity." },
+    { "topic": "validity-conditions", "question": "According to your validity summary, which missing condition makes a contract valid but contestable?", "options": ["Capacity to act", "Consensus", "A defect of intent (e.g. error, fraud)", "Permissible content"], "answer": 2, "explanation": "Defects of intent and unfair advantage → contestable; the other four → void." },
+    { "topic": "grounds", "question": "Which is a statutory ground for obligations (not a legal transaction)?", "options": ["Sales contract", "Unjust enrichment", "Lease", "Mandate"], "answer": 1, "explanation": "Statutory grounds: tort, unjust enrichment, culpa in contrahendo, agency without authority, other legal obligations." }
+  ],
+  "mock": {
+    "questions": [
+      { "type": "mc", "points": 2, "topic": "consensus", "question": "Silvia orders “Bose QuietComfort”; salesperson Patrik absentmindedly confirms “Bose QuietComfort”, but actually understood “QuietComfort Ultra”. Applying the consensus scheme:", "options": ["No contract (hidden dissent)", "Contract for QuietComfort (declarations match), contestable by the seller", "Contract for QuietComfort Ultra", "Natural consensus on QuietComfort Ultra"], "answer": 1, "explanation": "Actual intents differ, but the declarations match: normative consensus on QuietComfort; the seller erred in his declaration." },
+      { "type": "mc", "points": 2, "topic": "validity-conditions", "question": "Which defect leads to a contract that is valid but contestable?", "options": ["Content is unlawful", "A party lacks capacity to act", "A statutory form was not observed", "A party was induced by fraud"], "answer": 3, "explanation": "Defects of intent (error, fraud, duress) and unfair advantage → contestable; the others → void." },
+      { "type": "mc", "points": 2, "topic": "form", "question": "Alpha Ltd. and Beta LLC agree from the start that their contract must be in writing. After a verbal agreement, Beta refuses to sign. Which provision matters most?", "options": ["CO 11 (statutory form)", "CO 16 (contractually reserved form)", "CO 19/20", "CC 13"], "answer": 1, "explanation": "The parties themselves reserved written form → CO 16." },
+      { "type": "mc", "points": 2, "topic": "capacity", "question": "Under CC 16, a person is capable of judgment unless they lack the capacity to act rationally because of…", "options": ["being under 21", "being under age, mental disability, mental disorder, intoxication or similar circumstances", "poverty", "lack of education"], "answer": 1, "explanation": "CC 16 lists these circumstances." },
+      { "type": "mc", "points": 2, "topic": "legal-personality", "question": "Which statement is correct?", "options": ["Shareholders are parties to every contract of the Ltd.", "A foundation is a legal entity (independent body)", "A simple partnership is a legal entity", "Only natural persons can conclude contracts"], "answer": 1, "explanation": "Legal entities: corporate entities and independent bodies (foundations). Partnerships have no legal personality." },
+      { "type": "mc", "points": 2, "topic": "commitment-performance", "question": "Sports Ltd. signs a contract to sell a bike that will be manufactured in 3 months. Which is correct?", "options": ["The contract is void because the bike doesn't exist yet", "The contract is the act of commitment; the transfer of ownership is the later act of performance", "The buyer is already owner", "Ownership passes when the contract is signed"], "answer": 1, "explanation": "Commitment (undertaking to transfer ownership) vs. performance (transferring it)." },
+      { "type": "mc", "points": 2, "topic": "impermissible-content", "question": "A contract is invalid under CO 19/20 if its content is…", "options": ["unfavourable to one party", "initially objectively impossible, unlawful or immoral", "not in writing", "concluded by a minor"], "answer": 1, "explanation": "The three categories of impermissible content." },
+      { "type": "open", "points": 8, "topic": "consensus", "question": "Explain the consensus scheme (natural consensus, normative consensus, open and hidden dissent, principle of trust). Then solve: Anton wants to order a “TREK Powerfly 7 FS Plus” but by mistake says “TREK Verve+”. Patrik confirms “TREK Verve+”. Has a contract been concluded, for which bike, and can it be contested?", "model": "First ask whether the parties' actual intents match: if yes → natural consensus (their real common intent applies). If not, ask whether the declarations of intent match, interpreted under the principle of trust: would a reasonable third party have understood the declaration as one party did? If yes → normative consensus: a contract with the declared content, which the mistaken party may contest. If the declarations don't match → dissent (open if the parties notice, hidden if they don't) → no contract. Case: Anton actually wanted the Powerfly, Patrik the Verve+ → no natural consensus. The declarations both say ‘Verve+’ → normative consensus → a contract for the TREK Verve+ has been concluded. Anton made an error in his declaration and can contest the contract.", "keyPoints": [ { "text": "Natural consensus explained (matching actual intents prevail)", "points": 1.5 }, { "text": "Principle of trust explained (reasonable third party)", "points": 1.5 }, { "text": "Normative consensus vs. open/hidden dissent (no contract) explained", "points": 1.5 }, { "text": "Case: no natural consensus; declarations match → contract for TREK Verve+", "points": 2 }, { "text": "Contestable by Anton because of his error", "points": 1.5 } ] },
+      { "type": "open", "points": 6, "topic": "capacity", "question": "Assess with the relevant provisions: (a) On Saturday night Anton sells his laptop to Béatrice for CHF 1,000 while she is heavily drunk and unable to understand the purchase. (b) Maria (17, capable of judgment) spends CHF 1,500 of her wages as a waitress on a TV.", "model": "(a) Capacity to act requires being of age and capable of judgment (CC 13). Béatrice lacks the capacity to act rationally due to intoxication → not capable of judgment (CC 16) → no capacity to act (CC 17). Capacity to act is a basic validity condition → the contract is void. (b) Maria is a minor (CC 14: 18+) but capable of judgment → limited incapacity to act; normally her legal representatives must approve (CC 19 I). But under CC 323 I a minor may spend the wage received for her own work at her own discretion → the purchase is valid.", "keyPoints": [ { "text": "(a) CC 13 requirements and CC 16 intoxication → incapable of judgment", "points": 1.5 }, { "text": "(a) CC 17 no capacity to act → contract void", "points": 1.5 }, { "text": "(b) Minor capable of judgment = limited incapacity (CC 19 I approval rule)", "points": 1.5 }, { "text": "(b) CC 323 I own wages → valid", "points": 1.5 } ] }
+    ]
+  }
+}

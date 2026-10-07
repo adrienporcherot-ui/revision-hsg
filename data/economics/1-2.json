@@ -1,0 +1,389 @@
+{
+  "id": "1-2",
+  "number": "1.2",
+  "title": "Gains from Trade",
+  "sources": ["Lecture1.2.pdf (slides, 40 p.)", "Micro 1.2 study guide", "Chapter 2 Summary (textbook ch. 2)", "Microeconomics Digressions Revision Guide (Digressions 2.1–2.4)"],
+  "summary": {
+    "bigPicture": [
+      "People's actions are **interdependent**. **Specialization and exchange (trade)** are a fundamental response to scarcity; **autarky** (no trade) is the benchmark.",
+      "Using **opportunity costs** (Part 1.1) we see why specialization and trade can make everyone better off, **even when one person is better at everything**.",
+      "**Absolute advantage** (Adam Smith) vs. **comparative advantage** (David Ricardo): comparative advantage decides who should specialize in what.",
+      "Three critical questions: does trade make **everybody** better off? Are **institutions** needed? Is the result **robust**?",
+      "Answers: trade can create **losers**; gains need **institutions** (hold-up problem); comparative advantage is **dynamic** (List, Juhász)."
+    ],
+    "concepts": [
+      {
+        "id": "autarky",
+        "name": "Interdependence, trade and autarky",
+        "slides": "Slide 6",
+        "simple": "Nobody makes everything they use: you don't grow your coffee or build your phone, you rely on others. ‘Autarky’ is the opposite: living like Robinson Crusoe and producing everything yourself.",
+        "exam": "A fundamental aspect of coping with scarcity: **the acts of individuals are interdependent**. This is the basis for **exchange and specialization (trade)**. The situation without trade is **autarky**: each individual produces everything he or she consumes (textbook: all individuals abstain from trading; consumption = own production).",
+        "example": "In autarky, Ann can only eat the tomatoes and pears she grows herself."
+      },
+      {
+        "id": "smith-ricardo",
+        "name": "Smith and Ricardo",
+        "slides": "Slide 7",
+        "simple": "Two famous old economists: Smith said dividing up work makes everyone more productive; Ricardo showed that trade pays off even if one side is better at everything.",
+        "exam": [
+          "| Thinker | Idea | Work |",
+          "|---|---|---|",
+          "| Adam Smith (1723–1790) | division of labour, **absolute advantage** | *Wealth of Nations* (1776) |",
+          "| David Ricardo (1772–1823) | **comparative advantage** | *Principles of Political Economy and Taxation* (1817) |"
+        ],
+        "example": "Exam T/F: “Comparative advantage goes back to Adam Smith” → false (Ricardo)."
+      },
+      {
+        "id": "four-cases",
+        "name": "The four introductory cases",
+        "slides": "Slide 8",
+        "simple": "Ann and Bill, tomatoes and pears. Depending on who can make what and who wants what, trade is useless, obvious, or surprisingly useful.",
+        "exam": [
+          "| Case | Setup | Lesson |",
+          "|---|---|---|",
+          "| 1 | Each can produce exactly one good and wants only that good | trade is useless |",
+          "| 2 | Each can produce exactly one good and wants both | trade is obviously needed |",
+          "| 3 | Both can produce both; one is better at tomatoes, the other at pears | **absolute advantage** |",
+          "| 4 | Both can produce both; one is better at **both** | **comparative advantage** (the key case) |"
+        ],
+        "example": "Case 4 is the one HSG loves: it shows that even the ‘worse’ person has something to offer."
+      },
+      {
+        "id": "ppf",
+        "name": "Production-possibility frontier (PPF) from a time budget",
+        "slides": "Slides 9–10",
+        "simple": "The PPF shows every combination of pears and tomatoes you can make if you use all your hours. On the line = all time used; inside = time wasted; outside = impossible.",
+        "exam": [
+          "**Definition:** the PPF is the set of all combinations (xP, xT) an individual can produce when the time endowment (here **120 h**) is fully used.",
+          "",
+          "Case 3 data (hours per kg): Ann T 2, P 6 → max 60 T or 20 P. Bill T 6, P 2 → max 20 T or 60 P.",
+          "- Ann: 2·xT + 6·xP = 120 ⇔ **xT = 60 − 3·xP**",
+          "- Bill: 6·xT + 2·xP = 120 ⇔ **xT = 20 − ⅓·xP**",
+          "",
+          "The (absolute) **slope** of the PPF = opportunity cost of the good on the horizontal axis."
+        ],
+        "example": "Ann's slope 3 means 1 more kg of pears costs her 3 kg of tomatoes (6 h / 2 h)."
+      },
+      {
+        "id": "autarky-consumption",
+        "name": "Autarky consumption on the 45° line",
+        "slides": "Slides 11–12",
+        "simple": "Without trade you only eat what you make. Both want equal amounts of tomatoes and pears, so each picks the point on their own PPF where the two amounts are equal.",
+        "exam": "Preference assumption: both always want **xT = xP** (45° line). In autarky consumption = production, so solve PPF and xT = xP together. Case 3: Ann xP = 60 − 3xP ⇒ **(15, 15)**; Bill xP = 20 − ⅓xP ⇒ **(15, 15)**. Total autarky output: 30 T, 30 P.",
+        "example": "Recipe: substitute xT = xP into the PPF equation and solve for xP."
+      },
+      {
+        "id": "absolute-advantage",
+        "name": "Absolute advantage and specialization (Case 3)",
+        "slides": "Slides 13–15",
+        "simple": "Whoever can make more of something when focusing only on it has the absolute advantage. Ann is the tomato champion, Bill the pear champion. If each does only what they're best at and they swap, both get more.",
+        "exam": [
+          "**Definition:** if both individuals concentrate exclusively on the same good, and one produces more of it than the other, that individual has an **absolute advantage** in producing that good. Ann: tomatoes (60 > 20). Bill: pears (60 > 20).",
+          "",
+          "| Production (kg) | Tomatoes | Pears |",
+          "|---|---|---|",
+          "| Autarky Ann / Bill | 15 / 15 | 15 / 15 |",
+          "| Σ autarky | 30 | 30 |",
+          "| Specialization Ann / Bill | 60 / 0 | 0 / 60 |",
+          "| Σ specialization | **60** | **60** |",
+          "",
+          "Output **doubles** although nobody works more. **Trade:** Ann gives 30 T for 30 P → each consumes **(30, 30)** instead of (15, 15): both better off."
+        ],
+        "example": "Like two flatmates: one cooks, the other cleans; the flat is cleaner *and* the food better than if each did half of both."
+      },
+      {
+        "id": "opportunity-cost",
+        "name": "Opportunity costs in Case 4",
+        "slides": "Slides 16–21",
+        "simple": "Ask: “to get one more kilo of pears, how many tomatoes must I give up?” For Ann pears are cheap (only ½ kg of tomatoes); for Bill they're expensive (2 kg). For tomatoes it's the other way round.",
+        "exam": [
+          "Case 4 (hours per kg; 120 h each): **Ann** T 2, P 1 → max 60 T / 120 P. **Bill** T 2.5, P 5 → max 48 T / 24 P. Ann has an **absolute advantage in both goods**.",
+          "- PPFs: Ann 2xT + xP = 120 ⇔ xT = 60 − ½xP; Bill 2.5xT + 5xP = 120 ⇔ xT = 48 − 2xP.",
+          "- Autarky (xT = xP): **Ann (40, 40)**, **Bill (16, 16)**. Total 56 / 56.",
+          "",
+          "| OC of 1 kg | Tomatoes (in kg pears) | Pears (in kg tomatoes) |",
+          "|---|---|---|",
+          "| Ann | 2 | **½** |",
+          "| Bill | **½** | 2 |",
+          "",
+          "OC = ratio of hours (or absolute PPF slope). A person's two OCs are **reciprocals**."
+        ],
+        "example": "Ann: 1 kg pears takes 1 h; in 1 h she could make ½ kg tomatoes → OC of pears = ½ T."
+      },
+      {
+        "id": "comparative-advantage",
+        "name": "Comparative advantage",
+        "slides": "Slides 21–22",
+        "simple": "You have a comparative advantage in whatever you give up the least to make. Even if Ann is faster at both, she ‘sacrifices’ less to make pears and Bill sacrifices less to make tomatoes. So Ann should focus on pears and Bill on tomatoes.",
+        "exam": "**Definition:** an individual has a comparative advantage in the production of a good if he or she can produce it at **lower opportunity costs, measured in units of the other good**, than the other individual. Ann: pears (½ < 2). Bill: tomatoes (½ < 2). Comparative advantage is **relational**: with two people and two goods, if A has it in X, B has it in Y; nobody can have it in both.",
+        "example": "A top lawyer who types faster than her assistant should still let the assistant type: every hour she types costs her an hour of expensive legal work."
+      },
+      {
+        "id": "specialization-trade",
+        "name": "Specialization and trade in Case 4",
+        "slides": "Slides 23–24",
+        "simple": "Ann moves towards pears, Bill towards tomatoes. Together they now make more of both. Then they swap some, and each ends up eating more than before.",
+        "exam": [
+          "**Change in production:** Ann −12 T, +24 P → produces **(28 T, 64 P)**. Bill +24 T, −12 P → produces **(40 T, 4 P)**. Total **68 / 68** (vs. 56 / 56): +12 of each.",
+          "",
+          "**Trade:** Ann gives **18 P** for **18 T** from Bill. Consumption: **Ann (46, 46)** (+6 / +6), **Bill (22, 22)** (+6 / +6).",
+          "",
+          "Both are better off, even though Bill is worse at everything. Note: the slides use **partial** specialization (Ann still makes some tomatoes)."
+        ],
+        "example": "Check feasibility on the PPFs: Ann 2·28 + 64 = 120 ✓; Bill 2.5·40 + 5·4 = 120 ✓."
+      },
+      {
+        "id": "gains-types",
+        "name": "Material vs. subjective gains; concave and convex frontiers (textbook)",
+        "slides": "Chapter 2 summary (textbook), not on the slides",
+        "simple": "‘Gains’ can mean more stuff in total, or people feeling better off. And if your PPF is curved, comparative advantage can exist (or even be created by specializing).",
+        "exam": [
+          "- **Material gains from trade:** increase in total production. **Subjective gains:** increase in subjective well-being.",
+          "- **Concave frontier** (productivity falls the more you produce): OCs in autarky differ → still better to specialize and trade.",
+          "- **Convex frontier** (productivity rises the more you produce): no comparative advantage in autarky, but **specialization creates** a comparative advantage that did not exist before."
+        ],
+        "example": "Convex case: two identical workshops become better at different products simply by practising one each."
+      },
+      {
+        "id": "three-questions",
+        "name": "Three questions about trade",
+        "slides": "Slide 25",
+        "simple": "The example looks great, but: does everyone really win? Does it work by itself? And is it realistic?",
+        "exam": "1. Does specialization and trade make **everybody** better off? 2. Will gains from trade be exploited **automatically**, or do individuals have to create specific environments (**institutions**)? 3. Is the example **robust** (an important aspect of reality) or valid only under specific conditions?",
+        "example": "These three questions structure the rest of the lecture and the recap slide."
+      },
+      {
+        "id": "integration",
+        "name": "Question 1: simultaneous vs. sequential integration",
+        "slides": "Slide 26 · textbook Ch. 2 summary",
+        "simple": "If three countries agree on trade all at once, they can design a deal good for all. If two already trade and a third arrives with a better offer, one of the old partners may be dropped and lose out.",
+        "exam": [
+          "- **Simultaneous integration:** A, B and C start in autarky and specialize along comparative advantage; the surplus can be distributed so that at least one is better off and **nobody loses**.",
+          "- **Sequential integration:** A and B already trade; **C arrives with a better deal**. A drops B for C, **B falls back to autarky** and is a **loser from integration**.",
+          "- Countries cannot be treated as **unitary actors**: restructuring creates winners and losers, even if winners could in principle compensate losers."
+        ],
+        "example": "A Swiss supplier replaced by a cheaper foreign one after a new trade agreement is a ‘B’."
+      },
+      {
+        "id": "us-income",
+        "name": "Question 1: evidence from the US income distribution",
+        "slides": "Slides 27–28",
+        "simple": "Trade and integration made the US richer overall, but the extra money went mostly to the top. The pie grew, but the slices grew very unequally.",
+        "exam": [
+          "- **Mid-1970s–2000:** income inequality rose significantly, yet incomes grew in **all quintiles**.",
+          "- **2000–2010:** average real household income **declined** in all quintiles.",
+          "- **2010–2019:** recovery in each quintile; inequality resumed its rise.",
+          "- Since the late 1970s **top incomes decoupled**; median and lower percentiles grew much more slowly. Gains from integration were **real but very unevenly distributed** (Donovan et al. 2021, CRS R44705)."
+        ],
+        "example": "Answer to Q1 in the recap: specialization and trade **can create losers**."
+      },
+      {
+        "id": "trade-conflict",
+        "name": "Question 2: trade and conflict (two theories)",
+        "slides": "Slide 29",
+        "simple": "Does trading make countries friends (too dependent to fight) or does it give the stronger side a weapon (“do what I say or I cut your gas”)?",
+        "exam": [
+          "- **Theory 1:** specialization and trade make international (military) conflicts **less likely** as countries depend on each other (**globalization as a peacemaker**).",
+          "- **Theory 2:** specialization creates **dependencies that can be uni- or multilaterally exploited**; conflicts can become **more likely** because (1) economic dependencies can be **asymmetrically exploited**, (2) some countries specialize in **indispensable resources or intermediate products**.",
+          "- Textbook: vulnerability cuts both ways. **Ceteris paribus** view: don't give in to an aggressor's unjustified demands; **general equilibrium** view: mutual interdependence makes conflict less likely. Example: Switzerland produces its own food without a comparative advantage in agriculture (higher prices, subsidies)."
+        ],
+        "example": "Which theory dominates is ultimately an empirical question (slide 30)."
+      },
+      {
+        "id": "hold-up",
+        "name": "The hold-up problem",
+        "slides": "Slides 30–31",
+        "simple": "Once you depend on one supplier, they can squeeze you: “pay more or I stop delivering.” Specializing makes you vulnerable.",
+        "exam": "“Economists have coined the term **hold-up problem** for a situation where **specialization creates power asymmetries that can be exploited by the relatively more powerful partner**” (Kolmar 2022, p. 40). Dependencies today: Russian gas (~40 % of EU gas imports in 2021 → ~8 % in 2023), rare earths, Taiwanese semiconductors (TSMC ~54 % foundry share). This is a problem for **countries, firms and individuals**.",
+        "example": "A firm that built a factory next to a single customer can be pressured into lower prices because it cannot easily sell elsewhere."
+      },
+      {
+        "id": "institutions",
+        "name": "Why gains from trade need institutions",
+        "slides": "Slide 32 · textbook Ch. 2",
+        "simple": "Trade is like a team project: it only pays off if there are rules that stop one member from taking advantage of the others.",
+        "exam": [
+          "- Gains from trade **do not materialize automatically**: specialization creates interdependence and thus **vulnerability (hold-up)**.",
+          "- Whether trade makes everybody better off **depends on the rules** under which it takes place.",
+          "- “Economics, as the study of how men and society choose to employ scarce productive resources, is therefore **primarily the study of institutions**” (Kolmar 2022, p. 44).",
+          "- Textbook definition: **institutions** are humanly devised constraints that structure political, social and economic interactions; they rely on mutual consensus, i.e. they are **ontologically subjective**."
+        ],
+        "example": "Contracts, courts and trade agreements are institutions that make it safe to specialize."
+      },
+      {
+        "id": "dynamic-ca",
+        "name": "Question 3: dynamic comparative advantage",
+        "slides": "Slide 33",
+        "simple": "Ricardo's theory is a snapshot of who is good at what today. But you can change what you're good at by learning or investing, so comparative advantage can move over time.",
+        "exam": "The classical (Ricardian) theory is **static**: it takes current resources and technologies as given. But **investments, learning, and government policy** can change a country's comparative advantage **over time**.",
+        "example": "Digression 2.2: China's shift from low-skilled production to high-tech sectors."
+      },
+      {
+        "id": "list",
+        "name": "Friedrich List and the infant-industry argument",
+        "slides": "Slides 33–34",
+        "simple": "Like protecting a young plant from the wind until it's strong: shield a new industry from foreign competition for a while, then remove the protection once it can compete.",
+        "exam": [
+          "Friedrich **List** (1789–1846) criticized the free-trade doctrines of Smith and Ricardo: comparative advantage is **not fixed**; it can be altered through **political measures**. *National System of Political Economy* (1841):",
+          "1. Protect young industries through **tariffs or subsidies**.",
+          "2. Let them grow until **globally competitive**.",
+          "3. Then **reduce protection** to enable competition.",
+          "",
+          "Logic: **short-term losses** (higher prices, lower efficiency) → **long-term gains** (higher productivity, new comparative advantage). Today protectionism is often defended for (re-)industrialization; whether it works is intensely debated (**market vs. government failures**; cf. Digression 2.2)."
+        ],
+        "example": "A government taxing imported solar panels for 10 years so a domestic industry can learn, then removing the tariff."
+      },
+      {
+        "id": "back-to-bill",
+        "name": "Back to Bill: comparative advantage at the individual level",
+        "slides": "Slide 35",
+        "simple": "With only basic schooling, Bill's ‘cheapest’ jobs are delivery or cleaning, which pay little. If he studies, his comparative advantage can shift to programming or medicine.",
+        "exam": "With a basic education, Bill's opportunity costs are lowest in **simple tasks** (delivery, cleaning): his comparative advantage lies there, even though these jobs pay little (**low absolute productivity**). Ricardo: specialize where your OC is lowest **today**. But Bill **invests in education/training**, develops skills (programming, engineering, medicine), and his comparative advantage **shifts** to high-productivity, well-paid work.",
+        "example": "Your HSG degree is an investment that changes your own comparative advantage."
+      },
+      {
+        "id": "juhasz",
+        "name": "Evidence: the Napoleonic Blockade (Juhász 2018)",
+        "slides": "Slides 36–37",
+        "simple": "Napoleon blocked British goods, which accidentally protected French cotton factories, more in the north (harder to smuggle) than in the south. The north built a cotton industry that lasted long after the blockade ended.",
+        "exam": [
+          "Juhász, Réka (2018), *Temporary Protection and Technology Adoption: Evidence from the Napoleonic Blockade*, AER 108(11).",
+          "- **Objective:** identify the **causal effect of temporary trade protection**.",
+          "- **Method:** the Continental Blockade (**1806–1814**, Berlin Decree) as a **natural experiment**; British goods leaked in via smuggling hubs (Gibraltar, Malta), so effective distance to London rose sharply in the **north**, much less in the **south** → regionally different trade-cost shocks.",
+          "- **Results:** high temporary protection → significant growth and new establishments in northern cotton spinning; the south stagnated. **Persistence:** the northern advantage survived (1840, 1887).",
+          "- **Caveat (Juhász):** temporary protection can **shift** comparative advantage; it is **not a general licence for protectionism**."
+        ],
+        "example": "This is the ‘reliable data’ answer to whether the infant-industry argument can work."
+      },
+      {
+        "id": "recap",
+        "name": "Recap: answers to the three questions",
+        "slides": "Slide 38",
+        "simple": "1) No, not everyone wins. 2) Yes, rules are needed. 3) The idea is general, but who is good at what can change.",
+        "exam": [
+          "| Question | Answer |",
+          "|---|---|",
+          "| 1. Everybody better off? | **No**: specialization and trade can create **losers** (US income data). |",
+          "| 2. Institutions needed? | **Yes**: specialization creates hold-up vulnerability; gains depend on the rules of exchange; economics is “primarily the study of institutions”. |",
+          "| 3. Robust? | The mechanism is general, but comparative advantage is **dynamic** and can be shifted (List, Juhász). |"
+        ],
+        "example": "A perfect 3-line answer to an open exam question on ‘limits of the Ricardian model’."
+      },
+      {
+        "id": "heckscher-ohlin",
+        "name": "Heckscher–Ohlin model (Digression 2.1)",
+        "slides": "Digression 2.1 (TB p. 35), independent study",
+        "simple": "When a country opens up to trade, people who own what the country has a lot of win, and people who own what is rare in that country lose.",
+        "exam": "The **Heckscher–Ohlin model** shows that globalization **benefits owners of abundant resources** and **harms owners of scarce resources**. In developed countries low-skilled workers face challenges while high-skilled workers gain, deepening inequalities; not everyone can move to high-skilled sectors (urban–rural tensions). Protectionism benefits some groups short-term but causes overall losses, especially in trade wars; retaliatory tariffs (e.g. China's) hit specific, politically sensitive sectors.",
+        "example": "In Switzerland (abundant in high-skilled labour), trade opening benefits high-skilled workers more than low-skilled ones."
+      },
+      {
+        "id": "ca-over-time",
+        "name": "Comparative advantage over time (Digression 2.2)",
+        "slides": "Digression 2.2 (TB p. 39), independent study",
+        "simple": "What a country is good at can change through investment, but early choices can also trap a country in the wrong industries.",
+        "exam": "Comparative advantage **evolves** through investment in technology and skills (China: low-skilled → high-tech). Short-term market-driven specialization can create **path dependencies** that lock countries into unproductive technologies with limited growth potential. Economists debate whether **market forces or government intervention** better guide this evolution (market efficiency vs. correcting market failures).",
+        "example": "A country specializing only in raw materials may never develop manufacturing skills."
+      },
+      {
+        "id": "moral-education",
+        "name": "Capitalism and moral education (Digression 2.3); alienation",
+        "slides": "Digression 2.3 (TB p. 40) · textbook Ch. 2",
+        "simple": "Some old thinkers said trading makes people nicer: instead of fighting for power, they focus on making money and see others as customers. Others warn that endless specialization can make work boring and people narrow.",
+        "exam": [
+          "- **Montesquieu, Steuart, Smith:** capitalism channels destructive passions into **profit-seeking**, promoting harmless **bourgeois virtues** over harmful pursuits of power. Free markets and competition as **moral education**: fostering cooperation, reducing discrimination.",
+          "- **Alienation** (textbook): giving up autarky means devoting one's life to specialization; one becomes a ‘little cog in a big wheel’, minds become ‘contracted’. Focusing only on material gains is too narrow to judge the effects of division of labour on well-being."
+        ],
+        "example": "A merchant who needs foreign customers has a reason to treat foreigners well."
+      },
+      {
+        "id": "ontology-epistemology",
+        "name": "Ontology and epistemology (Digression 2.4)",
+        "slides": "Digression 2.4 (TB p. 45), independent study",
+        "simple": "Ontology asks “what exists / what is true?”; epistemology asks “how can we find out?”",
+        "exam": "**Ontology** = the study of the nature of being and reality (what is true). **Epistemology** = the study of knowledge and justified belief (the methods of finding out those truths). Institutions are **ontologically subjective**: they exist because people agree they exist.",
+        "example": "“Money exists only because we accept it” is an ontological claim; “we test theories by falsification” is an epistemological one."
+      }
+    ],
+    "connections": [
+      "**Opportunity cost (1.1) → comparative advantage:** comparative advantage is just ‘lower opportunity cost’; the PPF slope from 1.1 is that opportunity cost.",
+      "**Absolute vs. comparative advantage:** absolute compares *output*, comparative compares *opportunity costs*; only the latter determines specialization.",
+      "**Gains from trade → institutions → Part 2.1:** the market is the institution (property rights + contract law) that organizes exchange at scale; CS + PS in 2.1 measures these gains in money.",
+      "**Hold-up → externalities and market power (2.2, 3.x):** specialization creates power asymmetries, a theme that returns with monopoly and oligopoly.",
+      "**Positive vs. normative (1.1):** ‘trade raises total output’ is positive; ‘trade is good’ requires a normative judgment about winners and losers (Q1).",
+      "**Digression 2.4 ↔ institutions:** institutions are ontologically subjective, like money (Digression 3.3)."
+    ],
+    "examFocus": {
+      "questions": [
+        "Calculation with two people, two goods and time budgets: PPFs, autarky consumption (45° line), opportunity costs, who has which absolute and comparative advantage, gains after specialization and trade.",
+        "T/F: absolute vs. comparative advantage; Smith vs. Ricardo; ‘a person can have a comparative advantage in both goods’ (false).",
+        "Explain why trade can create losers (sequential integration, US income data).",
+        "Define the hold-up problem and explain why gains from trade need institutions.",
+        "Explain the infant-industry argument and the evidence from Juhász (2018), including its caveat.",
+        "Digressions 2.1–2.4 (Heckscher–Ohlin, comparative advantage over time, moral education, ontology/epistemology) in the digressions T/F block."
+      ],
+      "traps": [
+        "Comparative advantage is about **opportunity costs**, not hours or maximum output. Ann has the absolute advantage in both goods but the comparative advantage in only one.",
+        "With two people and two goods, one person **cannot** have a comparative advantage in both goods (the OCs are reciprocals).",
+        "Measure OC **in units of the other good**, not in hours.",
+        "Case 4 on the slides uses **partial** specialization (Ann still produces 28 T).",
+        "Juhász's result is **not** a general licence for protectionism.",
+        "‘Gains from trade’ ≠ ‘everybody gains’."
+      ],
+      "mistakes": [
+        "Computing autarky without the preference xT = xP (the 45° line).",
+        "Inverting the OC ratio (e.g. writing Ann's OC of pears as 2 instead of ½).",
+        "Forgetting to check that new production points lie on the PPFs.",
+        "Attributing comparative advantage to Adam Smith."
+      ]
+    },
+    "memorize": [
+      "**Autarky:** each individual produces everything he or she consumes.",
+      "**PPF:** all combinations producible when the time endowment is fully used; |slope| = opportunity cost.",
+      "**Absolute advantage:** producing more of a good when both concentrate exclusively on it (Smith 1776).",
+      "**Comparative advantage:** producing a good at lower opportunity cost, measured in units of the other good (Ricardo 1817).",
+      "**OC of good A** = hours per unit of A ÷ hours per unit of B (in units of B).",
+      "**Case 4 numbers:** autarky Ann (40,40), Bill (16,16); production Ann (28 T, 64 P), Bill (40 T, 4 P); trade 18 P ↔ 18 T; consumption Ann (46,46), Bill (22,22).",
+      "**Hold-up problem:** specialization creates power asymmetries exploitable by the more powerful partner (Kolmar p. 40).",
+      "**Institutions:** humanly devised constraints structuring interactions; economics is “primarily the study of institutions” (p. 44).",
+      "**Infant-industry argument (List 1841):** temporary protection → competitiveness → remove protection.",
+      "**Juhász (2018):** Napoleonic Blockade 1806–1814 as natural experiment; temporary protection shifted comparative advantage persistently.",
+      "**Heckscher–Ohlin:** globalization benefits owners of abundant resources, harms owners of scarce ones.",
+      "**Ontology / epistemology:** what is true / how we find out."
+    ],
+    "gaps": [
+      "Slide 26 (simultaneous vs. sequential integration) is only a diagram on the slides; the explanation above comes from your Chapter 2 textbook summary.",
+      "Slide 40 (“Your Turn”) only links to Slido; the original exam questions are not in the PDF.",
+      "Your Chapter 2 textbook summary uses a different numerical example (Ann xT = 100 − xP, Bill xT = 50 − 2xP, autarky 50 and 50/3). Don't mix its numbers up with the slide example."
+    ]
+  },
+  "practice": [
+    { "topic": "opportunity-cost", "question": "Ann needs 2 h for 1 kg of tomatoes and 1 h for 1 kg of pears. Her opportunity cost of 1 kg of tomatoes is…", "options": ["½ kg of pears", "1 kg of pears", "2 kg of pears", "2 hours"], "answer": 2, "explanation": "The 2 hours for 1 kg of tomatoes could produce 2 kg of pears. OC is measured in units of the other good, not in hours." },
+    { "topic": "comparative-advantage", "question": "Who has the comparative advantage in a good?", "options": ["The person who can produce more of it in total", "The person who produces it at the lower opportunity cost", "The person with more time available", "The person who likes the good more"], "answer": 1, "explanation": "Comparative advantage = lower opportunity cost. Producing more in total is absolute advantage." },
+    { "topic": "comparative-advantage", "question": "In a two-person, two-good world, Ann has an absolute advantage in both goods. Then…", "options": ["Ann also has a comparative advantage in both goods", "Bill has a comparative advantage in exactly one good", "Trade cannot benefit Ann", "Neither has a comparative advantage"], "answer": 1, "explanation": "OCs are reciprocals, so each person has a comparative advantage in exactly one good (unless OCs are equal)." },
+    { "topic": "autarky-consumption", "question": "Bill has 120 h; he needs 2.5 h per kg of tomatoes and 5 h per kg of pears and wants xT = xP. What does he consume in autarky?", "options": ["(24, 24)", "(16, 16)", "(20, 20)", "(48, 24)"], "answer": 1, "explanation": "2.5x + 5x = 120 → 7.5x = 120 → x = 16." },
+    { "topic": "specialization-trade", "question": "In Case 4, after specialization and trade, Ann and Bill consume…", "options": ["(40,40) and (16,16)", "(46,46) and (22,22)", "(64,28) and (4,40)", "(60,60) and (24,24)"], "answer": 1, "explanation": "Production Ann (28 T, 64 P), Bill (40 T, 4 P); trade 18 P for 18 T → Ann (46,46), Bill (22,22): +6 each." },
+    { "topic": "absolute-advantage", "question": "In Case 3 (Ann max 60 T or 20 P; Bill max 20 T or 60 P), full specialization along absolute advantage changes total output from…", "options": ["(30,30) to (60,60)", "(15,15) to (30,30)", "(60,60) to (30,30)", "(30,30) to (40,40)"], "answer": 0, "explanation": "Autarky: each (15,15) → total (30,30). Specialization: Ann 60 T, Bill 60 P → (60,60). Output doubles." },
+    { "topic": "smith-ricardo", "question": "The principle of comparative advantage is associated with…", "options": ["Adam Smith, Wealth of Nations (1776)", "David Ricardo, Principles of Political Economy and Taxation (1817)", "Friedrich List, National System (1841)", "Réka Juhász (2018)"], "answer": 1, "explanation": "Smith: division of labour and absolute advantage. Ricardo: comparative advantage." },
+    { "topic": "hold-up", "question": "The hold-up problem describes…", "options": ["that trade always increases total output", "power asymmetries created by specialization that the more powerful partner can exploit", "a situation where nobody wants to specialize", "the time lag between production and consumption"], "answer": 1, "explanation": "Kolmar (2022, p. 40). Examples: gas, rare earths, semiconductors." },
+    { "topic": "integration", "question": "In sequential integration (A and B trade; C joins with a better deal), who can lose?", "options": ["Nobody, integration always benefits all", "C, because it joins last", "B, who may be dropped and fall back to autarky", "A, because it has to trade with two partners"], "answer": 2, "explanation": "A replaces B with C; B falls back to autarky and loses from integration." },
+    { "topic": "list", "question": "Friedrich List's infant-industry argument says that…", "options": ["free trade is always optimal", "comparative advantage is fixed by nature", "temporary protection of young industries can create a new comparative advantage", "tariffs should be permanent"], "answer": 2, "explanation": "Protect, let the industry become competitive, then reduce protection." },
+    { "topic": "juhasz", "question": "What is Juhász's (2018) caveat?", "options": ["The blockade had no effect on France", "Temporary protection can shift comparative advantage, but this is not a general licence for protectionism", "Smuggling made protection equal everywhere", "The effect disappeared right after 1814"], "answer": 1, "explanation": "The northern advantage persisted (1840, 1887), but the author warns against generalizing to protectionism." },
+    { "topic": "heckscher-ohlin", "question": "Digression 2.1: according to the Heckscher–Ohlin model, globalization…", "options": ["benefits everyone equally", "benefits owners of abundant resources and harms owners of scarce resources", "benefits owners of scarce resources", "has no distributional effects"], "answer": 1, "explanation": "That's the core statement to know for the digressions T/F block." },
+    { "topic": "ontology-epistemology", "question": "Digression 2.4: epistemology is…", "options": ["the study of what exists", "the study of knowledge and the methods of finding out what is true", "the study of moral virtues", "the study of institutions"], "answer": 1, "explanation": "Ontology = what is true / nature of being; epistemology = methods of finding out those truths." },
+    { "topic": "recap", "question": "Which answer matches the lecture's recap on whether specialization and trade make everybody better off?", "options": ["Yes, always", "No, they can create losers", "Only if both have an absolute advantage", "Only under autarky"], "answer": 1, "explanation": "Recap Q1: trade can create losers (cf. US income-distribution data)." }
+  ],
+  "mock": {
+    "questions": [
+      { "type": "mc", "points": 2, "topic": "comparative-advantage", "question": "Lena needs 3 h per kg of bread and 1 h per kg of cheese; Tim needs 4 h per kg of bread and 2 h per kg of cheese. Who has the comparative advantage in bread?", "options": ["Lena, because she is faster at bread", "Tim, because his opportunity cost of bread (2 kg cheese) is lower than Lena's (3 kg cheese)", "Lena, because she has an absolute advantage in both goods", "Nobody, because Lena is better at both"], "answer": 1, "explanation": "OC of 1 kg bread: Lena 3/1 = 3 kg cheese, Tim 4/2 = 2 kg cheese → Tim. Lena's absolute advantage in both goods is irrelevant for comparative advantage." },
+      { "type": "mc", "points": 2, "topic": "comparative-advantage", "question": "Which statement is true in a world with two individuals and two goods?", "options": ["One individual can have a comparative advantage in both goods", "If one has an absolute advantage in both goods, trade cannot be mutually beneficial", "If the opportunity costs differ, each individual has a comparative advantage in exactly one good", "Comparative advantage is measured in hours"], "answer": 2, "explanation": "A person's two OCs are reciprocals; if A's OC of X is lower, B's OC of Y is lower. OC is measured in units of the other good." },
+      { "type": "mc", "points": 2, "topic": "smith-ricardo", "question": "Which pairing is correct?", "options": ["Smith – comparative advantage", "Ricardo – absolute advantage", "Ricardo – comparative advantage", "List – absolute advantage"], "answer": 2, "explanation": "Smith (1776): division of labour, absolute advantage; Ricardo (1817): comparative advantage; List (1841): infant-industry argument." },
+      { "type": "mc", "points": 2, "topic": "integration", "question": "Why can trade integration create losers according to the lecture and textbook?", "options": ["Because total output always falls", "Because in sequential integration an existing partner can be replaced and fall back to autarky", "Because comparative advantage disappears with trade", "Because only absolute advantage matters"], "answer": 1, "explanation": "Sequential integration: B is dropped for C. US data: gains real but unevenly distributed." },
+      { "type": "mc", "points": 2, "topic": "hold-up", "question": "A country imports 90 % of its gas from one supplier, who threatens to cut deliveries unless the country changes its foreign policy. This illustrates…", "options": ["comparative advantage", "the hold-up problem", "autarky", "the infant-industry argument"], "answer": 1, "explanation": "Specialization created a power asymmetry the more powerful partner exploits." },
+      { "type": "mc", "points": 2, "topic": "juhasz", "question": "Why was the Napoleonic Blockade useful as a natural experiment (Juhász 2018)?", "options": ["Because it applied equally to all regions of France", "Because smuggling made the effective protection differ between the north and the south", "Because Britain also blocked French goods", "Because it lasted until 1887"], "answer": 1, "explanation": "Smuggling via Gibraltar and Malta made the trade-cost shock much larger in the north than in the south → regional variation in protection." },
+      { "type": "mc", "points": 2, "topic": "heckscher-ohlin", "question": "Digression 2.1: In a country rich in high-skilled labour, the Heckscher–Ohlin model predicts that trade opening…", "options": ["harms high-skilled workers", "benefits high-skilled workers and harms low-skilled workers", "benefits all workers equally", "has no effect on wages"], "answer": 1, "explanation": "Owners of the abundant resource gain; owners of the scarce resource lose." },
+      { "type": "calc", "points": 10, "topic": "specialization-trade", "question": "Mia and Noah each have 60 hours. Mia needs 1 h per kg of apples and 2 h per kg of nuts. Noah needs 3 h per kg of apples and 2 h per kg of nuts. Both always want to consume equal quantities of apples and nuts (xA = xN).\n(a) Write each PPF and compute autarky consumption. (b) Compute each person's opportunity cost of 1 kg of apples (in kg of nuts) and state who has the absolute and who the comparative advantage in each good. (c) Mia produces only apples and Noah only nuts. Compute total production and compare it with total autarky production.", "model": "(a) Mia: 1·xA + 2·xN = 60; with xA = xN: 3x = 60 → (20, 20). Noah: 3·xA + 2·xN = 60; 5x = 60 → (12, 12). Total autarky: 32 apples, 32 nuts.\n(b) OC of 1 kg apples: Mia 1/2 = ½ kg nuts; Noah 3/2 = 1.5 kg nuts. OC of 1 kg nuts: Mia 2 kg apples; Noah ⅔ kg apples. Absolute advantage: Mia in apples (60 vs. 20 kg max); in nuts both have max 30 kg, so nobody has an absolute advantage in nuts. Comparative advantage: Mia in apples (½ < 1.5), Noah in nuts (⅔ < 2).\n(c) Mia: 60 apples; Noah: 30 nuts → total (60 A, 30 N) vs. autarky (32, 32): more apples (+28) but fewer nuts (−2). Full specialization does not raise output of both goods here; partial specialization (e.g. Mia producing some nuts) would be needed to raise both.", "keyPoints": [ { "text": "(a) Both PPFs written correctly", "points": 1.5 }, { "text": "(a) Autarky Mia (20,20) and Noah (12,12)", "points": 2 }, { "text": "(b) OCs of apples: Mia ½ nut, Noah 1.5 nuts (and/or OCs of nuts correct)", "points": 2 }, { "text": "(b) Absolute advantage: Mia in apples; nuts equal (30 = 30), so no absolute advantage", "points": 1 }, { "text": "(b) Comparative advantage: Mia apples, Noah nuts", "points": 1.5 }, { "text": "(c) Total (60 A, 30 N) compared with (32, 32): more apples, fewer nuts; both goods are not increased", "points": 2 } ] },
+      { "type": "open", "points": 6, "topic": "institutions", "question": "Explain why, according to the lecture, gains from trade do not materialize automatically. Use the term ‘hold-up problem’ and give one example from the slides.", "model": "Specialization makes individuals and countries interdependent: each relies on others for goods it no longer produces. This creates vulnerability. The hold-up problem is a situation where specialization creates power asymmetries that can be exploited by the relatively more powerful partner (Kolmar p. 40). Example: Europe's dependence on Russian gas (~40 % of EU imports in 2021), dependence on Taiwanese semiconductors (TSMC) or on rare earths. Therefore whether trade makes everybody better off depends on the rules (institutions) under which it takes place; economics is ‘primarily the study of institutions’.", "keyPoints": [ { "text": "Specialization creates interdependence / dependency and thus vulnerability", "points": 1.5 }, { "text": "Correct definition of the hold-up problem (power asymmetry exploited by the more powerful partner)", "points": 2 }, { "text": "One correct example from the slides (gas, semiconductors, rare earths)", "points": 1 }, { "text": "Conclusion: gains depend on the rules/institutions of exchange", "points": 1.5 } ] }
+    ]
+  }
+}

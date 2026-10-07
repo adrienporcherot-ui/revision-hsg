@@ -1,0 +1,247 @@
+{
+  "id": "4",
+  "number": "4",
+  "title": "Sale, Work Contract, Mandate, GTC",
+  "sources": ["Introduction to Private Law, Lecture 4 (slides, 40 p.)", "Private Law L4 Study Guide", "Private Law L4 Exercise Sheet"],
+  "summary": {
+    "bigPicture": [
+      "Lecture 4 explains **what each party owes** under the three most important contracts: **sale**, **work contract**, **mandate**.",
+      "In a sale the seller must transfer ownership of the **correct object, free of defects** (CO 197: warranted characteristics or other significant defects); the buyer pays the price.",
+      "Running question: if the object is destroyed **by accident**, who bears the loss? → **passing of risk** (CO 119; for sales CO 185; for work contracts CO 376).",
+      "**Work contract:** result owed, risk stays with the contractor until delivery. **Mandate:** diligent and faithful performance, no success owed.",
+      "Most contracts use **general terms and conditions (GTC)**; courts review them in three steps: **inclusion and consent → interpretation → content**."
+    ],
+    "concepts": [
+      {
+        "id": "sales-contract",
+        "name": "Sales contract in general",
+        "slides": "Slide 4",
+        "simple": "You get a thing, the other person gets money. The ‘thing’ can be almost anything with value: a bike, a flat, an animal, a patent, even a claim.",
+        "exam": "**Transfer of ownership of an object in return for payment of the purchase price** (CO 184 ff.). Possible objects: **chattel or immovable property**, but also **aggregates of objects or rights, animals, intellectual property rights, claims**, and other assets with an economic value.",
+        "example": "Buying a used bike, a patent or a debt claim are all sales contracts."
+      },
+      {
+        "id": "specific-generic",
+        "name": "Specific vs. generic goods",
+        "slides": "Slides 5–6",
+        "simple": "“I want *that* painting” (only one in the world fits) vs. “I want 1 kg of sugar” (any kilo from the pile will do). The parties' agreement decides which it is.",
+        "exam": [
+          "- **Specific goods:** according to the parties' agreement a **specific object** is owed that generally exists **only once** in the specified form and characteristics.",
+          "- **Generic goods:** the agreement specifies the **characteristics** (the category) and the **quantity** owed; the category can be broad (“vehicle”) or narrow (engine type, model, year, colour).",
+          "",
+          "Slide 6: Picasso's **Guernica** → specific; **100 kg grade A wheat** → generic; **500 galvanized 6 mm steel screws** → generic; **apartment** Musterstrasse 10, 3rd floor → specific; **iPhone 17 (256 GB, black)** → generic (a model, not an individual unit)."
+        ],
+        "example": "Trap (study guide): ‘a specific model’ is still generic: any unit of that model can be delivered."
+      },
+      {
+        "id": "seller-obligations",
+        "name": "Seller's obligations: transfer ownership; correct object free of defects",
+        "slides": "Slides 7–9",
+        "simple": "Handing over the thing isn't enough: you must make the buyer the legal owner. And it must be the right thing, and it must work properly.",
+        "exam": [
+          "**(1) Hand over the object and transfer ownership**, depending on the object: chattel → **transfer of possession**; immovable property → **registration in the land register**; IP rights → special legislation; claims → **assignment (CO 164 ff.)**.",
+          "**(2) Deliver the correct object, free of defects:** specific good → the specified object; generic good → an item of the specified category. **Free of defects (CO 197):** **warranted characteristics** and **other significant defects in quality** (quality below what the buyer is objectively entitled to expect).",
+          "",
+          "Reto's polo shirts: size **S instead of M** → **wrong object**; **missing button** → **defective object**; correct shirt in M that is **too small for him** → no issue for the seller (he got exactly what he ordered)."
+        ],
+        "example": "Selling a flat: ownership passes only with registration in the land register."
+      },
+      {
+        "id": "warranted",
+        "name": "Warranted characteristics; warranty vs. guarantee",
+        "slides": "Slides 10–12",
+        "simple": "A specific, checkable promise (“never been in an accident”) that made you buy is binding. Vague hype (“the best notebook on the planet”) isn't. A warranty says “it's fine now”; a guarantee says “it will stay fine for X years”.",
+        "exam": [
+          "**Warranted characteristic:** an **explicit or implied declaration** that the object has certain **objectively ascertainable characteristics** that the buyer **may rely on in good faith**. Remedies only if it **influenced the buyer's decision** to conclude the contract. A **mere advertisement** (non-binding promotional description, “the best notebook on the planet”) is **not** a warranty.",
+          "Case (FSC 4A_538/2013): a used Mercedes advertised as a “rare ‘flachkühler’ 3.5 in excellent condition”, a “clean original CH vehicle”, “leather and other parts like new”, bought after viewing and a test drive: are these warranted characteristics under CO 197 I? (See gaps.)",
+          "",
+          "**Warranty:** promise about properties that **already exist at delivery**. **Guarantee:** promise that properties **will continue to exist for a certain period**. The distinction matters for **notice periods and prescription** (e.g. **no notice period** in case of a guarantee)."
+        ],
+        "example": "“Original CH vehicle” is objectively checkable; “excellent condition” is more evaluative. Analyse phrase by phrase."
+      },
+      {
+        "id": "significant-defects",
+        "name": "Other significant defects; buyer's obligation",
+        "slides": "Slides 13–14",
+        "simple": "Even without a promise, a new car shouldn't arrive with a broken engine. It counts as a defect if you wouldn't have bought it, or not on those terms, had you known. The buyer's main job is simple: pay.",
+        "exam": "**Other significant defects in quality:** the **actual condition** substantially deviates from the **presumed condition (target state)**, determined **case by case**. **Substantiality:** the buyer **would not have concluded the contract at all, or not under the same conditions**, had they known about the defect. **Main obligation of the buyer:** **pay the purchase price**.",
+        "example": "A used car whose odometer was rolled back by 60,000 km deviates substantially from what a buyer may expect."
+      },
+      {
+        "id": "passing-risk",
+        "name": "Passing of risk: delivery risk and price risk (CO 119, 185)",
+        "slides": "Slides 15–21 · Study guide",
+        "simple": "You bought a cake that's still at the bakery. Lightning burns the bakery down; nobody's fault. Do you get another cake? Do you still pay? The law has rules for who ‘eats’ that loss.",
+        "exam": [
+          "- **Delivery risk:** if the seller's performance becomes impossible **through no fault of their own**, the buyer's claim to delivery ceases (**CO 119 I**).",
+          "- **Price risk:** is the consideration still owed? Default: **no (CO 119 II)**, unless the risk is regulated differently by law or contract (**CO 119 III**) → for sales: **CO 185**.",
+          "- Study guide (from the statute): **CO 185 I**: benefit and risk pass **at conclusion of the contract**, unless special circumstances or agreement say otherwise; **CO 185 II** (generic goods): the goods must also be **separated**, and if they are to be shipped, **dispatched**; **CO 185 III**: under a suspensive condition, only when the condition is fulfilled.",
+          "",
+          "**Checklist (slide 21):** (1) Has the contract been concluded? (2) Was the object destroyed **by accident**? (otherwise → **CO 97**). (3) Has the risk of accidental loss or destruction passed to the buyer?",
+          "",
+          "Cases: **Gallé lamp I** (unique lamp, lightning before pickup) → specific good, accident, risk passed at conclusion (CO 185 I) → Bertrand must pay. **Gallé lamp II** (Anne's cleaner knocks it over) → not an accident attributable to nobody: Anne is liable for her auxiliary person → CO 97 (with CO 101), not CO 185. **PlayStation** (latest model, stolen from the post) → generic good; delivery risk and price risk must be answered separately under CO 185 II. **Louis** (used bike, raincoat put aside, backpack still to be treated and mailed) → classify each item (specific/generic, separated, dispatched)."
+        ],
+        "example": "Sale: risk passes **early** (at conclusion, CO 185 I). Work contract: risk passes **late** (at delivery, CO 376). That's the key contrast."
+      },
+      {
+        "id": "work-contract",
+        "name": "Work contract: obligations and passing of risk (CO 376)",
+        "slides": "Slides 22–24",
+        "simple": "You pay a carpenter for a finished table that works, not for his effort. Until the table is handed over, if lightning destroys it, that's the carpenter's problem, unless you were late picking it up or you caused the problem (bad wood).",
+        "exam": [
+          "| Contractor | Customer |",
+          "|---|---|",
+          "| manufacture and **deliver the work** | **pay remuneration** |",
+          "| responsible for the **successful construction** of the work | **accept** the (correctly produced) work |",
+          "",
+          "- **CO 376 I:** if the work is destroyed **by accident prior to delivery**, the contractor has **no claim for payment**, unless the customer is **in default on acceptance**. Example: lightning burns a custom table before delivery → no payment; but if the customer should have collected on 1 March and the fire is on 10 March → the customer pays.",
+          "- **CO 376 III:** the contractor is entitled to payment if the work is destroyed due to **circumstances attributable to the customer** (defective materials supplied, method of production prescribed). Example: the customer insists on her own damp timber despite a written warning; the wardrobe splits → the cabinetmaker is paid for his work and expenses."
+        ],
+        "example": "The written warning matters: it shows the cause lies in the customer's sphere."
+      },
+      {
+        "id": "mandate",
+        "name": "Mandate: obligations",
+        "slides": "Slides 25–26",
+        "simple": "A lawyer or doctor must try their best, carefully and honestly. They don't promise you'll win or be cured. You pay them, cover their expenses and free them from obligations they took on for you.",
+        "exam": [
+          "| Mandatee | Mandator |",
+          "|---|---|",
+          "| do business or render services **in the interest of the mandator** | in general **pay remuneration** |",
+          "| liable for **diligent and faithful performance** (**no success owed**) | **reimburse expenses** |",
+          "| **give account** and **return everything received** as part of the mandate | **release** the mandatee from obligations entered into on the mandator's behalf |",
+          "| | **compensation for damages** |"
+        ],
+        "example": "A careful lawyer who loses the case still earns the fee; a lawyer who misses a deadline breaches the duty of diligence."
+      },
+      {
+        "id": "gtc",
+        "name": "General terms and conditions (GTC): what and why",
+        "slides": "Slides 27–29",
+        "simple": "GTC are the ‘small print’ a company writes once and uses for thousands of customers. They're not laws: they only count if they became part of your contract.",
+        "exam": [
+          "**GTC** are contractual provisions **pre-formulated by one party for a multitude of contracts** of a specific type (banks, insurers, SIA standards in construction, Swiss Homeowners' Association leases, sales contracts, social-media terms of use). They are of a **private character**: **not laws** that apply even if not accepted.",
+          "Why used: **rationalization** (simplified processing); **avoiding gaps** in the contract; **shifting risk** to the other party (disclaimer/limitation clauses); **unilateral restriction of freedom of contract** (“take it or leave it”)."
+        ],
+        "example": "The last two reasons (risk shifting, take-it-or-leave-it) are why courts control GTC."
+      },
+      {
+        "id": "gtc-inclusion",
+        "name": "GTC review step 1: inclusion and consent (unusual clauses)",
+        "slides": "Slides 30–32",
+        "simple": "Were you told about the rules before you agreed, could you get them and read them? And even if you accepted ‘all the terms’, a surprising clause hidden in the text doesn't automatically bind you. What you individually agreed beats the small print.",
+        "exam": [
+          "First question: have the (globally adopted) GTC **become part of the contract**? Inclusion must take place **when or before the contract is concluded**: the user must **inform** the other party, the GTC must be **accessible** and **legible**.",
+          "- **Primacy of individual agreements:** individual agreements take precedence over the GTC.",
+          "- **Rule of unusual clauses (DFT 138 III 411):** Dr. Furrer's insurance pays benefits after a 90-day waiting period; further down, benefits for **mental illness are halved after 180 days**; he becomes unable to work due to depression → is the unusual clause covered by his global acceptance?",
+          "",
+          "Elsa buys a laptop; the GTC are printed **on the back of the receipt** handed to her **after paying** → inclusion came too late (after conclusion)."
+        ],
+        "example": "Subaru ‘Fast’ package with a 5-year rust warranty vs. GTC §5 excluding rust liability → the individually agreed package prevails (primacy of individual agreements)."
+      },
+      {
+        "id": "gtc-interpretation",
+        "name": "GTC review step 2: interpretation (in dubio contra stipulatorem)",
+        "slides": "Slide 33",
+        "simple": "If the company writes something confusing, the confusion counts against the company, not you.",
+        "exam": "Unclear and ambiguous clauses are **interpreted** like normal contractual provisions. **Rule of unclear clauses:** in case of doubt, GTC are interpreted **to the disadvantage of their drafter** (**in dubio contra stipulatorem**). Elsa's GTC give the buyer a ‘right to request a repair’; the retailer claims this means repair *only* → an unclear clause is read against the retailer, i.e. not as excluding the statutory remedies.",
+        "example": "Latin phrase to remember: in dubio contra stipulatorem."
+      },
+      {
+        "id": "gtc-content",
+        "name": "GTC review step 3: content (mandatory law, Art. 8 UCA)",
+        "slides": "Slides 34–39",
+        "simple": "Some legal rules can't be switched off, whatever the small print says. And small print that is very unfair to consumers is itself unfair under competition law.",
+        "exam": [
+          "**Mandatory legal provisions take precedence**, e.g. **CO 100 I**, **CO 199**, **CO 210 IV**, **CO 404**, **Art. 8 Federal Act Against Unfair Competition (UCA)**.",
+          "**Art. 8 UCA:** “A person acts unfairly in particular if they use general terms and conditions of business that provide for a **considerable and unjustified imbalance** between contractual rights and contractual obligations **to the prejudice of consumers** in a manner that is **in breach of good faith**.”",
+          "",
+          "Cases: “**After six months, any liability is excluded**” (check against mandatory law); **Anja's fitness contract**: minimum one year, **automatic renewal** unless terminated by **registered mail 3 months** before expiry (unusual clause? Art. 8 UCA?); **SWISS ‘no show’ clause 3.3**: the fare is only valid if all flights are flown in the booked sequence, otherwise recalculated (Art. 8 UCA?)."
+        ],
+        "example": "Exam order: always inclusion → interpretation → content. Don't jump straight to Art. 8 UCA, and remember it protects **consumers** only."
+      }
+    ],
+    "connections": [
+      "**L1 → L4:** the moment of **conclusion** decides when risk passes (CO 185 I) and whether GTC were included in time.",
+      "**L2 → L4:** a missing warranted characteristic may also raise an **error** question (defects of intent).",
+      "**L3 → L4:** contract types (sale, work, mandate) are now filled with obligations; CO 119 (impossibility) is the general rule, CO 185 and 376 are special rules (CO 119 III); claims are sold by **assignment** (L3).",
+      "**Work contract vs. mandate:** result owed vs. diligence owed; risk late (CO 376) vs. termination at any time (CO 404, a mandatory provision also relevant for GTC).",
+      "**Forward (L5):** non-accidental destruction (e.g. Gallé lamp II) is handled by CO 97/101 (breach of contract)."
+    ],
+    "examFocus": {
+      "questions": [
+        "Specific or generic good? Then apply CO 185 I or II.",
+        "Separate delivery risk (CO 119 I) and price risk (CO 119 II/III, 185); use the three-step checklist.",
+        "Wrong object, defective object, or no issue? Warranted characteristic or mere advertisement?",
+        "Warranty vs. guarantee and why the distinction matters.",
+        "Work contract: who bears the risk before delivery (CO 376 I, III)?",
+        "Mandate: obligations of mandatee and mandator.",
+        "Full three-step GTC review on a fact pattern (inclusion/unusual clauses → in dubio contra stipulatorem → mandatory law / Art. 8 UCA)."
+      ],
+      "traps": [
+        "Apply CO 185 only to **accidental** loss; if someone in the seller's sphere caused it → CO 97 (101).",
+        "A **model** (iPhone 17, 256 GB, black) is a **generic** good.",
+        "For generic goods, think of **separation** and **dispatch** (CO 185 II).",
+        "Warranty = properties **at delivery**; guarantee = properties **over time**.",
+        "GTC apply only if **included** at or before conclusion; individual agreements prevail.",
+        "Art. 8 UCA protects **consumers** only.",
+        "Sale: risk passes early; work contract: risk passes late."
+      ],
+      "mistakes": [
+        "Answering only the delivery-risk question and forgetting the price-risk question (or vice versa).",
+        "Treating advertising slogans as warranted characteristics.",
+        "Calling a mandatee liable for failing to achieve success."
+      ]
+    },
+    "memorize": [
+      "**Sale (CO 184):** ownership ↔ price; objects: chattel, immovables, rights, animals, IP, claims.",
+      "**Specific / generic good:** one individually determined object / category + quantity.",
+      "**Transfer of ownership:** chattel → possession; immovables → land register; claims → assignment.",
+      "**CO 197:** warranted characteristics + other significant defects in quality.",
+      "**Warranted characteristic:** objectively ascertainable, relied on in good faith, influenced the decision; advertising ≠ warranty.",
+      "**Warranty / guarantee:** at delivery / over a period.",
+      "**CO 119 I** delivery risk; **CO 119 II/III** price risk; **CO 185** sale; **CO 376** work contract.",
+      "**Checklist:** contract concluded? accident? risk passed?",
+      "**Work contract:** result owed; contractor no pay if accidental destruction before delivery unless customer in default (CO 376 I) or cause attributable to customer (CO 376 III).",
+      "**Mandate:** diligent and faithful performance, no success; account and return; mandator pays, reimburses, releases, compensates.",
+      "**GTC review:** inclusion & consent (inform, accessible, legible; individual agreements prevail; unusual clauses, DFT 138 III 411) → interpretation (in dubio contra stipulatorem) → content (CO 100 I, 199, 210 IV, 404; Art. 8 UCA)."
+    ],
+    "gaps": [
+      "The slides only say “for sales contracts: CO 185”. The paragraph-by-paragraph rules (CO 185 I–III) come from your **L4 study guide**, which took them from the statute. Read CO 185 yourself.",
+      "**Used Mercedes (FSC 4A_538/2013):** the slides don't give the court's answer.",
+      "**Rule of unusual clauses:** the slides show only the Dr. Furrer case, not the test itself. Your study guide adds a ‘usual doctrinal formulation’ that is not on the slides; check it against the reading.",
+      "**PlayStation, Louis, Anja (fitness), SWISS no-show, ‘six months’ clause:** the slides give no official solutions; the exercise sheet says the same for cases 9, 19 and 20.",
+      "The slides list CO 100 I, 199, 210 IV and 404 as mandatory provisions **without explaining their content**."
+    ]
+  },
+  "practice": [
+    { "topic": "specific-generic", "question": "Which of these is a generic good?", "options": ["Picasso's Guernica", "An apartment at Musterstrasse 10, 3rd floor", "An iPhone 17 (256 GB, black)", "A unique Gallé lamp"], "answer": 2, "explanation": "A model with characteristics defines a category; any unit of it can be delivered." },
+    { "topic": "seller-obligations", "question": "How is ownership of immovable property transferred?", "options": ["Transfer of possession", "Registration in the land register", "Assignment", "Handshake"], "answer": 1, "explanation": "Chattel: possession; claims: assignment (CO 164 ff.)." },
+    { "topic": "seller-obligations", "question": "Reto orders a polo in size M and receives exactly that shirt in M, but it's too small for him. Is there an issue for the seller?", "options": ["Wrong object", "Defective object", "No issue for the seller", "Fraud"], "answer": 2, "explanation": "He received exactly what he ordered." },
+    { "topic": "warranted", "question": "Which is NOT a warranted characteristic?", "options": ["“Never been in an accident”", "“Original Swiss vehicle”", "“The best notebook on the planet”", "“Mileage 60,000 km”"], "answer": 2, "explanation": "A mere advertisement (non-binding promotional description) is not a warranty." },
+    { "topic": "warranted", "question": "A guarantee differs from a warranty in that it…", "options": ["concerns properties at the time of delivery", "promises that properties will continue to exist for a certain period", "is always oral", "is only for services"], "answer": 1, "explanation": "No notice period in case of a guarantee." },
+    { "topic": "passing-risk", "question": "Under CO 119 I, if the seller's performance becomes impossible through no fault of their own…", "options": ["the buyer must still receive the object", "the buyer's claim to delivery ceases", "the seller must pay damages", "the contract becomes void retroactively"], "answer": 1, "explanation": "That's the delivery risk; the price risk is CO 119 II/III and CO 185." },
+    { "topic": "passing-risk", "question": "A unique lamp is sold on 3 Oct, to be picked up a week later; lightning destroys it on 5 Oct. According to CO 185 I, does the buyer have to pay?", "options": ["No, because he never received it", "Yes, because benefit and risk passed at conclusion of the contract", "Only half", "Only if the seller was negligent"], "answer": 1, "explanation": "Specific good, accidental destruction, risk passed at conclusion (absent special circumstances)." },
+    { "topic": "passing-risk", "question": "The seller's own cleaner knocks over the sold lamp before pickup. Which rule applies?", "options": ["CO 185 (passing of risk)", "CO 97 (with CO 101): not an accident, the seller is liable", "CO 21", "CO 404"], "answer": 1, "explanation": "Step 2 of the checklist: no accident → fault-based liability." },
+    { "topic": "work-contract", "question": "A custom table burns in the carpenter's workshop by lightning before delivery; the customer was not in default. Can the carpenter claim payment?", "options": ["Yes, always", "No (CO 376 I)", "Yes, half", "Only for materials"], "answer": 1, "explanation": "Risk stays with the contractor until delivery, unless default of acceptance or causes attributable to the customer." },
+    { "topic": "mandate", "question": "Which is an obligation of the mandatee?", "options": ["Guarantee success", "Diligent and faithful performance; give account and return everything received", "Reimburse the mandator's expenses", "Release the mandator from obligations"], "answer": 1, "explanation": "No success is owed; C and D are mandator obligations (reversed)." },
+    { "topic": "gtc", "question": "What are GTC?", "options": ["Laws that apply to all contracts", "Provisions pre-formulated by one party for a multitude of contracts of a specific type", "Individual agreements", "Court decisions"], "answer": 1, "explanation": "They are private; they only bind if accepted." },
+    { "topic": "gtc-inclusion", "question": "Elsa receives the GTC printed on the back of the receipt after paying. Are they part of the contract?", "options": ["Yes, always", "No, inclusion must happen when or before the contract is concluded", "Only if she signs the receipt", "Yes, if they are legible"], "answer": 1, "explanation": "The GTC were presented after conclusion." },
+    { "topic": "gtc-interpretation", "question": "In dubio contra stipulatorem means…", "options": ["unclear clauses are interpreted against the drafter", "unclear clauses are void", "the consumer always wins", "the judge decides freely"], "answer": 0, "explanation": "Rule of unclear clauses." },
+    { "topic": "gtc-content", "question": "Art. 8 UCA targets GTC that…", "options": ["are printed too small", "provide a considerable and unjustified imbalance to the prejudice of consumers in breach of good faith", "are written in a foreign language", "favour consumers"], "answer": 1, "explanation": "It protects consumers against unfair GTC." },
+    { "topic": "gtc-inclusion", "question": "The Subaru dealer's individually agreed 5-year rust warranty conflicts with GTC §5 excluding rust liability. Which prevails?", "options": ["GTC §5", "The individual agreement (primacy of individual agreements)", "Neither", "Whichever is older"], "answer": 1, "explanation": "Individual agreements take precedence over GTC." }
+  ],
+  "mock": {
+    "questions": [
+      { "type": "mc", "points": 2, "topic": "specific-generic", "question": "Which pair is correctly classified?", "options": ["100 kg grade A wheat: specific", "An apartment at a given address: generic", "500 galvanized 6 mm screws: generic", "Picasso's Guernica: generic"], "answer": 2, "explanation": "Wheat and screws are generic; the apartment and Guernica are specific." },
+      { "type": "mc", "points": 2, "topic": "seller-obligations", "question": "Reto orders a navy polo in size M but receives one in size S. This is…", "options": ["a defective object", "a wrong object", "no issue for the seller", "a guarantee case"], "answer": 1, "explanation": "A different item than ordered = wrong object; a missing button = defective object." },
+      { "type": "mc", "points": 2, "topic": "passing-risk", "question": "Which is the correct order of the passing-of-risk checklist?", "options": ["Risk passed? → contract? → accident?", "Contract concluded? → destroyed by accident? → risk passed to the buyer?", "Accident? → price paid? → delivery?", "Defect? → notice? → prescription?"], "answer": 1, "explanation": "Slide 21." },
+      { "type": "mc", "points": 2, "topic": "work-contract", "question": "A customer insists on using her own damp timber despite the cabinetmaker's written warning; the wardrobe splits before delivery. Can the cabinetmaker claim payment?", "options": ["No, CO 376 I", "Yes, because the cause is attributable to the customer (CO 376 III)", "Only if insured", "No, because the work wasn't delivered"], "answer": 1, "explanation": "Defective materials supplied by the customer." },
+      { "type": "mc", "points": 2, "topic": "mandate", "question": "A careful lawyer loses a case. Which is correct?", "options": ["No fee is owed because no success was achieved", "The fee is owed: a mandatee owes diligent performance, not success", "The lawyer must pay damages", "The contract was a work contract"], "answer": 1, "explanation": "Mandate: no success owed." },
+      { "type": "mc", "points": 2, "topic": "gtc-content", "question": "Which provision is listed on the slides as a mandatory rule that takes precedence over GTC?", "options": ["CO 2", "CO 404", "CO 74", "CC 14"], "answer": 1, "explanation": "Slides list CO 100 I, 199, 210 IV, 404 and Art. 8 UCA." },
+      { "type": "mc", "points": 2, "topic": "warranted", "question": "When does a warranted characteristic give rise to remedies?", "options": ["Always", "Only if it influenced the buyer's decision to conclude the contract", "Only if written", "Only for new goods"], "answer": 1, "explanation": "Causality requirement on the slide." },
+      { "type": "open", "points": 8, "topic": "gtc-inclusion", "question": "Describe the three steps of the judicial review of GTC. Then apply them to Elsa: she buys a laptop, pays at the register and is handed the receipt, on whose back the retailer's GTC are printed. They give the buyer a ‘right to request a repair’, which the retailer says means repair only (no price reduction or rescission).", "model": "Step 1, inclusion and consent: have the GTC become part of the contract? Inclusion must occur when or before the contract is concluded; the user must inform the other party, the GTC must be accessible and legible; individual agreements prevail; unusual clauses are not covered by a global acceptance (DFT 138 III 411). Step 2, interpretation: unclear clauses are interpreted like normal contract terms; in case of doubt against the drafter (in dubio contra stipulatorem). Step 3, content: mandatory legal provisions prevail (e.g. CO 100 I, 199, 210 IV, 404) and Art. 8 UCA (considerable and unjustified imbalance to the prejudice of consumers in breach of good faith). Elsa: the contract was concluded at the register; she only received the GTC afterwards on the receipt → they were not included in time → not part of the contract. Even if they were included, the unclear ‘right to request a repair’ would be interpreted against the retailer → not as excluding the statutory remedies.", "keyPoints": [ { "text": "Step 1 described (timing, information, accessibility/legibility; individual agreements/unusual clauses)", "points": 2 }, { "text": "Step 2 described (in dubio contra stipulatorem)", "points": 1.5 }, { "text": "Step 3 described (mandatory law, Art. 8 UCA)", "points": 1.5 }, { "text": "Elsa: GTC handed over after conclusion → not included", "points": 2 }, { "text": "Alternative: unclear repair clause interpreted against the retailer", "points": 1 } ] },
+      { "type": "open", "points": 6, "topic": "passing-risk", "question": "Explain the difference between delivery risk and price risk and the provisions that govern them. Then compare when the risk passes in a sales contract and in a work contract.", "model": "Delivery risk: if performance becomes impossible through no fault of the obligor, the obligee's claim to performance ceases (CO 119 I): the buyer cannot demand the object. Price risk: whether the counter-performance (the price) is still owed. Default: the obligor is freed and cannot claim it (CO 119 II), unless law or contract regulate the risk differently (CO 119 III). For sales: CO 185, under which benefit and risk generally pass to the buyer at conclusion of the contract (CO 185 I; for generic goods only after separation/dispatch). Work contract: CO 376 I: if the work is destroyed by accident before delivery, the contractor has no claim for payment unless the customer is in default of acceptance (or the cause is attributable to the customer, CO 376 III). So risk passes early in a sale (conclusion) and late in a work contract (delivery).", "keyPoints": [ { "text": "Delivery risk defined + CO 119 I", "points": 1.5 }, { "text": "Price risk defined + CO 119 II/III", "points": 1.5 }, { "text": "Sale: CO 185, risk at conclusion (generic: separation/dispatch)", "points": 1.5 }, { "text": "Work contract: CO 376, risk until delivery (exceptions)", "points": 1.5 } ] }
+    ]
+  }
+}

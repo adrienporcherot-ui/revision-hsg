@@ -1,0 +1,501 @@
+{
+  "id": "1",
+  "number": "1",
+  "title": "Politics",
+  "sources": [
+    "Session 1: What is (Climate) Politics? (slides, 41 p.)"
+  ],
+  "summary": {
+    "bigPicture": [
+      "The course gives you **tools to navigate an increasingly complex political landscape**: polarization, ecological crisis, global power shifts, technological change.",
+      "**Politics** is defined as the activity through which people **make, preserve and amend the general rules** under which they live (Heywood & Laing), or as action aimed at **generally binding rules and decisions** (Patzelt).",
+      "We need politics because of **choice/freedom, scarcity and diversity/disagreement**. Analysing it is easier with the triad **polity, politics, policy**.",
+      "Theories of politics differ on two axes: politics as **human action vs. institutional order**, and as **consensus-oriented vs. (existentially) conflictual**.",
+      "**Climate politics** = making, preserving and amending rules that limit climate change and/or address its consequences, organized around **four grand questions**. **Political science** is a multi-perspectival discipline, **not a method** (unlike economics)."
+    ],
+    "concepts": [
+      {
+        "id": "course-aims",
+        "name": "Why this course: a complex political landscape",
+        "slides": "Slides 2–6",
+        "simple": "Politics today feels like a storm with four winds blowing at once: people splitting into camps, the climate crisis, countries gaining or losing power, and new technology. The course wants to give you a compass.",
+        "exam": [
+          "Four challenges framing the course: **polarization**, **ecological crisis**, **global power shifts**, **technological change**. Aim: “provide tools that help you navigate an (increasingly) complex political landscape.”",
+          "",
+          "Structure: 12 weeks, 12 modules: **9 lectures + 3 digital learning units (DLUs)**. Topics: 1 Politics, 2 Power, 3 Ideology, 4 Institutions, 5 DLU 1, 6 Democracy, 7 Policy Process, 8 DLU 2, 9 Social Movements, 10 Business and Politics, 11 DLU 3, 12 Conclusion.",
+          "",
+          "**Exam:** written, **120 min, digital, on 4 Feb 2027**. It covers (a) the **preparatory readings**, (b) the **lecture contents**, (c) the **contents of the DLUs**. Reflection tasks and self-assessment questions prepare for the exam. 3 ECTS = 90 h (≈ 5 h/week, 30 h exam preparation)."
+        ],
+        "example": "Because readings are examinable, a question can test a reading even if the slide only mentions it briefly."
+      },
+      {
+        "id": "kyoto-challenge",
+        "name": "Kyoto 1997 and the term's challenge",
+        "slides": "Slides 7–10",
+        "simple": "In 1997 in Kyoto, 160 countries agreed that rich countries would cut greenhouse gases. The course asks you one big question for the whole term: how can we make politics care about people who aren't born yet?",
+        "exam": "**Kyoto, Japan, 11 December 1997:** “160 nations adopt Kyoto Protocol”; developed countries to cut their gas emissions by **5.2 %** (Japan Times headline). **Challenge for the term:** *Which political innovation is best suited to strengthen the representation of the interests of future generations in climate politics?*",
+        "example": "Future generations can't vote today, which is exactly why representing their interests is a political (not just technical) problem."
+      },
+      {
+        "id": "need-for-politics",
+        "name": "The need for politics: choice, scarcity, disagreement",
+        "slides": "Slide 13 (Heywood & Laing, p. 2)",
+        "simple": "We need politics for three reasons: we can choose (rules aren't fixed like gravity), there isn't enough of everything, and we don't agree. Remove one and politics becomes unnecessary.",
+        "exam": "Three preconditions for “the need for politics”: **choice / freedom** (as opposed to necessity / natural laws), **scarcity**, and **diversity / disagreement** (Heywood & Laing, p. 2).",
+        "example": "Nobody votes on whether apples fall down (necessity), but people do fight over how scarce public money is spent and disagree about what is fair."
+      },
+      {
+        "id": "polity-politics-policy",
+        "name": "Polity, politics, policy",
+        "slides": "Slide 14",
+        "simple": "Think of football: the **polity** is the pitch and the rulebook, **politics** is the match (players fighting, negotiating, deciding), and **policy** is the game plan that comes out of it.",
+        "exam": [
+          "- **Polity:** the **structural or institutional framework** (“political system”) within which political action takes place.",
+          "- **Politics:** the **political process** of contestation, negotiation, decision-making, etc.",
+          "- **Policy:** the **substantive content** of governmental action (goals, regulations, instruments)."
+        ],
+        "example": "Swiss CO₂ law: the constitution and direct democracy = polity; the referendum campaign = politics; the CO₂ levy and its rates = policy."
+      },
+      {
+        "id": "definitions",
+        "name": "Definitions of politics: Heywood & Laing, Patzelt",
+        "slides": "Slides 15–16",
+        "simple": "Politics is how a group of people makes the rules everyone has to live by, and how they keep or change those rules.",
+        "exam": [
+          "- **Heywood & Laing (working definition):** politics as “**the activity through which people make, preserve and amend the general rules under which they live**”.",
+          "- **Patzelt:** politics is “**human action aimed at establishing and enforcing generally binding rules and decisions** (i.e., ‘generally binding commitments’) **within and between groups of people**” (p. 11)."
+        ],
+        "example": "A flat-share agreeing on a cleaning schedule everyone must follow is politics in Patzelt's sense: a generally binding rule within a group."
+      },
+      {
+        "id": "two-axes",
+        "name": "Two axes of understanding politics (Kreide & Niederberger)",
+        "slides": "Slides 17–18",
+        "simple": "Thinkers disagree on two things: Is politics something people *do* (an activity) or a *place/system* (institutions)? And is it mainly about *agreeing* or about *fighting*?",
+        "exam": [
+          "Vertical axis: **human action (“politics-as-activity”)** vs. **institutional order (“politics-as-sphere”)**. Horizontal axis: **oriented towards consensus or compromise** vs. **essentially (or even existentially) conflictual**.",
+          "",
+          "Authors written next to each pole on the slide:",
+          "",
+          "| Pole | Authors |",
+          "|---|---|",
+          "| **Human action** (politics-as-activity) | Aristotle, Hannah Arendt (weeks 2, 5) |",
+          "| **Institutional order** (politics-as-sphere) | Niccolò Machiavelli, Niklas Luhmann |",
+          "| **Consensus / compromise** | Jürgen Habermas (6) |",
+          "| **(Existentially) conflictual** | Carl Schmitt, Chantal Mouffe (6), Max Weber (2) |",
+          "",
+          "(Source: Kreide & Niederberger. Numbers = week in which the author returns.)"
+        ],
+        "example": "Arendt: politics as people acting together; Schmitt: politics as conflict between friend and enemy. Same word, opposite emphasis."
+      },
+      {
+        "id": "climate-politics",
+        "name": "What is climate politics?",
+        "slides": "Slides 19–21",
+        "simple": "Climate politics is making, keeping and changing the rules that either slow down climate change or help us cope with its damage, or both.",
+        "exam": [
+          "Climate politics = “the making, preserving and amending of the general rules” that **(1) seek to limit anthropogenic climate change** (mitigation) **and/or (2) address the adverse consequences of climate change** (adaptation).",
+          "Slide 20 places climate politics on the same two axes: human action (protests, negotiations) and institutional order (climate budgets, courts), consensus-oriented and (existentially) conflictual."
+        ],
+        "example": "A city's climate budget (institutional, consensus) vs. activists blocking a road (action, conflictual) are both climate politics."
+      },
+      {
+        "id": "four-questions",
+        "name": "Climate politics: four grand questions",
+        "slides": "Slides 22–26",
+        "simple": "Four big fights: Which rules can handle the risks? Who pays? Who gets the benefits (which industries, which regions)? And who gets to decide the rules at all?",
+        "exam": [
+          "Context: WEF **Global Risks Report 2026**: short term (2 years) dominated by geopolitical and economic risks (geoeconomic confrontation first); long term (10 years) by environmental risks (**extreme weather events** first, biodiversity loss, critical change to Earth systems).",
+          "1. **What rules are suited to address the systemic risks implied by climate change?** (slide: US home insurance rates 2020–2025)",
+          "2. **Who pays for the costs of climate change?** (slide: debris flow damage in an Alpine village)",
+          "3. **Which technologies, industries and regions should benefit from climate policy?**",
+          "4. **Who decides how rules are made in the first place?** (a polity question)"
+        ],
+        "example": "Question 4 links back to *polity*: changing who has a voice (e.g. future generations) changes all later decisions."
+      },
+      {
+        "id": "science",
+        "name": "Science and political science perspectives (Patzelt, Hobbes, Tocqueville)",
+        "slides": "Slides 27–30",
+        "simple": "Science tries to say things that are truer and more logical than everyday common sense. Hobbes thought politics follows rules like maths; Tocqueville saw that results often turn out the opposite of what people intended, like a kite pulled by wind and string.",
+        "exam": [
+          "- **Patzelt (2023, p. 18):** “Science is human action that aims to produce statements that are **superior in terms of empirical and logical truth content** to those statements that can already be formulated using the faculties of ‘**common sense**’.”",
+          "- **Hobbes (1651, Leviathan):** making and maintaining commonwealths “consisteth in **certain Rules**, as doth Arithmetique and Geometry; not (as Tennis-play) on Practice onely.”",
+          "- **Tocqueville (1896):** the destinies of the world proceed as the result, but often as the **contrary result**, of the intentions that produce them, “similarly to the **kite** which flies by the antagonistic action of the wind and the cord.” (unintended consequences)"
+        ],
+        "example": "A tax meant to cut emissions that triggers protests and is withdrawn is a Tocqueville-style contrary result."
+      },
+      {
+        "id": "challenges",
+        "name": "Challenges for political science",
+        "slides": "Slide 31",
+        "simple": "Studying politics is hard: it's very complicated, it keeps changing with history, the people you study have their own opinions about themselves, and the researcher is part of the society they study.",
+        "exam": [
+          "1. The **complexity** of political reality.",
+          "2. The **historical nature** of political reality.",
+          "3. The **‘competing self-knowledge’ of the research subjects** (people have their own interpretations of what they do).",
+          "4. The **political scientists' connections with their object of study**."
+        ],
+        "example": "A researcher studying a climate movement may also be a voter with views on climate policy (challenge 4)."
+      },
+      {
+        "id": "conclusion",
+        "name": "Conclusion: what political science is",
+        "slides": "Slide 33",
+        "simple": "Economics is one way of looking at everything. Political science is many ways of looking at one thing: how people make, keep and fight over shared rules.",
+        "exam": [
+          "- Political science is **not a method (≠ economics)**. It is a **multi-perspectival scientific discipline** aimed at understanding and explaining how individuals and organizations interact to **produce (but also preserve, implement, challenge, amend) collective rules and decisions**.",
+          "- **Politics is (a lot) more than what politicians do.**",
+          "- It is useful to distinguish **polities, politics and policies**.",
+          "- **Climate politics is closely intertwined with other political challenges.**"
+        ],
+        "example": "Contrast with Microeconomics 1.1: economics calls itself a methodology (the scarcity lens); political science defines itself by its object (collective rules) seen from many perspectives."
+      }
+    ],
+    "connections": [
+      "**Need for politics → Lecture 3 (Ideology):** disagreement is one precondition of politics; ideologies structure *what* people disagree about.",
+      "**Two axes → later weeks:** Arendt (weeks 2, 5), Weber (2), Habermas and Mouffe (6) come back; Lecture 2 contrasts Weber's ‘power over’ with Arendt's ‘power to’.",
+      "**Polity/politics/policy → Lecture 2 (Power) and the climate cases:** e.g. building codes (policy), referendum campaigns (politics), ICJ/UN rules (polity).",
+      "**Four grand questions → whole course:** question 4 (who decides) is about power (Lecture 2) and institutions (Lecture 4).",
+      "**Economics vs. political science:** economics = methodology (scarcity lens); political science = multi-perspectival discipline. Scarcity appears in both."
+    ],
+    "examFocus": {
+      "questions": [
+        "Define politics (Heywood & Laing and/or Patzelt) and explain the three preconditions of the need for politics.",
+        "Distinguish polity, politics and policy and classify an example.",
+        "Place an author or a phenomenon on the two axes (activity vs. sphere; consensus vs. conflict).",
+        "Define climate politics and name the four grand questions.",
+        "Name the challenges for political science; explain the Tocqueville kite image or the Hobbes quote.",
+        "Explain why political science is ‘not a method’ in contrast to economics."
+      ],
+      "traps": [
+        "**Polity ≠ policy:** polity is the framework (institutions), policy is the content (goals, instruments).",
+        "Politics is **more than what politicians do** (activists, firms, citizens also make or contest rules).",
+        "Climate politics covers **both** limiting climate change **and/or** dealing with its consequences.",
+        "Political science is **multi-perspectival**, not a single method.",
+        "Habermas = consensus; Schmitt/Mouffe = conflict. Don't swap them."
+      ],
+      "mistakes": [
+        "Defining politics only as government or elections.",
+        "Forgetting ‘preserve’ and ‘amend’ in the Heywood & Laing definition (politics also keeps and changes rules, not only makes them).",
+        "Mixing up the axes: ‘institutional order’ is about where politics happens, not whether it is conflictual."
+      ]
+    },
+    "memorize": [
+      "**Politics (Heywood & Laing):** “the activity through which people make, preserve and amend the general rules under which they live.”",
+      "**Politics (Patzelt):** “human action aimed at establishing and enforcing generally binding rules and decisions … within and between groups of people.”",
+      "**Need for politics:** choice/freedom (vs. necessity), scarcity, diversity/disagreement.",
+      "**Polity / politics / policy:** institutional framework / process of contestation, negotiation, decision / substantive content (goals, regulations, instruments).",
+      "**Two axes:** human action vs. institutional order; consensus/compromise vs. (existentially) conflictual.",
+      "**Climate politics:** rules that limit anthropogenic climate change and/or address its adverse consequences.",
+      "**Four grand questions:** suitable rules for systemic risks; who pays; who benefits (technologies, industries, regions); who decides how rules are made.",
+      "**Science (Patzelt):** statements superior in empirical and logical truth content to common sense.",
+      "**Challenges:** complexity; historical nature; competing self-knowledge of subjects; researchers' connections to their object.",
+      "**Exam:** 120 min, digital, 4 Feb 2027; readings + lectures + DLUs."
+    ],
+    "gaps": [
+      "The preparatory reading for this session (Heywood & Laing, *Politics*; Patzelt excerpts) is **not among your PDFs**, so this summary is based on the slides only. The reading is examinable.",
+      "Slide 17 is only an icon (pair work → timer): an in-class activity whose content isn't in the PDF.",
+      "Slide 18 places the authors close to the poles of the two axes but does not explain their positions; the table above reads each name with the nearest pole. The explanations follow in later weeks.",
+      "The appendix on Rflect (slides 38–41) is marked “not relevant for the exam”."
+    ]
+  },
+  "practice": [
+    {
+      "topic": "polity-politics-policy",
+      "question": "The constitution and the institutions within which political action takes place are called…",
+      "options": [
+        "policy",
+        "politics",
+        "polity",
+        "polarization"
+      ],
+      "answer": 2,
+      "explanation": "Polity = the structural/institutional framework (“political system”). Politics = the process; policy = the content."
+    },
+    {
+      "topic": "polity-politics-policy",
+      "question": "A new CO₂ levy with a specific rate and refund mechanism is an example of…",
+      "options": [
+        "polity",
+        "politics",
+        "policy",
+        "political science"
+      ],
+      "answer": 2,
+      "explanation": "Goals, regulations and instruments are the substantive content of governmental action: policy."
+    },
+    {
+      "topic": "definitions",
+      "question": "According to Heywood & Laing, politics is the activity through which people…",
+      "options": [
+        "elect a government",
+        "make, preserve and amend the general rules under which they live",
+        "maximize their utility under scarcity",
+        "enforce laws through the police"
+      ],
+      "answer": 1,
+      "explanation": "The working definition stresses making, preserving AND amending general rules."
+    },
+    {
+      "topic": "need-for-politics",
+      "question": "Which is NOT one of the three preconditions of ‘the need for politics’ on slide 13?",
+      "options": [
+        "Choice / freedom",
+        "Scarcity",
+        "Diversity / disagreement",
+        "Economic growth"
+      ],
+      "answer": 3,
+      "explanation": "Choice/freedom (vs. necessity), scarcity and diversity/disagreement."
+    },
+    {
+      "topic": "definitions",
+      "question": "Patzelt defines politics as human action aimed at establishing and enforcing…",
+      "options": [
+        "market prices",
+        "generally binding rules and decisions within and between groups of people",
+        "individual preferences",
+        "scientific truths"
+      ],
+      "answer": 1,
+      "explanation": "‘Generally binding commitments’ within and between groups."
+    },
+    {
+      "topic": "two-axes",
+      "question": "On the slide's two axes, Carl Schmitt and Chantal Mouffe stand for politics as…",
+      "options": [
+        "oriented towards consensus",
+        "essentially (or even existentially) conflictual",
+        "pure institutional order without conflict",
+        "a technical method"
+      ],
+      "answer": 1,
+      "explanation": "Schmitt, Mouffe and Weber sit on the conflictual side; Habermas on the consensus side."
+    },
+    {
+      "topic": "climate-politics",
+      "question": "Climate politics, as defined in the lecture, covers rules that…",
+      "options": [
+        "only limit greenhouse gas emissions",
+        "only help societies adapt",
+        "seek to limit anthropogenic climate change and/or address its adverse consequences",
+        "are agreed at the UN only"
+      ],
+      "answer": 2,
+      "explanation": "Both mitigation and adaptation (and/or)."
+    },
+    {
+      "topic": "four-questions",
+      "question": "Which is one of the ‘four grand questions’ of climate politics?",
+      "options": [
+        "Is climate change real?",
+        "Who decides how rules are made in the first place?",
+        "How fast does CO₂ mix in the atmosphere?",
+        "Which country has the most cars?"
+      ],
+      "answer": 1,
+      "explanation": "The four: suitable rules for systemic risks; who pays; who benefits; who decides how rules are made."
+    },
+    {
+      "topic": "science",
+      "question": "Tocqueville's image of the kite illustrates that…",
+      "options": [
+        "politics follows rules like geometry",
+        "outcomes often turn out contrary to the intentions that produced them",
+        "science is superior to common sense",
+        "power is ubiquitous"
+      ],
+      "answer": 1,
+      "explanation": "The kite flies by the antagonistic action of wind and cord: unintended, even contrary results."
+    },
+    {
+      "topic": "conclusion",
+      "question": "How does the lecture contrast political science with economics?",
+      "options": [
+        "Both are methods",
+        "Political science is a method, economics a discipline",
+        "Political science is not a method but a multi-perspectival discipline",
+        "Political science only studies elections"
+      ],
+      "answer": 2,
+      "explanation": "Slide 33: political science is not a method (≠ economics)."
+    },
+    {
+      "topic": "challenges",
+      "question": "‘The competing self-knowledge of the research subjects’ is…",
+      "options": [
+        "a definition of politics",
+        "one of the challenges for political science",
+        "a type of power",
+        "a Kyoto Protocol rule"
+      ],
+      "answer": 1,
+      "explanation": "One of four challenges: complexity, historical nature, competing self-knowledge, researchers' connections."
+    },
+    {
+      "topic": "kyoto-challenge",
+      "question": "What is the ‘challenge for this term’?",
+      "options": [
+        "Which country should leave the Kyoto Protocol?",
+        "Which political innovation best strengthens the representation of future generations' interests in climate politics?",
+        "How to abolish climate politics",
+        "How to measure CO₂ emissions"
+      ],
+      "answer": 1,
+      "explanation": "Slide 10 (repeated in Lecture 2)."
+    }
+  ],
+  "mock": {
+    "questions": [
+      {
+        "type": "mc",
+        "points": 2,
+        "topic": "polity-politics-policy",
+        "question": "Before a referendum, business associations campaign against a CO₂ law. This campaign belongs mainly to the dimension of…",
+        "options": [
+          "polity",
+          "politics",
+          "policy",
+          "polarization"
+        ],
+        "answer": 1,
+        "explanation": "Campaigning = the process of contestation and negotiation = politics. The law's content would be policy; the referendum institution itself is polity."
+      },
+      {
+        "type": "mc",
+        "points": 2,
+        "topic": "need-for-politics",
+        "question": "In a world without scarcity, without disagreement and where everything was determined by natural laws, according to the lecture…",
+        "options": [
+          "politics would be even more important",
+          "there would be no need for politics",
+          "politics would become pure policy",
+          "only polity would remain"
+        ],
+        "answer": 1,
+        "explanation": "Choice, scarcity and disagreement are the preconditions of the need for politics."
+      },
+      {
+        "type": "mc",
+        "points": 2,
+        "topic": "two-axes",
+        "question": "Which author is placed on the ‘oriented towards consensus or compromise’ side?",
+        "options": [
+          "Carl Schmitt",
+          "Chantal Mouffe",
+          "Jürgen Habermas",
+          "Max Weber"
+        ],
+        "answer": 2,
+        "explanation": "Habermas = consensus. Schmitt, Mouffe and Weber = conflictual."
+      },
+      {
+        "type": "mc",
+        "points": 2,
+        "topic": "climate-politics",
+        "question": "A canton funds protective walls against debris flows. Is this climate politics in the lecture's sense?",
+        "options": [
+          "No, only emission cuts count",
+          "Yes, because it addresses adverse consequences of climate change",
+          "No, because cantons are not states",
+          "Only if it is decided by referendum"
+        ],
+        "answer": 1,
+        "explanation": "Climate politics includes rules that address adverse consequences (adaptation), not only mitigation."
+      },
+      {
+        "type": "mc",
+        "points": 2,
+        "topic": "science",
+        "question": "Patzelt defines science as human action producing statements that are…",
+        "options": [
+          "morally better than common sense",
+          "superior in empirical and logical truth content to common-sense statements",
+          "accepted by the government",
+          "free of any assumptions"
+        ],
+        "answer": 1,
+        "explanation": "Patzelt (2023, p. 18)."
+      },
+      {
+        "type": "mc",
+        "points": 2,
+        "topic": "conclusion",
+        "question": "Which statement matches the lecture's conclusion?",
+        "options": [
+          "Politics is what politicians do",
+          "Political science is a single method like economics",
+          "Political science explains how individuals and organizations produce, preserve, implement, challenge and amend collective rules",
+          "Climate politics is separate from other political challenges"
+        ],
+        "answer": 2,
+        "explanation": "Politics is more than what politicians do; political science is multi-perspectival; climate politics is intertwined with other challenges."
+      },
+      {
+        "type": "mc",
+        "points": 2,
+        "topic": "four-questions",
+        "question": "‘Which technologies, industries and regions should benefit from climate policy?’ is…",
+        "options": [
+          "a polity question about who decides",
+          "one of the four grand questions of climate politics",
+          "Patzelt's definition of science",
+          "a challenge for political science"
+        ],
+        "answer": 1,
+        "explanation": "Grand question (3)."
+      },
+      {
+        "type": "open",
+        "points": 6,
+        "topic": "polity-politics-policy",
+        "question": "Explain the distinction between polity, politics and policy. Illustrate each with one example from climate politics.",
+        "model": "Polity = the structural or institutional framework (political system) within which political action takes place, e.g. the UN climate regime or Swiss direct democracy. Politics = the process of contestation, negotiation and decision-making, e.g. campaigns before a CO₂-law referendum or negotiations at a COP. Policy = the substantive content of governmental action (goals, regulations, instruments), e.g. a CO₂ levy or building standards banning fossil heating.",
+        "keyPoints": [
+          {
+            "text": "Polity correctly defined (institutional framework/political system)",
+            "points": 1
+          },
+          {
+            "text": "Politics correctly defined (process of contestation, negotiation, decision-making)",
+            "points": 1
+          },
+          {
+            "text": "Policy correctly defined (content: goals, regulations, instruments)",
+            "points": 1
+          },
+          {
+            "text": "One fitting climate example for each of the three (1 pt each)",
+            "points": 3
+          }
+        ]
+      },
+      {
+        "type": "open",
+        "points": 6,
+        "topic": "definitions",
+        "question": "Give the Heywood & Laing definition of politics and explain why, according to the lecture, ‘politics is (a lot) more than what politicians do’.",
+        "model": "Heywood & Laing: politics is ‘the activity through which people make, preserve and amend the general rules under which they live’. Because politics is an activity of making, preserving and amending general rules, anyone who takes part in this (citizens voting, activists protesting, business associations campaigning, courts, international organizations) does politics, not only professional politicians. Political science studies how individuals AND organizations interact to produce, preserve, implement, challenge and amend collective rules.",
+        "keyPoints": [
+          {
+            "text": "Definition reproduced correctly (make, preserve, amend; general rules)",
+            "points": 2
+          },
+          {
+            "text": "Argument: politics = an activity around general rules, so not limited to politicians",
+            "points": 2
+          },
+          {
+            "text": "At least one concrete non-politician example (activists, firms, citizens, courts…)",
+            "points": 1
+          },
+          {
+            "text": "Link to the conclusion: individuals and organizations produce/preserve/challenge/amend collective rules",
+            "points": 1
+          }
+        ]
+      }
+    ]
+  }
+}

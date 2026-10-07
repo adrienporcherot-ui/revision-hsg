@@ -1,0 +1,274 @@
+{
+  "id": "2",
+  "number": "2",
+  "title": "New Forms of Organizing: Alliances, Networks, Platforms",
+  "sources": ["M02 Handout Lecture Slides BA-A (30 p.)", "Case text N26 (PBL 1)", "Mock Exam: Lectures 1–2 & N26 Case"],
+  "summary": {
+    "bigPicture": [
+      "Value creation increasingly takes place through **collaborations between firms**: **hybrid** governance between market and hierarchy (Williamson).",
+      "Hybrids differ in their **degree of formal integration**: consortium, non-equity alliance, equity alliance, joint venture (and, at the hierarchy end, M&A).",
+      "Alliances are held together by **contracts, trust & reputation, relational norms**; **termination rights** are a powerful but double-edged governance tool (flexibility vs. instability).",
+      "Firms also collaborate in **networks**; **digital platforms** reduce transaction costs (match making, market making, trust building) and grow through **network effects**, often towards **winner-takes-all**.",
+      "The **N26** case shows a platform-like start-up moving from a growth model to a cash-flow model."
+    ],
+    "concepts": [
+      {
+        "id": "hybrid",
+        "name": "Hybrid governance (Williamson)",
+        "slides": "Slides 2–3",
+        "simple": "Between buying on the market and doing everything yourself there's a middle way: working closely with partner firms.",
+        "exam": "Collaborations are a **“hybrid” form of governance between market and hierarchy**. Williamson (1985): transaction costs as a function of **asset specificity**: **market** (cost of contracting) is cheapest at low specificity, **hybrid** (cost of cooperation) at **medium** specificity, **hierarchy** (cost of organizing) at high specificity.",
+        "example": "Mock exam: hybrid governance is most efficient at **medium** asset specificity."
+      },
+      {
+        "id": "ior-types",
+        "name": "Types of interorganizational relationships",
+        "slides": "Slide 4",
+        "simple": "Firms can cooperate loosely (a joint project or a contract) or tightly (owning shares in each other, founding a joint company), up to merging completely.",
+        "exam": [
+          "From market to hierarchy (increasing **formal integration**):",
+          "| Form | Definition | Slide example |",
+          "|---|---|---|",
+          "| **Consortium** | several partners pool resources for a joint, often capital-intensive project | Airbus consortium |",
+          "| **Non-equity alliance** | contractual cooperation **without equity** participation: licences, supply agreements, R&D partnerships | Siemens & NVIDIA |",
+          "| **Equity alliance** | contractual cooperation with **mutual or unilateral equity** participation | Renault–Nissan–Mitsubishi |",
+          "| **Joint venture** | a **jointly established company** with shared ownership and risk | Stellantis & CATL |",
+          "| **Merger & acquisition** | combining into a single entity or integrating one into the other (hierarchy) | Commerzbank & UniCredit |"
+        ],
+        "example": "Mock exam: the form closest to hierarchy while the partners remain separate companies = **joint venture**."
+      },
+      {
+        "id": "strategic-alliance",
+        "name": "Definition of a strategic alliance (Gulati 1995)",
+        "slides": "Slide 4",
+        "simple": "An alliance is two or more independent firms deliberately sharing or building resources together to reach goals that matter to all of them.",
+        "exam": "“A strategic alliance is a **purposive relationship** between **two or more legally independent firms** that involves the **exchange, sharing, or co-development of resources or capabilities** to jointly fulfill tasks and finally achieve **mutually relevant benefits**.” (Gulati, 1995)",
+        "example": "Mock exam trap: ‘creation of a jointly owned new company’ is NOT part of the definition (that's a joint venture)."
+      },
+      {
+        "id": "alliance-governance",
+        "name": "Alliance governance: contracts, trust & reputation, relational norms",
+        "slides": "Slide 6",
+        "simple": "Without owning each other, partners stick together through three glues: written rules, trust built over time, and shared ideas of what's fair.",
+        "exam": [
+          "- **Contracts:** explicit rules on contributions, returns, exit options and dispute resolution.",
+          "- **Trust & reputation:** repeated interactions build trust and reliability.",
+          "- **Relational norms:** shared values and norms clarify fair behaviour, even in unforeseen situations.",
+          "Example: Dr. **Sahin** (BioNTech) on the collaboration with **Pfizer**: “Trust and personal relationship is so important in such business, because everything is going so fast. We still have a **term sheet and not yet a final contract** on many things.”"
+        ],
+        "example": "The BioNTech quote highlights **trust and personal relationships** (mock exam Q17)."
+      },
+      {
+        "id": "termination-rights",
+        "name": "Termination provisions as governance",
+        "slides": "Slides 7–8",
+        "simple": "A contract can say when a partner may leave. The easier it is to leave, the more flexible the alliance, but the less stable.",
+        "exam": [
+          "| No contractual termination provisions | Conditional termination rights | Unconditional termination rights |",
+          "|---|---|---|",
+          "| terminate only in the event of a **material breach**; otherwise damages | terminate for **specified reasons** agreed ex ante | terminate for **any or no reason**, possibly with a notice period |",
+          "",
+          "Termination rights present a **trade-off**: **safeguarding and flexibility** vs. **contracting costs and instability** (Hanisch 2025). Example clause: “13.3 Additional Grünenthal Termination Right. Grünenthal shall have the right to terminate this Agreement in its entirety, **for any or no reason upon 180 days written notice**.” → **unconditional** termination right."
+        ],
+        "example": "Research steps on the slide: identify problem → show trade-off → test hypothesis → collect and analyse data → interpret results."
+      },
+      {
+        "id": "hanisch-study",
+        "name": "Hypothesis test: upfront payments and termination rights (Hanisch 2025)",
+        "slides": "Slide 9",
+        "simple": "When a client pays a lot of money upfront to a partner, it wants a way out: so it more often gets the right to quit whenever it wants.",
+        "exam": "**H2 (+):** relationship-specific investments in the form of **upfront payments** increase the likelihood of an **unconditional termination right (termination for convenience) for the client firm**. Data: **1,576 alliance contracts**. Mean upfront payment (log scale): **USD 6.47 m** when the client's termination right is **absent**, **USD 11.41 m** when **present**. (Your mock exam adds a further finding: **prior ties** between partners are negatively related to termination rights for convenience, since trust partly substitutes for contractual safeguards.)",
+        "example": "The client paying a large upfront sum has made a specific investment and protects itself with an exit option."
+      },
+      {
+        "id": "networks",
+        "name": "From alliances to networks (Ritter & Gemünden 2003)",
+        "slides": "Slides 11–12",
+        "simple": "One deal → a relationship between two firms → all of a firm's relationships → the whole web of an industry.",
+        "exam": [
+          "| Level | Meaning |",
+          "|---|---|",
+          "| **Interaction** | single exchange |",
+          "| **Dyad** | aggregate of interactions between two actors |",
+          "| **Portfolio** | similar relationships a firm has with other organizations |",
+          "| **Net** | **all the relationships of an actor** |",
+          "| **Network** | a whole structure of an industry or market |",
+          "",
+          "The biopharmaceutical industry illustrates how networks evolve over time."
+        ],
+        "example": "Mock exam: “all the relationships of one actor” = **net** (not portfolio)."
+      },
+      {
+        "id": "new-forms",
+        "name": "New forms of organizing: digital technologies",
+        "slides": "Slides 13–17",
+        "simple": "The old giants made everything themselves in slow markets. Today's fast tech firms often just connect others, like Uber or Airbnb.",
+        "exam": "Ocasio et al. (2023): “The old world was defined by **Alfred Chandler's (1962)** traditional big business: diversified, **vertically integrated corporations** governed by **multidivisional hierarchies** and operating in relatively slow-moving markets.” “Today's world is characterized by **fast-moving, entrepreneurial high-tech enterprises**, with highly innovating business models” (Netflix, Spotify, trivago, Vinted, Uber, Airbnb, Bolt, eBay). Market capitalization 2025: top-10 **digital platforms ≈ USD 22.4 trn** vs. top-10 non-platform companies **≈ USD 9.4 trn**.",
+        "example": "Digital technologies are a key driver of networks."
+      },
+      {
+        "id": "platform-value",
+        "name": "Value logic of digital platforms: three ways to cut transaction costs",
+        "slides": "Slide 18",
+        "simple": "Platforms help strangers find each other, set fair rules and prices, and make strangers trust each other with ratings and guarantees.",
+        "exam": [
+          "| Function | What it does | Effect |",
+          "|---|---|---|",
+          "| **Match making** | connects buyers and sellers who would otherwise struggle to find each other; reduces **search costs** via algorithms, filters, recommendations | **reduces transaction costs** |",
+          "| **Market making** | sets rules, prices and standards; balances supply and demand through pricing, incentives, access controls | **avoids adverse selection** |",
+          "| **Trust building** | reduces uncertainty between strangers via ratings, reviews, verification; enforces accountability via guarantees, dispute resolution, reputation systems | **minimizes moral hazard** |"
+        ],
+        "example": "Airbnb's reviews and host guarantees = trust building."
+      },
+      {
+        "id": "one-two-sided",
+        "name": "One-sided vs. two-sided platforms",
+        "slides": "Slide 19",
+        "simple": "Disney+ makes its own shows and sells them to viewers (one side). Booking.com doesn't own hotels; it connects hotels with travellers (two sides).",
+        "exam": "**One-sided platform** (e.g. **Disney+**): develop → produce → platform → users; bundles almost exclusively **self-produced content**; transactions with **only one external side**. **Two-sided platform** (e.g. **booking.com**): **complementors** (independent suppliers) ↔ platform ↔ users; connects independent suppliers and customers; creates **indirect network effects** between both sides. Two-sided platforms deliver value through **matching**, not just dissemination.",
+        "example": "Vinted (sellers and buyers) is two-sided; a newspaper app with only its own articles is one-sided."
+      },
+      {
+        "id": "network-effects",
+        "name": "Network effects and other economies",
+        "slides": "Slides 20–21",
+        "simple": "A phone is useless if you're the only one with a phone. The more people join, the more useful it gets for everyone: that's a network effect.",
+        "exam": [
+          "| Economies | Mechanism | Example |",
+          "|---|---|---|",
+          "| **Scale** | average cost per unit falls as total output rises (fixed costs spread) | Amazon fulfilment centres |",
+          "| **Scope** | producing related products together is cheaper (shared resources) | Unilever's shared distribution and R&D |",
+          "| **Learning** | unit costs fall with cumulative experience (learning curve) | Tesla battery costs |",
+          "| **Network effects** | a product becomes **more valuable as more people use it** | WhatsApp |",
+          "",
+          "Network effects = **demand-side economies of scale**. **Direct (same-side):** value rises with users on the **same** side (messenger). **Indirect (cross-side):** value rises with users on the **opposite** side (more Airbnb hosts → more attractive for guests, and vice versa)."
+        ],
+        "example": "Mock exam: network effects are **demand-side** economies of scale (not supply-side)."
+      },
+      {
+        "id": "network-math",
+        "name": "Computing connections; theory of intermediation",
+        "slides": "Slides 22–23 (Baligh & Richartz 1964)",
+        "simple": "In a group chat of 8 people, everyone can link with everyone: 28 pairs. With 4 sellers and 4 buyers there are 16 seller–buyer pairs. A middleman cuts the links you need: each just connects to the middleman.",
+        "exam": [
+          "- **Direct (same-sided):** possible connections = **n × (n − 1) / 2**. Slide: 8 users → **28**.",
+          "- **Indirect (cross-sided):** connections = **m × n**. Slide: 4 × 4 → **16**.",
+          "- **Intermediation:** transaction costs (number of contacts) **without intermediary = m × n**; **with intermediary = m + n**. Cost savings = m × n − (m + n)."
+        ],
+        "example": "Mock exam: 10 users → 10 × 9 / 2 = **45**. 6 suppliers and 8 buyers: 48 without vs. 14 with intermediary → **34** saved."
+      },
+      {
+        "id": "winner-takes-all",
+        "name": "Competitive dynamics: winner-takes-all",
+        "slides": "Slide 25",
+        "simple": "More users attract more providers, which attract more users: a snowball. It can make one platform dominate, unless users can easily use several platforms or switch.",
+        "exam": "**Positive feedback loop:** more users attract more providers; more providers increase the value for users → rapid growth. **Strategic problem:** network effects can make **market entry difficult** and lead to **concentration, lock-in and “winner-takes-all”** dynamics (e.g. Windows' desktop OS share 2005–2025). **Counterforces:** **multi-homing**, **(in)compatibility**, **data portability**, **regulation**.",
+        "example": "Mock exam: strong indirect network effects are NOT a counterforce, they drive winner-takes-all."
+      },
+      {
+        "id": "platforms-tce",
+        "name": "Platforms in Williamson's graph; punchline",
+        "slides": "Slides 27–29",
+        "simple": "Platforms are a new way to organise huge numbers of partners at once, somewhere between market and firm.",
+        "exam": "The slide asks where platforms fit into **Williamson's transaction-cost graph** (market – hybrid – hierarchy along asset specificity). **Punchline:** (1) companies **collaborate to create value**; (2) **cooperation requires governance mechanisms** (e.g. the Grünenthal termination right); (3) **platforms help govern large-scale collaboration** (network value rises with network participants).",
+        "example": "The slide leaves the answer open (see gaps)."
+      },
+      {
+        "id": "n26",
+        "name": "Case N26 (PBL 1): from growth model to cash-flow model",
+        "slides": "Case text N26 (Bieger & Kuster, IMP-HSG 2020)",
+        "simple": "Two founders started a pocket-money app, pivoted to a smartphone bank, grew fast with investors' money, and then had to show they can earn money on their own.",
+        "exam": [
+          "- **Founders:** Valentin **Stalf** (HSG graduate, worked at Rocket Internet) and Maximilian **Tayenthal** (legal background, important for regulation and investor confidence). Needed a **fertile ecosystem** (technology, staff, investors, first customers) → Berlin.",
+          "- **Pivot (Jan 2014):** first product **“Papayer”**, a pocket-money app with a prepaid card. **Earnings potential was limited** and it was **used mainly by parents**; €400,000 spent, liquidity for ~2 weeks → relaunch as **Number26/N26**, a mobile bank for all ages (seed €1.5 m from EarlyBird and RedAlpine).",
+          "- **Growth:** further rounds (Valar €10 m in 2015; >€100 m rounds 2016–2019), valuation > €3 bn; ~5 million customers and 1,000 employees (early 2020); **left the UK in April 2020 because Brexit would have required a separate banking licence**.",
+          "- **Business model:** mobile-first, no branches, own full banking licence, cloud infrastructure (low fixed costs); revenue even from the free account through **interchange fees** paid **by the acquirer (merchant's bank) to the issuer (N26)** in the four-party Mastercard system.",
+          "- **Economics:** 2018 loss €73 m on revenue ≈ €44 m; ≈ €27 m spent on customer acquisition. From 2020: shift **from a growth model to a cash-flow model**: finance operations and growth with **cash generated by the business itself**; focus on **active, profitable customers**, contribution margin, payback time, customer lifetime value, upselling to premium accounts.",
+          "- **Management:** OKR (objectives and key results), weekly stand-ups, few direct reports."
+        ],
+        "example": "Exam link: N26 aimed at **network effects** and critical market share; COVID-19 brought both opportunities (digital demand) and risks (fewer card transactions, tougher investors)."
+      }
+    ],
+    "connections": [
+      "**Lecture 1 → 2:** Williamson's graph extends Coase's market vs. hierarchy with **hybrids** at medium asset specificity.",
+      "**Hold-up (L1) → termination rights:** upfront payments are specific investments, protected by unconditional termination rights for the client.",
+      "**TCE → platforms:** platforms are intermediaries that cut search, contracting and monitoring costs (m × n → m + n).",
+      "**Economies of scale/scope/learning (L1) vs. network effects:** supply-side vs. demand-side.",
+      "**Microeconomics 2.1:** adverse selection and moral hazard foreshadow market failures (Part 2.2); winner-takes-all links to monopoly (Part 3.2).",
+      "**Lecture 3:** network effects are one source of an **economic moat**."
+    ],
+    "examFocus": {
+      "questions": [
+        "Place a relationship on the market–hierarchy spectrum (consortium, non-equity alliance, equity alliance, JV, M&A).",
+        "Gulati's alliance definition; three governance mechanisms; BioNTech/Pfizer quote.",
+        "Classify termination provisions (none, conditional, unconditional) and explain the flexibility–instability trade-off; Hanisch (2025) finding on upfront payments.",
+        "Ritter & Gemünden levels (interaction, dyad, portfolio, net, network).",
+        "Three platform functions and their effects (transaction costs, adverse selection, moral hazard).",
+        "Direct vs. indirect network effects; compute n(n−1)/2, m × n, m + n and savings.",
+        "Winner-takes-all and its counterforces; N26 facts (Papayer pivot, Brexit exit, interchange fee, cash-flow model)."
+      ],
+      "traps": [
+        "Hybrid = **medium** asset specificity.",
+        "A **joint venture** is a new jointly owned company; an equity alliance only involves equity stakes.",
+        "Net = all relationships of **one actor**; network = whole industry/market structure.",
+        "Market making → avoids **adverse selection**; trust building → minimizes **moral hazard**.",
+        "Network effects = **demand-side** economies of scale.",
+        "Direct connections: divide by 2 (each pair counted once).",
+        "Interchange fee flows **from acquirer to issuer**."
+      ],
+      "mistakes": [
+        "Forgetting the ‘− (m + n)’ when computing the intermediary's savings.",
+        "Listing strong network effects as a counterforce to winner-takes-all.",
+        "Saying N26 left the UK because of low profitability (it was Brexit/licence)."
+      ]
+    },
+    "memorize": [
+      "**Williamson:** market (low asset specificity) → hybrid (medium) → hierarchy (high).",
+      "**Hybrids:** consortium, non-equity alliance, equity alliance, joint venture; M&A = hierarchy.",
+      "**Strategic alliance (Gulati 1995):** purposive relationship between legally independent firms; exchange, sharing or co-development of resources/capabilities; mutually relevant benefits.",
+      "**Alliance governance:** contracts; trust & reputation; relational norms.",
+      "**Termination rights:** none (material breach only) / conditional / unconditional (any or no reason); trade-off flexibility vs. instability.",
+      "**Hanisch (2025):** higher upfront payments → more unconditional termination rights for the client (1,576 contracts).",
+      "**Ritter & Gemünden:** interaction, dyad, portfolio, net, network.",
+      "**Platform functions:** match making (transaction costs), market making (adverse selection), trust building (moral hazard).",
+      "**Network effects:** direct (same side) n(n−1)/2; indirect (cross side) m × n; intermediation m × n → m + n.",
+      "**Counterforces to winner-takes-all:** multi-homing, (in)compatibility, data portability, regulation.",
+      "**N26:** Papayer pivot 2014; left UK 2020 (Brexit licence); interchange fee acquirer → issuer; growth → cash-flow model 2020."
+    ],
+    "gaps": [
+      "This is the handout version: some boxes are **empty** (the table of economies on slide 20, the formulas on slides 22–23). The formulas above come from the extracted slide text and your mock exam (e.g. 10 users → 45 connections confirms n(n−1)/2).",
+      "Slide 27 asks **where platforms fit into Williamson's graph** but does not give the answer.",
+      "The finding about **prior ties** comes from your mock exam (Q20), not from the slides.",
+      "Slide 12 (biopharma network evolution) is a picture without explanatory text."
+    ]
+  },
+  "practice": [
+    { "topic": "hybrid", "question": "In Williamson's graph, hybrid governance is most efficient when asset specificity is…", "options": ["very low", "medium", "very high", "irrelevant"], "answer": 1, "explanation": "Low → market, medium → hybrid, high → hierarchy." },
+    { "topic": "ior-types", "question": "Which form is closest to hierarchy while the partners still remain separate companies?", "options": ["Consortium", "Non-equity alliance", "Joint venture", "Merger & acquisition"], "answer": 2, "explanation": "In an M&A they become one entity." },
+    { "topic": "ior-types", "question": "A licence agreement without any equity participation is a…", "options": ["consortium", "non-equity alliance", "equity alliance", "joint venture"], "answer": 1, "explanation": "Contractual cooperation without equity: licences, supply agreements, R&D partnerships." },
+    { "topic": "strategic-alliance", "question": "Which element is NOT part of Gulati's (1995) definition of a strategic alliance?", "options": ["Legally independent firms", "Exchange, sharing or co-development of resources", "Creation of a jointly owned new company", "Mutually relevant benefits"], "answer": 2, "explanation": "That describes a joint venture." },
+    { "topic": "alliance-governance", "question": "“We still have a term sheet and not yet a final contract on many things” (Sahin, BioNTech) highlights…", "options": ["contracts", "trust and personal relationships", "termination rights", "hierarchical control"], "answer": 1, "explanation": "Governance through trust when contracts are incomplete." },
+    { "topic": "termination-rights", "question": "“Grünenthal shall have the right to terminate this Agreement in its entirety, for any or no reason upon 180 days written notice.” This is…", "options": ["no termination provision", "a conditional termination right", "an unconditional termination right", "a material breach clause"], "answer": 2, "explanation": "Any or no reason (with notice) = unconditional." },
+    { "topic": "hanisch-study", "question": "In Hanisch (2025), larger upfront payments were associated with…", "options": ["termination rights for convenience for the R&D firm", "termination rights for convenience for the client firm", "fewer termination provisions overall", "longer notice periods"], "answer": 1, "explanation": "Mean upfront payment 11.41 vs. 6.47 (USD m, log scale)." },
+    { "topic": "networks", "question": "In Ritter & Gemünden's framework, “all the relationships of one actor” is called a…", "options": ["dyad", "portfolio", "net", "network"], "answer": 2, "explanation": "Portfolio = similar relationships; network = whole industry/market." },
+    { "topic": "platform-value", "question": "Which platform function is linked to minimizing moral hazard?", "options": ["Match making", "Market making", "Trust building", "Content bundling"], "answer": 2, "explanation": "Guarantees, dispute resolution, reputation systems." },
+    { "topic": "network-math", "question": "A messaging app has 10 users. How many possible connections exist through direct network effects?", "options": ["20", "45", "90", "100"], "answer": 1, "explanation": "n(n−1)/2 = 10 × 9 / 2 = 45." },
+    { "topic": "network-math", "question": "Six suppliers and eight buyers trade. How many connections does an intermediary save?", "options": ["14", "34", "48", "62"], "answer": 1, "explanation": "6 × 8 = 48 without; 6 + 8 = 14 with; 48 − 14 = 34." },
+    { "topic": "network-effects", "question": "Network effects are best described as…", "options": ["supply-side economies of scale", "demand-side economies of scale", "economies of scope", "learning-curve effects"], "answer": 1, "explanation": "Value rises with the number of users." },
+    { "topic": "winner-takes-all", "question": "Which does NOT act as a counterforce to winner-takes-all dynamics?", "options": ["Multi-homing", "Data portability", "Regulation", "Strong indirect network effects"], "answer": 3, "explanation": "They reinforce concentration." },
+    { "topic": "n26", "question": "N26 pivoted away from its first product ‘Papayer’ mainly because…", "options": ["regulators banned prepaid cards for minors", "earnings potential was limited and the app was used mainly by parents", "its Mastercard partnership ended", "investors wanted the UK market"], "answer": 1, "explanation": "Case text, January 2014." },
+    { "topic": "n26", "question": "In the four-party card system, the interchange fee is paid…", "options": ["by the issuer to the acquirer", "by the acquirer to the issuer", "by the cardholder to the licensor", "by the merchant directly to the issuer"], "answer": 1, "explanation": "N26 as issuer earns interchange fees from the merchant's bank (acquirer)." }
+  ],
+  "mock": {
+    "questions": [
+      { "type": "mc", "points": 2, "topic": "one-two-sided", "question": "Which is a two-sided platform?", "options": ["Disney+ streaming its own productions", "Booking.com connecting independent hotels with travellers", "A car manufacturer's online shop", "A bank's internal IT system"], "answer": 1, "explanation": "Connects independent suppliers (complementors) with customers; indirect network effects." },
+      { "type": "mc", "points": 2, "topic": "network-effects", "question": "The more hosts are active on Airbnb, the more attractive it becomes for guests. This is…", "options": ["a direct network effect", "an indirect (cross-side) network effect", "an economy of scope", "an economy of learning"], "answer": 1, "explanation": "Value rises with users on the opposite side." },
+      { "type": "mc", "points": 2, "topic": "platform-value", "question": "Through which function does a platform mainly avoid adverse selection?", "options": ["Match making", "Market making (rules, prices, standards, access controls)", "Trust building", "Vertical integration"], "answer": 1, "explanation": "Slide 18." },
+      { "type": "mc", "points": 2, "topic": "termination-rights", "question": "What is the trade-off of termination rights in alliances?", "options": ["Higher profit vs. lower revenue", "Safeguarding and flexibility vs. contracting costs and instability", "Trust vs. reputation", "Scale vs. scope"], "answer": 1, "explanation": "Hanisch (2025)." },
+      { "type": "mc", "points": 2, "topic": "ior-types", "question": "Renault–Nissan–Mitsubishi, with partners holding shares in each other, is an example of…", "options": ["a consortium", "a non-equity alliance", "an equity alliance", "a merger"], "answer": 2, "explanation": "Contractual cooperation with equity participation." },
+      { "type": "mc", "points": 2, "topic": "n26", "question": "N26's 2020 shift ‘from a growth model to a cash flow model’ means it wants to…", "options": ["maximize the number of customers at any cost", "finance operations and growth mainly with cash generated by its own business", "stop raising money from investors permanently", "offer only the free basic account"], "answer": 1, "explanation": "Focus on active, profitable customers and cash flow." },
+      { "type": "calc", "points": 7, "topic": "network-math", "question": "FreshLoop's app connects 40 farms with 60 restaurants.\n(a) How many connections would be needed between all farms and restaurants without the platform, and how many with the platform as intermediary? How many does the platform save? (b) Which type of network effect connects farms and restaurants? (c) The restaurants also form a WhatsApp group among themselves. How many possible connections exist between the 60 restaurants?", "model": "(a) Without intermediary: m × n = 40 × 60 = 2,400 connections. With intermediary: m + n = 40 + 60 = 100. Savings: 2,400 − 100 = 2,300. (b) Indirect (cross-side) network effect: the more farms list produce, the more attractive the platform is for restaurants, and vice versa. (c) Direct (same-side) connections: n(n−1)/2 = 60 × 59 / 2 = 1,770.", "keyPoints": [ { "text": "(a) 2,400 without (m × n)", "points": 1.5 }, { "text": "(a) 100 with (m + n) and savings 2,300", "points": 2 }, { "text": "(b) Indirect / cross-side network effect, explained", "points": 1.5 }, { "text": "(c) 60 × 59 / 2 = 1,770", "points": 2 } ] },
+      { "type": "open", "points": 7, "topic": "alliance-governance", "question": "Logistics firm AlpCool should buy CHF 2 million of refrigerated vans fitted with FreshLoop's crate system and software, which no other client uses. AlpCool fears FreshLoop will change its terms afterwards. Analyse this with transaction cost theory and recommend a governance form and one contractual safeguard.", "model": "The vans are a highly specific investment (only usable for FreshLoop's crate and tracking system) → high asset specificity → after investing, AlpCool is exposed to hold-up: FreshLoop could renegotiate terms because AlpCool's switching would be very costly. FreshLoop faces a moral-hazard risk (AlpCool neglecting service quality). With medium-to-high asset specificity, a pure market contract is risky, a merger (hierarchy) is heavy → a hybrid form such as a long-term (non-equity or equity) alliance is appropriate. Safeguard: e.g. a long minimum term with FreshLoop's termination only for material breach / conditional rights, or an upfront payment or compensation for the vans if FreshLoop terminates; the party making the specific investment (AlpCool) needs protection, while FreshLoop can get quality clauses or a conditional termination right for poor service.", "keyPoints": [ { "text": "Identifies high asset specificity of the vans", "points": 1.5 }, { "text": "Explains hold-up risk for AlpCool (after investment, renegotiation)", "points": 1.5 }, { "text": "Notes FreshLoop's risk (quality / moral hazard)", "points": 1 }, { "text": "Recommends a hybrid governance form with justification (market–hierarchy spectrum)", "points": 1.5 }, { "text": "One concrete safeguard with which party holds it and why", "points": 1.5 } ] }
+    ]
+  }
+}

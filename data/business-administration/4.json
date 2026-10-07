@@ -1,0 +1,253 @@
+{
+  "id": "4",
+  "number": "4",
+  "title": "Strategy II: Navigating Organizations (Internal Analysis)",
+  "sources": ["M04 Handout Lecture Slides BA-A (27 p.)", "BWL-A L4 Slides plus Lecture Transcript (study guide)"],
+  "summary": {
+    "bigPicture": [
+      "Lecture 3 explained performance from **outside** (industry, Five Forces). But profitability **varies greatly within the same industry**, which industry analysis cannot explain.",
+      "The **resource-based view** (RBV) looks **inside** the firm: unique, immobile resources and capabilities create competitive advantage; they must pass the **VRIN** test to give a **sustainable** advantage.",
+      "The **knowledge-based view** (KBV) treats **knowledge** (explicit vs. tacit) as the key resource (Moneyball, Netflix).",
+      "RBV/KBV are static. **Dynamic capabilities** (sensing, seizing, reconfiguring) renew advantages in changing environments; **absorptive capacity** is their basis; **SWOT** connects internal and external views.",
+      "Evidence: **firm effects (≈ 45 %) explain more performance variance than industry effects (≈ 25 %)**, but both matter."
+    ],
+    "concepts": [
+      {
+        "id": "within-industry",
+        "name": "Profitability varies within industries",
+        "slides": "Slides 2–4",
+        "simple": "Same street, same customers, yet one lemonade stand gets rich and the other struggles. Industry can't be the whole story.",
+        "exam": "Recap L3: strategy aims to create and maintain competitive advantage; five forces shape it; strategy and regulation are polar opposites. New puzzle: median operating margins (FY2021–2025) vary **across industries** (health care vs. industrials) **and strongly within the same industry**: e.g. pharma companies from Gilead, Eli Lilly, Novo Nordisk (high) to distributors such as McKesson, Cardinal Health, Cencora (thin). → industry structure alone cannot explain performance.",
+        "example": "Novo Nordisk (patented drugs) vs. Viatris (mostly generics) in the same broad industry."
+      },
+      {
+        "id": "mbv-rbv",
+        "name": "External vs. internal view: MBV vs. RBV",
+        "slides": "Slide 5",
+        "simple": "You can win by choosing the best spot in the market (outside) or by having the best tools inside your firm.",
+        "exam": [
+          "| | Market-based view | Resource-based view |",
+          "|---|---|---|",
+          "| Chain | **industry structure → competitive advantage → performance** | **a firm's resources and capabilities → competitive advantage → performance** |",
+          "| Focus | external, outside-in | internal, inside-out |",
+          "| Key author | **Michael Porter** (industrial economics) | **Jay Barney** |"
+        ],
+        "example": "MBV asks ‘is the industry attractive?’; RBV asks ‘why does this firm earn more than its rivals in the same industry?’."
+      },
+      {
+        "id": "rbv",
+        "name": "The resource-based view (RBV)",
+        "slides": "Slide 7 (Amit & Schoemaker 1993; Barney 1991; Peteraf; Wernerfelt 1984)",
+        "simple": "Your company is a castle built with stones only you have.",
+        "exam": "The RBV suggests that a firm's **unique resources and capabilities** are key to **achieving and sustaining competitive advantage**. It emphasizes leveraging unique assets like **intellectual property, brand reputation and organizational processes**. “It's like building a castle with stones only you have.” It explains **why performance differs within the same industry** and **how differences between firms form the basis of competitive advantages**.",
+        "example": "Coca-Cola's global brand and secret recipe (study guide example)."
+      },
+      {
+        "id": "resources",
+        "name": "Tangible and intangible resources",
+        "slides": "Slide 8",
+        "simple": "Things you can touch (cash, machines, buildings) and things you can't (people's skills, routines, relationships, patents).",
+        "exam": [
+          "- **Tangible:** **current assets** (funds, cash), **fixed assets** (machinery, equipment), **real estate and buildings**.",
+          "- **Intangible:** **personnel/staff**, **organizational** (routines, processes), **relational** (networks, relationships), **technological** (intellectual property)."
+        ],
+        "example": "Tesla: factories are tangible; software know-how and brand are intangible."
+      },
+      {
+        "id": "rbv-assumptions",
+        "name": "RBV premises: resource heterogeneity and immobility",
+        "slides": "Slide 9",
+        "simple": "(1) Every firm carries a different backpack of resources. (2) You can't easily take things out of someone else's backpack, not even by paying.",
+        "exam": "A firm is **a unique bundle of resources, capabilities and core competencies**. **Resource heterogeneity:** organizations are unique collections of physical, human and intangible assets, so firms possess **different mixes** of capabilities **even within the same industry**. **Resource immobility:** strategic resources and capabilities **do not easily move** from one company to another, particularly **sticky intangible assets** like brand equity or organizational culture.",
+        "example": "In class: a star pharma scientist could be hired away, but her success depends on a network of collaborators that doesn't move with her."
+      },
+      {
+        "id": "value-chain",
+        "name": "The value chain (Porter 1985)",
+        "slides": "Slide 10",
+        "simple": "A firm is like a kitchen with many steps; each step can make the food cheaper or better. That's where cost or quality advantages are built.",
+        "exam": "**Primary activities:** inbound logistics → operations → outbound logistics → sales & marketing → service & support. **Support activities:** firm infrastructure (general management), human resource management, technology development, procurement. **Transforming resources within the value chain creates a competitive advantage**: a **cost advantage** or a **quality advantage**. (In class: margin = what customers are willing to pay minus costs.)",
+        "example": "IKEA's flat-pack design lowers logistics costs (cost advantage)."
+      },
+      {
+        "id": "vrin",
+        "name": "VRIN: when resources create a sustainable advantage (Barney 1991)",
+        "slides": "Slide 13",
+        "simple": "A stone only wins you the castle game if it's useful, hard to find, hard to copy, and nothing else can replace it.",
+        "exam": [
+          "| Criterion | Slide wording | In-class example |",
+          "|---|---|---|",
+          "| **Valuable** | attractive features; high-in-demand characteristics | Nvidia chips + CUDA (premium prices); not valuable: sand in the desert |",
+          "| **Rare** | only a few companies possess or control access; firm can effectively restrict access | Champagne, Parmesan (protected denominations) |",
+          "| **Imperfectly inimitable** | expensive or difficult to imitate; cannot easily be developed or purchased on the market | ASML's machine |",
+          "| **Non-substitutable** | no other resource can offer the same strategic value; no equivalent alternative | Windows ecosystem lock-in |"
+        ],
+        "example": "Imitation (a rival builds the same thing) vs. substitution (a different thing does the same job): both make the advantage temporary."
+      },
+      {
+        "id": "vrin-chain",
+        "name": "The VRIN decision chain",
+        "slides": "Slide 14 (Barney 1991)",
+        "simple": "Push the resource through four gates in order; it stops at the first ‘no’.",
+        "exam": [
+          "| Question | If NO → |",
+          "|---|---|",
+          "| Valuable? | **competitive disadvantage** |",
+          "| Rare? | **competitive parity** |",
+          "| Inimitable? | **temporary competitive advantage** |",
+          "| Non-substitutable? | **temporary competitive advantage** |",
+          "| all four YES | **sustainable competitive advantage** |",
+          "",
+          "Slide title: a competitive advantage can be gained by **restricting access to critical resources**."
+        ],
+        "example": "Pharma patents: valuable and rare, but rivals invent around them (COVID vaccines, weight-loss drugs) → temporary advantage."
+      },
+      {
+        "id": "kbv",
+        "name": "The knowledge-based view: explicit vs. tacit knowledge (Grant 1996)",
+        "slides": "Slide 16",
+        "simple": "Some knowledge fits in a recipe book (easy to copy); some lives only in the craftsman's hands (hard to copy, and therefore valuable).",
+        "exam": "**The most important strategic resource is knowledge.** The KBV is concerned with the problems of **coordinating knowledge** within the firm (or an inter-firm structure) and the **costs of transacting knowledge**. **Explicit knowledge:** can be formalized, codified, written down and easily transferred across individuals and organizations. **Tacit knowledge:** highly personal, experiential, deeply rooted in action, routines and context. (In class: KBV builds on and complements the RBV; tacit knowledge is harder to imitate.)",
+        "example": "In class: burger-chain franchise manuals (explicit, easy to copy) vs. building a harp (tacit craftsmanship)."
+      },
+      {
+        "id": "moneyball",
+        "name": "Moneyball (and Netflix): knowledge as competitive advantage",
+        "slides": "Slide 17 · transcript",
+        "simple": "Knowing something your rivals don't, like which players are secretly great, lets you win with less money, until everyone copies your method.",
+        "exam": "**Moneyball:** Billy Beane (Oakland A's) replaced player selection based on reputation and hype with **statistical metrics**, finding underrated players cheaply and building a strong team. In class: **Netflix** used viewing data from its DVD-rental customers to build profiles, recommendations and later its own shows; newcomers lacked that data. But once everyone uses analytics, such knowledge advantages erode → RBV/KBV are **static** → need a dynamic view.",
+        "example": "Ship of Theseus (break slide): if every plank is replaced, is it the same ship? → bridge to renewal (dynamic capabilities)."
+      },
+      {
+        "id": "dynamic-capabilities",
+        "name": "Dynamic capabilities: sensing, seizing, reconfiguring",
+        "slides": "Slides 20–21 (Teece et al. 1997; Teece 2007)",
+        "simple": "Good stones aren't enough when the landscape keeps changing. You need the skill to notice change, act on it and rebuild yourself.",
+        "exam": [
+          "Dynamic capability is “**the firm's ability to integrate, build, and reconfigure internal and external competences to address rapidly changing environments**.” (Teece et al. 1997). It emphasizes **renewal** to maintain competitive advantage; a **metacompetence**: the ability to **redeploy resources** in a targeted manner.",
+          "- **Sensing** opportunities and threats outside the organization;",
+          "- **Seizing** new business models or investments to capture value;",
+          "- **Reconfiguring** the organization's asset alignment and structures."
+        ],
+        "example": "In class: TAG Heuer sensed the Apple Watch threat (2015), seized via an alliance with Google and Intel (TAG Heuer Connected), and reconfigured while keeping Swiss-made luxury production; it later refocused on analog watches."
+      },
+      {
+        "id": "absorptive-capacity",
+        "name": "Absorptive capacity (Cohen & Levinthal 1990)",
+        "slides": "Slide 24",
+        "simple": "The more you already understand, the easier it is to learn something new. A workshop with no tech people can't easily build a smartwatch.",
+        "exam": "**Absorptive capacity** = a company's **ability to recognize the value of new external information**: **acquire → assimilate → transform → exploit**. It is the **basis for dynamic capabilities**, and absorptive capacities are **self-reinforcing**.",
+        "example": "A traditional watchmaker without engineers struggles to absorb smartwatch technology → needs partners or hiring."
+      },
+      {
+        "id": "swot",
+        "name": "SWOT analysis",
+        "slides": "Slide 25",
+        "simple": "What you're good and bad at today (inside) × what could happen tomorrow (outside).",
+        "exam": [
+          "S/W = **firm's resources and capabilities (internal + current)**; O/T = **industry and environmental developments (external + future)**. SWOT can help firms develop and upgrade their dynamic capabilities.",
+          "| | Opportunities | Threats |",
+          "|---|---|---|",
+          "| **Strengths** | Which resources and capabilities are **defensible against competition in the long run**? | Which key resources and capabilities could be **imitated or substituted** by competitors? |",
+          "| **Weaknesses** | Which critical resources and capabilities do we **lack that we could build or acquire**? | Which critical resources or capabilities do **competitors have that we depend on but cannot access**? |"
+        ],
+        "example": "Watchmaker (in class): S craftsmanship; W may lose value if focus shifts to tech; O new customers; T smartwatches."
+      },
+      {
+        "id": "variance",
+        "name": "Connecting the dots: how much does industry vs. firm matter?",
+        "slides": "Slides 29–32 (Rumelt 1991; McGahan & Porter 1997; Eshraghi & Vanneste 2026)",
+        "simple": "Does a grade depend more on the school or on the student? Studies say: mostly the student (the firm), but the school (the industry) matters too.",
+        "exam": [
+          "**Variance decomposition:** how much of the variance in firm performance is explained by external (industry) and internal (firm) factors? Eshraghi & Vanneste (2026): industry classification (SIC codes vs. new machine-learning classifications) influences the effect size; **classifications that group similar firms together show stronger industry effects**; the paper **challenges established industry classifications** and shows how external and internal factors interact.",
+          "",
+          "| Study | Firm (%) | Industry (%) |",
+          "|---|---|---|",
+          "| Rumelt (1991) | 46.4 | 8.3 |",
+          "| McGahan & Porter (1997) | 31.7 | 19 (see gaps) |",
+          "| Eshraghi & Vanneste (2026) | 45.9 | 25.4 |",
+          "",
+          "**Punchline:** competitive advantage stems from **internal resources that are difficult to imitate** (RBV, KBV); **dynamic capabilities** renew advantages (sensing, seizing, reconfiguring); **both industry and firm characteristics influence profitability**."
+        ],
+        "example": "Never write ‘industry doesn't matter’: about 25 % is substantial."
+      }
+    ],
+    "connections": [
+      "**Lecture 3 ↔ 4:** MBV (Five Forces, external) + RBV (internal) are combined in **SWOT**; non-substitutability ↔ threat of substitution; ASML appears in both (barriers to entry; inimitable resource).",
+      "**Lecture 2 → 4:** TAG Heuer **seized** via a **strategic alliance** (Google, Intel) to fill capability gaps; network effects (Windows) make resources non-substitutable.",
+      "**Lecture 1 → 4:** economies of learning and tacit knowledge; the value chain shows where costs and quality are created.",
+      "**RBV → KBV → dynamic capabilities:** static resources → static knowledge → dynamic renewal (Moneyball and Netflix advantages erode).",
+      "**Variance studies:** empirical answer to MBV vs. RBV: both matter; firm effects larger."
+    ],
+    "examFocus": {
+      "questions": [
+        "Contrast MBV and RBV (chains, authors) and explain why the RBV is needed (variance within industries).",
+        "Explain resource heterogeneity and immobility; classify tangible vs. intangible resources.",
+        "Apply VRIN to a resource and state the outcome via the decision chain.",
+        "Explicit vs. tacit knowledge with examples; why tacit knowledge is a stronger advantage.",
+        "Define dynamic capabilities (verbatim) and apply sensing, seizing, reconfiguring to a case.",
+        "Absorptive capacity: definition and four steps; role as basis for DCs.",
+        "Fill in a SWOT; interpret the variance-decomposition results."
+      ],
+      "traps": [
+        "Not valuable → **disadvantage**; valuable but not rare → **parity**; not inimitable or not non-substitutable → **temporary** advantage; all four → **sustainable**.",
+        "Imitation ≠ substitution, but both lead to a **temporary** advantage.",
+        "Explicit knowledge is easy to transfer: good for licensing, **bad** for sustainable advantage.",
+        "KBV complements the RBV; it is not a rival theory.",
+        "Absorptive capacity is the **basis** of dynamic capabilities, not the same thing.",
+        "S/W are **internal and current**; O/T are **external and future**."
+      ],
+      "mistakes": [
+        "Listing an external trend as a strength (or an internal gap as a threat) in a SWOT.",
+        "Forgetting case facts when applying VRIN.",
+        "Paraphrasing the Teece definition too loosely (learn it verbatim)."
+      ]
+    },
+    "memorize": [
+      "**MBV:** industry structure → CA → performance (Porter). **RBV:** resources & capabilities → CA → performance (Barney).",
+      "**RBV premises:** resource heterogeneity; resource immobility. Firm = unique bundle of resources, capabilities, core competencies.",
+      "**Resources:** tangible (current assets, fixed assets, real estate); intangible (personnel, organizational, relational, technological).",
+      "**Value chain:** primary (inbound logistics, operations, outbound logistics, sales & marketing, service) + support (infrastructure, HRM, technology development, procurement) → cost or quality advantage.",
+      "**VRIN** (Barney 1991) and the chain: disadvantage → parity → temporary → temporary → sustainable.",
+      "**KBV** (Grant 1996): knowledge = most important resource; explicit vs. tacit.",
+      "**Dynamic capability** (Teece et al. 1997): “the firm's ability to integrate, build, and reconfigure internal and external competences to address rapidly changing environments.” Sensing, seizing, reconfiguring (Teece 2007).",
+      "**Absorptive capacity** (Cohen & Levinthal 1990): recognize the value of new external information; acquire, assimilate, transform, exploit; basis for DCs; self-reinforcing.",
+      "**SWOT:** S/W internal + current; O/T external + future.",
+      "**Variance:** Rumelt 1991 firm 46.4 % / industry 8.3 %; Eshraghi & Vanneste 2026 firm 45.9 % / industry 25.4 %."
+    ],
+    "gaps": [
+      "The handout lacks some slides (3, 11, 22–23, 26–28). Content from those slides (TAG Heuer case, ‘what is an industry?’) comes from your **lecture transcript**, not from the slides.",
+      "**McGahan & Porter (1997):** your transcript notes that the professor said ‘industry 9 %’ orally, while the slide shows **19 %**. Use the slide value.",
+      "The transcript also reports that the professor said a firm with ‘at least one’ VRIN criterion is more likely to sustain an advantage, but the **slide chain requires all four**. Use the slide logic.",
+      "The upper-echelons readings (Hambrick & Mason; Adner & Helfat) are listed as further reading but not covered on the slides."
+    ]
+  },
+  "practice": [
+    { "topic": "mbv-rbv", "question": "Which chain describes the resource-based view?", "options": ["Industry structure → competitive advantage → performance", "A firm's resources and capabilities → competitive advantage → performance", "Performance → resources → industry", "Regulation → competition → prices"], "answer": 1, "explanation": "MBV (Porter) starts from industry structure; RBV (Barney) from resources." },
+    { "topic": "within-industry", "question": "Why is the RBV needed in addition to industry analysis?", "options": ["Because industries never matter", "Because profitability varies strongly within the same industry", "Because Porter's model is about prices", "Because firms have no resources"], "answer": 1, "explanation": "Industry structure can't explain firm differences inside one industry." },
+    { "topic": "rbv-assumptions", "question": "‘Strategic resources do not easily transfer from one company to another’ describes…", "options": ["resource heterogeneity", "resource immobility", "absorptive capacity", "economies of scope"], "answer": 1, "explanation": "Heterogeneity = firms have different mixes of resources." },
+    { "topic": "resources", "question": "Which is an intangible resource?", "options": ["Cash", "Machinery", "Organizational routines and processes", "Buildings"], "answer": 2, "explanation": "Intangible: personnel, organizational, relational, technological." },
+    { "topic": "vrin-chain", "question": "A resource is valuable and rare but easy to imitate. Result?", "options": ["Competitive disadvantage", "Competitive parity", "Temporary competitive advantage", "Sustainable competitive advantage"], "answer": 2, "explanation": "Stops at the ‘inimitable?’ gate." },
+    { "topic": "vrin-chain", "question": "A resource is valuable but many competitors have it. Result?", "options": ["Competitive disadvantage", "Competitive parity", "Temporary advantage", "Sustainable advantage"], "answer": 1, "explanation": "Not rare → parity." },
+    { "topic": "vrin", "question": "Which VRIN criterion is about whether another resource can deliver the same strategic value?", "options": ["Valuable", "Rare", "Inimitable", "Non-substitutable"], "answer": 3, "explanation": "No equivalent alternative available." },
+    { "topic": "kbv", "question": "Tacit knowledge is…", "options": ["codified and easy to transfer", "highly personal, experiential and rooted in action, routines and context", "the same as intellectual property", "irrelevant for competitive advantage"], "answer": 1, "explanation": "Explicit knowledge is the codified, transferable kind." },
+    { "topic": "dynamic-capabilities", "question": "Teece et al. (1997) define dynamic capability as…", "options": ["the ability to produce at lowest cost", "the firm's ability to integrate, build and reconfigure internal and external competences to address rapidly changing environments", "a firm's market share", "the ability to set prices"], "answer": 1, "explanation": "Learn it verbatim." },
+    { "topic": "dynamic-capabilities", "question": "‘Seizing’ refers to…", "options": ["spotting opportunities and threats", "new business models or investments to capture value", "realigning assets and structures", "copying competitors"], "answer": 1, "explanation": "Sensing = spotting; reconfiguring = realigning." },
+    { "topic": "absorptive-capacity", "question": "Absorptive capacity is…", "options": ["the same as dynamic capabilities", "the ability to recognize the value of new external information; the basis for dynamic capabilities", "a firm's production capacity", "a type of tangible resource"], "answer": 1, "explanation": "Acquire, assimilate, transform, exploit; self-reinforcing." },
+    { "topic": "swot", "question": "In a SWOT, ‘Which critical resources do competitors have that we depend on but cannot access?’ belongs to…", "options": ["Strengths × Opportunities", "Strengths × Threats", "Weaknesses × Opportunities", "Weaknesses × Threats"], "answer": 3, "explanation": "Slide 25 grid." },
+    { "topic": "variance", "question": "According to Eshraghi & Vanneste (2026), roughly how much performance variance do firm and industry explain?", "options": ["Firm ≈ 8 %, industry ≈ 46 %", "Firm ≈ 46 %, industry ≈ 25 %", "Both ≈ 50 %", "Industry only"], "answer": 1, "explanation": "45.9 % firm vs. 25.4 % industry." },
+    { "topic": "value-chain", "question": "Which is a support activity in Porter's value chain?", "options": ["Inbound logistics", "Operations", "Procurement", "Sales & marketing"], "answer": 2, "explanation": "Support: infrastructure, HRM, technology development, procurement." }
+  ],
+  "mock": {
+    "questions": [
+      { "type": "mc", "points": 2, "topic": "vrin-chain", "question": "A resource is not valuable. According to Barney's decision chain, the firm has…", "options": ["competitive parity", "a temporary advantage", "a competitive disadvantage", "a sustainable advantage"], "answer": 2, "explanation": "The chain stops at the first gate." },
+      { "type": "mc", "points": 2, "topic": "rbv-assumptions", "question": "A pharma firm's star scientist is hired by a rival but performs worse there, because her success depended on her collaborators. This illustrates…", "options": ["resource heterogeneity", "resource immobility", "economies of scale", "absorptive capacity"], "answer": 1, "explanation": "The network doesn't move with her: sticky, immobile resources." },
+      { "type": "mc", "points": 2, "topic": "kbv", "question": "Which knowledge is most likely to give a sustainable advantage?", "options": ["A franchise manual describing every step", "A published patent after expiry", "Experienced craftsmen's skills that were never written down", "A public industry report"], "answer": 2, "explanation": "Tacit knowledge is hard to transfer and imitate." },
+      { "type": "mc", "points": 2, "topic": "absorptive-capacity", "question": "Which is the correct order of absorptive capacity steps?", "options": ["Exploit → transform → assimilate → acquire", "Acquire → assimilate → transform → exploit", "Sense → seize → reconfigure → exploit", "Assimilate → acquire → exploit → transform"], "answer": 1, "explanation": "Cohen & Levinthal (1990)." },
+      { "type": "mc", "points": 2, "topic": "swot", "question": "Which item belongs to ‘Opportunities’ in a SWOT?", "options": ["Our engineers' rare know-how", "A missing digital sales channel", "A growing customer group that has never bought our product category", "A rival copying our design"], "answer": 2, "explanation": "External and future. A = strength, B = weakness, D = threat." },
+      { "type": "mc", "points": 2, "topic": "variance", "question": "What do variance-decomposition studies show about MBV vs. RBV?", "options": ["Only industry matters", "Only the firm matters", "Firm effects are larger, but industry effects are substantial; both matter", "Neither explains anything"], "answer": 2, "explanation": "E.g. firm 45.9 %, industry 25.4 %." },
+      { "type": "open", "points": 6, "topic": "mbv-rbv", "question": "Contrast the market-based view and the resource-based view (chain, focus, key author) and explain why the RBV is needed. Define resource heterogeneity and resource immobility.", "model": "MBV: industry structure → competitive advantage → performance; external, outside-in; Michael Porter (industrial economics). RBV: a firm's resources and capabilities → competitive advantage → performance; internal, inside-out; Jay Barney. The RBV is needed because profitability varies strongly within the same industry, which industry structure cannot explain. Heterogeneity: firms are unique bundles of resources and capabilities, so they hold different mixes even in one industry. Immobility: strategic resources do not easily move between firms, especially sticky intangibles like brand equity or culture.", "keyPoints": [ { "text": "MBV chain, focus and author", "points": 1.5 }, { "text": "RBV chain, focus and author", "points": 1.5 }, { "text": "Why RBV is needed (variance within industries)", "points": 1 }, { "text": "Heterogeneity defined", "points": 1 }, { "text": "Immobility defined", "points": 1 } ] },
+      { "type": "open", "points": 10, "topic": "dynamic-capabilities", "question": "A traditional Swiss watchmaker known for handcrafted mechanical watches faces the rise of smartwatches.\n(a) Apply the VRIN test to its craftsmanship and state the outcome. (b) Define dynamic capabilities (Teece et al. 1997) and describe what sensing, seizing and reconfiguring could mean for this firm. (c) Explain why absorptive capacity matters here.", "model": "(a) Valuable: luxury buyers pay a premium for handcrafted Swiss watches → yes. Rare: few craftsmen can build intricate mechanical watches → yes. Inimitable: tacit, experience-based skills are hard to replicate → yes. Non-substitutable: debatable: smartwatches partly substitute the time-telling function but not the prestige/jewellery value (the analog market survived) → argue. Conclusion: sustainable advantage in the luxury segment, threatened if customers shift to technology. (b) ‘The firm's ability to integrate, build, and reconfigure internal and external competences to address rapidly changing environments.’ Sensing: recognize smartwatches as a threat/opportunity (e.g. new customers). Seizing: choose a business model or investment, e.g. a strategic alliance with tech firms (as TAG Heuer did with Google and Intel), or deliberately stay analog. Reconfiguring: align assets and structures (skills, channels) while protecting the core resource (Swiss-made craftsmanship). (c) Absorptive capacity, the ability to recognize the value of new external information (acquire, assimilate, transform, exploit), is the basis of dynamic capabilities: a firm without technology experts can hardly absorb smartwatch know-how, so it needs partners or new hires.", "keyPoints": [ { "text": "(a) V, R, I each assessed with a fact", "points": 2 }, { "text": "(a) N discussed + explicit outcome via the chain", "points": 1.5 }, { "text": "(b) Teece definition (close to verbatim)", "points": 1.5 }, { "text": "(b) Sensing, seizing, reconfiguring applied concretely", "points": 3 }, { "text": "(c) Absorptive capacity defined and linked to DCs / need for partners", "points": 2 } ] }
+    ]
+  }
+}

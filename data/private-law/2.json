@@ -1,0 +1,549 @@
+{
+  "id": "2",
+  "number": "2",
+  "title": "Unfair Advantage, Defects of Intent, Agency",
+  "sources": [
+    "Introduction to Private Law, Lecture 2 (slides, 38 p.)",
+    "Validity of Contracts: Exam Guide & Summary"
+  ],
+  "summary": {
+    "bigPicture": [
+      "Lecture 2 completes the **validity conditions**: **unfair advantage** (CO 21), **defects of intent** (error, fraud, duress; CO 23 ff.) and **valid agency** (CO 32 ff.).",
+      "Unfair advantage and defects of intent do not make a contract void: they make it **contestable**, within **one year** (CO 31).",
+      "Not every error counts: only **fundamental** errors (error in declaration, fundamental error in motive) allow contestation; a **simple error in motive** does not. Fraud allows contestation even for non-fundamental errors.",
+      "Contestation has limits: **good faith** (CO 25) and **damages for negligent error** (CO 26).",
+      "**Agency:** an agent can bind the principal if they have **authority**, act **in the principal's name**, the transaction allows agency and the agent is capable of judgment. Without authority the contract is **pending** (ratification, CO 38) and the agent may be **liable** (CO 39)."
+    ],
+    "concepts": [
+      {
+        "id": "unfair-advantage",
+        "name": "Unfair advantage (CO 21)",
+        "slides": "Slides 4–6",
+        "simple": "If someone exploits your weak moment to charge a crazy price, you can undo the deal. Both things are needed: a huge imbalance AND exploiting a weakness.",
+        "exam": "A contract may be **contested** on the grounds of unfair advantage if **(1) there is a clear discrepancy between performance and counter-performance** and **(2) a state of weakness is exploited**, e.g. **straitened circumstances, inexperience or thoughtlessness**. Example: at 11 p.m. Helene buys migraine pills for her boyfriend at a 24-hour pharmacy; pharmacist Anton charges **CHF 120** (standard price **CHF 14.95**), taking advantage of the situation.",
+        "example": "A high price alone is not enough: a luxury shop charging CHF 500 for a T-shirt isn't exploiting anyone's weakness."
+      },
+      {
+        "id": "error-types",
+        "name": "Defects of intent and types of error",
+        "slides": "Slides 8–10",
+        "simple": "A decision has two steps: first you form your intent (why you want something), then you declare it (what you say). You can slip up in either step. A slip in what you *say* about the main points counts. A wrong reason only counts if it was a basic assumption both sides could recognise.",
+        "exam": [
+          "Defects of intent: **fundamental error** (in a broader sense) and **fraud and duress**.",
+          "",
+          "| Fundamental error (broader sense) | | Not fundamental |",
+          "|---|---|---|",
+          "| **Error in declaration**: fundamental if it affects the **type of contract**, the **subject matter or person**, or the **scope of performance** (CO 24 I no. 1–3) | **Fundamental error in motive**: relates to **specific facts** the erring party **in good faith** considered a **necessary basis** of the contract (CO 24 I no. 4). Requirements: **subjective materiality**, **objective materiality**, **recognizability for the counterparty** | **Simple error in motive**: relates solely to the **reason** for concluding the contract (CO 24 II) |",
+          "",
+          "Error in motive arises during the **formation of intent**; error in declaration during the **declaration of intent**."
+        ],
+        "example": "Buying a painting because you believe it's an original, and the seller knew this was the basis → possibly fundamental error in motive. Buying a dress for a party that is then cancelled → simple error in motive."
+      },
+      {
+        "id": "error-examples",
+        "name": "Error cases from the slides",
+        "slides": "Slides 11–14",
+        "simple": "Apply the consensus scheme from Lecture 1 first, then ask whether the mistake is fundamental.",
+        "exam": [
+          "- **Tim** wants the 55in TV but clicks the **65in** model; MegaMarket delivers the 65in → the declarations match (65in) → contract for the 65in (normative consensus); Tim erred in the **subject matter** of his declaration → **error in declaration** → Tim can contest.",
+          "- **Silvia** orders Bose QuietComfort; Patrik absentmindedly confirms but understood ‘Ultra’ → contract for **QuietComfort**; the seller erred in his declaration → contestable by the seller.",
+          "- **Remo** orders a Submariner **Date**; Patrik knowingly ‘confirms’ a Submariner **without date** → the declarations do not match (Patrik is not mistaken, he declares something different).",
+          "- **Claudio**: agreed price CHF 12,000 minus 10 % loyalty discount, but only CHF 800 deducted instead of CHF 1,200 → a mistake in the **invoice calculation**; the slides ask what rights Claudio has (see gaps)."
+        ],
+        "example": "Exam method: (1) consensus? (2) if yes, which error type? (3) fundamental? (4) time limit and good faith (CO 25, 31)."
+      },
+      {
+        "id": "co25-co26",
+        "name": "Limits of contestation: good faith (CO 25) and damages (CO 26)",
+        "slides": "Slides 15–16 · Validity summary",
+        "simple": "You can't stay quiet about your mistake, let the other side do all the work, and then cancel at the last second. And if your careless mistake costs the other side money, you must pay for it.",
+        "exam": [
+          "- **CO 25:** invoking an error is **inadmissible if it is against good faith**. Example: Maxime notices at the first fitting that he ordered two suits by mistake, says nothing, attends two further fittings and only contests when both suits are finished → contestation against good faith.",
+          "- **CO 26:** **liability for damages in the event of a negligent error**. Example: car dealer Lisa puts the wrong price tag (CHF 9,500 instead of 13,800) on an old VW; Maria buys it and rents a parking space (minimum 3 months × CHF 150); Lisa contests two days later → she can contest, but owes damages.",
+          "- Validity summary: **CO 26 I** → **negative contractual interest** (as if the contract had never been concluded); **CO 26 II** → “further damages” (**positive contractual interest**, as if performed correctly)."
+        ],
+        "example": "Maria's parking costs (3 × CHF 150 = CHF 450) are the kind of damage caused by trusting the contract (negative interest)."
+      },
+      {
+        "id": "fraud-duress",
+        "name": "Fraud (CO 28) and duress (CO 29 ff.)",
+        "slides": "Slides 17–19",
+        "simple": "If someone tricks you into a deal, you can walk away even if the trick was about something small. If someone threatens you into a deal, you're not bound either.",
+        "exam": [
+          "- **Fraud (CO 28):** a party induced to enter into a contract by the **unlawful fraud** of the other party **is not bound** by it **even if its error is not fundamental**. Example: the dealer **rolled back the odometer** (60,000 km shown, 120,000 km real) of the Suzuki Lisa bought for CHF 8,000 → fraud: the contract is valid but Lisa can contest it (not bound).",
+          "- **Duress (CO 29 et seq.):** a party that entered into a contract **under duress from the other party or a third party** (threat) **is not bound**. Example: Lara threatens to tell Daniel's wife about his affair unless he sells her his car for CHF 5,000. Telling the truth may be allowed, but using it to force a favourable purchase is duress → Daniel can declare he is not bound."
+        ],
+        "example": "Note: duress can also come from a third party (CO 29), fraud on the slide is by ‘the other party’."
+      },
+      {
+        "id": "co31",
+        "name": "Approval of the contract: the one-year period (CO 31)",
+        "slides": "Slide 20 · Validity summary",
+        "simple": "If you want to escape a contract because of a mistake, trick or threat, you have one year, counted from when you found out (or when the threat ended). After that, the contract counts as approved.",
+        "exam": "The party wanting to contest must do so **within one year** of: **discovery of the error** · **discovery of the fraud** · **end of the duress**. Otherwise the contract is deemed **ratified** (validity summary).",
+        "example": "Lisa discovers the odometer fraud in March 2027 → she must contest by March 2028."
+      },
+      {
+        "id": "agency-requirements",
+        "name": "Agency: structure and requirements",
+        "slides": "Slides 22–24",
+        "simple": "Sometimes you don't sign a contract yourself; someone does it for you, like a lawyer or an employee. It works if they had permission, said they were acting for you, the deal can be done through someone else, and they could think clearly.",
+        "exam": [
+          "Triangle: **principal** gives **authority** to the **agent**; the agent conducts **direct negotiations** with the **third party**; the **contract** arises between principal and third party (a chain of agents is possible).",
+          "Requirements of **direct agency**:",
+          "1. **Authority** (power of attorney).",
+          "2. **Acting in the name of another person.**",
+          "3. The **transaction allows for agency**.",
+          "4. The **agent is capable of judgment**."
+        ],
+        "example": "An employee buying office supplies in the company's name with the boss's permission."
+      },
+      {
+        "id": "authority",
+        "name": "Sources of authority and protection of good-faith third parties",
+        "slides": "Slides 25–26",
+        "simple": "Permission can come from the person (‘I authorise you’) or from the law (e.g. parents for their children). And if the principal created the impression that someone was authorised, or forgot to tell people the permission was withdrawn, an honest third party is protected.",
+        "exam": [
+          "Authority stems from a **power of attorney** (authorization by legal transaction, **CO 33**) or **the law** (e.g. **CC 55 II, 304, 394**).",
+          "**Effect of representation despite lack of authority** (protection of **bona fide third parties**):",
+          "- **Notification creating an appearance of authority**, **CO 33 III** (agency by estoppel).",
+          "- **Revocation** of the power of attorney **not communicated** to the third party, **CO 34 III**.",
+          "- **Agent unaware** of the extinction of the power of attorney, **CO 37 I**."
+        ],
+        "example": "Slide: Paul buys pastries every Friday in the lecturer's name at the same bakery; the lecturer then refuses to pay, saying Paul was never authorized. Weekly tolerated purchases can create an appearance of authority (CO 33 III) that protects the bona fide bakery."
+      },
+      {
+        "id": "in-the-name",
+        "name": "Acting in the name of another and consequences of valid agency",
+        "slides": "Slides 27–28",
+        "simple": "The third party must know (or not care) that the agent acts for someone else. Then the contract is between the principal and the third party; the agent drops out.",
+        "exam": "Acting in the name of another (**CO 32 II**) is met by **explicit declaration**, **implied declaration**, or **indifference of the third party** (e.g. buying bread for a flatmate: the cashier doesn't care). **Consequence of valid agency (CO 32 I):** the rights and obligations from the contract **accrue to the principal**, not to the agent.",
+        "example": "When Patrik sells a bike for Sports Ltd., Sports Ltd. owes the bike and gets the price."
+      },
+      {
+        "id": "lack-of-authority",
+        "name": "Lack of authority (CO 38 ff.)",
+        "slides": "Slides 29–34",
+        "simple": "If someone pretends to act for you without permission, you're not bound unless you later say ‘OK’. If you refuse, the fake agent must pay the third party's damage: usually the wasted costs, and if the agent knew, possibly the lost profit too.",
+        "exam": [
+          "- **CO 38:** the contract is not binding on the principal unless **subsequently ratified** (until then it is **pending**).",
+          "- **CO 39:** if not ratified, the **agent is liable** for damages to the third party: the **negative contractual interest**, or, **if the agent was at fault**, the **positive contractual interest** is possible.",
+          "",
+          "Slide cases: **Tom** buys 100 kg of chocolate in his lecturer's name without authority → the lecturer pays only if he ratifies. **Carla** orders 100 office chairs (CHF 20,000) for X Ltd., wrongly believing she is authorized; X Ltd. refuses to ratify; Diego spent CHF 1,000 on packaging/transport and would have earned CHF 3,000 profit → Carla owes the negative interest (**CHF 1,000**). Alternative: Carla **knew** she had no authority (fault) → positive interest (**CHF 3,000** lost profit) is possible."
+        ],
+        "example": "Validity summary: CO 39 II grants further damages ‘on the grounds of equity’ when the agent is at fault."
+      },
+      {
+        "id": "revocation",
+        "name": "Revocation of authority: the Anna/Magda/Emma case",
+        "slides": "Slides 32–33",
+        "simple": "If you show someone your lawyer's power of attorney and later fire the lawyer without telling them, they can still rely on what they saw. Once you tell them, they can't.",
+        "exam": "Anna mandates attorney Magda and gives Emma a **copy of the written power of attorney**. Anna later terminates the mandate, but Magda still reaches a settlement with Emma → the revocation was **not communicated** to the third party → **CO 34 III** protects bona fide Emma: Anna is bound. **Variation:** Anna informs Emma that Magda no longer has authority → Emma is no longer in good faith → no protection; Anna is not bound. (Magda case with the internal instruction ‘not below CHF 50,000’: see gaps.)",
+        "example": "Practical lesson: when you revoke a power of attorney, inform everyone who saw it."
+      },
+      {
+        "id": "commercial-agency",
+        "name": "Commercial agency: procuration and bodies",
+        "slides": "Slide 35",
+        "simple": "Businesses can register standard types of authority in the commercial register, so everyone can see who may sign for the company.",
+        "exam": "Standardized forms of commercial agency, registrable in the commercial register, with scope defined by law: **registered power of attorney (‘procuration’, CO 458 et seqq.)**: the registered attorney can carry out **all legal transactions within the scope of the business owner's commercial operations**; and the **authority of representation of partners** in partnerships and of **governing bodies** in legal entities.",
+        "example": "A ‘Prokurist’ of a trading company can sign purchase contracts for goods the company trades in."
+      },
+      {
+        "id": "self-dealing",
+        "name": "Self-dealing",
+        "slides": "Slides 36–37",
+        "simple": "An agent who sells to themselves, or represents both sides, has a conflict of interest. Such a deal isn't automatically final.",
+        "exam": [
+          "Types: **own-name transaction (self-contracting)**: the agent concludes the contract **with themselves**; **double-agency transaction (dual contracting)**: the agent **represents both parties**.",
+          "Slide: **self-dealing leads to the contract being pending**.",
+          "Cases: (a) Frank instructs his bank to sell his house; the bank buys it itself → self-contracting. (b) The bank sells it to its client Carlos, who asked it to buy a house → dual contracting. (c) Eva instructs her bank to sell shares at Monday's opening; the bank buys them itself → self-contracting."
+        ],
+        "example": "The price in case (c) is objectively fixed by the stock exchange, which reduces the conflict of interest (cf. the exception your summary mentions, CO 436)."
+      }
+    ],
+    "connections": [
+      "**L1 consensus → L2 errors:** normative consensus creates a contract with the declared content; error in declaration lets the mistaken party contest it.",
+      "**Void vs. contestable:** L1 conditions (capacity, consensus, form, content) → void; L2 conditions (unfair advantage, defects of intent) → contestable within one year (CO 31).",
+      "**Negative vs. positive contractual interest** appears twice: CO 26 (negligent error) and CO 39 (agent without authority).",
+      "**Legal personality (L1) → agency:** companies always act through agents (bodies, employees, procuration).",
+      "**Agency without authority** is one of the ‘other grounds’ of obligations listed in L1."
+    ],
+    "examFocus": {
+      "questions": [
+        "Is the contract contestable for unfair advantage (both conditions)?",
+        "Classify an error: error in declaration (which category), fundamental error in motive (three requirements), or simple error in motive.",
+        "Fraud vs. duress: requirements and effect; one-year period (CO 31) and its starting point.",
+        "CO 25 (good faith) and CO 26 (damages for negligent error).",
+        "Agency case: requirements, source of authority, good-faith protection (CO 33 III, 34 III, 37 I), consequences (CO 32 I).",
+        "Lack of authority: ratification (CO 38), agent's liability (CO 39): negative vs. positive interest with numbers.",
+        "Self-dealing: identify self-contracting vs. dual contracting."
+      ],
+      "traps": [
+        "Unfair advantage needs **both** a clear discrepancy **and** exploitation of weakness.",
+        "A **simple error in motive** is **not** fundamental (CO 24 II).",
+        "**Fraud:** the error need **not** be fundamental (CO 28).",
+        "Duress can come from a **third party** (CO 29).",
+        "The one-year period runs from **discovery** (error, fraud) or the **end** of duress, not from conclusion.",
+        "Without authority the contract is **pending**, not void: the principal can ratify.",
+        "CO 39: negative interest is the rule; positive interest only if the agent was **at fault**."
+      ],
+      "mistakes": [
+        "Forgetting to check consensus before discussing errors.",
+        "Confusing negative interest (as if never concluded: wasted costs) with positive interest (as if performed: lost profit).",
+        "Treating every price discrepancy as unfair advantage."
+      ]
+    },
+    "memorize": [
+      "**CO 21 unfair advantage:** clear discrepancy between performance and counter-performance + exploitation of weakness (straitened circumstances, inexperience, thoughtlessness) → contestable.",
+      "**CO 24 I no. 1–3 error in declaration:** type of contract, subject matter/person, scope of performance.",
+      "**CO 24 I no. 4 fundamental error in motive:** specific facts considered in good faith a necessary basis; subjective + objective materiality + recognizability.",
+      "**CO 24 II:** simple error in motive (reason only) → not fundamental.",
+      "**CO 25:** no contestation against good faith. **CO 26:** damages for negligent error (I negative, II positive interest).",
+      "**CO 28 fraud:** not bound even if error not fundamental. **CO 29 duress:** by other party or third party → not bound.",
+      "**CO 31:** contest within one year of discovery of error/fraud or end of duress; otherwise ratified.",
+      "**Direct agency:** authority + in the name of another + transaction allows agency + agent capable of judgment.",
+      "**Authority:** power of attorney (CO 33) or law (CC 55 II, 304, 394). **Good-faith protection:** CO 33 III, 34 III, 37 I.",
+      "**CO 32 I:** rights and obligations accrue to the principal. **CO 32 II:** explicit, implied, or third party indifferent.",
+      "**CO 38/39:** ratification; otherwise agent liable (negative interest; positive if at fault).",
+      "**Procuration:** CO 458 ff. **Self-dealing:** self-contracting / dual contracting → pending."
+    ],
+    "gaps": [
+      "The slides pose the cases (pharmacist, Tim, Silvia, Remo, Claudio, Lisa, Lara, Tom, Paul, Magda, Carla, Frank/Eva) but **do not give the official solutions**; the answers above apply the rules on the slides.",
+      "**Claudio (watch servicing):** the discount is miscalculated (CHF 800 instead of CHF 1,200). Which rule applies to such a calculation mistake is not on the slides. Check the statute or the exercise class.",
+      "**Magda (settlement below Anna's internal limit of CHF 50,000):** whether Anna is bound depends on the scope of the authority as communicated to Daniel; the slides don't resolve it.",
+      "**Contradiction in your materials:** the slide says self-dealing makes the contract **pending**; your validity summary says it **generally leads to invalidity** (with exceptions, CO 436). Follow the slide in the exam and ask your exercise instructor.",
+      "Your validity summary mentions an ‘Art. 34 para. 4 CO’ for good-faith protection, while the slide cites CO 34 III. Use the slide's article."
+    ]
+  },
+  "practice": [
+    {
+      "topic": "unfair-advantage",
+      "question": "Which conditions must be met for unfair advantage (CO 21)?",
+      "options": [
+        "Only a clear price discrepancy",
+        "A clear discrepancy between performance and counter-performance AND exploitation of a state of weakness",
+        "Only exploitation of weakness",
+        "A written contract"
+      ],
+      "answer": 1,
+      "explanation": "Both conditions are cumulative."
+    },
+    {
+      "topic": "error-types",
+      "question": "Which error is NOT fundamental?",
+      "options": [
+        "Error about the type of contract",
+        "Error about the subject matter",
+        "Error about the scope of performance",
+        "Error relating solely to the reason for concluding the contract"
+      ],
+      "answer": 3,
+      "explanation": "Simple error in motive (CO 24 II)."
+    },
+    {
+      "topic": "error-types",
+      "question": "Which is NOT a requirement of a fundamental error in motive?",
+      "options": [
+        "Subjective materiality",
+        "Objective materiality",
+        "Recognizability for the counterparty",
+        "Written form"
+      ],
+      "answer": 3,
+      "explanation": "The three requirements are subjective and objective materiality and recognizability."
+    },
+    {
+      "topic": "error-examples",
+      "question": "Tim wants a 55in TV but clicks on the 65in model and receives it. What is the situation?",
+      "options": [
+        "No contract",
+        "Contract for the 55in model",
+        "Contract for the 65in model, contestable by Tim for error in declaration",
+        "Contract for the 65in model, not contestable"
+      ],
+      "answer": 2,
+      "explanation": "Declarations match (65in) → normative consensus; Tim's error concerns the subject matter of his declaration."
+    },
+    {
+      "topic": "fraud-duress",
+      "question": "A car dealer rolled back the odometer. Under CO 28, the buyer…",
+      "options": [
+        "is bound because the error is not fundamental",
+        "is not bound, even if the error is not fundamental",
+        "can only claim a price reduction",
+        "must contest within 10 years"
+      ],
+      "answer": 1,
+      "explanation": "Fraud: not bound even if the error is not fundamental (contest within one year of discovery)."
+    },
+    {
+      "topic": "fraud-duress",
+      "question": "Duress under CO 29 et seq. can come from…",
+      "options": [
+        "only the other party",
+        "the other party or a third party",
+        "only the state",
+        "only a court"
+      ],
+      "answer": 1,
+      "explanation": "Threats by the other party or a third party."
+    },
+    {
+      "topic": "co31",
+      "question": "When does the one-year period to contest for duress start?",
+      "options": [
+        "At conclusion of the contract",
+        "At the end of the duress",
+        "At delivery",
+        "At discovery of the error"
+      ],
+      "answer": 1,
+      "explanation": "Error/fraud: discovery; duress: end of the duress."
+    },
+    {
+      "topic": "co25-co26",
+      "question": "Maxime notices his ordering mistake at the first fitting, stays silent through two more fittings, and contests only when the suits are finished. This is barred by…",
+      "options": [
+        "CO 21",
+        "CO 25 (good faith)",
+        "CO 28",
+        "CO 39"
+      ],
+      "answer": 1,
+      "explanation": "Invoking an error against good faith is inadmissible."
+    },
+    {
+      "topic": "agency-requirements",
+      "question": "Which is NOT a requirement of direct agency?",
+      "options": [
+        "Authority",
+        "Acting in the name of another",
+        "The agent is capable of judgment",
+        "The agent is of age"
+      ],
+      "answer": 3,
+      "explanation": "The agent must be capable of judgment, not necessarily of age."
+    },
+    {
+      "topic": "authority",
+      "question": "Anna revokes her lawyer's power of attorney but doesn't tell Emma, who has a copy of it. The lawyer settles with Emma. Which provision protects Emma?",
+      "options": [
+        "CO 33 III",
+        "CO 34 III",
+        "CO 37 I",
+        "CO 21"
+      ],
+      "answer": 1,
+      "explanation": "Revocation not communicated to the third party."
+    },
+    {
+      "topic": "lack-of-authority",
+      "question": "Without authority, the contract concluded by the agent is…",
+      "options": [
+        "void",
+        "binding on the agent personally as buyer",
+        "pending: the principal can ratify it (CO 38)",
+        "binding on the principal anyway"
+      ],
+      "answer": 2,
+      "explanation": "If not ratified, the agent is liable under CO 39."
+    },
+    {
+      "topic": "lack-of-authority",
+      "question": "Carla, wrongly believing she was authorized, orders chairs; X Ltd. refuses to ratify. Diego spent CHF 1,000 on preparations and lost a CHF 3,000 profit. Carla owes…",
+      "options": [
+        "CHF 0",
+        "CHF 1,000 (negative interest)",
+        "CHF 3,000 (positive interest)",
+        "CHF 20,000"
+      ],
+      "answer": 1,
+      "explanation": "Not at fault → negative contractual interest. If she had known (fault), positive interest would be possible."
+    },
+    {
+      "topic": "self-dealing",
+      "question": "Frank instructs his bank to sell his house; the bank buys it itself. This is…",
+      "options": [
+        "dual contracting",
+        "self-contracting (own-name transaction)",
+        "procuration",
+        "unfair advantage"
+      ],
+      "answer": 1,
+      "explanation": "The agent concludes the contract with itself."
+    },
+    {
+      "topic": "in-the-name",
+      "question": "According to CO 32 I, the rights and obligations from a contract concluded by a valid agent accrue to…",
+      "options": [
+        "the agent",
+        "the principal",
+        "both jointly",
+        "the third party"
+      ],
+      "answer": 1,
+      "explanation": "The principal becomes party to the contract."
+    }
+  ],
+  "mock": {
+    "questions": [
+      {
+        "type": "mc",
+        "points": 2,
+        "topic": "unfair-advantage",
+        "question": "A pharmacist sells migraine pills at 11 p.m. for CHF 120 (standard price CHF 14.95) to someone desperate for them. The contract is…",
+        "options": [
+          "void under CO 19/20",
+          "contestable for unfair advantage (CO 21)",
+          "valid and not contestable",
+          "pending"
+        ],
+        "answer": 1,
+        "explanation": "Clear discrepancy + exploitation of a state of weakness → contestable."
+      },
+      {
+        "type": "mc",
+        "points": 2,
+        "topic": "error-types",
+        "question": "Which error falls under ‘error in declaration’?",
+        "options": [
+          "Buying a dress for a party that is later cancelled",
+          "Saying ‘100 units’ when you meant ‘10 units’",
+          "Buying shares expecting the price to rise",
+          "Buying a house believing a new road will be built"
+        ],
+        "answer": 1,
+        "explanation": "An error in the scope of performance in the declaration. A and C are motive errors (A, C simple)."
+      },
+      {
+        "type": "mc",
+        "points": 2,
+        "topic": "fraud-duress",
+        "question": "Lara threatens to reveal Daniel's affair unless he sells her his car cheaply. Which statement is correct?",
+        "options": [
+          "The contract is void under CO 19/20",
+          "Daniel is not bound because of duress and can contest within one year after the duress ends",
+          "Daniel is bound because Lara would only have told the truth",
+          "Daniel must claim unfair advantage"
+        ],
+        "answer": 1,
+        "explanation": "Using a lawful act (telling the truth) to force a favourable deal is duress (CO 29)."
+      },
+      {
+        "type": "mc",
+        "points": 2,
+        "topic": "co25-co26",
+        "question": "Car dealer Lisa put a wrong price tag on a car by negligence and contests the sale. What must she do under CO 26?",
+        "options": [
+          "Nothing",
+          "Pay damages to the buyer for the negligent error",
+          "Sell the car at the wrong price anyway",
+          "Pay a fine to the state"
+        ],
+        "answer": 1,
+        "explanation": "CO 26: liability for damages in case of a negligent error."
+      },
+      {
+        "type": "mc",
+        "points": 2,
+        "topic": "authority",
+        "question": "Authority can stem from…",
+        "options": [
+          "only a written power of attorney",
+          "a power of attorney (CO 33) or the law (e.g. CC 55 II, 304, 394)",
+          "only the commercial register",
+          "only a court decision"
+        ],
+        "answer": 1,
+        "explanation": "Authorization by legal transaction or by law."
+      },
+      {
+        "type": "mc",
+        "points": 2,
+        "topic": "in-the-name",
+        "question": "The requirement of acting in the name of another (CO 32 II) is NOT met if…",
+        "options": [
+          "the agent explicitly says so",
+          "it follows from the circumstances (implied)",
+          "the third party is indifferent to whom they contract with",
+          "the third party reasonably believes the agent acts for themselves and cares about it"
+        ],
+        "answer": 3,
+        "explanation": "Explicit, implied or indifference suffice; otherwise the requirement fails."
+      },
+      {
+        "type": "mc",
+        "points": 2,
+        "topic": "self-dealing",
+        "question": "A bank sells Frank's house (on his instruction) to its client Carlos, who asked it to buy a house. This is…",
+        "options": [
+          "self-contracting",
+          "dual contracting (double agency)",
+          "procuration",
+          "valid agency without any issue"
+        ],
+        "answer": 1,
+        "explanation": "The bank represents both parties."
+      },
+      {
+        "type": "calc",
+        "points": 8,
+        "topic": "lack-of-authority",
+        "question": "Carla orders 100 office chairs from Diego on behalf of X Ltd. for CHF 20,000. Her power of attorney does not cover such orders. X Ltd. refuses to ratify. Diego has already spent CHF 1,000 on packaging and transport preparation; if the contract had been performed he would have made a CHF 3,000 profit.\n(a) Is X Ltd. bound? (b) What can Diego claim from Carla if she mistakenly believed she was authorized? (c) What changes if she knew she had no authority?",
+        "model": "(a) Carla lacked authority; a contract concluded without authority binds the principal only if ratified (CO 38). X Ltd. refuses → not bound (no good-faith protection facts given). (b) The agent without authority is liable for the damage caused to the third party (CO 39): the negative contractual interest, i.e. Diego is placed as if the contract had never been concluded → CHF 1,000 wasted costs. (c) If the agent was at fault (she knew), the positive contractual interest is possible → Diego is placed as if the contract had been performed → his lost profit of CHF 3,000.",
+        "keyPoints": [
+          {
+            "text": "(a) No authority → pending; refusal to ratify → X Ltd. not bound (CO 38)",
+            "points": 2
+          },
+          {
+            "text": "(b) CO 39 liability of the agent",
+            "points": 1.5
+          },
+          {
+            "text": "(b) Negative contractual interest = CHF 1,000",
+            "points": 2
+          },
+          {
+            "text": "(c) Fault → positive contractual interest possible",
+            "points": 1.5
+          },
+          {
+            "text": "(c) Lost profit CHF 3,000 identified as positive interest",
+            "points": 1
+          }
+        ]
+      },
+      {
+        "type": "open",
+        "points": 6,
+        "topic": "error-types",
+        "question": "Distinguish error in declaration, fundamental error in motive and simple error in motive. For each, state whether the contract can be contested and give an example.",
+        "model": "Error in declaration: the declared intent differs from the actual intent (the error arises when declaring); it is fundamental if it concerns the type of contract, the subject matter or person, or the scope of performance (CO 24 I no. 1–3) → contestable. Example: clicking the 65in instead of the 55in TV. Fundamental error in motive: the error arises when forming the intent and relates to specific facts the erring party considered in good faith a necessary basis of the contract; requires subjective materiality, objective materiality and recognizability for the counterparty (CO 24 I no. 4) → contestable. Simple error in motive: relates solely to the reason for concluding the contract (CO 24 II) → not fundamental, not contestable. Example: buying a dress for a party that is cancelled.",
+        "keyPoints": [
+          {
+            "text": "Error in declaration defined + categories (type, subject matter/person, scope)",
+            "points": 1.5
+          },
+          {
+            "text": "Fundamental error in motive defined + three requirements",
+            "points": 1.5
+          },
+          {
+            "text": "Simple error in motive → not contestable",
+            "points": 1
+          },
+          {
+            "text": "Correct contestability for the first two (contestable)",
+            "points": 1
+          },
+          {
+            "text": "Fitting examples",
+            "points": 1
+          }
+        ]
+      }
+    ]
+  }
+}

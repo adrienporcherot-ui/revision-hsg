@@ -1,0 +1,311 @@
+{
+  "id": "1-1",
+  "number": "1.1",
+  "title": "First Principles",
+  "sources": ["Lecture1.1.pdf (slides, 25 p.)", "Micro 1.1 study guide", "Microeconomics Digressions Revision Guide (Digressions 1.1–1.4)"],
+  "summary": {
+    "bigPicture": [
+      "Economics is defined by a **perspective**, not a topic: it studies how individuals and societies deal with **scarcity**.",
+      "Because means are scarce, every choice has an **opportunity cost**, which is the value of the next-best alternative given up.",
+      "Economics separates **positive** questions (how *do* people deal with scarcity?) from **normative** ones (how *should* they?).",
+      "Economics is a social science that builds **theories and models**. Some philosophy of science (three types of propositions, **Popper's critical rationalism**) tells us what makes a theory good.",
+      "Analysis happens on **three levels** (individual, interaction, aggregate). Microeconomics covers the first two. This vocabulary is used all semester."
+    ],
+    "concepts": [
+      {
+        "id": "fields",
+        "name": "What do economists do?",
+        "slides": "Slide 5",
+        "simple": "Economists don't only talk about money and shops. They ask questions like: why are some countries rich and others poor? Why do apps cost nothing? Can a vote really tell us what “the people” want? All of these are economics questions.",
+        "exam": "Example questions on the slide: why some people/countries are rich and others poor; why it is profitable for internet platforms to charge a **price of zero**; whether **majority voting** can tell us what “the people” want. “Economics reaches far beyond markets: voting systems, military and political conflicts, evolutionary biology, auctions, internet platforms, law, philosophy…” (Kolmar 2022, p. 4). What they have in common is **scarcity** (next concepts).",
+        "example": "A free social-media app is still an economics question: the platform chooses a price of zero because of how it makes money elsewhere. The slide asks *why* this can be profitable."
+      },
+      {
+        "id": "definitions",
+        "name": "Classic definitions of economics",
+        "slides": "Slides 6–8",
+        "simple": "All the famous definitions say the same thing: we want lots of things, but we only have limited stuff (time, money, resources), and that stuff could be used in different ways. Economics studies how we choose.",
+        "exam": [
+          "- **Robbins (1932):** “the science which studies human behaviour as a relationship between ends and scarce means which have alternative uses.”",
+          "- **Samuelson (1948):** how men and society choose, with or without money, to employ scarce productive resources with alternative uses, to produce commodities over time and distribute them for consumption, now and in the future.",
+          "- **Mankiw (2021):** “the study of how society manages its scarce resources.”",
+          "- **Kolmar (2022, p. 4):** “the study of how individuals and societies manage goods and resources, which can be **objectively as well as subjectively scarce**.”"
+        ],
+        "example": "Robbins' keywords for an exam answer: *ends*, *scarce means*, *alternative uses*. If means had no alternative uses, there would be no choice to study."
+      },
+      {
+        "id": "scarcity",
+        "name": "Scarcity",
+        "slides": "Slides 7–8",
+        "simple": "Scarcity means you want more than you can have. You'd like to go to the cinema, eat out and buy new shoes, but you have only 50 francs and one evening.",
+        "exam": "Economics looks at the world **from the perspective of scarcity**. **Scarcity exists if wants exceed the available means to satisfy them.** Per Kolmar, goods and resources can be **objectively** or **subjectively** scarce.",
+        "example": "Time is scarce for everyone: even a billionaire only has 24 hours a day. Scarcity ≠ poverty."
+      },
+      {
+        "id": "methodology",
+        "name": "Economics as a methodology",
+        "slides": "Slide 8",
+        "simple": "Biology is defined by *what* it studies (living things). Economics is defined by *how* it looks at things: through the lens of scarce means and choices. So you can use it for voting, war, dating or climate.",
+        "exam": "Because scarcity is everywhere, **economics is a methodology, not a field of application**: it can analyse any area of behaviour where scarce means must be allocated to competing ends.",
+        "example": "Applying economics to majority voting or to military conflicts is still economics, even though no market is involved."
+      },
+      {
+        "id": "opportunity-cost",
+        "name": "Opportunity cost",
+        "slides": "Slide 9",
+        "simple": "The real cost of something is what you give up to get it. If you spend Saturday studying, the cost is the hike you could have done, not just the coffee you bought at the library.",
+        "exam": "“The value one connects to the **next-best alternative forgone** is the opportunity cost of one's choice” (Kolmar 2022, p. 5). Every choice means giving up alternatives; what a choice truly costs is the value of the next-best alternative forgone, **not the money spent**, and **not the sum of all alternatives**.",
+        "example": "A free concert ticket: you could otherwise work a CHF 120 shift or go hiking (worth CHF 80 to you). The opportunity cost of the concert is CHF 120 (the next-best alternative only), not 0 and not 200."
+      },
+      {
+        "id": "two-responses",
+        "name": "Two ways of responding to scarcity (Digression 1.1)",
+        "slides": "Slide 10 · Digression 1.1 (TB p. 5)",
+        "simple": "If you want more than you have, you can either get more stuff, or want less. Economics studies the first way; Buddhism focuses on the second.",
+        "exam": [
+          "1. **For given ends, expand the means**: the approach of (Western) economics. Freedom = absence of external constraints.",
+          "2. **For given means, work on your ends**: philosophy, e.g. **Buddhism**. Freedom = autonomy from the “dictatorship” of desires.",
+          "",
+          "Digressions guide vocabulary: **Dukkha** = misaligned desires and needs. **Four Noble Truths**: (1) Dukkha exists; (2) it arises from attachment to desires; (3) it ceases when attachment ceases; (4) attachment ceases through mental discipline (the **Eightfold Path**)."
+        ],
+        "example": "You can't afford a CHF 1,000 phone: work extra shifts (expand means) or decide your current phone is enough (adjust ends)."
+      },
+      {
+        "id": "positive-normative",
+        "name": "Positive vs. normative theories",
+        "slides": "Slide 11",
+        "simple": "Positive = describing the world like a camera (“people buy less when prices rise”). Normative = saying what would be good (“bread should be cheaper”). You can check the first with data; the second needs a value judgment.",
+        "exam": [
+          "- **Positive theories:** how *do* people deal with scarcity? Statements about **‘what is’** (descriptive).",
+          "- **Normative theories:** how *should* people deal with scarcity? Prescriptions about **‘what ought to be’** (prescriptive); they rely on a **value judgment**.",
+          "- Learning goal: the opposite of ‘positive’ is **‘normative’, not ‘negative’**. ‘Positive’ means descriptive, not ‘good’."
+        ],
+        "example": "Positive: “A minimum wage of CHF 30 reduces youth employment.” Normative: “Everyone deserves a living wage, so a minimum wage should be introduced.”"
+      },
+      {
+        "id": "theory",
+        "name": "Theory and ‘reasonable’ conjectures",
+        "slides": "Slide 12",
+        "simple": "A theory is a big, sensible guess about why things happen. Experts discuss it openly; if they agree it makes sense, it counts as reasonable.",
+        "exam": "Economics develops theories that help us **better understand the world**; better decisions and solved problems are a (welcome) **byproduct**. **Theory:** a relatively broad conceptual approach that makes **reasonable conjectures about causal relationships** in the world. **Reasonable:** a conjecture is reasonable if it is **consensual among experts** (in a **non-hierarchical discourse**).",
+        "example": "“People react to incentives” is a broad conjecture about cause and effect that most economists accept after open debate, not because a boss said so."
+      },
+      {
+        "id": "model",
+        "name": "Model",
+        "slides": "Slide 13",
+        "simple": "A model is like a map: it leaves out most details on purpose so you can see the one thing you care about. You start from assumptions and use logic/maths to reach conclusions.",
+        "exam": "“A model is a **collection of assumptions and hypotheses** that are **linked by the rules of logic and mathematics**” (Kolmar 2022, p. 14). Structure: assumptions A1…An → (logic & mathematics) → hypotheses H1…Hm. Models are **complex analytical propositions** (see next concepts).",
+        "example": "Supply-and-demand model (Part 2.1): assumptions (price takers, demand falls with price…) → hypothesis (a price ceiling below p* creates excess demand)."
+      },
+      {
+        "id": "analytical",
+        "name": "Analytical propositions",
+        "slides": "Slide 14",
+        "simple": "True or false just by logic or definitions; you don't need to look at the world. “2 + 2 = 4.”",
+        "exam": "Example: “2+2=4”. Correct or incorrect according to **internal standards**. Epistemic standard: **logical correctness**. They have a truth value. **Models are complex analytical propositions.**",
+        "example": "“If demand is x = 100 − p and p = 20, then x = 80” is true by calculation alone."
+      },
+      {
+        "id": "synthetic",
+        "name": "Synthetic propositions",
+        "slides": "Slide 15",
+        "simple": "True or false depending on how the world actually is; you have to go and look. “This bottle is blue.”",
+        "exam": "Examples: “this bottle is blue” (**singular** proposition), “all swans are white” (**universal** proposition). Correct or incorrect according to **external standards**. Epistemic standard: **empirical correctness**. They have a truth value.",
+        "example": "“Swiss households spend more on rent than on food” is synthetic: check the data."
+      },
+      {
+        "id": "normative-propositions",
+        "name": "Normative propositions and Rawls' veil of ignorance",
+        "slides": "Slides 16–17",
+        "simple": "Opinions about what's tasty, good or fair. They can't be “true” or “false”, but you can give good or bad reasons for them. Rawls' trick: imagine designing the rules before you know whether you'll be rich or poor.",
+        "exam": [
+          "Examples: “this coffee tastes good”, “equality is just”. They **cannot be true or false**; they can be **justified or criticized** according to some specific **evaluative standard**.",
+          "",
+          "**Rawls' veil of ignorance** (Rawls 1971, *A Theory of Justice*): choose the principles of justice as if you did not know your own position in society, so norms cannot be biased in your own favour. It is an **evaluative standard** against which normative propositions can be justified.",
+          "",
+          "| Type | Example | Epistemic standard | Truth value? |",
+          "|---|---|---|---|",
+          "| Analytical | “2+2=4” | logical correctness | yes |",
+          "| Synthetic | “this bottle is blue” | empirical correctness | yes |",
+          "| Normative | “equality is just” | justifiability | no |",
+          "",
+          "> Textbook vs. slides: Kolmar (2022, Sec. 1.2.7) only distinguishes **positive** (descriptive) and **normative** statements. The analytical/synthetic split is added on the slides, so learn both."
+        ],
+        "example": "Designing a tax system without knowing if you'll be born rich or poor is the veil of ignorance in action."
+      },
+      {
+        "id": "critical-rationalism",
+        "name": "Critical Rationalism (Popper)",
+        "slides": "Slide 18",
+        "simple": "You can never prove “all swans are white”; the next swan might be black. But one black swan proves it wrong. So good scientists make claims that *could* be proven wrong, and keep them as long as they survive tests.",
+        "exam": [
+          "The **standard epistemological approach** in economics (Karl R. Popper, 1902–1994):",
+          "- Scientific theories can **never be verified**, but can, in principle, be **falsified**.",
+          "- **Falsifiable:** there are empirically accessible conditions under which the theory would fail.",
+          "- Good theories rely on **logically consistent models**.",
+          "- Good theories are **frugal** (**Ockham's razor**).",
+          "- **A good theory** is logically consistent, frugal, and has a **large empirical content**: falsifiable, but **not (yet) falsified**."
+        ],
+        "example": "“Demand falls when price rises” is falsifiable; Giffen behaviour (rice in Hunan, Part 2.1) is the kind of evidence that tests it."
+      },
+      {
+        "id": "levels",
+        "name": "Three levels of analysis",
+        "slides": "Slides 19–21",
+        "simple": "Zoom level 1: one person choosing (movie or dinner?). Zoom level 2: people reacting to each other (A goes to the movies, B wants to meet A). Zoom level 3: the whole country (growth, unemployment).",
+        "exam": [
+          "| Level | Question | Field |",
+          "|---|---|---|",
+          "| Individual | How do people behave under scarcity? (movies or dinner?) | Microeconomics |",
+          "| Interaction | How do people interact? (A goes to the movies; B wants to meet A…) | Microeconomics |",
+          "| Aggregate | How does the economy function as a whole? (growth, unemployment) | Macroeconomics |",
+          "",
+          "“Microeconomists study individual decision-making at the individual and interaction levels, whereas macroeconomists study economic phenomena at the aggregate level” (Kolmar 2022, p. 10). **Modern macroeconomics is largely based on microeconomic principles.**"
+        ],
+        "example": "Your decision to buy a train pass = individual; SBB and passengers reacting to each other's prices and demand = interaction; Swiss GDP growth = aggregate."
+      },
+      {
+        "id": "methodological-individualism",
+        "name": "Methodological individualism",
+        "slides": "Slide 20",
+        "simple": "To explain something big, like unemployment, you go back to what individual people decide and how they interact. Society is made of people.",
+        "exam": "**Social phenomena must be explained by reference to individual behaviour**: aggregate regularities are, in principle, **traceable back to patterns of behaviour on the individual and interaction levels**.",
+        "example": "Market demand (Part 2.1) is built by adding up individual demands. That's methodological individualism in practice."
+      },
+      {
+        "id": "circular-flow",
+        "name": "Example model: the circular flow diagram",
+        "slides": "Slide 22",
+        "simple": "Households sell their work to firms and get paid; then they spend that money on the firms' products. Money goes round one way, goods and work go round the other way.",
+        "exam": "**Households** supply **labour, land, capital** to firms and receive **factor income**; **firms** supply **goods and services**, households pay **consumer spending**. The **money cycle** and **goods cycle** run in opposite directions. **What it isolates:** the exchange between households and firms in goods and factor markets, **abstracting from everything else (the state, banks, the rest of the world)**.",
+        "example": "Exam question type: “What does this model abstract from?” → state, banks, rest of the world."
+      },
+      {
+        "id": "ppf",
+        "name": "Example model: the production-possibility frontier (PPF)",
+        "slides": "Slide 23",
+        "simple": "Imagine you only make pizza and pasta. The PPF is the line of the best combinations you can make using all your resources. Inside the line = wasting something; outside = impossible.",
+        "exam": "The PPF isolates **the production trade-off itself**: more of one good means giving up units of the other; the (constant) **slope is the opportunity cost** (slide: +1 of good 1 costs −1 of good 2). It abstracts from everything else: more than two goods, other shapes of the PPF. Points on/inside are **feasible**.",
+        "example": "This is the link to Part 1.2: the PPF slope becomes the opportunity cost used to find comparative advantage."
+      },
+      {
+        "id": "effective-altruism",
+        "name": "Effective altruism (Digression 1.2)",
+        "slides": "Digression 1.2 (TB p. 6), independent study",
+        "simple": "If you want to do good with your money or time, ask: where does each franc help the most? That's opportunity-cost thinking applied to charity.",
+        "exam": "**Effective altruism:** maximizing the good from one's charitable donations by **thinking in terms of opportunity costs**; a rational allocation of scarce resources from a **utilitarian** perspective. Examples from the guide: working in a bank and donating can fund a charity salary *and* more; CHF 50K saving one life after an earthquake could instead save **5 lives through malaria prevention**.",
+        "example": "Choosing between two charities by comparing “lives saved per franc” is effective-altruism reasoning."
+      },
+      {
+        "id": "homo-oeconomicus",
+        "name": "Homo oeconomicus (Digression 1.3)",
+        "slides": "Digression 1.3 (TB p. 8), independent study",
+        "simple": "A simplified “model person” used to predict behaviour: they can compare any two options, their tastes don't jump around, their rankings are consistent, and they pick the best option available.",
+        "exam": [
+          "Describes how individuals make decisions; used to **predict behaviour**; focuses on **observable behaviour**, not motives or psychology. Assumptions:",
+          "- Preferences are **complete** (any two alternatives can be compared).",
+          "- Preferences are **stable** over time.",
+          "- Preferences are **transitive** (A > B and B > C ⇒ A > C).",
+          "- Individuals choose the **best available alternative**.",
+          "",
+          "These assumptions are challenged by psychologists and behavioural economists, but the framework still helps explain large-scale phenomena like markets. **Egoism is not intrinsic to rationality**: it can be added as a simplifying assumption but is not part of the core definition. Names: Pareto, Hicks, Allen, Samuelson."
+        ],
+        "example": "A perfectly rational person can still be altruistic: donating consistently to causes they rank highest is rational behaviour."
+      },
+      {
+        "id": "research-assumptions",
+        "name": "Scientific research and assumptions (Digression 1.4)",
+        "slides": "Digression 1.4 (TB p. 13), independent study",
+        "simple": "Every science has to start from some assumptions it can't fully prove, and words can never describe reality perfectly.",
+        "exam": "Scientific research **begins with certain assumptions**, highlighting the **limits of language** in fully expressing reality. **Zen Buddhism** illustrates this with meditation and **koans**, which transcend rational thinking to reveal a deeper, immediate understanding.",
+        "example": "A koan like “what is the sound of one hand clapping?” is meant to show the limits of rational, language-based thinking."
+      }
+    ],
+    "connections": [
+      "**Scarcity → opportunity cost:** scarce means force choices; every choice has a forgone next-best alternative.",
+      "**Opportunity cost → Part 1.2:** comparative advantage = lower opportunity cost; the PPF slope is the opportunity cost.",
+      "**Opportunity cost → Part 2.1:** willingness to sell = reservation price = opportunity cost (producer surplus).",
+      "**Positive/normative → Part 2.1:** equilibrium, elasticity and incidence are positive analysis; Pareto efficiency and welfare are normative criteria.",
+      "**Analytical vs. synthetic → Part 2.1:** the ‘law’ of supply and demand can be read as a synthetic (empirical) or an analytic (model assumption) proposition.",
+      "**Falsification → Giffen goods (2.1):** Giffen behaviour is evidence that tests the ‘law of demand’.",
+      "**Methodological individualism → whole course:** market demand and supply are built by adding up individual behaviour.",
+      "**Digression 1.1 ↔ concept ‘two responses’:** Buddhism (work on ends) vs. economics (expand means)."
+    ],
+    "examFocus": {
+      "questions": [
+        "True/False on definitions: scarcity, opportunity cost, theory, model, falsifiable (the lecture ends with original exam T/F questions).",
+        "Classify a statement: analytical, synthetic or normative? Positive or normative?",
+        "Popper: what makes a good theory? Verification vs. falsification.",
+        "Levels of analysis: micro vs. macro; methodological individualism.",
+        "Opportunity cost in a short scenario (next-best alternative only).",
+        "Models: what does the circular flow / PPF isolate and abstract from?",
+        "Digressions 1.1–1.4 appear in the separate T/F block on the digressions (the guide says 36 of 180 points, 12 T/F questions, across all digressions)."
+      ],
+      "traps": [
+        "‘Positive’ means descriptive, not ‘good’. Its opposite is ‘normative’.",
+        "Normative propositions have **no truth value**: they can only be justified or criticized.",
+        "Opportunity cost = **next-best** alternative only, not the sum of all alternatives and not the money spent.",
+        "‘Not yet falsified’ ≠ ‘verified’. A theory that **cannot** be falsified is not strong; it is unscientific in Popper's sense.",
+        "Models are **analytical** propositions; their hypotheses are tested empirically.",
+        "Microeconomics covers **two** levels (individual + interaction), not only individuals.",
+        "Egoism is **not** part of the definition of rationality (Digression 1.3)."
+      ],
+      "mistakes": [
+        "Thinking economics = the study of money or markets (it is a methodology for any scarcity problem).",
+        "Thinking scarcity = poverty (it affects everyone, e.g. time).",
+        "Mixing up ‘synthetic’ and ‘normative’ for statements that sound like facts but contain a value word (‘too high’, ‘fair’, ‘should’)."
+      ]
+    },
+    "memorize": [
+      "**Economics (Kolmar):** how individuals and societies manage goods and resources that can be objectively or subjectively scarce.",
+      "**Scarcity:** wants exceed the available means to satisfy them.",
+      "**Opportunity cost:** value of the next-best alternative forgone.",
+      "**Positive / normative:** ‘what is’ (descriptive) / ‘what ought to be’ (prescriptive, value judgment).",
+      "**Theory:** broad conceptual approach making reasonable conjectures about causal relationships; **reasonable** = consensual among experts in a non-hierarchical discourse.",
+      "**Model:** collection of assumptions and hypotheses linked by the rules of logic and mathematics.",
+      "**Analytical / synthetic / normative:** logical correctness / empirical correctness / justifiability (no truth value).",
+      "**Veil of ignorance (Rawls 1971):** choose principles of justice without knowing your own position.",
+      "**Falsifiable (Popper):** empirically accessible conditions exist under which the theory would fail.",
+      "**Good theory:** logically consistent, frugal (Ockham's razor), large empirical content: falsifiable but not (yet) falsified.",
+      "**Methodological individualism:** social phenomena explained by individual behaviour.",
+      "**Micro / macro:** individual + interaction levels / aggregate level.",
+      "**Homo oeconomicus:** complete, stable, transitive preferences; chooses the best available alternative."
+    ],
+    "gaps": [
+      "Slide 25 (“Your Turn”) only links to Slido; the original exam T/F questions are **not in the PDF**.",
+      "The Kolmar textbook (Ch. 1) itself is not among your PDFs, so textbook-only details are not covered beyond the Digressions guide.",
+      "The Digressions guide attributes the view that egoism is not part of rationality to “Markus Hoffmann”. Your lecturer is Dr. **Magnus** Hoffmann; the name in the guide is probably a typo."
+    ]
+  },
+  "practice": [
+    { "topic": "opportunity-cost", "question": "Opportunity cost is best described as…", "options": ["the money spent on the chosen alternative", "the value of the next-best alternative forgone", "the sum of the values of all alternatives forgone", "the cost of producing one more unit"], "answer": 1, "explanation": "Kolmar (2022, p. 5): the value of the **next-best** alternative forgone. Not the money spent, and not all alternatives added up." },
+    { "topic": "positive-normative", "question": "“The minimum wage should be raised to CHF 25.” This statement is…", "options": ["positive, because it is about wages", "normative, because it prescribes what ought to be", "analytical, because it contains a number", "synthetic, because it can be checked with data"], "answer": 1, "explanation": "“Should” signals a prescription relying on a value judgment → normative. A number does not make a statement analytical." },
+    { "topic": "synthetic", "question": "Which proposition has empirical correctness as its epistemic standard?", "options": ["“2 + 2 = 4”", "“All swans are white”", "“Equality is just”", "“This coffee tastes good”"], "answer": 1, "explanation": "“All swans are white” is a universal **synthetic** proposition, judged by external (empirical) standards. “2+2=4” is analytical; the other two are normative." },
+    { "topic": "normative-propositions", "question": "Which statement about normative propositions is correct?", "options": ["They are true if most people agree with them", "They are false if they cannot be tested", "They have no truth value but can be justified or criticized against an evaluative standard", "They are judged by logical correctness"], "answer": 2, "explanation": "Normative propositions cannot be true or false; they can be justified or criticized, e.g. using Rawls' veil of ignorance as an evaluative standard." },
+    { "topic": "critical-rationalism", "question": "According to Popper's critical rationalism, a good theory is…", "options": ["verified by many observations", "falsifiable but not (yet) falsified, logically consistent and frugal", "accepted by the majority of the population", "impossible to falsify under any conditions"], "answer": 1, "explanation": "Theories can never be verified, only falsified. A good theory has large empirical content (falsifiable), survives tests, is logically consistent and frugal." },
+    { "topic": "levels", "question": "Microeconomics studies decision-making at which levels of analysis?", "options": ["Only the individual level", "The individual and interaction levels", "The interaction and aggregate levels", "Only the aggregate level"], "answer": 1, "explanation": "Micro = individual + interaction levels; macro = aggregate level (Kolmar 2022, p. 10)." },
+    { "topic": "methodology", "question": "Why does economics see itself as a methodology rather than a field of application?", "options": ["Because it only studies markets and money", "Because it analyses any phenomenon from the perspective of scarcity", "Because it relies exclusively on mathematics", "Because it has no empirical content"], "answer": 1, "explanation": "Scarcity is everywhere (voting, conflict, law, biology…); economics is defined by its perspective, not by its subject." },
+    { "topic": "circular-flow", "question": "What does the circular flow diagram abstract from?", "options": ["Households and firms", "Goods markets", "The state, banks and the rest of the world", "Factor markets"], "answer": 2, "explanation": "It isolates the exchange between households and firms in goods and factor markets, abstracting from the state, banks and the rest of the world." },
+    { "topic": "model", "question": "A model is…", "options": ["a description of reality that includes every detail", "a collection of assumptions and hypotheses linked by the rules of logic and mathematics", "a normative proposition about how people should behave", "a theory that has been verified"], "answer": 1, "explanation": "Kolmar (2022, p. 14). Models are complex **analytical** propositions." },
+    { "topic": "theory", "question": "According to the lecture, a conjecture is ‘reasonable’ if…", "options": ["it has been proven true", "it is consensual among experts in a non-hierarchical discourse", "a senior professor approves it", "it is supported by a majority vote of the population"], "answer": 1, "explanation": "Reasonable = consensual among experts, in a **non-hierarchical** discourse (so authority alone doesn't count)." },
+    { "topic": "two-responses", "question": "Digression 1.1: Buddhism responds to scarcity by…", "options": ["expanding the means for given ends", "working on one's ends (desires) for given means", "abolishing private property", "maximizing donations to effective charities"], "answer": 1, "explanation": "Economics expands the means; Buddhism works on the ends (overcoming attachment to desires)." },
+    { "topic": "homo-oeconomicus", "question": "Which is NOT one of the homo oeconomicus assumptions in the Digressions guide?", "options": ["Preferences are complete", "Preferences are transitive", "Individuals are necessarily egoistic", "Preferences are stable over time"], "answer": 2, "explanation": "Egoism is not intrinsic to rationality; it can be added as a simplifying assumption but is not part of the core definition." },
+    { "topic": "ppf", "question": "On a linear PPF, the slope represents…", "options": ["the price of good 1", "the opportunity cost of one good in terms of the other", "total output", "the consumer's preferences"], "answer": 1, "explanation": "The (constant) slope of the PPF is the opportunity cost: one more unit of good 1 costs units of good 2." },
+    { "topic": "methodological-individualism", "question": "Methodological individualism states that…", "options": ["only individuals, not groups, should receive income", "social phenomena must be explained by reference to individual behaviour", "macroeconomics is unrelated to microeconomics", "every individual acts selfishly"], "answer": 1, "explanation": "Aggregate regularities are, in principle, traceable to behaviour on the individual and interaction levels." }
+  ],
+  "mock": {
+    "questions": [
+      { "type": "mc", "points": 2, "topic": "opportunity-cost", "question": "Sara has a free ticket for a concert tonight. Alternatively she could work a shift paying CHF 120 or go to a party she values at CHF 70. What is the opportunity cost of going to the concert?", "options": ["CHF 0, because the ticket is free", "CHF 70", "CHF 120", "CHF 190"], "answer": 2, "explanation": "Opportunity cost = value of the **next-best** alternative forgone = the CHF 120 shift. Not 0 (money spent is irrelevant) and not 190 (not the sum of all alternatives)." },
+      { "type": "mc", "points": 2, "topic": "positive-normative", "question": "Which statement is positive?", "options": ["“Rents in Zurich are unfairly high.”", "“The state should subsidise public transport.”", "“If rents rise, fewer students move to Zurich.”", "“A just society would ban price ceilings.”"], "answer": 2, "explanation": "Only C describes ‘what is’ (a testable cause-effect claim). ‘Unfairly’, ‘should’ and ‘just’ signal value judgments." },
+      { "type": "mc", "points": 2, "topic": "analytical", "question": "“If x(p) = 100 − p and p = 30, then x = 70.” This proposition is…", "options": ["synthetic, judged by empirical correctness", "analytical, judged by logical correctness", "normative, judged by justifiability", "neither true nor false"], "answer": 1, "explanation": "It is true by calculation alone (internal standard). Models and their implications are analytical." },
+      { "type": "mc", "points": 2, "topic": "critical-rationalism", "question": "A theory has passed 500 empirical tests without being falsified. According to Popper, it is…", "options": ["verified and therefore true", "not falsified (yet), but still not verified", "unscientific, because it was never falsified", "normative"], "answer": 1, "explanation": "Theories can never be verified. Passing tests means ‘not (yet) falsified’, which is what a good theory looks like." },
+      { "type": "mc", "points": 2, "topic": "levels", "question": "A study of how firms in an industry react strategically to each other's prices belongs to…", "options": ["the individual level (microeconomics)", "the interaction level (microeconomics)", "the aggregate level (macroeconomics)", "normative economics only"], "answer": 1, "explanation": "Firms reacting to each other = interaction level, which is part of microeconomics." },
+      { "type": "mc", "points": 2, "topic": "normative-propositions", "question": "Rawls' veil of ignorance is…", "options": ["an empirical test for synthetic propositions", "an evaluative standard for justifying normative propositions", "a rule of logic for analytical propositions", "Popper's criterion for good theories"], "answer": 1, "explanation": "Choosing principles without knowing your own position prevents bias in your favour, so it serves as an evaluative standard." },
+      { "type": "mc", "points": 2, "topic": "homo-oeconomicus", "question": "Digression 1.3: Which statement about homo oeconomicus is correct?", "options": ["Rationality requires egoism", "Preferences are assumed complete, stable and transitive", "The model focuses on motives and psychology", "Behavioural economics has confirmed all its assumptions"], "answer": 1, "explanation": "Complete, stable, transitive preferences + choosing the best available alternative. Egoism is not intrinsic; the model focuses on observable behaviour; its assumptions are challenged by behavioural economics." },
+      { "type": "mc", "points": 2, "topic": "circular-flow", "question": "In the circular flow diagram, what flows from households to firms?", "options": ["Goods and services, and factor income", "Labour, land and capital, and consumer spending", "Taxes and subsidies", "Factor income and consumer spending"], "answer": 1, "explanation": "Households provide factors (labour, land, capital) and pay consumer spending; firms provide goods and services and pay factor income." },
+      { "type": "open", "points": 5, "topic": "critical-rationalism", "question": "Explain Popper's critical rationalism and state the properties of a ‘good theory’ according to the lecture.", "model": "Critical rationalism is the standard epistemological approach in economics. Scientific theories can never be verified (no number of confirming observations proves a universal claim) but can in principle be falsified. A theory is falsifiable if there are empirically accessible conditions under which it would fail. A good theory is logically consistent (relies on consistent models), frugal (Ockham's razor) and has a large empirical content, i.e. it is falsifiable but not (yet) falsified.", "keyPoints": [ { "text": "Theories can never be verified, only falsified", "points": 2 }, { "text": "Defines falsifiable (empirically accessible conditions under which the theory would fail)", "points": 1 }, { "text": "Good theory: logically consistent", "points": 0.5 }, { "text": "Good theory: frugal / Ockham's razor", "points": 0.5 }, { "text": "Good theory: large empirical content = falsifiable but not (yet) falsified", "points": 1 } ] },
+      { "type": "open", "points": 5, "topic": "positive-normative", "question": "Compare positive and normative theories. Then classify the statement “Students should not have to pay tuition fees” and justify your answer.", "model": "Positive theories ask how people DO deal with scarcity; they make statements about ‘what is’ (descriptive) and can be checked against reality. Normative theories ask how people SHOULD deal with scarcity; they make prescriptions about ‘what ought to be’ and rely on a value judgment. The opposite of positive is normative, not negative. “Students should not have to pay tuition fees” is normative: ‘should’ expresses a prescription based on a value judgment; it cannot be true or false, only justified or criticized.", "keyPoints": [ { "text": "Positive = how people do deal with scarcity / ‘what is’ / descriptive", "points": 1.5 }, { "text": "Normative = how people should deal with scarcity / ‘what ought to be’ / prescriptive", "points": 1.5 }, { "text": "Normative relies on a value judgment (no truth value; justified or criticized)", "points": 1 }, { "text": "Correct classification as normative with justification (‘should’)", "points": 1 } ] }
+    ]
+  }
+}

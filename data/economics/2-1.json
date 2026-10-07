@@ -1,0 +1,481 @@
+{
+  "id": "2-1",
+  "number": "2.1",
+  "title": "Supply and Demand",
+  "sources": ["2026_1-128_Part-2-1_Group-2.pdf (slides, 74 p.)", "Micro1_Part2-1 Supply and Demand Study Guide", "CHAPTER 3, 4, 5 summaries (textbook)", "Microeconomics Digressions Revision Guide (Digressions 3.1–3.3)"],
+  "summary": {
+    "bigPicture": [
+      "A **market** is an institution built on **property rights and contract law**. It coordinates millions of independent decisions through one signal: the **price**.",
+      "We build **demand** and **supply**, add individuals up into **market curves** (horizontal sums) and find the **equilibrium** where they intersect.",
+      "We judge the outcome **normatively**: is it **Pareto-efficient** (welfare theorems), and how large are the gains from trade (**consumer surplus + producer surplus = welfare**)?",
+      "**Comparative statics:** how price and quantity react to changes (income, price controls, taxes, tariffs).",
+      "**Elasticity** decides who really pays a tax (**tax incidence**). This toolkit is the basis of Parts 2.2, 3.1 and 3.2."
+    ],
+    "concepts": [
+      {
+        "id": "market",
+        "name": "What is a market?",
+        "slides": "Slides 8–9 · textbook Ch. 3",
+        "simple": "A market is any place where people swap things: a farmers' market, an online marketplace, the stock exchange. It only works if everybody agrees who owns what and promises are kept.",
+        "exam": [
+          "A market is **the most important institution that fosters specialization and exchange**, the foundation of modern capitalist societies: a framework that allows potential buyers and sellers to exchange goods, services and information.",
+          "- It rests on **(private) property rights**, **contract law**, and the **enforcement** of both. Neither needs to be **codified or centralized**.",
+          "- Every transaction has a **physical side** (exchange of goods, services, information) and a **legal side** (exchange of rights; contract law specifies when the transfer is binding).",
+          "",
+          "| | Seller → Buyer | Buyer → Seller |",
+          "|---|---|---|",
+          "| Physical side | the bike | CHF 300 in cash |",
+          "| Legal side | ownership of the bike | ownership of the CHF 300 |",
+          "",
+          "Textbook: property rights (spheres of control, ‘mine vs. yours’; can be absolute or socially restricted, e.g. residual control rights) and contract law are **complementary**. Enforcement can be **private**: the **Lex Mercatoria** (11th–12th c.) was privately produced, adjudicated and enforced and helped Europe's economic success."
+        ],
+        "example": "A stolen bike shows the two sides differ: the object moves (physical side), but ownership does not (legal side)."
+      },
+      {
+        "id": "property-rights-digressions",
+        "name": "Property rights, self-ownership and money (Digressions 3.1–3.3)",
+        "slides": "Digressions 3.1–3.3 (TB pp. 50–52) · textbook Ch. 3, independent study",
+        "simple": "To trade, you must own things and own yourself (nobody can sell you). Money makes trading easy because you don't need to find someone who wants exactly what you have.",
+        "exam": [
+          "- **3.1 Property rights and contract law:** a market relies on both. Property rights define individual spheres of control over objects (‘mine’ vs. ‘yours’). The civil law of a society implicitly defines how far markets can develop.",
+          "- **3.2 Self-ownership:** makes **employment contracts** possible and **limits contractual freedom** (e.g. nobody may voluntarily sell themselves into slavery). Excludes serfdom and slavery.",
+          "- **3.3 Functions of money:** **medium of exchange**, **unit of account**, **store of value**. Money solves the **double coincidence of wants** of a **barter economy**; it has **no intrinsic value** and is a **social convention** (it keeps its value only while people accept it). History: coins (Lydians) → paper money → gold-backed banknotes → unbacked money (after Bretton Woods) → digital (e.g. Bitcoin as an abstract unit relying on consensus and trust)."
+        ],
+        "example": "In barter, a baker wanting shoes must find a shoemaker who wants bread. With money, the baker sells bread to anyone and buys shoes from anyone."
+      },
+      {
+        "id": "market-structures",
+        "name": "Taxonomy of market structures",
+        "slides": "Slides 10–11 · textbook Ch. 3",
+        "simple": "Count the sellers and the buyers. One seller = monopoly. One buyer = monopsony. Many of both = everyone is too small to set the price.",
+        "exam": [
+          "Assumption: **homogeneous goods**: buyers are not willing or able to distinguish between suppliers and consider their goods **perfectly interchangeable**.",
+          "",
+          "| Sellers ↓ / Buyers → | One | Few | Many |",
+          "|---|---|---|---|",
+          "| **One** | Bilateral monopoly | Restricted monopoly | **Monopoly** (3.2) |",
+          "| **Few** | Restricted monopsony | Bilateral oligopoly | **Oligopoly** (3.4) |",
+          "| **Many** | Monopsony | Oligopsony | **Polypoly** (2.1, 3.1) |",
+          "",
+          "Slide 11 classification: green coffee = many/many (polypoly); cement in Switzerland = few sellers/many buyers (oligopoly); processors (CPUs) = few/few; diamonds (De Beers) = one seller; aircraft carriers = one/one (bilateral monopoly).",
+          "",
+          "Textbook: market structure depends on **technology of production**, **buyer perception** and the **legal framework** (competition law, patents). **Monopolistic competition** (similar but not identical goods, e.g. cars) is not in the taxonomy."
+        ],
+        "example": "Mono-*poly* = one seller; mono-*psony* = one buyer. Rows = sellers, columns = buyers."
+      },
+      {
+        "id": "price-taker",
+        "name": "Price takers and perfect competition (the benchmark)",
+        "slides": "Slide 12",
+        "simple": "If you're one of thousands of coffee farmers, you can't change the world coffee price; you just accept it. The same goes for each buyer.",
+        "exam": "With many sellers and many buyers, each actor considers his or her influence on the market price **negligible**: all act as **price takers**. Such markets are **perfectly competitive** (a **polypoly**). This is the benchmark of Parts 2.1 and 3.1; **monopoly (3.2)** and **oligopoly (3.4)** relax exactly this assumption.",
+        "example": "Wheat or a single share on the stock exchange (textbook examples)."
+      },
+      {
+        "id": "research-program",
+        "name": "The research program: from behaviour to supply and demand",
+        "slides": "Slides 13–14",
+        "simple": "Two questions: why do people buy what they buy, and why do firms sell what they sell? Prices then act like a matchmaker between both answers.",
+        "exam": [
+          "- **Decision theory:** individuals maximize preferences under constraints → individual and market **demand** (rigorous derivation in Microeconomics II, 3rd semester).",
+          "- **Production and costs:** firms maximize profits given technologies → individual and market **supply** (rigorous derivation in Part 3.1).",
+          "- Individuals control firms; firms pay profit to individuals; **coordination of decisions via market prices**.",
+          "- In Part 2.1 all four objects are built **heuristically**, from plausible behavioural arguments, not yet from optimization."
+        ],
+        "example": "That's why the lecture simply *assumes* demand curves like x(p) = 1600 − 2p instead of deriving them."
+      },
+      {
+        "id": "demand",
+        "name": "Determinants of demand",
+        "slides": "Slides 15–16 · textbook Ch. 4",
+        "simple": "How much pizza you buy depends on the price of pizza, the price of other food, how much money you have, whether you like pizza, and what you expect (e.g. “prices go up next week”).",
+        "exam": "Determinants of individual demand: **prices** of goods (p1,…,pn), **income** (b), **tastes (preferences)**, **expectations**. Formally, demand of individual j for good i: **x_i^j(p1,…,pn, b_j)**; with two goods: x_i^j(p_i, p_k, b_j). Textbook: prices, budget, preferences and expectations are **exogenous**; demand is **endogenous**.",
+        "example": "News on slide 15: consumers switching from beef to chicken as beef prices surge."
+      },
+      {
+        "id": "ordinary-giffen",
+        "name": "Ordinary vs. Giffen goods (reaction to own price)",
+        "slides": "Slides 17–19",
+        "simple": "Normally, when something gets more expensive, you buy less (ordinary). A Giffen good is the strange exception: you buy more. Picture a very poor family living mostly on rice: rice gets dearer, they can no longer afford any meat, so they fill the gap with even more rice.",
+        "exam": [
+          "Good i is **ordinary (Giffen)** at given prices and budget if demand **decreases (increases)** with its own price p_i.",
+          "- Ordinary: ∂x_i/∂p_i **< 0** (e.g. x = a − c·p_i). Giffen: ∂x_i/∂p_i **> 0** (e.g. x = a + c·p_i), with a, c > 0 where x ≥ 0.",
+          "- **Mechanism:** a **staple** absorbs a large budget share; a price rise cuts **real income**; unable to afford dearer substitutes, the poor buy **more** of the staple to maintain subsistence (Robert Giffen, 1837–1910).",
+          "- Evidence: **rice in Hunan, China** (Jensen/Miller 2008, AER)."
+        ],
+        "example": "Exam T/F: “If a good is inferior, its demand curve must slope upward” → false: inferior concerns income, not own price."
+      },
+      {
+        "id": "normal-inferior",
+        "name": "Normal vs. inferior goods (reaction to income)",
+        "slides": "Slide 20",
+        "simple": "When you get richer you buy more of most things (normal). But some things you buy less of, because you upgrade, like instant noodles.",
+        "exam": "Good i is **normal (inferior)** if demand **increases (decreases)** with income b_j: ∂x/∂b > 0 (e.g. a + c·b) / ∂x/∂b < 0 (e.g. a − c·b). Evidence: is online news an inferior good? (Chyi/Yang 2009).",
+        "example": "Bus rides may be inferior for a student who switches to the train once they earn more."
+      },
+      {
+        "id": "substitutes-complements",
+        "name": "Substitutes vs. complements (reaction to the other price)",
+        "slides": "Slides 21–22",
+        "simple": "If Coke gets expensive, you drink more Pepsi → substitutes. If printers get expensive, you buy less ink → complements (used together).",
+        "exam": [
+          "Good i is a **substitute for (complement to)** good k if demand for i **increases (decreases)** with p_k: ∂x_i/∂p_k > 0 / < 0. Evidence: print vs. online newspapers (Gentzkow 2007).",
+          "",
+          "| Demand x_i increases when… | | Demand decreases when… | |",
+          "|---|---|---|---|",
+          "| income ↑ | **normal** | income ↑ | **inferior** |",
+          "| own price ↑ | **Giffen** | own price ↑ | **ordinary** |",
+          "| other price ↑ | **substitute** | other price ↑ | **complement** |",
+          "",
+          "All six are **local properties**: defined for a given combination of explanatory variables. A good can be ordinary at some prices and incomes and not at others."
+        ],
+        "example": "Beef and chicken (slide 15) are substitutes: beef prices up → chicken demand up."
+      },
+      {
+        "id": "market-demand",
+        "name": "Demand schedule, demand function and market demand",
+        "slides": "Slides 23–26",
+        "simple": "A demand schedule is a price list (“at CHF 3 I buy 5”). The demand function fills in every price in between. Market demand: at each price, add up how much everyone buys.",
+        "exam": [
+          "- **Demand schedule:** a table of quantities for selected (discrete) prices, everything else constant. **Demand function:** assigns a quantity to **every** price (same information) → drawn as a continuous curve.",
+          "- **Ann:** x = 8 − p. **Bill:** x = 10 − 2p (flatter: −1 in price → +2 units; stops buying at p = 5).",
+          "- **Market demand = horizontal sum:** x(p) = **8 − p for 5 ≤ p ≤ 8** (only Ann buys); x(p) = **18 − 3p for 0 ≤ p < 5** (both buy). Kink at p = 5."
+        ],
+        "example": "At p = 2: Ann 6 + Bill 6 = 12 = 18 − 3·2 ✓. At p = 6: Ann 2, Bill 0 → 2 = 8 − 6 ✓."
+      },
+      {
+        "id": "supply",
+        "name": "Supply and market supply",
+        "slides": "Slides 27–30 · textbook Ch. 4",
+        "simple": "How much bread a bakery offers depends on the bread price, wages, the cost of its oven loan, its technology and its expectations. Market supply: add up all bakeries at each price.",
+        "exam": [
+          "Determinants of individual supply: **price of the good**, **factor prices** (wage w, interest r), **production technology** (textbook: also expectations). Formally **y_i^j(p_i, w, r)**.",
+          "- **Alpha Inc.:** y = p. **Beta Inc.:** y = 2p − 4 (supplies only from p = 2).",
+          "- **Market supply:** y(p) = **p for 0 ≤ p < 2** (only Alpha); y(p) = **3p − 4 for 2 ≤ p ≤ 8** (both).",
+          "- Textbook: kinds of capital: **physical** (machines), **human** (skills), **social** (networks), **symbolic** (honour, prestige)."
+        ],
+        "example": "News (slide 27): US cattle herds at a 75-year low → high beef prices (a supply shift)."
+      },
+      {
+        "id": "equilibrium",
+        "name": "Market equilibrium",
+        "slides": "Slides 31–32",
+        "simple": "The equilibrium is the price at which the amount people want to buy is exactly the amount sellers want to sell: no queue, no unsold pile.",
+        "exam": "A **market equilibrium** (of a single market) is a **price at which market supply equals market demand** (where the curves intersect). Equilibrium quantity **x* = y***, equilibrium price **p***. Running example: x(p) = 1600 − 2p, y(p) = 2p → 1600 − 2p* = 2p* ⇔ **p* = 400, x* = y* = 800**. Idea: **market prices coordinate supply and demand.**",
+        "example": "With the Ann/Bill demand (18 − 3p) and Alpha/Beta supply (3p − 4): 18 − 3p = 3p − 4 → p* = 11/3 ≈ 3.67, x* = 7."
+      },
+      {
+        "id": "law-of-supply-demand",
+        "name": "The ‘law’ of supply and demand: what kind of statement?",
+        "slides": "Slides 33–34",
+        "simple": "Is “prices adjust until supply = demand” a fact about the real world, or a rule we put into our model? The professor wants you to see that it can be read both ways.",
+        "exam": [
+          "Conjecture: “The prices of goods adjust in a way that supply becomes equal to demand.”",
+          "- As a **synthetic (empirical)** proposition: do prices actually do this?",
+          "- As an **analytic** proposition: equilibrium is an **assumption of the model**; only equilibria are logically consistent. Does this make sense?",
+          "- Does it hold for an arbitrary number of markets in equilibrium simultaneously?",
+          "",
+          "Why we care about equilibrium: **positive** questions (existence, uniqueness, stability, comparative statics; Arrow, Samuelson) and **normative** questions (efficiency, distributive justice, fairness; Walras, Edgeworth)."
+        ],
+        "example": "Links back to Part 1.1 (analytical vs. synthetic propositions)."
+      },
+      {
+        "id": "excess-demand",
+        "name": "Existence and uniqueness: the excess-demand function",
+        "slides": "Slide 35",
+        "simple": "Define “how much too much is wanted” = demand minus supply. At a tiny price, people want far more than is offered; at a huge price, sellers offer far more than is wanted. Somewhere in between it crosses zero: that's the equilibrium.",
+        "exam": [
+          "**z(p) = x(p) − y(p)**; an equilibrium is a price p* with **z(p*) = 0**.",
+          "- Very high price → supply exceeds demand (z < 0); very low price → demand exceeds supply (z > 0).",
+          "- **Continuity** of z(p) matters for **existence** (a jump can skip zero → no equilibrium).",
+          "- **Monotonicity** matters for **uniqueness** (a non-monotonic z can cross zero several times → multiple equilibria).",
+          "- Key question: what do we know about x(p) and y(p)?"
+        ],
+        "example": "Ordinary (falling) demand and rising supply make z(p) strictly falling → a unique equilibrium."
+      },
+      {
+        "id": "efficiency",
+        "name": "Allocation and efficiency in production and consumption",
+        "slides": "Slides 36–37",
+        "simple": "An allocation is “who has what”. Production is efficient if you can't make more of one thing without making less of another. Consumption is efficient if you can't swap goods around to make someone happier without making someone else sadder.",
+        "exam": [
+          "- **Allocation:** the distribution of resources, goods and services among the individuals in a society.",
+          "- **Efficiency in production:** for given resource endowments, it is impossible to reallocate resources to increase the production of one good **without decreasing the production of at least one other good**.",
+          "- **Efficiency in consumption:** for given quantities of goods, it is impossible to reallocate goods to make one individual better off **without making another worse off**."
+        ],
+        "example": "A factory with idle machines that could produce more without cutting anything else is not efficient in production."
+      },
+      {
+        "id": "pareto",
+        "name": "Pareto efficiency and Pareto improvement",
+        "slides": "Slides 37–41 · textbook Ch. 5",
+        "simple": "Pareto-efficient = no more ‘free lunches’ left: every remaining change helps someone only by hurting someone else. A Pareto improvement is a change that helps at least one person and hurts nobody.",
+        "exam": [
+          "- **Pareto-efficient** = efficient **in production and in consumption** (both needed).",
+          "- **Pareto improvement:** in allocation B no one is worse off and at least one person is strictly better off than in A (Vilfredo Pareto, 1848–1923).",
+          "- Textbook: Pareto efficiency is a **minimum criterion**; it is **blind to distribution** (main critique: ignores distributive justice). Grades example: (5.0, 5.0) is inefficient; (5.0, 5.5) and (6.0, 4.5) are efficient; only (5.0, 5.5) is a Pareto improvement over (5.0, 5.0).",
+          "",
+          "**Exam-style exercise (variation on Exam 2023):** 1 car = 1 chassis + 4 tires; profit rises only with complete cars; totals 16 tires, 4 chassis.",
+          "",
+          "| Allocation | Anna (tires/chassis) | Beatrice | Chiara | Cars (A/B/C) |",
+          "|---|---|---|---|---|",
+          "| X | 4/1 | 2/2 | 10/1 | 1/0/1 = 2 |",
+          "| Y | 8/2 | 1/1 | 7/1 | 2/0/1 = 3 |",
+          "| Z | 0/0 | 16/4 | 0/0 | 0/4/0 = 4 |",
+          "",
+          "Consumption efficiency is automatic here (giving a finished car away always hurts the giver), so only **production efficiency** matters. The maximum is 4 cars. X: not efficient. Y: not efficient, but a **Pareto improvement** over X (Anna 1→2, nobody worse off). Z: **efficient** (4 cars) but **not** an improvement over X (Anna and Chiara lose). N: yes, e.g. Anna 4/1, Beatrice 8/2, Chiara 4/1 → cars 1/2/1 = 4: efficient and an improvement over X."
+        ],
+        "example": "Allocation 1: Anna CHF 50, Ben CHF 50. Allocation 2: Anna 100, Ben 40. Moving to 2 is not a Pareto improvement (Ben loses), even though there is more money in total."
+      },
+      {
+        "id": "welfare-theorems",
+        "name": "Fundamental results of general equilibrium theory",
+        "slides": "Slide 42 · textbook Ch. 5",
+        "simple": "Theorem 1: leave a competitive market alone and nothing is wasted. Theorem 2: if you dislike who gets what, redistribute the starting resources and then let the market work.",
+        "exam": [
+          "- **Existence theorem:** a general (partial) equilibrium exists under quite general assumptions.",
+          "- **First Theorem of Welfare Economics:** **every equilibrium on competitive markets is Pareto-efficient** (and maximizes CS + PS). It does **not** claim uniqueness, nor that markets are the only way to reach efficiency.",
+          "- **Second Theorem:** given endowments and regularity conditions, **every Pareto-efficient allocation can be reached as a competitive equilibrium by reallocating the endowments**. Textbook limits: incentive effects of redistribution, enforcement power, and why decentralize allocation if redistribution is centralized?"
+        ],
+        "example": "Pareto efficiency is yes/no: it doesn't tell you *how big* the gains are. Hence surplus (next concepts)."
+      },
+      {
+        "id": "wtp-cs",
+        "name": "Willingness to pay, inverse demand and consumer surplus",
+        "slides": "Slides 43–48",
+        "simple": "Your willingness to pay is the most you'd pay before saying “no thanks”. Line all buyers up from “loves it most” to “barely cares”: the height of the demand curve is each person's maximum. If you pay less than your maximum, the difference is your bargain, your consumer surplus.",
+        "exam": [
+          "- Fridge market: each household buys, and each firm sells, one unit or none, so every unit on the curves is one person (simplifying, not necessary).",
+          "- **Willingness to pay:** the **maximum** amount a consumer is willing to pay for **one additional unit**. Requires WTP = true valuation (rational consumer; behavioural economics: not always justified).",
+          "- **Inverse demand P(x):** the marginal WTP of the consumer behind the x-th unit. x(p) = 1600 − 2p ⇔ **P(x) = 800 − ½x**. Buyers are ranked by decreasing WTP.",
+          "- **Consumer surplus:** **CS = ∫₀^{x*} (P(x) − p*) dx**. Example: CS = ½ · 800 · (800 − 400) = **160,000**: 800 households buy a fridge at CHF 400 and gain CHF 160,000 in total."
+        ],
+        "example": "If you'd pay up to CHF 700 for a fridge and it costs CHF 400, your individual surplus is CHF 300."
+      },
+      {
+        "id": "wts-ps",
+        "name": "Willingness to sell, inverse supply and producer surplus",
+        "slides": "Slides 49–53",
+        "simple": "A seller's willingness to sell is the lowest price at which they'd still say “deal”, i.e. what it really costs them. Line sellers up from cheapest to most expensive. Selling above your minimum gives you producer surplus.",
+        "exam": [
+          "- **Willingness to sell:** the **minimum** price at which a supplier will sell one additional unit = **reservation price = opportunity costs**. Requires WTS = true opportunity costs.",
+          "- **Inverse supply Q(y):** marginal WTS of the producer behind the y-th unit. y(p) = 2p ⇔ **Q(y) = ½y**. Producers ranked by increasing cost.",
+          "- **Producer surplus:** **PS = ∫₀^{y*} (p* − Q(y)) dy**. Example: PS = ½ · 800 · (400 − 0) = **160,000**."
+        ],
+        "example": "Textbook calculation: P(x) = 100 − ½x, Q(y) = ½y, p = 50 → x = 100, CS = 2,500, PS = 2,500, aggregate rent 5,000."
+      },
+      {
+        "id": "welfare",
+        "name": "Welfare (total surplus) and when markets fall short",
+        "slides": "Slides 54–56",
+        "simple": "Welfare = everybody's ‘good deal’ added up: buyers' bargains plus sellers' gains. A market loses welfare if it trades too little (good deals left undone) or too much (deals that cost more than they're worth).",
+        "exam": [
+          "**W = CS + PS**: the total gains from trade the market realizes. Example: W = 160,000 + 160,000 = **320,000**. At x* all gains from trade are exhausted.",
+          "By the First Welfare Theorem, the competitive equilibrium maximizes W at x*. Real markets can realize less:",
+          "- **Too little traded (x < x*):** mutually beneficial trades unrealized (price controls; taxes unless demand is perfectly inelastic; monopoly, Part 3.2).",
+          "- **Too much traded (x > x*):** units traded whose cost exceeds their value (explained only with **externalities**, Part 2.2, e.g. the climate crisis)."
+        ],
+        "example": "Textbook name: aggregate rent = CS + PS."
+      },
+      {
+        "id": "price-controls",
+        "name": "Welfare loss I: price controls",
+        "slides": "Slides 57–58",
+        "simple": "A price ceiling is a legal “you can't charge more than X” (rent control). If X is below the equilibrium price, landlords offer fewer flats than people want → queues. A price floor is “you can't pay less than X” (minimum wage) → more people want jobs than are offered.",
+        "exam": [
+          "- **Price ceiling (p̄ < p*):** legal maximum price, e.g. **rent control** → **excess demand**.",
+          "- **Price floor (p > p*):** legal minimum price, e.g. **minimum wage** → **excess supply**.",
+          "- Traded quantity falls below x*. A = realized welfare; **B = welfare loss** (forgone gains).",
+          "- Traded quantity = the **short side** of the market (under a ceiling: supply)."
+        ],
+        "example": "Running example with a ceiling p̄ = 200: traded y(200) = 400; P(400) = 600, Q(400) = 200 → loss = ½ · (800 − 400) · (600 − 200) = 80,000; W falls from 320,000 to 240,000."
+      },
+      {
+        "id": "overproduction",
+        "name": "Welfare loss II: too much is traded",
+        "slides": "Slide 59",
+        "simple": "Producing things that cost society more than people value them is also a waste.",
+        "exam": "A market can also trade **more than x***: welfare drops by the triangle between the curves beyond x* (realized welfare A − B). Why a competitive market would overproduce **cannot be explained yet**: it needs **externalities (Part 2.2)**. Teaser: this loss is at the heart of the **climate crisis**, where prices ignore social costs.",
+        "example": "Exam T/F: “A competitive market in this model can overproduce” → not within the Part 2.1 model."
+      },
+      {
+        "id": "comparative-statics",
+        "name": "Comparative statics and ceteris paribus",
+        "slides": "Slides 60–62 · textbook Ch. 4",
+        "simple": "If only the good's own price changes, you slide along the same demand line. If something in the background changes (income, tastes, other prices), the whole line jumps to a new place.",
+        "exam": [
+          "- **Movement along** the curve: change of the variable on the axis (own price).",
+          "- **Shift** of the curve: change of a ‘background’ explanatory variable.",
+          "- **Ceteris paribus:** analysing a relationship assuming **all relevant variables except one are held constant**.",
+          "- Running example: incomes rise, good is **normal** → x̃(p) = **2000 − 2p**; supply y = 2p unchanged → 2000 − 2p* = 2p* ⇔ **p* = 500, x* = 1000**.",
+          "- Textbook: demand shifts **out** if the good is normal and income rises (inferior and income falls), a **substitute's** price rises, or a **complement's** price falls."
+        ],
+        "example": "Higher price of printers (complement) → demand for ink shifts inward."
+      },
+      {
+        "id": "elasticity",
+        "name": "Price elasticity of demand",
+        "slides": "Slides 63–64",
+        "simple": "Elasticity measures how ‘touchy’ buyers are: if the price rises by 1 %, by how many % does the amount bought fall? Using % makes it independent of units.",
+        "exam": [
+          "The price elasticity of demand = **% change in demand caused by a 1 % change in price**.",
+          "- Discrete: **ε = (Δx/x)/(Δp/p) = (Δx/Δp)·(p/x)**. Marginal: **ε = (dx/dp)·(p/x)**.",
+          "- Running example x = 1600 − 2p ⇒ ε = −2·p/(1600 − 2p): p = 600 → **−3**; p = 400 → **−1**; p = 200 → **−1/3**.",
+          "- A linear demand curve has a **constant slope** but a **different elasticity at every point**."
+        ],
+        "example": "At p = 400 a 1 % price rise lowers quantity by 1 %."
+      },
+      {
+        "id": "polar-cases",
+        "name": "Two polar cases of elasticity",
+        "slides": "Slide 65",
+        "simple": "Perfectly elastic: buyers vanish the moment you raise the price (flat demand). Perfectly inelastic: buyers take the same amount whatever the price (vertical demand), e.g. a vital medicine.",
+        "exam": "- **ε → −∞:** **perfectly elastic**, horizontal demand: buyers walk away completely at any price above the going one.\n- **ε = 0:** **perfectly inelastic**, vertical demand: quantity does not react to the price.\nThese two extremes bound how a tax burden is shared.",
+        "example": "Insulin for a diabetic is close to perfectly inelastic."
+      },
+      {
+        "id": "tax-incidence",
+        "name": "Economic tax incidence and the quantity tax",
+        "slides": "Slides 66–69",
+        "simple": "Who really pays a tax isn't who hands the money to the state. The question is whose price moves: do buyers pay more, or do sellers keep less? The side that can't escape pays.",
+        "exam": [
+          "**Economic tax incidence:** how the tax burden is shared: by how much the **consumer price p_D rises** and the **producer price p_S falls** compared with p*.",
+          "- **Quantity tax t** per unit; suppliers pay it; wedge **p_D = p_S + t**; buyers perceive supply shifted up by t (ỹ(p)). Revenue **T = x_t · t**.",
+          "",
+          "| | Perfectly elastic demand | Perfectly inelastic demand |",
+          "|---|---|---|",
+          "| Consumer price | p_D = p* | p_D = p* + t |",
+          "| Producer price | p_S = p* − t | p_S = p* |",
+          "| Quantity | falls (x_t < x*) | unchanged (x_t = x*) |",
+          "| Welfare loss | ΔW > 0 | **ΔW = 0** |",
+          "| Bears the tax | **producers** | **consumers** |"
+        ],
+        "example": "A tax on a vital medicine (inelastic) is passed on entirely to patients and causes no welfare loss, but still raises revenue."
+      },
+      {
+        "id": "tariffs",
+        "name": "Tariffs",
+        "slides": "Slides 70–72",
+        "simple": "A tariff is a tax on imports. If everything is imported, it works like the tax above: buyers and sellers share the burden depending on how touchy each side is.",
+        "exam": [
+          "Model assumptions: perfectly competitive market; **every unit is imported** (no domestic production, e.g. coffee in the US); the tariff is paid by importers and works like a quantity tax: p_D = p_S + t.",
+          "- Demand is neither perfectly elastic nor inelastic → **burden is shared**; quantity falls (x_t < x*); revenue T = x_t·t; ΔW > 0.",
+          "- Slide figure: **p_D − p* = 2·(p* − p_S)** → consumers bear **2/3** of the tariff.",
+          "- Evidence: Yale Budget Lab estimates **61–80 %** of the 2025 US tariffs are borne by US buyers (without the model's simplifications)."
+        ],
+        "example": "News on the slides: US tariff on Switzerland raised to 39 %, later cut to 15 %."
+      },
+      {
+        "id": "normative-theories",
+        "name": "Normative theories behind welfare economics (textbook Ch. 5)",
+        "slides": "Textbook Ch. 5 summary, not on the slides",
+        "simple": "Different moral views judge institutions differently: by results, by duties/rules, or by whether they make people good.",
+        "exam": [
+          "| View | Premise | Institutions are… |",
+          "|---|---|---|",
+          "| **Consequentialism** | only consequences matter | incentive mechanisms guiding behaviour to the social optimum |",
+          "| **Deontology** | the act/decision process matters, not consequences (e.g. Kant) | secondary to individual moral responsibility |",
+          "| **Virtue ethics** | humans must perfect virtues | there to help people develop virtues |",
+          "",
+          "- **Welfarism** (a subclass of consequentialism): only individual welfare (utility) matters. **Mainstream economics is welfaristic.** Efficiency is **necessary but not sufficient** for a just allocation.",
+          "- **Reflective equilibrium (Rawls):** adjusting principles and judgments about just institutions.",
+          "- **Revealed preference:** preferences are inferred from behaviour; accepting it means no reason to interfere; rejecting it opens the door to paternalism, and CS/PS are no longer adequate welfare measures."
+        ],
+        "example": "Retirement saving and nutrition are areas where people may not act in their own best interest (textbook)."
+      }
+    ],
+    "connections": [
+      "**Part 1 → 2.1:** gains from trade need an institution to happen at scale: the market. CS + PS is the money measure of those gains. Opportunity cost (1.1) reappears as **willingness to sell**.",
+      "**Local demand properties → comparative statics:** knowing if a good is normal/inferior or a substitute/complement tells you which way demand shifts.",
+      "**Individual → market curves:** horizontal sums; kinks where buyers or sellers enter.",
+      "**Equilibrium → welfare:** First Welfare Theorem: competitive equilibrium is Pareto-efficient ⇔ W is maximized at x*.",
+      "**Inverse curves → surplus:** inverse demand = marginal WTP; inverse supply = marginal opportunity cost; surplus = areas between them and the price.",
+      "**Elasticity → tax incidence:** the less elastic side bears more; perfectly inelastic demand → no welfare loss.",
+      "**Excess demand → Giffen goods:** uniqueness needs a monotonic z(p), which relies on ordinary demand.",
+      "**‘Law’ of supply and demand → Part 1.1:** analytical vs. synthetic propositions.",
+      "**Forward:** overproduction → externalities (2.2); supply from costs → 3.1; relaxing price-taking → monopoly (3.2), oligopoly (3.4)."
+    ],
+    "examFocus": {
+      "questions": [
+        "True/False on definitions: Giffen vs. inferior, ordinary vs. normal, substitutes vs. complements, Pareto efficiency vs. Pareto improvement, welfare theorems.",
+        "Horizontal aggregation: write the piecewise market function with correct ranges.",
+        "Equilibrium calculation, then a shift (income, input price) and the new equilibrium.",
+        "Surplus: invert functions, compute CS, PS, W and the welfare loss of a price control or tax (triangles).",
+        "Elasticity at a given point of a linear demand curve.",
+        "Tax incidence: p_D, p_S, x_t, revenue; polar cases; who bears more and why.",
+        "Pareto allocation tables (tires and chassis style, from Exam 2023).",
+        "Market structure classification (sellers × buyers).",
+        "Digressions 3.1–3.3 (property rights, self-ownership, functions of money) in the digressions T/F block."
+      ],
+      "traps": [
+        "**Ordinary ≠ normal.** Ordinary concerns the own price, normal concerns income.",
+        "Giffen ⇒ inferior, **not** the other way round; most inferior goods are not Giffen.",
+        "Properties are **local**: they can change with prices and income.",
+        "Add curves **horizontally** (quantities), and set negative quantities to **zero** (watch the kinks).",
+        "Own-price change = **movement along**, not a shift.",
+        "**Slope ≠ elasticity** on a linear curve.",
+        "Incidence depends on **elasticities**, not on who legally pays.",
+        "A tax does **not** always create a welfare loss (perfectly inelastic demand: ΔW = 0).",
+        "Pareto-efficient ≠ fair; Pareto-efficient ≠ Pareto improvement.",
+        "Monopoly = one **seller**; monopsony = one **buyer**."
+      ],
+      "mistakes": [
+        "Using the demand function instead of the **inverse** functions when computing CS/PS.",
+        "Taking demand as the traded quantity under a price ceiling (it's the short side: supply).",
+        "Forgetting that Beta supplies nothing below p = 2 and Bill buys nothing above p = 5.",
+        "Believing your Chapter 4 summary's claim that Giffen goods are status goods (see gaps)."
+      ]
+    },
+    "memorize": [
+      "**Market:** institution fostering specialization and exchange; property rights + contract law + enforcement.",
+      "**Homogeneous goods:** buyers unwilling/unable to distinguish → perfectly interchangeable.",
+      "**Ordinary / Giffen:** ∂x/∂p_i < 0 / > 0. **Normal / inferior:** ∂x/∂b > 0 / < 0. **Substitute / complement:** ∂x_i/∂p_k > 0 / < 0.",
+      "**Market demand/supply:** horizontal sum.",
+      "**Equilibrium:** x(p*) = y(p*). **Excess demand:** z(p) = x(p) − y(p).",
+      "**Pareto-efficient:** efficient in production AND consumption. **Pareto improvement:** nobody worse off, at least one strictly better off.",
+      "**1st / 2nd Welfare Theorem:** competitive equilibrium is Pareto-efficient / every Pareto-efficient allocation reachable by reallocating endowments.",
+      "**CS = ∫₀^{x*}(P(x) − p*)dx; PS = ∫₀^{y*}(p* − Q(y))dy; W = CS + PS.**",
+      "**Elasticity:** ε = (dx/dp)·(p/x); perfectly elastic ε → −∞ (horizontal), perfectly inelastic ε = 0 (vertical).",
+      "**Quantity tax:** p_D = p_S + t; revenue T = x_t·t.",
+      "**Running example:** x = 1600 − 2p, y = 2p → p* = 400, x* = 800; P(x) = 800 − x/2, Q(y) = y/2; CS = PS = 160,000; W = 320,000; income rise → p* = 500, x* = 1000; ε = −3 / −1 / −1/3 at p = 600 / 400 / 200.",
+      "**Functions of money:** medium of exchange, unit of account, store of value."
+    ],
+    "gaps": [
+      "Slides 72–74 (“Your Turn”) only link to Slido; the original exam T/F questions are not in the PDF.",
+      "Slide 35 (excess demand) is mostly graphs; the text above follows the slide headings and your study guide.",
+      "**Contradiction in your materials:** your *Chapter 4* summary describes Giffen goods as having “limited intrinsic value, primarily purchased to signal status”. That is **not** the mechanism on the slides (subsistence: a staple taking a large budget share, rice in Hunan). Follow the slides in the exam.",
+      "Your study guide adds a ‘short-side rule’ and a general incidence formula marked *beyond slides*. They are consistent with the slides but are not stated on them."
+    ]
+  },
+  "practice": [
+    { "topic": "market-structures", "question": "A market with one seller and many buyers is called a…", "options": ["Monopsony", "Monopoly", "Bilateral monopoly", "Oligopoly"], "answer": 1, "explanation": "One seller + many buyers = monopoly. Many sellers + one buyer = monopsony; one + one = bilateral monopoly." },
+    { "topic": "substitutes-complements", "question": "Demand for good i falls when the price of good k rises. Goods i and k are…", "options": ["substitutes", "complements", "Giffen goods", "inferior goods"], "answer": 1, "explanation": "∂x_i/∂p_k < 0 → complement." },
+    { "topic": "normal-inferior", "question": "Demand for a good falls when income rises. The good is…", "options": ["normal", "inferior", "ordinary", "Giffen"], "answer": 1, "explanation": "Income → normal/inferior. Ordinary/Giffen describe reactions to the good's own price." },
+    { "topic": "ordinary-giffen", "question": "Which mechanism explains Giffen behaviour according to the slides?", "options": ["The good is bought to signal status", "A staple with a large budget share becomes dearer, real income falls, and the poor buy more of the staple", "Firms advertise more when prices rise", "Consumers expect prices to rise further"], "answer": 1, "explanation": "Subsistence mechanism (rice in Hunan). The status-good idea is a different concept." },
+    { "topic": "equilibrium", "question": "x(p) = 1600 − 2p and y(p) = 2p. What is the equilibrium?", "options": ["p* = 800, x* = 0", "p* = 400, x* = 800", "p* = 500, x* = 1000", "p* = 400, x* = 400"], "answer": 1, "explanation": "1600 − 2p = 2p → p* = 400; x* = 800." },
+    { "topic": "comparative-statics", "question": "Demand becomes x̃(p) = 2000 − 2p (income rise, normal good), supply y = 2p. New equilibrium?", "options": ["p* = 400, x* = 800", "p* = 500, x* = 1000", "p* = 1000, x* = 2000", "p* = 450, x* = 900"], "answer": 1, "explanation": "2000 − 2p = 2p → p* = 500, x* = 1000. A shift of demand, not a movement along it." },
+    { "topic": "elasticity", "question": "With x(p) = 1600 − 2p, the price elasticity of demand at p = 600 is…", "options": ["−1", "−1/3", "−3", "−2"], "answer": 2, "explanation": "ε = −2·600/400 = −3." },
+    { "topic": "wtp-cs", "question": "In the fridge market (P(x) = 800 − x/2, p* = 400, x* = 800), consumer surplus is…", "options": ["80,000", "160,000", "320,000", "640,000"], "answer": 1, "explanation": "½ · 800 · (800 − 400) = 160,000." },
+    { "topic": "welfare-theorems", "question": "The First Theorem of Welfare Economics states that…", "options": ["every Pareto-efficient allocation is fair", "every equilibrium on competitive markets is Pareto-efficient", "every Pareto-efficient allocation can be reached by reallocating endowments", "an equilibrium always exists and is unique"], "answer": 1, "explanation": "Option C is the Second Theorem. Efficiency says nothing about fairness or uniqueness." },
+    { "topic": "price-controls", "question": "A binding price ceiling (p̄ < p*) leads to…", "options": ["excess supply and more trade", "excess demand and a welfare loss because too little is traded", "no change in the traded quantity", "excess demand but higher welfare"], "answer": 1, "explanation": "Below p*, sellers supply less than buyers demand; mutually beneficial trades go unrealized." },
+    { "topic": "tax-incidence", "question": "A quantity tax is levied and demand is perfectly inelastic. Which is true?", "options": ["Producers bear the whole tax and welfare falls", "Consumers bear the whole tax and there is no welfare loss", "Traded quantity falls to zero", "The tax raises no revenue"], "answer": 1, "explanation": "Vertical demand: quantity unchanged, p_S = p*, p_D = p* + t, ΔW = 0, revenue = x*·t." },
+    { "topic": "tariffs", "question": "In the slide figure, p_D − p* = 2·(p* − p_S). Consumers bear…", "options": ["1/3 of the tariff", "1/2 of the tariff", "2/3 of the tariff", "all of the tariff"], "answer": 2, "explanation": "t = (p_D − p*) + (p* − p_S) = 3(p* − p_S); consumers bear 2 of 3 parts." },
+    { "topic": "market-demand", "question": "Ann: x = 8 − p; Bill: x = 10 − 2p. Market demand for 5 ≤ p ≤ 8 is…", "options": ["18 − 3p", "8 − p", "10 − 2p", "18 − 2p"], "answer": 1, "explanation": "Above p = 5 Bill buys nothing, so only Ann's demand counts." },
+    { "topic": "pareto", "question": "An allocation in which no one is worse off and at least one person is strictly better off than in A is…", "options": ["Pareto-efficient", "a Pareto improvement over A", "a market equilibrium", "efficient in production"], "answer": 1, "explanation": "Definition of a Pareto improvement. Efficiency means no such improvement is possible any more." },
+    { "topic": "property-rights-digressions", "question": "Digression 3.3: which is NOT a function of money?", "options": ["Medium of exchange", "Unit of account", "Store of value", "Source of intrinsic value"], "answer": 3, "explanation": "Money has no intrinsic value; its value rests on a social convention." },
+    { "topic": "property-rights-digressions", "question": "Digression 3.2: self-ownership…", "options": ["allows people to sell themselves into slavery", "makes employment contracts possible and limits contractual freedom", "is irrelevant for markets", "only concerns physical property"], "answer": 1, "explanation": "It enables labour contracts and forbids, e.g., voluntarily selling oneself into slavery." }
+  ],
+  "mock": {
+    "questions": [
+      { "type": "mc", "points": 2, "topic": "ordinary-giffen", "question": "Which statement is correct?", "options": ["Every inferior good is a Giffen good", "A good whose demand falls when its own price rises is called normal", "A Giffen good is one whose demand rises with its own price", "Being ordinary is a global property of a good"], "answer": 2, "explanation": "Giffen: ∂x/∂p_i > 0. Inferior goods need not be Giffen; ‘normal’ concerns income; all properties are local." },
+      { "type": "mc", "points": 2, "topic": "comparative-statics", "question": "The price of tea rises. What happens in the market for coffee if coffee and tea are substitutes (ceteris paribus)?", "options": ["Movement along the coffee demand curve", "Coffee demand shifts outward; coffee price and quantity rise", "Coffee demand shifts inward", "Coffee supply shifts outward"], "answer": 1, "explanation": "A change in another good's price is a background variable → shift. Substitute's price up → demand shifts out." },
+      { "type": "mc", "points": 2, "topic": "market-structures", "question": "A country's army buys aircraft carriers from a single domestic shipyard. The market structure is…", "options": ["Monopoly", "Monopsony", "Bilateral monopoly", "Polypoly"], "answer": 2, "explanation": "One seller and one buyer → bilateral monopoly." },
+      { "type": "mc", "points": 2, "topic": "welfare-theorems", "question": "Which statement about the Second Theorem of Welfare Economics is correct?", "options": ["Every competitive equilibrium is fair", "Every Pareto-efficient allocation can be reached as a competitive equilibrium by reallocating endowments", "Markets are the only way to reach efficiency", "Price controls are needed to reach efficient allocations"], "answer": 1, "explanation": "Redistribute endowments, then let the market work; no need to fiddle with prices." },
+      { "type": "mc", "points": 2, "topic": "elasticity", "question": "On a linear demand curve x = a − b·p…", "options": ["elasticity is constant because the slope is constant", "demand becomes more elastic (|ε| larger) as the price rises", "demand is perfectly inelastic everywhere", "elasticity equals the slope −b"], "answer": 1, "explanation": "ε = −b·p/x: as p rises, x falls, so |ε| increases. Slope ≠ elasticity." },
+      { "type": "mc", "points": 2, "topic": "tax-incidence", "question": "A per-unit tax is imposed on a good with perfectly elastic demand. Who bears the tax?", "options": ["Consumers entirely", "Producers entirely", "Shared 50/50", "Nobody; the state pays"], "answer": 1, "explanation": "Buyers walk away at any price above p*: p_D = p*, p_S = p* − t, quantity falls, ΔW > 0." },
+      { "type": "mc", "points": 2, "topic": "pareto", "question": "Allocation A: you 5.0, friend 5.0. Allocation B: you 6.0, friend 4.5 (higher grade = higher utility). Which is true?", "options": ["B is a Pareto improvement over A", "B can be Pareto-efficient without being a Pareto improvement over A", "A is Pareto-efficient", "B is unfair and therefore inefficient"], "answer": 1, "explanation": "Textbook grades example: B is efficient but the friend loses, so it isn't an improvement. Efficiency is silent on fairness." },
+      { "type": "calc", "points": 10, "topic": "price-controls", "question": "Market demand x(p) = 1600 − 2p, market supply y(p) = 2p.\n(a) Compute p*, x*, consumer surplus, producer surplus and welfare.\n(b) The government imposes a price ceiling p̄ = 200. Compute the traded quantity and the welfare loss.\n(c) Is there excess demand or excess supply at p̄, and how large is it?", "model": "(a) 1600 − 2p = 2p → p* = 400, x* = 800. Inverse curves P(x) = 800 − x/2, Q(y) = y/2. CS = ½·800·(800 − 400) = 160,000; PS = ½·800·400 = 160,000; W = 320,000.\n(b) At p̄ = 200 sellers supply y = 400 (short side) → traded quantity 400. At x = 400: P(400) = 600, Q(400) = 200. Welfare loss = ½·(800 − 400)·(600 − 200) = 80,000 (W falls to 240,000).\n(c) Demand at 200 = 1200, supply = 400 → excess demand of 800.", "keyPoints": [ { "text": "(a) p* = 400 and x* = 800", "points": 2 }, { "text": "(a) CS = 160,000, PS = 160,000, W = 320,000 (inverse functions used)", "points": 3 }, { "text": "(b) Traded quantity = 400 (supply, short side)", "points": 2 }, { "text": "(b) Welfare loss = 80,000 (triangle with height 600 − 200)", "points": 2 }, { "text": "(c) Excess demand of 800 (1200 − 400)", "points": 1 } ] },
+      { "type": "open", "points": 6, "topic": "pareto", "question": "Define Pareto efficiency and Pareto improvement. Then explain why the First Welfare Theorem does not imply that a market outcome is fair.", "model": "An allocation is Pareto-efficient if it is efficient in production (no reallocation of resources can raise output of one good without lowering another) and in consumption (no reallocation of goods can make someone better off without making someone else worse off). B is a Pareto improvement over A if nobody is worse off and at least one person is strictly better off. The First Welfare Theorem says every competitive equilibrium is Pareto-efficient. But Pareto efficiency is blind to distribution: very unequal allocations can be efficient (e.g. one person has everything). So the theorem says nothing about distributive justice or fairness; that is a separate normative question (cf. Second Theorem: redistribution of endowments).", "keyPoints": [ { "text": "Pareto efficiency = efficient in production AND consumption (both defined or clearly described)", "points": 2 }, { "text": "Pareto improvement correctly defined", "points": 1.5 }, { "text": "First Welfare Theorem stated correctly", "points": 1 }, { "text": "Efficiency is blind to distribution → no statement about fairness", "points": 1.5 } ] }
+    ]
+  }
+}

@@ -1,0 +1,246 @@
+{
+  "id": "3",
+  "number": "3",
+  "title": "Contract Types, Performance, Change of Parties, Termination",
+  "sources": ["Introduction to Private Law, Lecture 3 (slides, 41 p.)", "Exercise 1: Creation of Obligations (task 6, classification)"],
+  "summary": {
+    "bigPicture": [
+      "The **content** of a contract is what the parties agreed; if unclear, the contract is **interpreted** (wording and circumstances).",
+      "Six key **types of contracts** (sale, lease, fixed-term loan, work contract, mandate, employment contract) are distinguished by what is owed: ownership, use, money, a **result**, **diligence**, or work under instructions.",
+      "**Performance:** who must perform (CO 68), what counts as correct performance, **where** (CO 74) and **when** (CO 75).",
+      "**Change of parties:** **assignment** of claims (no consent of the obligor), **assumption of debt** (obligee's consent), **transfer of a contract** (consent of all).",
+      "**Termination:** a claim can be **extinguished** (performance, setoff, forfeiture…), a contract **terminated** (notice, breach, changed circumstances), or a claim **prescribed** (CO 127 ff.)."
+    ],
+    "concepts": [
+      {
+        "id": "content-interpretation",
+        "name": "Content of a contract and interpretation",
+        "slides": "Slide 4",
+        "simple": "A contract says what the parties agreed. If it's unclear, you look at the words and also the background: earlier drafts, how they behaved before, and what's normal in the industry.",
+        "exam": "Primarily, the content of a contract is determined by **what the parties have agreed upon**. If unclear, the contract must be **interpreted**, taking into account the **wording** and the **circumstances** (e.g. **old drafts**, **previous performances** rendered under the contract, **customs in the industry**).",
+        "example": "If ‘delivery’ is unclear, how the parties handled the last ten deliveries helps interpret it."
+      },
+      {
+        "id": "contract-types",
+        "name": "Overview of types of contracts",
+        "slides": "Slides 5–7 · Exercise 1, task 6",
+        "simple": "Ask: do I get the thing forever (sale), use it for a while (lease), borrow money (loan), get a finished result (work contract), get someone's careful effort (mandate), or work under a boss for a salary (employment)?",
+        "exam": [
+          "| Contract | What is owed |",
+          "|---|---|",
+          "| **Sales contract** | delivery of an object and **transfer of ownership** in return for the purchase price |",
+          "| **Lease** | **use of an object for a period** of time in return for money |",
+          "| **Fixed-term loan** | use of **money or a fungible good** for a period (often in return for interest) |",
+          "| **Work contract** | **successful performance of work** (a result) in return for money |",
+          "| **Mandate** | **independent performance of services**, paid or free of charge; **diligent action** is owed (no success) |",
+          "| **Employment contract** | performance of work in return for payment of **salary** |",
+          "",
+          "Slide classification exercise (cross-country skis): pay CHF 80/month for a year, then **return** the skis → **lease**; pay CHF 200/month and **keep** them → **sale**; brother lends money to be repaid → **fixed-term loan**; skis **made especially for me** → **work contract**; **check-up with a doctor** → **mandate**; booking a hotel stay → see gaps."
+        ],
+        "example": "Exercise 1: dog salon grooming Bello as instructed (result owed → work contract); waitress working fixed hours under the owner's instructions for CHF 30/hour (employment contract); Martina lends Peter CHF 1,000 at 5 % until 30 June (fixed-term loan)."
+      },
+      {
+        "id": "parties-performance",
+        "name": "Parties to the contract and personal performance (CO 68)",
+        "slides": "Slides 9–10",
+        "simple": "In a sale, each side is both a debtor and a creditor: the seller owes the skis, the buyer owes the money. Usually someone else (an employee) can do the actual work, but the contracting party stays responsible.",
+        "exam": "Each party can be **obligor** (owes performance) and **obligee** (is owed performance): the seller is obligor for the transfer of ownership and obligee for the price; the buyer the reverse. **CO 68:** an obligor is **not obliged to discharge the obligation in person** unless required by the **obligee's interests**. Contracts are mostly performed by **auxiliary persons** (e.g. employees of an Ltd.); the **obligor remains responsible** for performance (→ Lecture 7).",
+        "example": "Tax adviser Daniel delegating Emma's case to his first-year apprentice: he stays responsible towards Emma."
+      },
+      {
+        "id": "correct-performance",
+        "name": "When is performance rendered correctly?",
+        "slides": "Slides 11–13",
+        "simple": "First, check what was promised. If nothing specific was promised, the law sets a standard: a thing must be fit for its normal purpose; a service provider must be as careful as a careful professional would be.",
+        "exam": [
+          "- **Contractual agreement**, e.g. **warranted characteristics** in sale, lease and work contracts.",
+          "- **Objective standard:** sale, lease, work contract → **fitness for the designated purpose**; mandate → **diligence of a careful mandatee in the same situation**; employment contract → **diligence required by the job and the characteristics of the employee**.",
+          "",
+          "Cases: a **small children's swing** bought by Antonia collapses under her 16-year-old son (60 kg) → measured by its designated purpose (children); a **large wooden swing** a carpenter built for a restaurant collapses under the same teenager → measured by its purpose (adult guests). Tax expert **Daniel** forgets deductions for Emma → mandate: measured by the diligence of a careful tax adviser."
+        ],
+        "example": "‘Doing his best’ is not the test for Daniel: the test is what a careful mandatee would have done."
+      },
+      {
+        "id": "place",
+        "name": "Place of performance (CO 74)",
+        "slides": "Slide 14",
+        "simple": "Unless agreed otherwise: money must be brought to the creditor; a specific thing is picked up where it is; ordinary goods and services are picked up or done at the debtor's place.",
+        "exam": [
+          "Agreed by contract → that place (**CO 74 I**). If not (**CO 74 II**):",
+          "| Obligation | Rule | Place |",
+          "|---|---|---|",
+          "| **Pecuniary debts** | **obligation to bring** | payment at the **obligee's domicile/seat** |",
+          "| **Specific objects** | obligation to retrieve | collection where the **object is located** |",
+          "| **Generic objects** | obligation to retrieve | collection at the **obligor's domicile/seat** |",
+          "| **Services** | obligation to retrieve | performance at the **obligor's domicile/seat** |"
+        ],
+        "example": "Senta's sofa (a backordered model, i.e. generic): collected at the seller's seat; the price: paid at the seller's seat (obligee for the price)."
+      },
+      {
+        "id": "time",
+        "name": "Time of performance (CO 75): dischargeable vs. due",
+        "slides": "Slides 15–18",
+        "simple": "‘Dischargeable’ means the debtor *may* pay or deliver now. ‘Due’ means the creditor *can demand* it now. If nothing was agreed, both happen immediately when the contract is made.",
+        "exam": "**Dischargeable:** obligor may perform with discharging effect. **Due:** obligee may demand and sue for performance. **CO 75:** primarily the time is defined by the parties' **agreement** or the **nature of the legal relationship**; otherwise obligations may be discharged and called in **immediately upon conclusion**. Special provisions, e.g. CO 213, 257c, 318, 323. **Senta case:** she signs a sales contract for a sofa available in **about two months**, then finds it elsewhere and emails that she no longer wants it unless delivered within **ten days** → the delivery time was agreed, so her unilateral email cannot change it (pacta sunt servanda).",
+        "example": "A rent due on the 1st can usually be paid earlier (dischargeable) but cannot be demanded earlier (not due)."
+      },
+      {
+        "id": "assignment",
+        "name": "Assignment of claims (CO 164 ff.)",
+        "slides": "Slides 20–22",
+        "simple": "A creditor can ‘sell’ or give away their right to be paid to someone else, without asking the debtor. The debtor then has to pay the new creditor.",
+        "exam": [
+          "Transfer of a claim against obligor Y from the original obligee X (**assignor**) to a new obligee Z (**assignee**): a **change of obligee without the obligor being involved**. The assignee can demand performance; the obligor **does not have to know** of the assignment, **nor can they defend themselves against it**.",
+          "Requirements: **assignability** of the claim (**CO 164 I**); the assigned claim must be **identifiable**; the **assignor's declaration in writing** (**simple written form, CO 165 I**).",
+          "Case: Anna assigns her CHF 5,000 loan claim against Ben to Clara without telling Ben → Clara is the obligee; Ben's consent was not needed; he cannot object; Clara may demand CHF 5,000."
+        ],
+        "example": "Spotless Ltd. can pay its CHF 5,000 debt to Limpio Ltd. by assigning its claim against Dirt LLC for August's cleaning."
+      },
+      {
+        "id": "assumption-transfer",
+        "name": "Assumption of debt (CO 175 ff.) and transfer of a contract",
+        "slides": "Slides 23–26",
+        "simple": "Swapping the creditor is easy, but swapping the *debtor* needs the creditor's OK: who pays you matters a lot. Swapping a whole party in a contract needs everyone's OK.",
+        "exam": [
+          "- **(External) assumption of debt:** change of the **obligor**. Because it matters to the obligee who the new obligor is, it can be agreed **only with the obligee's consent (CO 176)**.",
+          "- **Transfer of a contract:** a new party enters the contractual relationship; the **entire contract as a bundle of rights and obligations** is transferred (unlike an assignment, where only a claim is transferred). **Consent of all parties** (entering, withdrawing and remaining) is required.",
+          "",
+          "Spotless cases: (2) Dirt LLC wants its subsidiary DirtPay LLC to pay → assumption of debt → only with Spotless's consent. (3) NewDawn Ltd. takes over the cleaning contract → transfer of contract → Spotless, Dirt and NewDawn must all agree."
+        ],
+        "example": "A tenant handing over their lease to a new tenant needs the landlord's agreement (transfer of contract)."
+      },
+      {
+        "id": "extinction",
+        "name": "Termination of the obligation: extinction of a claim",
+        "slides": "Slides 28–32",
+        "simple": "A single claim ends when it's paid, cancelled out against a claim the other way, lost because a deadline passed, or a few other ways (e.g. the creditor waives it).",
+        "exam": [
+          "Three routes: **extinction of a claim/right** (e.g. Gundula pays September's rent); **termination of the contract** (e.g. she gives notice for 30 Sept 2026); **prescription** (landlord demands rent 6 years after termination, cf. CO 128 no. 1).",
+          "Ways of extinction: **performance**, **setoff**, **forfeiture**, others: **impossibility**, **extinction by contract**, **novation**, **merger**.",
+          "- **Setoff (CO 120 ff.):** only if two persons owe each other **identical obligations** (in practice **pecuniary** claims) between the **same parties**; by contract or **unilateral declaration**. Example: A owes B CHF 1,000; B owes A CHF 150 (price reduction) → A pays CHF 850.",
+          "- **Forfeiture:** loss of a right due to the **expiry of legal or contractual deadlines**, e.g. the period for **notice of defects** (CO 201, 370).",
+          "Gundula: (1) pays November rent → **performance**; (2) paid October twice, so doesn't pay November → **setoff**; (3) landlord Carl waives November rent → **extinction by contract**."
+        ],
+        "example": "Forfeiture is harsher than prescription: the right is lost, not just unenforceable."
+      },
+      {
+        "id": "termination-contract",
+        "name": "Termination of the contract",
+        "slides": "Slides 33–36",
+        "simple": "Whole contracts end when their time runs out or someone gives notice, when the other side breaches, or (rarely) when circumstances change dramatically. Work contracts and mandates have their own exit rules.",
+        "exam": [
+          "General reasons: **expiry of term and notice of termination** (continuous contracts, e.g. employment, lease; CO 319 ff.); **breach of contract** (e.g. withdrawal for obligor's default, **CO 107 ff.** → L5); **changed circumstances** (rare): **clausula rebus sic stantibus**, subsequent impossibility, notice for good cause.",
+          "**Work contracts:** withdraw if the **cost estimate is exceeded (CO 375)**; withdraw **against payment of the contractor (CO 377)**; termination for **impossibility** against payment (**CO 378**); termination on the **contractor's death or incapacity** if performance depends on personal features, against payment (**CO 379**).",
+          "Slide cases: house burns down halfway through a kitchen installation (CO 378); Marco no longer likes his custom table (CO 377); portrait painter dies (CO 379); bathroom estimate CHF 20,000 rises to ≈ CHF 32,000 through no fault of Lea (CO 375).",
+          "**Mandates:** **right of termination at any time (CO 404 I, mandatory)**; in principle ends on **death, loss of capacity to act or bankruptcy** of a party (**CO 405**)."
+        ],
+        "example": "You can fire your lawyer at any time (CO 404 I), even if the contract says otherwise."
+      },
+      {
+        "id": "prescription",
+        "name": "Prescription (statute of limitations)",
+        "slides": "Slides 37–40",
+        "simple": "After a certain time, a debt still exists but the creditor can no longer force payment in court. Certain actions restart the clock (the debtor admits the debt; the creditor sues), and some situations pause it (e.g. between spouses).",
+        "exam": [
+          "**Consequence:** the obligation **still exists but can no longer be enforced**.",
+          "**Interruption:** a **new period starts** on the date of interruption (**CO 137 I**). Main forms: the **obligor acknowledges** the claim (slide wording: ‘obligee’); the **obligee launches debt enforcement or files a lawsuit** (slide wording: ‘obligor’). See gaps.",
+          "**Prevention and suspension (CO 134):** the period does not start or is suspended, e.g. a claim of one spouse against the other during marriage.",
+          "",
+          "| Claim | Period |",
+          "|---|---|",
+          "| Contractual, general (**CO 127**) | **10 years** |",
+          "| Service-related or periodic (**CO 128**) | **5 years** |",
+          "| Personal injury or death, contractual (**CO 128a**) | **3 or 20 years** |",
+          "| Warranty, sale and work contracts (**CO 210/371**) | **2 and 5 years** |",
+          "| Non-contractual, general (**CO 60 I**) | **3 or 10 years** |",
+          "| Non-contractual, personal injury or death (**CO 60 I bis**) | **3 or 20 years** |",
+          "",
+          "Cases: Sophie writes 4 years after due date “I know I owe you CHF 8,000 and will pay” → acknowledgment → interruption, new period. Mara demands a loan back 12 years after it became due → CO 127 (10 years) has run → Jonas can refuse to pay. Noah files a claim a few days before expiry → interruption."
+        ],
+        "example": "Rent is a periodic claim → 5 years (CO 128); a claim for damages under CO 97 → general 10 years (CO 127)."
+      }
+    ],
+    "connections": [
+      "**L1 → L3:** commitment vs. performance; L3 explains how performance works (who, what, where, when).",
+      "**Contract types → L4:** sale, work contract and mandate are analysed in detail (obligations, passing of risk).",
+      "**Assignment → L4:** claims are transferred by assignment (CO 164 ff.) when sold.",
+      "**Correct performance → L4/L5:** warranted characteristics (CO 197) and breach of contract (CO 97, 107 ff.).",
+      "**Auxiliary persons:** CO 68 here; liability for auxiliary persons in Lecture 7.",
+      "**Forfeiture vs. prescription:** notice of defects (CO 201/370) vs. warranty prescription (CO 210/371)."
+    ],
+    "examFocus": {
+      "questions": [
+        "Classify contracts (lease vs. sale vs. loan vs. work contract vs. mandate vs. employment) and justify.",
+        "Correct performance: fitness for purpose vs. diligence of a careful mandatee.",
+        "Place of performance under CO 74 II for money, specific objects, generic objects, services.",
+        "Dischargeable vs. due (CO 75).",
+        "Assignment vs. assumption of debt vs. transfer of contract: whose consent is required? Requirements of assignment (CO 164 I, 165 I).",
+        "How is a claim extinguished (performance, setoff, waiver…)? Work-contract and mandate termination rules.",
+        "Prescription periods and interruption (CO 127, 128, 137)."
+      ],
+      "traps": [
+        "**Work contract = result owed; mandate = diligence owed**, no success.",
+        "Paying instalments and **returning** the object = lease; paying and **keeping** = sale.",
+        "Money is brought to the **obligee** (creditor); generic goods are collected at the **obligor's** seat.",
+        "Assignment needs **no** consent of the obligor, but the **assignor's written declaration**.",
+        "Assumption of debt needs the **obligee's** consent (CO 176).",
+        "A prescribed claim **still exists** but cannot be enforced.",
+        "Interruption **restarts** the full period (CO 137 I).",
+        "CO 404 I (mandate termination at any time) is **mandatory**."
+      ],
+      "mistakes": [
+        "Calling a doctor's treatment a work contract (no cure is owed → mandate).",
+        "Forgetting that setoff requires identical (usually monetary) claims between the same parties.",
+        "Confusing forfeiture (right lost) with prescription (unenforceable)."
+      ]
+    },
+    "memorize": [
+      "**Sale:** object + ownership ↔ price. **Lease:** use for a period ↔ money. **Fixed-term loan:** money/fungible goods for a period (interest). **Work contract:** result ↔ money. **Mandate:** independent services, diligence owed. **Employment:** work ↔ salary.",
+      "**CO 68:** no personal performance unless the obligee's interests require it.",
+      "**Objective standard:** fitness for designated purpose (sale, lease, work); careful mandatee (mandate); job-required diligence (employment).",
+      "**CO 74 II:** money → obligee's domicile (bring); specific object → where located; generic object and services → obligor's domicile.",
+      "**CO 75:** agreement/nature of relationship; otherwise immediately. Dischargeable vs. due.",
+      "**Assignment (CO 164 ff.):** assignable, identifiable, written declaration of assignor (CO 165 I); obligor not involved.",
+      "**Assumption of debt (CO 175 ff.):** obligee's consent (CO 176). **Transfer of contract:** consent of all three parties.",
+      "**Extinction:** performance, setoff (CO 120 ff.), forfeiture, impossibility, extinction by contract, novation, merger.",
+      "**Work contract termination:** CO 375, 377, 378, 379. **Mandate:** CO 404 I (any time, mandatory), CO 405.",
+      "**Prescription:** CO 127 10 y; CO 128 5 y; CO 128a 3/20 y; CO 210/371 2 and 5 y; CO 60 I 3/10 y; CO 60 I bis 3/20 y; interruption CO 137 I; suspension CO 134."
+    ],
+    "gaps": [
+      "The slides list the classification and performance exercises **without official solutions**; the answers above apply the slide table. The **hotel stay** (case 6) is not covered by the six contract types in the table, so the slides give no answer.",
+      "**Slide 37 seems to swap the roles:** it lists ‘obligee acknowledges the claim’ and ‘obligor launches debt enforcement proceedings or files a lawsuit’. Logically the **debtor (obligor)** acknowledges and the **creditor (obligee)** sues, as in the slide's own examples (Sophie acknowledges her debt; Noah files his claim). Check the statute (CO 135).",
+      "**Prescription table:** the slide gives ‘2 and 5 years’ for warranty claims (CO 210/371) and ‘3 or 10’ / ‘3 or 20’ years for other claims **without saying when each period applies**. Look up the articles before the exam.",
+      "**Max (16) lends his mother CHF 2,000:** the slides ask for the period and its start but give no answer (only the spouses example for CO 134)."
+    ]
+  },
+  "practice": [
+    { "topic": "contract-types", "question": "I pay a sports shop CHF 80 per month for a year for cross-country skis and then return them. This is a…", "options": ["sales contract", "lease", "fixed-term loan", "work contract"], "answer": 1, "explanation": "Use of an object for a period of time in return for money." },
+    { "topic": "contract-types", "question": "I have cross-country skis made especially for me. This is a…", "options": ["sales contract", "mandate", "work contract", "lease"], "answer": 2, "explanation": "A result (the custom skis) is owed." },
+    { "topic": "contract-types", "question": "What distinguishes a mandate from a work contract?", "options": ["A mandate is always free of charge", "In a mandate diligent action is owed, not success; in a work contract a result is owed", "A mandate must be in writing", "A work contract is only for buildings"], "answer": 1, "explanation": "Mandate: diligence; work contract: successful performance." },
+    { "topic": "correct-performance", "question": "Which standard applies to a mandatee if nothing specific was agreed?", "options": ["Fitness for the designated purpose", "Diligence of a careful mandatee in the same situation", "Guaranteed success", "Whatever the mandatee considers best"], "answer": 1, "explanation": "Sale, lease and work contracts: fitness for purpose; mandate: careful mandatee." },
+    { "topic": "parties-performance", "question": "Under CO 68, an obligor…", "options": ["must always perform personally", "need not perform personally unless the obligee's interests require it", "is freed from responsibility if they use an employee", "may never use auxiliary persons"], "answer": 1, "explanation": "The obligor stays responsible when using auxiliary persons." },
+    { "topic": "place", "question": "Without agreement, where must a pecuniary debt be paid (CO 74 II)?", "options": ["At the obligor's domicile", "At the obligee's domicile/seat", "Where the object is located", "At the court"], "answer": 1, "explanation": "Obligation to bring: payment at the obligee's domicile." },
+    { "topic": "place", "question": "Without agreement, where is a generic object to be collected?", "options": ["At the obligee's domicile", "At the obligor's domicile/seat", "Where the buyer lives", "At the post office"], "answer": 1, "explanation": "Generic objects and services: obligor's domicile/seat; specific objects: where located." },
+    { "topic": "time", "question": "An obligation is ‘due’ when…", "options": ["the obligor may perform with discharging effect", "the obligee may demand and sue for performance", "the contract is signed", "the prescription period ends"], "answer": 1, "explanation": "Dischargeable = obligor may perform; due = obligee may demand." },
+    { "topic": "assignment", "question": "Anna assigns her claim against Ben to Clara without telling Ben. Which is correct?", "options": ["The assignment is invalid without Ben's consent", "Clara is the new obligee; Ben cannot object", "Ben can choose to pay only Anna in all cases", "The assignment needs a public deed"], "answer": 1, "explanation": "Assignment needs no involvement of the obligor; the assignor's declaration must be in simple written form." },
+    { "topic": "assumption-transfer", "question": "Dirt LLC wants its subsidiary to take over its payment debts to Spotless Ltd. This requires…", "options": ["nothing", "Spotless Ltd.'s consent (assumption of debt, CO 176)", "only the subsidiary's consent", "a public deed"], "answer": 1, "explanation": "A change of obligor needs the obligee's consent." },
+    { "topic": "extinction", "question": "A owes B CHF 1,000; B owes A CHF 150. A declares setoff. A must pay…", "options": ["CHF 1,000", "CHF 1,150", "CHF 850", "Nothing"], "answer": 2, "explanation": "Setoff of identical (monetary) claims between the same parties." },
+    { "topic": "extinction", "question": "Landlord Carl waives Gundula's November rent. The claim is extinguished by…", "options": ["performance", "setoff", "extinction by contract", "prescription"], "answer": 2, "explanation": "Waiving the claim by agreement = extinction by contract." },
+    { "topic": "termination-contract", "question": "Under CO 404 I, a mandate…", "options": ["can only be terminated with 3 months' notice", "can be terminated at any time (mandatory provision)", "cannot be terminated", "ends only on completion"], "answer": 1, "explanation": "Mandatory right of termination at any time." },
+    { "topic": "prescription", "question": "What is the general prescription period for contractual claims (CO 127)?", "options": ["2 years", "5 years", "10 years", "20 years"], "answer": 2, "explanation": "CO 128 (periodic/service claims) is 5 years." },
+    { "topic": "prescription", "question": "What is the consequence of an expired prescription period?", "options": ["The obligation no longer exists", "The obligation still exists but can no longer be enforced", "The debt doubles", "The contract becomes void"], "answer": 1, "explanation": "Prescribed claims are unenforceable, not extinguished." }
+  ],
+  "mock": {
+    "questions": [
+      { "type": "mc", "points": 2, "topic": "contract-types", "question": "Mario, sick with the flu, asks doctor Wilfried to make him healthy for next week's game. Wilfried agrees. The contract is a…", "options": ["work contract, because health is the result owed", "mandate, because only diligent treatment is owed", "employment contract", "sales contract"], "answer": 1, "explanation": "Medical treatment owes diligence, not success, even if the patient wants a result." },
+      { "type": "mc", "points": 2, "topic": "contract-types", "question": "Martina lends her brother CHF 1,000, to be repaid by 30 June with 5 % interest. This is a…", "options": ["lease", "fixed-term loan", "mandate", "sales contract"], "answer": 1, "explanation": "Use of money for a period, often with interest." },
+      { "type": "mc", "points": 2, "topic": "place", "question": "Without agreement, where is a specific object (e.g. a unique painting) to be collected?", "options": ["At the buyer's domicile", "At the seller's domicile", "Where the object is located", "At a neutral place"], "answer": 2, "explanation": "CO 74 II: specific object → where it is located." },
+      { "type": "mc", "points": 2, "topic": "assumption-transfer", "question": "A new tenant wants to take over the whole cleaning contract between Spotless Ltd. and Dirt LLC. Whose consent is needed?", "options": ["Only Dirt LLC", "Only Spotless Ltd.", "All three: entering, withdrawing and remaining party", "No one"], "answer": 2, "explanation": "Transfer of a contract requires consent of all parties involved." },
+      { "type": "mc", "points": 2, "topic": "prescription", "question": "Four years after a CHF 8,000 debt became due, Sophie writes: “I know I still owe you CHF 8,000 and I will pay it.” Effect?", "options": ["None", "The prescription period is interrupted and starts anew (CO 137 I)", "The debt is extinguished", "The period is shortened"], "answer": 1, "explanation": "Acknowledgment of the claim interrupts prescription." },
+      { "type": "mc", "points": 2, "topic": "termination-contract", "question": "Lea's bathroom renovation, estimated at CHF 20,000, will cost about CHF 32,000 through no fault of hers. Which provision gives her a right to withdraw?", "options": ["CO 375 (exceeded cost estimate)", "CO 404", "CO 107", "CO 21"], "answer": 0, "explanation": "Work contract: right to withdraw in case of an exceeded cost estimate." },
+      { "type": "mc", "points": 2, "topic": "assignment", "question": "Which is a requirement for a valid assignment of claims?", "options": ["Consent of the obligor", "The assignor's declaration in simple written form (CO 165 I)", "A public deed", "Notification of the court"], "answer": 1, "explanation": "Plus assignability (CO 164 I) and identifiability of the claim." },
+      { "type": "open", "points": 7, "topic": "place", "question": "Senta signs a sales contract with Designer Furniture Ltd. for a sofa that is backordered and will be available in about two months. A few days later she emails that she no longer wants it unless it is available within ten days. Answer: (1) What is the legal effect of her email? (2) Where is the statutory place of performance for the sofa? (3) Where for the purchase price? (4) Explain ‘dischargeable’ vs. ‘due’.", "model": "(1) The time of performance was agreed (about two months, CO 75: agreement first). Pacta sunt servanda: Senta cannot unilaterally shorten it by email; the email has no legal effect on the contract (she remains bound). (2) Absent agreement (CO 74 II), a sofa model that is backordered is a generic object → obligation to retrieve → at the seller's (obligor's) seat. (3) The price is a pecuniary debt → obligation to bring → at the seller's (obligee's) seat/domicile. (4) Dischargeable: the obligor may perform with discharging effect; due: the obligee may demand and sue for performance.", "keyPoints": [ { "text": "(1) Agreed time binds (CO 75 / pacta sunt servanda): email has no effect", "points": 2 }, { "text": "(2) Generic object → obligor's (seller's) seat (CO 74 II)", "points": 1.5 }, { "text": "(3) Pecuniary debt → obligee's (seller's) seat, obligation to bring", "points": 1.5 }, { "text": "(4) Dischargeable vs. due correctly defined", "points": 2 } ] },
+      { "type": "open", "points": 7, "topic": "assignment", "question": "Compare assignment of claims, assumption of debt and transfer of a contract: what changes, and whose consent is required? Explain why the rules differ.", "model": "Assignment (CO 164 ff.): a claim is transferred from the original obligee (assignor) to a new obligee (assignee); the obligee changes without the obligor's involvement: the obligor need not know or agree and cannot defend against it. Requirements: assignable claim (CO 164 I), identifiable, assignor's written declaration (CO 165 I). Assumption of debt (CO 175 ff.): the obligor changes; only with the obligee's consent (CO 176), because it matters to the obligee who the new debtor is (solvency, reliability). Transfer of contract: the whole bundle of rights and obligations passes to a new party; consent of all three parties (entering, withdrawing, remaining). Reason: changing the creditor doesn't burden the debtor, but changing the debtor or the whole contract affects the other party's interests.", "keyPoints": [ { "text": "Assignment: change of obligee; no consent of obligor; requirements (written declaration)", "points": 2 }, { "text": "Assumption of debt: change of obligor; obligee's consent (CO 176)", "points": 2 }, { "text": "Transfer of contract: whole bundle; consent of all parties", "points": 1.5 }, { "text": "Reasoning: whose interests are affected", "points": 1.5 } ] }
+    ]
+  }
+}

@@ -1,13 +1,14 @@
 {
-  "_help": "List of courses shown on the home page. 'file' points to the course's content file in data/. 'examDate' is only the default: you can change it on the site (stored in your browser). Format: YYYY-MM-DD.",
+  "_help": "List of courses. Each course's content lives in data/<id>/course.json (chapter list + full-course mock) and data/<id>/<chapter>.json. A course without a data/<id>/ folder is shown as 'No PDFs yet'.",
   "courses": [
-    { "id": "mathematics", "name": "Mathematics", "icon": "∑", "color": "#2f6fdf", "file": "mathematics.json", "examDate": "2027-01-11" },
-    { "id": "political-science", "name": "Political Science", "icon": "⚖", "color": "#8a4fd6", "file": "political-science.json", "examDate": "2027-01-13" },
-    { "id": "history", "name": "History", "icon": "⌛", "color": "#b5651d", "file": "history.json", "examDate": "2027-01-15" },
-    { "id": "business-administration", "name": "Business Administration", "icon": "▲", "color": "#0f8a6a", "file": "business-administration.json", "examDate": "2027-01-18" },
-    { "id": "economics", "name": "Economics", "icon": "↗", "color": "#d1443b", "file": "economics.json", "examDate": "2027-01-20" },
-    { "id": "organisation", "name": "Organisation", "icon": "◎", "color": "#c2368a", "file": "organisation.json", "examDate": "2027-01-22" },
-    { "id": "german", "name": "German", "icon": "Ä", "color": "#a07800", "file": "german.json", "examDate": "2027-01-25" },
-    { "id": "financial-accounting", "name": "Financial Accounting", "icon": "€", "color": "#1b7f94", "file": "financial-accounting.json", "examDate": "2027-01-27" }
+    { "id": "mathematics", "name": "Mathematics", "icon": "∑", "color": "#2f6fdf" },
+    { "id": "political-science", "name": "Political Science", "icon": "⚖", "color": "#8a4fd6" },
+    { "id": "history", "name": "History", "icon": "⌛", "color": "#b5651d" },
+    { "id": "business-administration", "name": "Business Administration", "icon": "▲", "color": "#0f8a6a" },
+    { "id": "economics", "name": "Economics", "icon": "↗", "color": "#d1443b" },
+    { "id": "organisation", "name": "Organisation", "icon": "◎", "color": "#c2368a" },
+    { "id": "german", "name": "German", "icon": "Ä", "color": "#a07800" },
+    { "id": "financial-accounting", "name": "Financial Accounting", "icon": "€", "color": "#1b7f94" },
+    { "id": "private-law", "name": "Private Law", "icon": "§", "color": "#5a6b8c" }
   ]
 }

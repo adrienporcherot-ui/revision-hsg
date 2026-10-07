@@ -1,0 +1,206 @@
+{
+  "id": "2",
+  "number": "2",
+  "title": "Power",
+  "sources": ["Session 2: Power (slides, 34 p.)"],
+  "summary": {
+    "bigPicture": [
+      "Power is an **ever-present companion in social relationships**, and it takes **various forms**.",
+      "The starting point is **Max Weber**: power as the probability of carrying out one's will **despite resistance** (“power over”).",
+      "**Heinrich Popitz** gives three premises (power is humanly produced, ubiquitous, limits freedom and needs justification) and **four basic anthropological forms of power**, each matching a human capacity and a vital dependency.",
+      "**Hannah Arendt** adds **“power to”**: acting in concert, a group property distinct from violence. **Michel Foucault** adds the **productive (constitutive)** side: modern subjects are themselves products of power (disciplinary power).",
+      "These distinctions let us analyse concrete climate-politics episodes at local, national and international level in a nuanced way."
+    ],
+    "concepts": [
+      {
+        "id": "hume",
+        "name": "The puzzle of power (Hume)",
+        "slides": "Slides 5–7",
+        "simple": "It's strange: there are far more ordinary people than rulers, yet the few usually govern the many without much trouble. Why?",
+        "exam": "David **Hume (1741/42):** “Nothing appears more surprising to those who consider human affairs with a philosophical eye than the **easiness with which the many are governed by the few**.” This is the puzzle that theories of power try to explain.",
+        "example": "A handful of officials can make millions follow a new rule. Explaining this (fear? habit? legitimacy?) is the job of power theory."
+      },
+      {
+        "id": "weber",
+        "name": "Max Weber's concept of power",
+        "slides": "Slide 8",
+        "simple": "Power is your chance to get your way even if someone pushes back, no matter where that chance comes from: muscles, money, charm or a law.",
+        "exam": "**Weber (1921/22):** “Power is the **probability** that one actor **within a social relationship** will be in a position to **carry out his own will despite resistance**, **regardless of the basis** on which this probability rests.” Key elements: probability (not certainty); social relationship; will vs. resistance; any basis. This is power as **control / ‘power over’**.",
+        "example": "A government that can push through a fuel tax despite protests has power in Weber's sense, until the protests force it to withdraw."
+      },
+      {
+        "id": "popitz-premises",
+        "name": "Popitz: three historical premises of power",
+        "slides": "Slides 9–10",
+        "simple": "Popitz says three things about power: people made it (so people can change it); it's everywhere; and because it limits your freedom, whoever has it must explain why they deserve it.",
+        "exam": [
+          "Heinrich **Popitz**, *Phenomena of Power* (“The Concept of Power”). Historical premises (“In what presuppositions is our understanding of power grounded?”):",
+          "1. **Power orders are humanly produced** (not natural or God-given, hence changeable).",
+          "2. **Power is ubiquitous.**",
+          "3. **Power limits freedom, and therefore needs justification.**"
+        ],
+        "example": "If a monarchy were ‘natural’, nobody would ask it to justify itself. Premise 1 is what makes revolutions and reforms thinkable."
+      },
+      {
+        "id": "popitz-forms",
+        "name": "Popitz: four basic anthropological forms of power",
+        "slides": "Slide 11 (complete version in the appendix, slide 33)",
+        "simple": "Power works because humans can do certain things to each other and need certain things. I can hurt you because you can be hurt; I can scare you or give you hope because you care about tomorrow; I can set standards because you need recognition; and I can shape the physical world you have to live in.",
+        "exam": [
+          "| Basic form of power | Human capacity | Vital dependency |",
+          "|---|---|---|",
+          "| **Power of action** | capacity to act so as to **inflict harm** on others (*Verletzungskraft*) | ability to suffer harm / **vulnerability** (*Verwundbarkeit*) |",
+          "| **Instrumental power** | capacity to engender **fears and hopes** | **concern for the future** (*Zukunftsorientiertheit*) |",
+          "| **Authoritative power** | capacity to **set standards** | **need for standards and recognition** |",
+          "| **Power of data constitution** | capacity for **technical action** | **dependency on an artificially modified world of objects** |"
+        ],
+        "example": "A police clearance with water cannons = power of action; fines and subsidies = instrumental; a ‘Fossil of the Day’ shaming award = authoritative; a car-free city centre that physically changes how people can move = data constitution."
+      },
+      {
+        "id": "application",
+        "name": "Application: Popitz in climate politics (local, national, international)",
+        "slides": "Slides 12–18, solution sketch slide 34",
+        "simple": "In class, groups sorted real climate stories into Popitz's four boxes. Some stories fit clearly, some fit two boxes, which shows that power can work in several ways at once.",
+        "exam": [
+          "Task: for each case (1) is there power in Popitz's sense? (2) if yes, which basic form? One case per set is deliberately contested.",
+          "",
+          "| Basic form | Local | National | International |",
+          "|---|---|---|---|",
+          "| **Power of action** | Standing Rock / Dakota Access Pipeline: camps cleared with water cannons and arrests; (WEF airport blockade) | (Fuel-tax protest: violent road blockades, police clearance) | *slide asks: examples here too?* |",
+          "| **Instrumental** | Subsidy for heat pumps + fines for old oil heating | Business associations warn of rising prices and job cuts before a CO₂ referendum; (fuel-tax protest) | EU **Carbon Border Adjustment Mechanism (CBAM)**: partners introduce carbon levies to avoid tariffs |",
+          "| **Authoritative** | (WEF airport blockade) | School climate strikes: parties reposition on climate | NGO mock award “**Fossil of the Day**”; (Vanuatu / ICJ advisory opinion) |",
+          "| **Data constitution** | Car-free city centre | Building codes banning fossil heating in new buildings | Oil pipeline through two East African countries locking them into a fossil export economy |",
+          "",
+          "Cases in brackets are the contested ones with more than one reading."
+        ],
+        "example": "The fuel-tax protest is both power of action (blockades) and instrumental power (the threat of continued disruption made the government withdraw the tax)."
+      },
+      {
+        "id": "power-over",
+        "name": "Power as control (‘power over’)",
+        "slides": "Slides 19–20",
+        "simple": "‘Power over’ is when A makes B do something B wouldn't choose: by force, threats, being the boss, or arranging the world so B has no other option. It shrinks B's freedom.",
+        "exam": "Weber's concept extended into a scheme: **power as control (power over)**, based on **violence**, **threats/sanctions**, **authority**, **shaping the environment**. It is **freedom-restricting** and **asymmetrical: B's consent is coerced**.",
+        "example": "Fines for old oil heating (threat/sanction), building codes (shaping the environment)."
+      },
+      {
+        "id": "arendt",
+        "name": "Hannah Arendt: power as acting in concert",
+        "slides": "Slides 21–22",
+        "simple": "For Arendt, power isn't something one person owns, like a weapon. It's what a group has when people act together, like a choir: the music exists only while they sing together. Violence can break a group apart, but it can never create real power.",
+        "exam": [
+          "“Power corresponds to the human ability not just to act but **to act in concert**. Power is **never the property of an individual**; it **belongs to a group** and remains in existence only as long as the group keeps together.” (Arendt 1970, *On Violence*)",
+          "- **Violence is not one form of power**: they are **“distinct phenomena”**. “Violence can always destroy power; out of the barrel of a gun grows the most effective command … What never can grow out of it is power.”",
+          "- “**Power needs no justification**”, because it is “already inherent in the very existence of political communities”. “What it does need is **legitimacy**.”",
+          "- “Power springs up whenever people get together and act in concert, but it derives its legitimacy from the **initial getting together** rather than from any action that then may follow.”"
+        ],
+        "example": "School climate strikes: individually powerless pupils gain power by acting together. Contrast with Popitz, for whom power *needs justification*."
+      },
+      {
+        "id": "power-to",
+        "name": "Power as creative ability (‘power to’)",
+        "slides": "Slide 23",
+        "simple": "‘Power to’ is the power to *do* something together, like neighbours building a community garden. It adds freedom instead of taking it away.",
+        "exam": "**Power as creative ability (power to)**, based on **common action** and the possibility to “**bring something new into the world**”. It is **freedom-enabling** and **symmetrical: A and B share a common goal**. Contrast: power over = asymmetrical, coerced consent, freedom-restricting.",
+        "example": "Citizens founding an energy cooperative to build solar panels together."
+      },
+      {
+        "id": "foucault",
+        "name": "Michel Foucault: productive power and disciplinary power",
+        "slides": "Slides 24–27",
+        "simple": "Foucault says power doesn't only stop you from doing things; it also shapes who you are, what you think is normal and how you behave even when nobody watches, like students sitting quietly because they *might* be observed.",
+        "exam": [
+          "- “**Modern subjects are the product of power.**” Power is **productive / constitutive**: it creates identities, norms and self-understandings.",
+          "- “In modern societies, **disciplinary power** is just as important as **sovereign power**.” (Slide 26 shows the Presidio Modelo prison in Cuba, built on the panopticon design, where inmates can always be watched.)",
+          "- Updated scheme: power over works through violence, threats, authority and **shaping the environment through material and immaterial structures (i.e., discourse)** → **freedom-constraining**; power to works through common action and bringing something new into the world, **including through discourse** → **freedom-enabling**."
+        ],
+        "example": "A society where ‘good citizens track their CO₂ footprint’ shapes how people see themselves: discourse at work."
+      },
+      {
+        "id": "summary",
+        "name": "Summary: useful distinctions",
+        "slides": "Slide 29",
+        "simple": "Power is everywhere and comes in many shapes. Having names for the shapes lets you analyse any power situation carefully.",
+        "exam": [
+          "- Power is an **ever-present companion** in social relationships and takes **various forms**.",
+          "- Useful distinctions: the **four basic anthropological forms of social power** (Popitz); **‘external’ and ‘internal’ power** (Popitz); **‘power over’ (Weber) vs. ‘power to’ (Arendt)**; and the often overlooked **‘productive’ (constitutive)** aspect of power (Foucault).",
+          "- *Not covered today:* **Steven Lukes' three faces/dimensions of power** (decision-making, agenda-setting, discursive), taken up in Lecture 3.",
+          "- Such distinctions allow us to examine concrete power relations comprehensively and with nuance."
+        ],
+        "example": "A good exam answer combines lenses: e.g. CBAM = instrumental power (Popitz), power over (Weber), and it also shapes what counts as ‘normal’ climate policy (Foucault)."
+      }
+    ],
+    "connections": [
+      "**Lecture 1 → 2:** the two axes (Weber on the conflictual side, Arendt on the human-action side) reappear: Weber's ‘power over’ vs. Arendt's ‘power to’.",
+      "**Popitz's premise ‘power needs justification’ vs. Arendt's ‘power needs no justification, only legitimacy’:** a classic comparison question.",
+      "**Lecture 2 → 3:** Lukes' three dimensions (announced here) are covered in Lecture 3; the 3rd dimension (shaping preferences) links to Foucault's productive power and to ideology critique.",
+      "**Four grand questions (L1):** ‘who decides how rules are made?’ is a question about power.",
+      "**Polity/politics/policy (L1):** building codes (policy) shaping the environment = Popitz's data constitution."
+    ],
+    "examFocus": {
+      "questions": [
+        "Define power according to Weber and explain its elements.",
+        "Name Popitz's three premises and his four basic forms of power with capacity and dependency.",
+        "Classify a climate-politics case into one of Popitz's forms (and argue a contested case two ways).",
+        "Compare ‘power over’ and ‘power to’ (Weber vs. Arendt): basis, symmetry, effect on freedom.",
+        "Explain Arendt's distinction between power and violence, and between justification and legitimacy.",
+        "Explain Foucault's productive power and disciplinary vs. sovereign power."
+      ],
+      "traps": [
+        "For **Arendt**, violence is **not** a form of power; for Weber's ‘power over’ and Popitz's power of action, violence is a basis of power.",
+        "Popitz: power **needs justification**. Arendt: power needs **no justification but legitimacy**.",
+        "Power to is **symmetrical** (shared goal); power over is **asymmetrical** (coerced consent).",
+        "‘Power of data constitution’ is about shaping the **artificial world of objects** (technology, infrastructure), not about digital data.",
+        "Lukes' three dimensions were **not covered** in this lecture (only announced)."
+      ],
+      "mistakes": [
+        "Attributing ‘power to’ to Weber or ‘probability… despite resistance’ to Arendt.",
+        "Confusing instrumental power (fears and hopes, future-oriented: rewards, threats) with power of action (actual harm now).",
+        "Classifying contested cases with only one reading when the task asks for several."
+      ]
+    },
+    "memorize": [
+      "**Weber:** power = the probability that one actor within a social relationship can carry out his own will despite resistance, regardless of the basis.",
+      "**Popitz's premises:** power orders are humanly produced; power is ubiquitous; power limits freedom and therefore needs justification.",
+      "**Popitz's forms:** power of action (inflict harm ↔ vulnerability); instrumental (fears & hopes ↔ concern for the future); authoritative (set standards ↔ need for standards & recognition); data constitution (technical action ↔ dependency on an artificially modified world of objects).",
+      "**Power over:** violence, threats/sanctions, authority, shaping the environment; asymmetrical; freedom-restricting.",
+      "**Power to (Arendt):** acting in concert; belongs to a group; common action, bringing something new into the world; symmetrical; freedom-enabling.",
+      "**Arendt:** power and violence are distinct; power needs no justification but legitimacy.",
+      "**Foucault:** modern subjects are products of power; disciplinary power as important as sovereign power; power works through discourse.",
+      "**Hume:** the easiness with which the many are governed by the few."
+    ],
+    "gaps": [
+      "Slide 11 in your PDF is a blank table (with a handwritten note “Corrigé à la fin”); the complete table is in the appendix (slide 33) and is used above.",
+      "The summary slide mentions **‘external’ and ‘internal’ power (Popitz)**, but no slide explains this distinction. Check the reading or your notes.",
+      "The preparatory reading (Popitz, *Phenomena of Power*) is **not among your PDFs**; the summary relies on the slides.",
+      "In the solution sketch the international ‘power of action’ cell is empty with the question “Are there examples for this form & level, too?”: the slides leave this open."
+    ]
+  },
+  "practice": [
+    { "topic": "weber", "question": "Weber defines power as the probability that an actor can carry out his own will…", "options": ["through common action with others", "despite resistance, regardless of the basis of this probability", "only through legitimate authority", "only by shaping preferences"], "answer": 1, "explanation": "Weber (1921/22): within a social relationship, despite resistance, regardless of the basis." },
+    { "topic": "popitz-premises", "question": "Which is NOT one of Popitz's three premises of power?", "options": ["Power orders are humanly produced", "Power is ubiquitous", "Power limits freedom and therefore needs justification", "Power is always illegitimate"], "answer": 3, "explanation": "The three premises: humanly produced, ubiquitous, limits freedom and needs justification." },
+    { "topic": "popitz-forms", "question": "In Popitz's scheme, instrumental power rests on the capacity to engender fears and hopes and on the vital dependency of…", "options": ["vulnerability", "concern for the future", "need for recognition", "dependency on an artificial world of objects"], "answer": 1, "explanation": "Instrumental power ↔ concern for the future (Zukunftsorientiertheit)." },
+    { "topic": "popitz-forms", "question": "A municipality permanently closes its city centre to cars and converts it to cycle paths. Which Popitz form fits best (solution sketch)?", "options": ["Power of action", "Instrumental power", "Authoritative power", "Power of data constitution"], "answer": 3, "explanation": "Reshaping the physical environment people depend on = power of data constitution." },
+    { "topic": "popitz-forms", "question": "An NGO's daily ‘Fossil of the Day’ mock award at UN climate talks is an example of…", "options": ["power of action", "instrumental power", "authoritative power", "power of data constitution"], "answer": 2, "explanation": "Setting standards and playing on the need for recognition = authoritative power." },
+    { "topic": "arendt", "question": "According to Arendt, power…", "options": ["is the property of an individual", "belongs to a group and exists only as long as the group keeps together", "grows out of the barrel of a gun", "needs justification but no legitimacy"], "answer": 1, "explanation": "Power = acting in concert; violence can destroy it but cannot create it; it needs legitimacy, not justification." },
+    { "topic": "arendt", "question": "For Arendt, the relationship between power and violence is that…", "options": ["violence is the most extreme form of power", "they are distinct phenomena; violence can destroy power but never create it", "they are identical", "violence is the basis of all legitimate power"], "answer": 1, "explanation": "“Violence can always destroy power… What never can grow out of it is power.”" },
+    { "topic": "power-to", "question": "Which combination describes ‘power to’?", "options": ["Asymmetrical, coerced consent, freedom-restricting", "Symmetrical, shared goal, freedom-enabling", "Based on threats and sanctions", "Based on shaping the environment"], "answer": 1, "explanation": "Power to (Arendt): common action, symmetrical, freedom-enabling." },
+    { "topic": "power-over", "question": "Which is NOT listed as a basis of ‘power over’?", "options": ["Violence", "Threats/sanctions", "Authority", "Common action"], "answer": 3, "explanation": "Common action is the basis of ‘power to’." },
+    { "topic": "foucault", "question": "Foucault's distinctive contribution in the lecture is that…", "options": ["power is the probability of overcoming resistance", "modern subjects are themselves products of power (productive power)", "power belongs only to groups", "power needs no legitimacy"], "answer": 1, "explanation": "Productive/constitutive power; disciplinary power is as important as sovereign power." },
+    { "topic": "hume", "question": "Hume found it surprising that…", "options": ["the few are governed by the many", "the many are governed so easily by the few", "power is ubiquitous", "violence creates power"], "answer": 1, "explanation": "“…the easiness with which the many are governed by the few.”" },
+    { "topic": "summary", "question": "Which concept was announced but NOT covered in Lecture 2?", "options": ["Popitz's basic forms of power", "Arendt's power to", "Lukes' three dimensions of power", "Foucault's productive power"], "answer": 2, "explanation": "Lukes was marked ‘not covered today’ and comes in Lecture 3." }
+  ],
+  "mock": {
+    "questions": [
+      { "type": "mc", "points": 2, "topic": "weber", "question": "Which element is part of Weber's definition of power?", "options": ["Power requires a shared goal", "Power is the probability of carrying out one's will despite resistance", "Power exists only in groups", "Power is always legitimate"], "answer": 1, "explanation": "Weber: probability, social relationship, will despite resistance, regardless of basis." },
+      { "type": "mc", "points": 2, "topic": "popitz-forms", "question": "Business associations warn before a referendum that a CO₂ law will cost jobs and raise prices. In the solution sketch this is…", "options": ["power of action", "instrumental power", "authoritative power", "power of data constitution"], "answer": 1, "explanation": "Engendering fears about the future = instrumental power." },
+      { "type": "mc", "points": 2, "topic": "popitz-forms", "question": "Which pairing of human capacity and vital dependency is correct?", "options": ["Authoritative power: inflict harm ↔ vulnerability", "Power of action: set standards ↔ need for recognition", "Power of data constitution: technical action ↔ dependency on an artificially modified world of objects", "Instrumental power: technical action ↔ concern for the future"], "answer": 2, "explanation": "Only C is correct; A and B swap the pairs." },
+      { "type": "mc", "points": 2, "topic": "arendt", "question": "Which statement would Hannah Arendt reject?", "options": ["Power springs up when people act in concert", "Power belongs to a group", "Violence is one form of power", "Power needs legitimacy"], "answer": 2, "explanation": "For Arendt, power and violence are distinct phenomena." },
+      { "type": "mc", "points": 2, "topic": "foucault", "question": "What does the lecture mean by the ‘productive’ (constitutive) aspect of power?", "options": ["Power raises economic productivity", "Power shapes subjects, norms and self-understandings, e.g. through discourse", "Power produces violence", "Power is produced by voting"], "answer": 1, "explanation": "Foucault: modern subjects are products of power." },
+      { "type": "mc", "points": 2, "topic": "popitz-premises", "question": "Why, according to Popitz, does power need justification?", "options": ["Because it is rare", "Because it limits freedom", "Because it is natural", "Because only groups have it"], "answer": 1, "explanation": "Premise 3: power limits freedom, and therefore needs justification." },
+      { "type": "mc", "points": 2, "topic": "application", "question": "The EU's CBAM leads trading partners to introduce their own carbon levies to avoid tariffs. In the solution sketch this is…", "options": ["power of action", "instrumental power", "authoritative power", "power to"], "answer": 1, "explanation": "The prospect of tariffs (a sanction) and its avoidance (a hope) = instrumental power at international level." },
+      { "type": "open", "points": 8, "topic": "power-to", "question": "Compare ‘power over’ and ‘power to’. For each, name the theorist associated with it in the lecture, its bases, whether it is symmetrical or asymmetrical, and its effect on freedom. Give one climate-politics example for each.", "model": "Power over (Weber; power as control): based on violence, threats/sanctions, authority and shaping the environment; asymmetrical: B's consent is coerced; freedom-restricting. Example: authorities clearing protest camps at Standing Rock, or fines for oil heating. Power to (Arendt; power as creative ability): based on common action and the possibility to ‘bring something new into the world’; symmetrical: A and B share a common goal; freedom-enabling. Example: school students' climate strikes acting in concert and moving parties to reposition.", "keyPoints": [ { "text": "Power over attributed to Weber, with at least 3 of its 4 bases", "points": 1.5 }, { "text": "Power over: asymmetrical / coerced consent and freedom-restricting", "points": 1.5 }, { "text": "Power to attributed to Arendt, based on common action / bringing something new into the world", "points": 1.5 }, { "text": "Power to: symmetrical / shared goal and freedom-enabling", "points": 1.5 }, { "text": "One fitting climate example for each (1 pt each)", "points": 2 } ] },
+      { "type": "open", "points": 8, "topic": "popitz-forms", "question": "Name Popitz's four basic forms of power together with the human capacity and vital dependency of each. Then apply the scheme to this case: ‘A government introduces a fossil fuel tax; weeks of at times violent road blockades follow; police clear them; after several weeks the government withdraws the tax.’ Discuss why this case can be read in more than one way.", "model": "Power of action: capacity to inflict harm ↔ vulnerability. Instrumental power: capacity to engender fears and hopes ↔ concern for the future. Authoritative power: capacity to set standards ↔ need for standards and recognition. Power of data constitution: capacity for technical action ↔ dependency on an artificially modified world of objects. Case: the blockades and police clearance involve actual harm and physical obstruction → power of action. But the protesters also succeed because the threat of continued disruption (fears about the future) makes the government give in → instrumental power. Both readings are defensible; the lecture marks this case as contested.", "keyPoints": [ { "text": "All four forms named correctly", "points": 2 }, { "text": "Capacities and dependencies correctly matched (at least 3 of 4)", "points": 2 }, { "text": "Case read as power of action, with justification", "points": 1.5 }, { "text": "Case read as instrumental power (threat of future disruption), with justification", "points": 1.5 }, { "text": "Explicit statement that the case is contested / several readings possible", "points": 1 } ] }
+    ]
+  }
+}

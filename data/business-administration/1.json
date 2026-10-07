@@ -1,0 +1,255 @@
+{
+  "id": "1",
+  "number": "1",
+  "title": "Fundamentals of Organizing: Why Do Firms Exist?",
+  "sources": ["M01 Handout + Post-Lecture Slides BA-A (39 p.)", "Bieger et al. (2021), An Introduction to Management Studies, Ch. 1.2–1.3 (SGMM)", "Mock Exam: Lectures 1–2 & N26 Case"],
+  "summary": {
+    "bigPicture": [
+      "Business administration starts from one goal: **creating value**, by transforming resources into products, services and solutions that customers value more than they cost.",
+      "Value creation happens inside a **system of stakeholders and environmental spheres** (St. Gallen Management Model) and along **integrated value chains**.",
+      "Firms exist because needs exceed resources and **division of labour and specialization** raise productivity (Smith, Ford, Taylor).",
+      "But division of labour creates **costs of organizing**: **coordination problems** (bullwhip effect) and **motivation problems**.",
+      "**Transaction cost economics** (Coase, Williamson) explains **make-or-buy**: a transaction is done in the firm (hierarchy) or on the market depending on where costs are lower; **asset specificity, uncertainty and frequency** raise hold-up risk (Tesla's vertical integration)."
+    ],
+    "concepts": [
+      {
+        "id": "course-structure",
+        "name": "Course structure and exam",
+        "slides": "Slides 4–10",
+        "simple": "The course has lectures (theory), exercise classes (cases), self-study (a running case) and touchpoints (submitted team work). One big exam at the end decides everything.",
+        "exam": [
+          "Four pillars: **lectures** (terminology, foundational theories), **exercise groups** (knowledge application, link to practice), **self-study** (running case, deepening), **touchpoints/teamwork** (transfer, complex problem-solving).",
+          "Five content areas: **organizing** (why do firms exist? how do they build value systems?), **strategy** (capture value), **innovation** (create value), **marketing** (deliver value), **supply chain** (orchestrate value), plus integration.",
+          "Exercise cases: N26 (PBL 1), L'Oréal (PBL 2), Weisse Arena (PBL 3–5), Appenzeller (PBL 6); running case **ON** (touchpoints 1–5, due Tuesdays 23:59 on Canvas).",
+          "**Exam:** two-part, digital, on-campus written exam on **26 January**: **180 minutes, 180 points, 100 % of the grade**. Lecture part: **closed-ended questions** on core learning objectives. Tutorial part: **case-based** (unfamiliar company), **5 tasks** along the content blocks."
+        ],
+        "example": "The final lecture (W12) includes a mock exam (NORDIC HOME)."
+      },
+      {
+        "id": "value-creation",
+        "name": "Value creation: the goal of business administration",
+        "slides": "Slides 13–16",
+        "simple": "A bakery turns flour, work and an oven into bread people love. If people value the bread more than everything it cost to make, the bakery has created value.",
+        "exam": [
+          "“Prosperity is not a matter of chance. It does not simply arise from the availability of resources. It is the result of a specific process: **value creation**.”",
+          "- **Value creation process:** **resources** (labour, capital, knowledge, materials) → **transformation process** → **output** (products, services, solutions) → **perceived value**.",
+          "- **Value = the benefit that customers attribute to a product, minus the costs of all the steps required to produce it.**",
+          "- The value creation process defines the **sub-disciplines**: research & development, strategy, marketing, operations, accounting & control, organizational behaviour."
+        ],
+        "example": "Mock exam Q1: ‘value’ is NOT the market price; it is customer benefit minus the costs of all production steps."
+      },
+      {
+        "id": "value-chains",
+        "name": "Integrated value chains and business research",
+        "slides": "Slides 17–18",
+        "simple": "A car is made by a long chain of firms: steel maker, tyre maker, parts maker, the car brand, the transport company and the dealer.",
+        "exam": "Automotive example of an **integrated value chain**: ArcelorMittal (steel for the car body) → Continental (tyres) → Bosch (modules) → **Mercedes-Benz (OEM)** → DB Schenker (logistics) → Emil Frey (auto dealer). Trade has existed for thousands of years (e.g. the **Fugger** family), but the **systematic, scientific analysis** of how business works began **just over a century ago**. Key questions: how can companies operate more productively? Why are some more successful than others?",
+        "example": "OEM = original equipment manufacturer: the firm that assembles and brands the final product."
+      },
+      {
+        "id": "sgmm",
+        "name": "The St. Gallen Management Model (SGMM)",
+        "slides": "Slide 19 · Bieger et al. (2021), Ch. 1.2",
+        "simple": "A map of everything around a firm: the big world (society, nature, technology, economy), the groups that want something from the firm (customers, investors, staff…), and the firm's own processes.",
+        "exam": [
+          "Slide (SGMM version 5.0): value creation processes (**management processes, business processes, support processes**) operate within a system of **stakeholders** (competitors, investors, suppliers, clients, state, employees, media) exchanging e.g. market share, interests, orders, value, taxes, salary, information, in the environment **society, nature, technology, politics, law**.",
+          "Textbook (task perspective, Rüegg-Stürm & Grand 2020): **environmental spheres** (society, nature, technology, economy) → **stakeholders** (actors placing demands on the organization; management must ensure their **cohesion**) → **interaction issues** (resources; norms and values; concerns and interests) → **processes** (business processes = service creation, service innovation, customer processes; management processes = steering; support processes = indirect support, e.g. finance, HR) → **structuring forces** (governance, strategy, structure, culture) → **development modes** (**optimization** of current operations vs. **renewal** challenging the status quo)."
+        ],
+        "example": "A newly developed production technology (technology sphere) forces a firm to change production; job cuts then affect its societal environment."
+      },
+      {
+        "id": "economic-problem",
+        "name": "The economic problem firms solve; division of labour",
+        "slides": "Slides 21–22",
+        "simple": "People always want more than there is. Firms organise work so that limited resources meet as many needs as possible. Splitting work into small specialised tasks makes everyone much faster.",
+        "exam": [
+          "- Needs and desires **regularly exceed** available resources; **firms coordinate value creation processes** to meet demand with limited resources.",
+          "- **Organizational efficiency results from the division of labour and specialization**: Adam Smith, *Wealth of Nations* (**1776**); Ford's **assembly-line production (1913)**; the Formula 1 **pit stop** (highly specialized division of labour).",
+          "- Sources of gains: **economies of scale** (advantages of size) and **economies of learning** (advantages of practice)."
+        ],
+        "example": "A pit-stop crew of specialists changes four tyres in seconds; one person doing everything would take minutes."
+      },
+      {
+        "id": "taylor",
+        "name": "Taylor and business administration as an empirical science",
+        "slides": "Slide 23",
+        "simple": "Taylor measured how workers did their jobs to find better ways. Today business research looks for patterns in how firms, workers, managers and customers behave.",
+        "exam": "Frederick **Taylor**, *The Principles of Scientific Management* (**1911**): the first scientific business studies, focused on **productivity gains**. Business success is driven by **identifiable patterns of human behaviour** (why some firms are more profitable; how employees work together; how managers decide; how consumers respond; how competitors act). → Business administration is an **empirical science** aiming at **generalizable insights**.",
+        "example": "Mock exam trap: Smith = 1776 (division of labour); Taylor = 1911 (scientific management); Coase = 1937."
+      },
+      {
+        "id": "firm-boundaries",
+        "name": "Firm boundaries: why not one giant firm?",
+        "slides": "Slide 24",
+        "simple": "If organising inside a firm is so good, why isn't there one huge company that makes everything? Because organising also has costs.",
+        "exam": "The slide lists the largest Swiss companies by market capitalization (Roche ≈ USD 358 bn, Novartis ≈ 292 bn, Nestlé ≈ 257 bn, ABB, UBS…) and asks: **why isn't there a big company that just makes everything?** → firm boundaries depend on the **costs of organizing** vs. the costs of using the market (next concepts).",
+        "example": "Even Nestlé buys packaging, trucks and software from other firms."
+      },
+      {
+        "id": "costs-organizing",
+        "name": "Costs of organizing: coordination and motivation problems",
+        "slides": "Slides 25–26",
+        "simple": "When work is split up, someone has to coordinate who does what, and people's own goals may differ from the firm's. A small change in shop sales can turn into huge swings in factory orders: the bullwhip effect.",
+        "exam": [
+          "- **Coordination problem:** who does what, when, and with whom? Division of labour creates coordination needs among specialized units. Example: the **bullwhip effect** (Hau, Padmanabhan, Whang 1997): a supermarket sells 1,000 Coke bottles a week; demand rises 10 % → orders upstream to the bottling plant rise by **more than 10 %** (fluctuations amplify along the supply chain).",
+          "- **Motivation problem:** individual and organizational goals are at odds: who bears the burden, who benefits? Reference: **Lazear (2000), *Performance Pay and Productivity*** (mock exam: the Safelite example illustrates a motivation problem addressed by performance pay)."
+        ],
+        "example": "Each stage (shop, wholesaler, bottler) adds a safety margin to its orders, so the 10 % rise grows at every step."
+      },
+      {
+        "id": "tce",
+        "name": "Transaction cost economics (Coase)",
+        "slides": "Slide 27",
+        "simple": "Buying something on the market isn't free: you must search, negotiate, check and fix problems. Coase said firms exist because sometimes doing it yourself is cheaper than all that hassle.",
+        "exam": [
+          "**Neoclassical assumptions:** homogeneous goods; many sellers and buyers without market power; **complete information** about prices, qualities, alternatives; **absence of transaction costs**. In such a world prices coordinate everything, so firms would have no reason to exist.",
+          "**Ronald Coase** (father of TCE, Nobel 1991; *The Nature of the Firm*, 1937): **every transaction incurs costs** for **initiation, negotiation, execution, monitoring and adjustment**. Whether a transaction occurs **through the market (externally sourced)** or **within the firm (internally sourced)** depends on **where these transaction costs are lower**."
+        ],
+        "example": "Mock exam: ‘depreciation’ is NOT a transaction cost type."
+      },
+      {
+        "id": "make-or-buy",
+        "name": "Market vs. hierarchy: the make-or-buy decision",
+        "slides": "Slide 28",
+        "simple": "For simple, small things, buying is cheapest. For big, complex, special things, making them yourself becomes cheaper, because contracting on the market gets very messy.",
+        "exam": "For every transaction managers decide **make (hierarchy) or buy (market)**: is making relatively more economical than buying? Graph (Coase 1937): x-axis = **scale, scope and complexity of the transaction**, y-axis = transaction costs. **Market (buy)** costs = initiation, negotiation, execution, monitoring, adjustment: **low at first, rising fast** with complexity. **Hierarchy (make)** costs = internal coordination, **inefficiency due to a lack of competitive pressure**, risk taking: **higher at the start but rising more slowly**. Above the intersection, making is cheaper.",
+        "example": "Office paper → buy; a component tailored to your secret product → maybe make."
+      },
+      {
+        "id": "vertical-integration",
+        "name": "Vertical integration: the Tesla example",
+        "slides": "Slides 32–34",
+        "simple": "Tesla makes its own batteries and chips instead of just buying them. Taking over earlier steps of your supply chain is called backward integration.",
+        "exam": "Tesla builds Gigafactories (e.g. Nevada) and its own chips, although specialized suppliers could do it more cheaply. Musk (2020): Tesla designs and builds much more of the car than other OEMs that use “**catalog engineering**”. Types: **no integration**, **forward integration** (towards customers), **backward integration** (towards suppliers). Gains: **economies of scope** and **economies of learning**. Industry trend: automakers plan to manufacture key components themselves (Reuters 2022).",
+        "example": "Tesla producing its own batteries = **backward** vertical integration (mock exam Q12)."
+      },
+      {
+        "id": "asset-specificity",
+        "name": "Asset specificity, uncertainty, frequency and the hold-up problem",
+        "slides": "Slides 35, 38",
+        "simple": "If you build a machine that only works for one customer, that customer can later squeeze you: “lower your price, or I leave and your machine is worthless.” That's hold-up.",
+        "exam": [
+          "Three drivers of transaction costs and hold-up:",
+          "- **Asset specificity:** degree to which investments or services can be used **only for a specific transaction**.",
+          "- **Uncertainty:** degree to which future conditions, actions or outcomes cannot be reliably predicted.",
+          "- **Frequency:** number of times / regularity with which a transaction is repeated.",
+          "**Hold-up problem:** when asset specificity is high, one party may be exposed to the other's **opportunism after an investment has been made**; the other can demand renegotiation because switching would be too costly.",
+          "Tesla: battery technology tailored to its vehicles (**asset specificity**); few specialized battery makers (**hold-up risk**); fast-changing technology and demand (**uncertainty**, hard to write complete contracts); huge numbers of cells (**frequency**) → in-house manufacturing reduces transaction costs more than external suppliers can offer."
+        ],
+        "example": "Mock exam: a mould that can only make one door panel for one car model = high asset specificity."
+      },
+      {
+        "id": "game-theory",
+        "name": "Game-theoretic model of hold-up (backward induction)",
+        "slides": "Slide 36 (Kräkel 2010)",
+        "simple": "Think ahead: if the supplier invests, the carmaker will exploit it. Knowing that, the supplier doesn't invest. Both end up worse off than if they could trust each other.",
+        "exam": [
+          "A = supplier with transaction-specific investment; B = automaker. Payoffs (A ; B):",
+          "| A's move | B's move | Payoff |",
+          "|---|---|---|",
+          "| invest | no exploitation | (10 ; 10) |",
+          "| invest | exploitation | (0 ; 20) |",
+          "| no investment | – | (5 ; 5) |",
+          "",
+          "**Backward induction:** if A invests, B prefers exploitation (20 > 10) → A would get 0 < 5 → A does not invest. **Subgame-perfect Nash equilibrium: B exploits → A does not invest → (5 ; 5)** ⇒ **underinvestment problem** (both lose compared with (10 ; 10))."
+        ],
+        "example": "Mock exam: with a contract penalty P on exploitation, B gets 20 − P; B strictly prefers not to exploit when 20 − P < 10, i.e. **P > 10**."
+      },
+      {
+        "id": "williamson-outlook",
+        "name": "Outlook: Williamson and hybrid governance",
+        "slides": "Slides 39–40",
+        "simple": "Between ‘buy on the market’ and ‘do it yourself’ there's a middle way: cooperating with partners.",
+        "exam": "Is hold-up a compelling reason for a make decision? **Oliver Williamson** (1985, Nobel 2009): transaction costs as a function of **asset specificity**: **market** (cost of contracting) cheapest at low specificity, **hybrid** (cost of cooperation) at medium, **hierarchy** (cost of organizing) at high specificity. → Lecture 2.",
+        "example": "A long-term supply alliance is a hybrid between a one-off purchase and a merger."
+      },
+      {
+        "id": "punchline",
+        "name": "Punchline",
+        "slides": "Slide 42",
+        "simple": "Firms create value; splitting work makes them productive; but organising costs money, so firms must decide carefully what to do themselves and what to buy.",
+        "exam": "(1) **Firms as value creation engines** (productivity). (2) **Division of labour → productivity** (division of labour & specialization). (3) **Make-or-buy decisions** (transaction costs; market vs. hierarchy along scope, scale and complexity). Firms must **weigh the efficiency gains and the transaction costs** from the division of labour.",
+        "example": "One-sentence exam answer: firms exist because, for some transactions, coordinating inside the hierarchy is cheaper than using the market (Coase)."
+      }
+    ],
+    "connections": [
+      "**Microeconomics 1.2 ↔ BA 1:** Smith's division of labour and specialization; the **hold-up problem** appears in both (trade dependencies; supplier investments).",
+      "**Microeconomics 2.1 ↔ BA 1:** the neoclassical assumptions (homogeneous goods, price takers, complete information) are exactly what TCE relaxes by adding transaction costs.",
+      "**Lecture 1 → 2:** Williamson's graph introduces **hybrid governance** (alliances, networks, platforms).",
+      "**Asset specificity → Lecture 2:** termination rights and upfront payments as safeguards in alliances.",
+      "**SGMM → whole course:** strategy (capture value), innovation (create), marketing (deliver), supply chain (orchestrate)."
+    ],
+    "examFocus": {
+      "questions": [
+        "Define value (benefit minus costs of all production steps) and the value creation process.",
+        "Explain why firms exist (Coase) and the make-or-buy logic (market vs. hierarchy graph).",
+        "Name the transaction cost types (initiation, negotiation, execution, monitoring, adjustment).",
+        "Coordination vs. motivation problems; bullwhip effect (orders rise by more than demand).",
+        "Asset specificity, uncertainty, frequency and the hold-up problem; apply to a case (Tesla).",
+        "Solve the hold-up game by backward induction; compute the penalty that prevents exploitation.",
+        "Author–year pairs: Smith 1776, Taylor 1911, Ford 1913, Coase 1937, Williamson 1985."
+      ],
+      "traps": [
+        "Value ≠ market price.",
+        "In a world matching neoclassical assumptions, firms would have **no reason to exist**.",
+        "Hierarchy curve: **starts higher, rises more slowly** than the market curve.",
+        "Bullwhip: upstream orders rise by **more** than the change in final demand.",
+        "Tesla making batteries = **backward** (not forward) integration.",
+        "Equilibrium of the hold-up game = **(5 ; 5)**, not (10 ; 10).",
+        "Depreciation is **not** a transaction cost."
+      ],
+      "mistakes": [
+        "Confusing economies of scale (size), scope (several products) and learning (experience).",
+        "Calling the motivation problem a coordination problem (Lazear/Safelite = motivation).",
+        "Forgetting that hold-up arises **after** the specific investment."
+      ]
+    },
+    "memorize": [
+      "**Value** = customer benefit − costs of all steps required to produce it.",
+      "**Value creation process:** resources (labour, capital, knowledge, materials) → transformation → products, services, solutions → perceived value.",
+      "**SGMM:** environmental spheres, stakeholders, interaction issues, processes (management, business, support), structuring forces, development modes.",
+      "**Division of labour:** Smith 1776; Ford assembly line 1913; Taylor scientific management 1911.",
+      "**Costs of organizing:** coordination problem (bullwhip effect) and motivation problem (Lazear 2000).",
+      "**Coase (1937):** transaction costs of initiation, negotiation, execution, monitoring, adjustment; make if internal costs are lower.",
+      "**Hierarchy costs:** internal coordination, inefficiency from lack of competitive pressure, risk taking.",
+      "**Asset specificity / uncertainty / frequency** → transaction costs and hold-up.",
+      "**Hold-up:** after a specific investment, the other party can demand renegotiation because switching is too costly.",
+      "**Hold-up game:** SPNE = B exploits → A does not invest → (5 ; 5) → underinvestment.",
+      "**Williamson (1985):** market (low specificity) → hybrid (medium) → hierarchy (high)."
+    ],
+    "gaps": [
+      "Several slides are interactive (Slido questions, the nine-dots puzzle, videos on the Fugger family) and their content is not in the PDF.",
+      "The **Safelite** example is not on the slides (only the Lazear 2000 reference); it appears in your mock exam.",
+      "Slide 19 lists the environment as “Society, Nature, Technology, Politics, Law” (SGMM version 5.0), whereas the textbook names the spheres **society, nature, technology, economy**. Be ready for both labels.",
+      "Slide 37 (between the game-theory and Tesla slides) is missing from the handout numbering."
+    ]
+  },
+  "practice": [
+    { "topic": "value-creation", "question": "According to the lecture, ‘value’ is best defined as…", "options": ["the market price a product achieves", "the benefit customers attribute to a product minus the costs of all steps needed to produce it", "revenue minus taxes and interest", "the total quantity of resources consumed"], "answer": 1, "explanation": "Slide 15." },
+    { "topic": "economic-problem", "question": "Unit costs falling because cumulative production experience grows is called…", "options": ["economies of scale", "economies of scope", "economies of learning", "network effects"], "answer": 2, "explanation": "Scale = size; scope = several products; learning = practice." },
+    { "topic": "costs-organizing", "question": "Final demand for Coca-Cola at a supermarket rises by 10 %. Due to the bullwhip effect, orders at the bottling plant most likely…", "options": ["rise by exactly 10 %", "rise by less than 10 %", "rise by more than 10 %", "stay unchanged"], "answer": 2, "explanation": "Fluctuations are amplified upstream." },
+    { "topic": "tce", "question": "In a world fully matching neoclassical assumptions (homogeneous goods, complete information, no transaction costs), firms…", "options": ["are needed to coordinate supply and demand", "have no reason to exist, since prices coordinate everything", "always integrate vertically", "only exist in capital-intensive industries"], "answer": 1, "explanation": "Coase: firms exist because using the market has costs." },
+    { "topic": "tce", "question": "Which is NOT one of the transaction cost types named on the slide?", "options": ["Monitoring", "Adjustment", "Depreciation", "Negotiation"], "answer": 2, "explanation": "Initiation, negotiation, execution, monitoring, adjustment." },
+    { "topic": "make-or-buy", "question": "In the make-or-buy graph, compared with the market curve, the hierarchy curve…", "options": ["starts lower and rises faster", "starts higher and rises more slowly", "starts higher and rises faster", "is flat regardless of complexity"], "answer": 1, "explanation": "Above a certain scale/scope/complexity, making becomes cheaper." },
+    { "topic": "asset-specificity", "question": "A supplier builds a mould that can only produce one door panel for one specific car model. This mainly shows high…", "options": ["frequency", "uncertainty", "asset specificity", "economies of scope"], "answer": 2, "explanation": "The investment can only be used for this transaction." },
+    { "topic": "asset-specificity", "question": "Which situation best describes a hold-up problem?", "options": ["A firm buys standard office paper from one of many suppliers", "After a supplier invests in machinery dedicated to one buyer, the buyer demands a price cut", "Two firms compete on price", "A firm hires more staff for economies of scale"], "answer": 1, "explanation": "Opportunism after a specific investment." },
+    { "topic": "game-theory", "question": "Payoffs (A ; B): invest & no exploitation (10 ; 10), invest & exploitation (0 ; 20), no investment (5 ; 5). The subgame-perfect outcome is…", "options": ["(10 ; 10)", "(0 ; 20)", "(5 ; 5)", "no equilibrium"], "answer": 2, "explanation": "B would exploit (20 > 10), so A doesn't invest (5 > 0)." },
+    { "topic": "game-theory", "question": "Same game, but a penalty P is deducted from B's payoff when B exploits (B gets 20 − P). B strictly prefers not to exploit when P is greater than…", "options": ["5", "10", "15", "20"], "answer": 1, "explanation": "20 − P < 10 ⇔ P > 10." },
+    { "topic": "vertical-integration", "question": "Tesla producing its own batteries is an example of…", "options": ["forward vertical integration", "backward vertical integration", "horizontal integration", "a non-equity alliance"], "answer": 1, "explanation": "Integrating towards suppliers = backward." },
+    { "topic": "taylor", "question": "Which author–idea pairing is correct?", "options": ["Coase (1937): firms exist because using the market has costs", "Taylor (1776): division of labour", "Smith (1911): management as empirical science", "Williamson (1937): The Nature of the Firm"], "answer": 0, "explanation": "Smith 1776, Taylor 1911, Coase 1937, Williamson 1985." },
+    { "topic": "sgmm", "question": "In the SGMM, which are the three types of processes?", "options": ["Planning, doing, checking", "Management, business and support processes", "Input, output, feedback", "Strategy, structure, culture"], "answer": 1, "explanation": "Strategy, structure and culture are structuring forces." },
+    { "topic": "williamson-outlook", "question": "In Williamson's graph, hierarchy is the most efficient governance form when asset specificity is…", "options": ["very low", "medium", "very high", "irrelevant"], "answer": 2, "explanation": "Low → market; medium → hybrid; high → hierarchy." }
+  ],
+  "mock": {
+    "questions": [
+      { "type": "mc", "points": 2, "topic": "costs-organizing", "question": "A firm introduces performance pay because employees' individual goals conflict with the firm's goals. Which problem does it address?", "options": ["Coordination problem", "Motivation problem", "Bullwhip effect", "Hold-up problem"], "answer": 1, "explanation": "Who bears the burden and who benefits: the motivation problem (Lazear 2000)." },
+      { "type": "mc", "points": 2, "topic": "make-or-buy", "question": "Which cost belongs to the hierarchy (make) curve rather than the market curve?", "options": ["Negotiation costs with suppliers", "Monitoring of external contracts", "Inefficiency due to a lack of competitive pressure", "Initiation (search for a supplier)"], "answer": 2, "explanation": "Hierarchy costs: internal coordination, lack of competitive pressure, risk taking." },
+      { "type": "mc", "points": 2, "topic": "asset-specificity", "question": "Which combination increases the hold-up risk most?", "options": ["Low asset specificity, low uncertainty", "High asset specificity, high uncertainty", "Low frequency, standard goods", "Many alternative partners"], "answer": 1, "explanation": "Specific investments and hard-to-write contracts make renegotiation threats credible." },
+      { "type": "mc", "points": 2, "topic": "value-creation", "question": "Which list contains only resources of the value creation process?", "options": ["Labour, capital, knowledge, materials", "Products, services, solutions", "Strategy, marketing, operations", "Customers, suppliers, state"], "answer": 0, "explanation": "B = outputs; C = sub-disciplines; D = stakeholders." },
+      { "type": "mc", "points": 2, "topic": "economic-problem", "question": "Ford's assembly line (1913) mainly illustrates…", "options": ["transaction costs", "productivity gains from division of labour and specialization", "network effects", "the hold-up problem"], "answer": 1, "explanation": "Like Smith (1776) and the pit stop." },
+      { "type": "mc", "points": 2, "topic": "sgmm", "question": "In the SGMM, ‘optimization’ and ‘renewal’ are…", "options": ["environmental spheres", "stakeholder groups", "development modes", "support processes"], "answer": 2, "explanation": "Development modes: optimizing current operations vs. renewing (challenging the status quo)." },
+      { "type": "calc", "points": 8, "topic": "game-theory", "question": "Supplier A decides whether to make a transaction-specific investment. If A invests, automaker B decides whether to exploit A. Payoffs (A ; B): invest & no exploitation (10 ; 10); invest & exploitation (0 ; 20); no investment (5 ; 5).\n(a) Solve the game by backward induction and state the subgame-perfect outcome. (b) Explain why this is called an underinvestment problem. (c) A contract specifies a penalty P that B pays to A if B exploits (B gets 20 − P, A gets 0 + P). From which P on does B not exploit, and what does A then do?", "model": "(a) Last stage: if A invested, B compares 20 (exploit) with 10 (no exploitation) → B exploits. First stage: A anticipates this and compares 0 (invest, exploited) with 5 (no investment) → A does not invest. SPNE: B would exploit; A does not invest → (5 ; 5). (b) Both would be better off with investment and no exploitation (10 ; 10 > 5 ; 5), but the hold-up threat makes A refrain from the value-creating specific investment → underinvestment. (c) B does not exploit if 20 − P < 10 ⇔ P > 10 (at P = 10 B is indifferent). Then A, anticipating no exploitation, gets 10 > 5 by investing → A invests; outcome (10 ; 10).", "keyPoints": [ { "text": "(a) B's choice at the last stage: exploit (20 > 10)", "points": 1.5 }, { "text": "(a) A's choice: no investment (5 > 0); outcome (5 ; 5)", "points": 1.5 }, { "text": "(b) Pareto-better (10 ; 10) not reached because of hold-up → underinvestment", "points": 2 }, { "text": "(c) Condition 20 − P < 10 ⇒ P > 10", "points": 2 }, { "text": "(c) A then invests; outcome (10 ; 10)", "points": 1 } ] },
+      { "type": "open", "points": 6, "topic": "asset-specificity", "question": "Using transaction cost economics, explain why Tesla produces its own batteries although specialized suppliers could produce them more cheaply. Refer to all three transaction characteristics.", "model": "TCE: a transaction is carried out where transaction costs are lower (market vs. hierarchy). Asset specificity: Tesla's battery technology is closely tailored to its vehicles and energy concept → high specificity → hold-up risk with few specialized battery makers (high dependence, renegotiation risk). Uncertainty: rapidly evolving technology and demand make comprehensive contracts hard to draft → high contracting costs. Frequency: Tesla needs a very large number of cells → recurring coordination costs with external suppliers. Together, vertical (backward) integration reduces transaction costs more than the production-cost advantage of external suppliers.", "keyPoints": [ { "text": "TCE logic: compare transaction costs of market vs. hierarchy", "points": 1.5 }, { "text": "Asset specificity + hold-up risk explained with Tesla facts", "points": 1.5 }, { "text": "Uncertainty explained (incomplete contracts)", "points": 1 }, { "text": "Frequency explained (recurring coordination costs)", "points": 1 }, { "text": "Conclusion: in-house (backward integration) cheaper overall", "points": 1 } ] }
+    ]
+  }
+}
