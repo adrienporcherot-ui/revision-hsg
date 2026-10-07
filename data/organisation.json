@@ -1,0 +1,108 @@
+{
+  "course": "organisation",
+  "title": "Organisation",
+  "placeholder": true,
+  "sources": [],
+  "flashcards": [
+    {
+      "topic": "Fundamentals",
+      "front": "What is the basic organisational dilemma?",
+      "back": "Division of labour (differentiation) creates the need for coordination (integration)."
+    },
+    {
+      "topic": "Structures",
+      "front": "Functional vs. divisional structure?",
+      "back": "Functional: grouped by functions (R&D, production, marketing); efficient specialisation but slow to coordinate.\nDivisional: grouped by products, regions or customers; closer to markets but duplicates resources."
+    },
+    {
+      "topic": "Structures",
+      "front": "What is a matrix organisation?",
+      "back": "Two overlapping dimensions (e.g. function × product) with dual reporting lines. Flexible, but prone to conflict and unclear responsibility."
+    },
+    {
+      "topic": "Coordination",
+      "front": "Mintzberg's coordination mechanisms?",
+      "back": "Mutual adjustment, direct supervision, standardisation of work processes, outputs, skills (and norms)."
+    },
+    {
+      "topic": "Theory",
+      "front": "What is the principal–agent problem?",
+      "back": "An agent (e.g. manager) acts for a principal (e.g. owner) but has different goals and more information. Leads to moral hazard and adverse selection; remedied by monitoring and incentives."
+    },
+    {
+      "topic": "Theory",
+      "front": "Formal vs. informal organisation?",
+      "back": "Formal: officially designed rules, roles and structures. Informal: the unofficial relationships, norms and networks that actually emerge."
+    }
+  ],
+  "quiz": [
+    {
+      "topic": "Structures",
+      "question": "Dual reporting lines are typical of a…",
+      "options": [
+        "functional structure",
+        "divisional structure",
+        "matrix structure",
+        "line structure"
+      ],
+      "answer": 2,
+      "explanation": "In a matrix, employees report to both a functional and a product/project manager."
+    },
+    {
+      "topic": "Structures",
+      "question": "Which structure best supports a firm with very different product lines?",
+      "options": [
+        "Functional",
+        "Divisional",
+        "Simple",
+        "Line"
+      ],
+      "answer": 1,
+      "explanation": "Divisional structures group around products/markets, enabling responsiveness to their different needs."
+    },
+    {
+      "topic": "Theory",
+      "question": "A manager who shirks because the owner cannot observe effort illustrates…",
+      "options": [
+        "adverse selection",
+        "moral hazard",
+        "bounded rationality",
+        "economies of scale"
+      ],
+      "answer": 1,
+      "explanation": "Hidden action after contracting = moral hazard. Hidden information before contracting = adverse selection."
+    },
+    {
+      "topic": "Coordination",
+      "question": "Which coordination mechanism works best in a small start-up team?",
+      "options": [
+        "Mutual adjustment",
+        "Standardisation of outputs",
+        "Standardisation of skills",
+        "Direct supervision only"
+      ],
+      "answer": 0,
+      "explanation": "Mintzberg: simple, small and innovative settings rely on informal communication (mutual adjustment)."
+    }
+  ],
+  "summary": [
+    {
+      "title": "Organisational design",
+      "content": [
+        "> **Sample content.** No PDFs were found in `cours/organisation/`. Replace this file (`data/organisation.json`) with your own material.",
+        "",
+        "- Basic dilemma: **differentiation ↔ integration**.",
+        "",
+        "| Structure | Pros | Cons |",
+        "|---|---|---|",
+        "| Functional | specialisation, efficiency | slow cross-function coordination |",
+        "| Divisional | market focus, accountability | duplication of resources |",
+        "| Matrix | flexibility, knowledge sharing | conflicts, dual reporting |",
+        "",
+        "## Principal–agent",
+        "- **Moral hazard** = hidden action; **adverse selection** = hidden information.",
+        "- Remedies: monitoring, incentive contracts, signalling/screening."
+      ]
+    }
+  ]
+}

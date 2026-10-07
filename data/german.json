@@ -1,0 +1,119 @@
+{
+  "course": "german",
+  "title": "German",
+  "placeholder": true,
+  "sources": [],
+  "flashcards": [
+    {
+      "topic": "Grammar",
+      "front": "Which prepositions always take the dative?",
+      "back": "aus, bei, mit, nach, seit, von, zu (also gegenüber)."
+    },
+    {
+      "topic": "Grammar",
+      "front": "Which prepositions always take the accusative?",
+      "back": "durch, für, gegen, ohne, um (also bis, entlang)."
+    },
+    {
+      "topic": "Grammar",
+      "front": "Two-way prepositions (Wechselpräpositionen)?",
+      "back": "an, auf, hinter, in, neben, über, unter, vor, zwischen: accusative for direction (Wohin?), dative for location (Wo?)."
+    },
+    {
+      "topic": "Grammar",
+      "front": "Where does the verb go in a subordinate clause (weil, dass, ob…)?",
+      "back": "At the end: „…, weil ich morgen eine Prüfung habe.“"
+    },
+    {
+      "topic": "Vocabulary",
+      "front": "die Bilanz",
+      "back": "the balance sheet"
+    },
+    {
+      "topic": "Vocabulary",
+      "front": "der Umsatz / der Gewinn",
+      "back": "revenue (turnover) / profit"
+    },
+    {
+      "topic": "Vocabulary",
+      "front": "die Nachfrage / das Angebot",
+      "back": "demand / supply"
+    },
+    {
+      "topic": "Vocabulary",
+      "front": "sich bewerben um (+ Akk.)",
+      "back": "to apply for: „Ich bewerbe mich um ein Praktikum.“"
+    }
+  ],
+  "quiz": [
+    {
+      "topic": "Grammar",
+      "question": "Ich fahre ___ dem Bus zur Uni.",
+      "options": [
+        "mit",
+        "mit den",
+        "für",
+        "durch"
+      ],
+      "answer": 0,
+      "explanation": "„mit“ always takes the dative: mit dem Bus."
+    },
+    {
+      "topic": "Grammar",
+      "question": "Ich lege das Buch auf ___ Tisch.",
+      "options": [
+        "dem",
+        "den",
+        "der",
+        "des"
+      ],
+      "answer": 1,
+      "explanation": "Direction (Wohin?) with a two-way preposition → accusative: auf den Tisch."
+    },
+    {
+      "topic": "Grammar",
+      "question": "Choose the correct word order:",
+      "options": [
+        "Ich lerne, weil ich habe morgen eine Prüfung.",
+        "Ich lerne, weil ich morgen eine Prüfung habe.",
+        "Ich lerne, weil habe ich morgen eine Prüfung.",
+        "Ich lerne, weil morgen ich habe eine Prüfung."
+      ],
+      "answer": 1,
+      "explanation": "In subordinate clauses introduced by weil, the conjugated verb goes to the end."
+    },
+    {
+      "topic": "Vocabulary",
+      "question": "What does „der Gewinn“ mean?",
+      "options": [
+        "revenue",
+        "loss",
+        "profit",
+        "cost"
+      ],
+      "answer": 2,
+      "explanation": "der Gewinn = profit; der Umsatz = revenue; der Verlust = loss; die Kosten = costs."
+    }
+  ],
+  "summary": [
+    {
+      "title": "Grammar cheat sheet",
+      "content": [
+        "> **Sample content.** No PDFs were found in `cours/german/`. Replace this file (`data/german.json`) with your own material.",
+        "",
+        "## Prepositions",
+        "| Case | Prepositions |",
+        "|---|---|",
+        "| Dative | aus, bei, mit, nach, seit, von, zu |",
+        "| Accusative | durch, für, gegen, ohne, um |",
+        "| Two-way | an, auf, hinter, in, neben, über, unter, vor, zwischen |",
+        "",
+        "- Two-way: **Wohin? → Akkusativ**, **Wo? → Dativ**.",
+        "",
+        "## Word order",
+        "- Main clause: verb in **position 2**.",
+        "- Subordinate clause (weil, dass, ob, wenn): verb at the **end**."
+      ]
+    }
+  ]
+}

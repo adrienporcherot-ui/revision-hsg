@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>HSG Revision</title>
+  <meta name="description" content="Revision site for the HSG Assessment Year: flashcards with spaced repetition, quizzes, summaries and progress tracking.">
+  <meta name="theme-color" content="#f6f7fb" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0f1218" media="(prefers-color-scheme: dark)">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2300802f'/%3E%3Ctext x='32' y='43' font-family='Arial' font-weight='700' font-size='26' fill='white' text-anchor='middle'%3EHSG%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="css/style.css">
+  <script>
+    // Apply the saved theme before the first paint to avoid a flash.
+    try {
+      var s = JSON.parse(localStorage.getItem("hsg-revision-v1") || "{}");
+      if (s.theme === "light" || s.theme === "dark") document.documentElement.dataset.theme = s.theme;
+    } catch (e) {}
+  </script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="#/">
+        <span class="brand-mark" aria-hidden="true">HSG</span>
+        <span class="brand-text">Revision</span>
+      </a>
+      <nav class="nav" aria-label="Main">
+        <a href="#/" data-nav="home"><span class="nav-ico" aria-hidden="true">⌂</span><span class="nav-label">Courses</span></a>
+        <a href="#/progress" data-nav="progress"><span class="nav-ico" aria-hidden="true">▤</span><span class="nav-label">Progress</span></a>
+        <a href="#/settings" data-nav="settings"><span class="nav-ico" aria-hidden="true">⚙</span><span class="nav-label">Settings</span></a>
+      </nav>
+      <button class="icon-btn" id="theme-toggle" type="button" aria-label="Toggle dark mode" title="Theme"></button>
+    </div>
+  </header>
+
+  <main id="main" class="container" tabindex="-1">
+    <p class="loading">Loading…</p>
+  </main>
+
+  <footer class="footer container">
+    Progress is saved in this browser only. Use <a href="#/settings">Settings → Export</a> to move it to another device.
+  </footer>
+
+  <div id="tooltip" class="tooltip" role="status" hidden></div>
+  <script src="js/app.js"></script>
+</body>
+</html>
