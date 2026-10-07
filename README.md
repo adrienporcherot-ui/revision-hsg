@@ -1,66 +1,93 @@
 # HSG Revision
 
-A static revision website for the HSG Assessment Year: plain HTML, CSS and JavaScript, with no server and no build step.
+A static revision website for the HSG Assessment Year: plain HTML, CSS and JavaScript, with no server and no build step. All content comes from the lecture PDFs only.
 
-- **Home**: one card per course with a live countdown to the exam (dates are editable).
-- **Flashcards** with spaced repetition. You rate each card *hard*, *medium* or *easy*, and hard cards come back more often.
-- **Quizzes** (multiple choice). You see the correct answer and an explanation after each question and your score at the end. You can also retry your mistakes.
-- **Summary sheets** that are easy to read and can be printed or saved as PDF.
-- **Progress**: % of cards mastered and quiz score history per course.
-- Light/dark mode (follows your system by default) and works on mobile.
-- Progress is saved in your browser (`localStorage`). Use *Settings → Export / Import* to move it between devices.
+- **Courses**: each course is split into **chapters**. Every chapter has:
+  - a **Summary** (Big Picture · Key Concepts with *Simple* and *Exam* layers plus an example · Connections · Exam Focus · Definitions/Formulas to Memorize · what's unclear or missing in the PDFs);
+  - **Practice**: multiple-choice questions (4 options, one correct, answer and explanation after each question);
+  - a **Mock exam** (HSG style, 30 min).
+- **Mock exams**: one per chapter plus one for the whole course. You get a visible 30-minute timer that never blocks submission, and no hints during the exam. MC questions are auto-graded. For open questions and calculations you see the model answer and key points and grade yourself strictly. You get a Swiss grade (1 + 5 × points/total, rounded to 0.25; 4 = pass), weak topics linked to the summary, and a **Copy my answers** button.
+- **Today**: a daily to-do list built from what you haven't done yet, your lowest grades and your weak topics. You can tick off tasks, and the list renews every day.
+- **Progress**: grades, practice scores and chapters read per course.
+- Light/dark mode, works on mobile. Progress is saved in your browser (`localStorage`); use *Settings → Export / Import* to move it between devices.
+
+## Your PDFs stay private
+
+The lecture PDFs are **not** in this repository and never on the published site. `.gitignore` blocks `*.pdf`, `*.zip` and the course folders, so they cannot be committed here by accident.
+
+The PDFs live in the **private** repository **`revision-hsg-cours`**, sorted by course:
+
+```
+cours/
+  mathematics/  political-science/  history/  business-administration/
+  economics/    organisation/       german/   financial-accounting/
+  private-law/
+```
+
+### Adding new PDFs later
+
+1. Open the **private** repository `revision-hsg-cours` on GitHub (not this one).
+2. Go into `cours/<course>/` and use **Add file → Upload files**. You can upload into a new sub-folder if you like.
+3. Start a Claude Code session with **both** repositories and ask it to update the course from the new PDFs. It will write the summaries, practice questions and mock exams into `data/` here. Only that generated text gets published.
+
+Never upload PDFs to `revision-hsg`: it is public, and everything in it is reachable on the web.
 
 ## Project structure
 
 ```
-index.html            the app (single page)
-css/style.css         styles (light + dark theme)
-js/app.js             logic: routing, spaced repetition, quiz, progress
-data/courses.json     list of courses + default exam dates
-data/<course>.json    content of one course (flashcards, quiz, summary)
-cours/<course>/       your course PDFs (source material, not used by the site)
+index.html                    the app (single page)
+css/style.css                 styles (light + dark theme)
+js/app.js                     routing, summaries, practice, mock exams, Today, progress
+data/courses.json             list of courses (id, name, icon, colour)
+data/<course>/course.json     course info, chapter list, whole-course mock exam
+data/<course>/<chapter>.json  one chapter: summary, practice, mock
 ```
 
-## Adding or editing content
+A course without a `data/<course>/` folder is shown as “No PDFs yet” (currently History, Organisation and Financial Accounting).
 
-Each course has its own file in `data/`, e.g. `data/economics.json`:
+## Chapter file format
 
 ```json
 {
-  "course": "economics",
-  "title": "Economics A: Microeconomics I",
-  "placeholder": false,
-  "flashcards": [
-    { "topic": "1.1 First Principles", "front": "Question", "back": "Answer" }
+  "id": "1",
+  "number": "1",
+  "title": "Chapter title",
+  "sources": ["Lecture 1 slides"],
+  "summary": {
+    "bigPicture": ["3–5 bullets"],
+    "concepts": [
+      { "id": "concept-id", "name": "Concept", "slides": "Slides 4–6",
+        "simple": "Explained to a 12-year-old", "exam": "Formal definition / formula (Markdown, string or list of lines)",
+        "example": "One concrete example" }
+    ],
+    "connections": ["…"],
+    "examFocus": { "questions": ["…"], "traps": ["…"], "mistakes": ["…"] },
+    "memorize": ["…"],
+    "gaps": ["Anything unclear or missing in the PDFs"]
+  },
+  "practice": [
+    { "topic": "concept-id", "question": "…", "options": ["A", "B", "C", "D"], "answer": 1, "explanation": "…" }
   ],
-  "quiz": [
-    {
-      "topic": "2.1 Supply and Demand",
-      "question": "Question text?",
-      "options": ["A", "B", "C", "D"],
-      "answer": 1,
-      "explanation": "Why B is correct."
-    }
-  ],
-  "summary": [
-    { "title": "Section title", "content": ["## Heading", "- bullet with **bold**", "", "| a | b |", "|---|---|", "| 1 | 2 |"] }
-  ]
+  "mock": {
+    "questions": [
+      { "type": "mc", "points": 2, "topic": "concept-id", "question": "…", "options": ["A", "B", "C", "D"], "answer": 0, "explanation": "…" },
+      { "type": "open", "points": 6, "topic": "concept-id", "question": "…", "model": "Model answer",
+        "keyPoints": [ { "text": "Key point", "points": 3 }, { "text": "Key point", "points": 3 } ] },
+      { "type": "calc", "points": 6, "topic": "concept-id", "question": "…", "model": "…", "keyPoints": [ … ] }
+    ]
+  }
 }
 ```
 
-- `answer` is the **index** of the correct option, counting from 0 (`0` = first option).
-- `topic` is optional. It lets you filter flashcards and quizzes by chapter.
-- Use `\n` in a flashcard's `back` text to start a new line.
-- Summary `content` is a list of lines in simple Markdown: `#`/`##`/`###` headings, `-` bullets, `1.` numbered lists, `**bold**`, `*italic*`, `` `code` ``, `>` callouts and `|` tables.
-- Once you replace a sample course with your own material, set `"placeholder": false` to remove the "Sample content" badge.
-- Your progress on a card is linked to its question text (`front`). If you edit a question, that card starts again from zero. You can avoid this by giving the card a fixed `"id": "any-unique-text"`.
-- Default exam dates are in `data/courses.json` (`YYYY-MM-DD`). Dates you change on the site are stored in your browser and take priority.
-
-Current status: **Economics** was generated from the PDFs in `cours/economics/` (Part 0, Parts 1.1, 1.2 and 2.1). The other seven courses have **sample content** to replace. Put their PDFs in `cours/<course>/` and update `data/<course>.json`.
+- `answer` is the **index** of the correct option, counting from 0.
+- `topic` must be the `id` of a concept in the same chapter. It powers the weak-topic list and the “Review” links.
+- For open and calc questions, the `keyPoints` points must add up to `points`.
+- `course.json` has `title`, `info` (Markdown lines), `chapters` (list of chapter ids) and `courseMock.questions`. Course-mock questions also carry `"chapter"`.
+- Text supports simple Markdown: headings, `-` bullets, `1.` lists, `**bold**`, `*italic*`, `` `code` ``, `>` callouts and `|` tables.
 
 ## Running it locally
 
-Browsers block `fetch()` of local files, so double-clicking `index.html` won't load the data. Start a tiny server in this folder instead:
+Browsers block `fetch()` of local files, so start a small server in this folder:
 
 ```bash
 python3 -m http.server 8000
@@ -68,12 +95,10 @@ python3 -m http.server 8000
 
 Then open <http://localhost:8000>.
 
-## Publishing for free with GitHub Pages
+## Publishing with GitHub Pages
 
-1. Make sure the site files are on your default branch (`main`). If they are on another branch, open a pull request and merge it.
-2. On GitHub, open the repository and go to **Settings → Pages**.
-3. Under **Build and deployment → Source**, choose **Deploy from a branch**.
-4. Select branch **`main`**, folder **`/ (root)`**, then click **Save**.
-5. Wait 1–2 minutes and reload the page. The address appears at the top: `https://<your-username>.github.io/revision-hsg/`.
+1. On GitHub, open this repository → **Settings → Pages**.
+2. Under **Build and deployment → Source**, choose **Deploy from a branch**, branch **`main`**, folder **`/ (root)`**, then **Save**.
+3. After 1–2 minutes the site is at `https://<your-username>.github.io/revision-hsg/`.
 
-Every push to `main` then updates the site automatically. On a free GitHub account, Pages requires the repository to be **public**. Note that everything in the repository is then publicly reachable, including the PDFs in `cours/`.
+Every push to `main` updates the site. Pages is free for public repositories. The site only contains the generated summaries and questions, never the PDFs.

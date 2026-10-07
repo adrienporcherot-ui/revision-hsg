@@ -362,7 +362,8 @@ details.info[open] summary { margin-bottom: 8px; }
 .layer .prose > :first-child { margin-top: 0; }
 .layer .prose > :last-child { margin-bottom: 0; }
 .layer.simple { background: var(--accent-soft); }
-.layer.exam { background: var(--surface-2); border-left: 4px solid var(--c, var(--accent)); }
+.layer.exam { display: block; background: var(--surface-2); border-left: 4px solid var(--c, var(--accent)); }
+.layer .prose { min-width: 0; }
 .layer.example { background: var(--warn-soft); }
 .layer-label { font-size: .72rem; font-weight: 800; letter-spacing: .06em; text-transform: uppercase; color: var(--text-2); margin-bottom: 4px; }
 .memorize li { margin: .45em 0; }

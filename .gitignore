@@ -1,0 +1,14 @@
+# Lecture material must never be published with the site.
+# Keep PDFs in the private repository "revision-hsg-cours" instead.
+*.pdf
+*.PDF
+*.zip
+cours/
+Allemand/
+BA/
+Lecture/
+Lecture summery/
+Past Exam/
+Political Science/
+Private Law/
+math_precourse_UNISG_2026/

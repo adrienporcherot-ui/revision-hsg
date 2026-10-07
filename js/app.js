@@ -240,11 +240,49 @@
 
   /* ---------- Markdown (small subset) ---------- */
 
+  // Inline Markdown: `code`, **bold**, *italic* (nesting allowed, e.g. **a *b***).
+  // Stray asterisks such as "p*" or "x * y" stay literal.
   function inline(s) {
-    return esc(s)
-      .replace(/`([^`]+)`/g, "<code>$1</code>")
-      .replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>")
-      .replace(/(^|[^*\w])\*([^*\s][^*]*?)\*(?!\w)/g, "$1<em>$2</em>");
+    return String(s ?? "").split(/(`[^`]+`)/).map((part) =>
+      /^`[^`]+`$/.test(part) ? `<code>${esc(part.slice(1, -1))}</code>` : emphasis(part)).join("");
+  }
+
+  function emphasis(s) {
+    const out = [];
+    const stack = []; // open delimiters: { tag, idx }
+    const isSpace = (ch) => ch === undefined || /\s/.test(ch);
+    const isWord = (ch) => ch !== undefined && /[\p{L}\p{N}]/u.test(ch);
+    const re = /\*+/g;
+    let last = 0, m;
+    while ((m = re.exec(s))) {
+      out.push(esc(s.slice(last, m.index)));
+      last = re.lastIndex;
+      const prev = s[m.index - 1], next = s[re.lastIndex];
+      let n = m[0].length;
+      const canOpen = !isSpace(next) && (n >= 2 || !isWord(prev));
+      const canClose = !isSpace(prev) && (n >= 2 || !isWord(next));
+      const closes = [];
+      if (canClose) {
+        while (n > 0 && stack.length) {
+          const top = stack[stack.length - 1];
+          const need = top.tag === "strong" ? 2 : 1;
+          if (n < need || (top.tag === "em" && n === 2 && canOpen)) break;
+          stack.pop();
+          out[top.idx] = `<${top.tag}>`;
+          closes.push(`</${top.tag}>`);
+          n -= need;
+        }
+      }
+      if (closes.length && n > 0 && !(canOpen && isWord(next))) { out.push("*".repeat(n)); n = 0; }
+      out.push(...closes);
+      if (n > 0 && canOpen) {
+        const tags = n >= 3 ? ["em", "strong"] : n === 2 ? ["strong"] : ["em"];
+        if (n > 3) out.push("*".repeat(n - 3));
+        for (const tag of tags) { stack.push({ tag, idx: out.length }); out.push(tag === "strong" ? "**" : "*"); }
+      } else if (n > 0) out.push("*".repeat(n));
+    }
+    out.push(esc(s.slice(last)));
+    return out.join("");
   }
 
   function renderMarkdown(src) {
