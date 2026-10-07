@@ -1,0 +1,161 @@
+{
+  "id": "p5",
+  "number": "P5",
+  "title": "Pre-course 5: Limits, Continuity and Derivatives",
+  "sources": ["Pre-course Session 5 slides (16 p.)", "Math Pre-Course Study Companion, ch. 5"],
+  "summary": {
+    "bigPicture": [
+      "**Limits** describe local behaviour: what f(x) approaches as x approaches a (even if f(a) is undefined).",
+      "**Continuity** means no surprises at a point: lim f(x) = f(a). Discontinuities are removable, jump or infinite.",
+      "The **derivative** is the slope of the tangent / the instantaneous rate of change; **differentiable ⇒ continuous**, not the reverse.",
+      "Memorise the **derivative table** and the **sum, product, quotient and chain rules** – used constantly in economics, finance and statistics."
+    ],
+    "concepts": [
+      {
+        "id": "limits",
+        "name": "Limits: intuitive idea and limit laws",
+        "slides": "Slide 4",
+        "simple": "The limit is the value the function heads towards as x gets close to a – it does not matter what happens exactly at a.",
+        "exam": [
+          "**lim_(x→a) f(x) = L**: f(x) gets arbitrarily close to L as x gets close to a (from either side), without necessarily f(a) = L, or even f(a) being defined.",
+          "**Limit laws** (both limits exist): lim(f + g) = lim f + lim g · lim(fg) = lim f · lim g · lim(f/g) = lim f / lim g (lim g ≠ 0)."
+        ],
+        "example": "f(x) = (x² − 1)/(x − 1) = x + 1 for x ≠ 1 ⇒ lim_(x→1) f(x) = 2 although f(1) is undefined."
+      },
+      {
+        "id": "one-sided",
+        "name": "One-sided limits and limits at infinity",
+        "slides": "Slides 5–6",
+        "simple": "Approach from the left and from the right; the limit exists only if both sides agree. At infinity, divide by the highest power of x.",
+        "exam": [
+          "- Left limit lim_(x→a⁻) f(x), right limit lim_(x→a⁺) f(x). **lim_(x→a) f(x) exists ⇔ both one-sided limits exist and coincide.**",
+          "- **Limits at infinity:** behaviour as x becomes infinitely big; **divide numerator and denominator by the highest power of x**.",
+          "- f(x) = |x| at 0: both one-sided limits 0 ⇒ limit 0.",
+          "- f(x) = 1 for x < 0, 2 for x ≥ 0: left limit 1, right limit 2 ⇒ **the limit does not exist**."
+        ],
+        "example": "lim_(x→∞) (2x² + 1)/(x² − 3) = lim (2 + 1/x²)/(1 − 3/x²) = 2."
+      },
+      {
+        "id": "continuity",
+        "name": "Continuity and types of discontinuity",
+        "slides": "Slides 7–8",
+        "simple": "Continuous = you can draw the graph without lifting the pen. Holes, jumps and vertical asymptotes break continuity.",
+        "exam": [
+          "**f is continuous at a if lim_(x→a) f(x) = f(a)**, i.e. (i) f(a) is defined, (ii) the limit exists, (iii) they are equal.",
+          "- Polynomials, exponentials, logarithms (on their domain) and trig functions are continuous wherever defined; sums, products, quotients and compositions of continuous functions are continuous (where defined).",
+          "| Type | Meaning |",
+          "|---|---|",
+          "| **Removable** (hole) | limit exists but ≠ f(a), or f(a) undefined – fixable by redefining f(a) |",
+          "| **Jump** | one-sided limits exist but differ |",
+          "| **Infinite** (asymptote) | the function grows without bound near a |"
+        ],
+        "example": "f(x) = (x² − 1)/(x − 1) with f(1) := 2 is continuous at 1 (the removable discontinuity is fixed)."
+      },
+      {
+        "id": "derivative-def",
+        "name": "Differentiability: definition and interpretation",
+        "slides": "Slide 9",
+        "simple": "The derivative is the slope of the curve at one point: how fast f changes right there.",
+        "exam": [
+          "f is **differentiable at a** if **f′(a) = lim_(h→0) [f(a + h) − f(a)]/h** exists.",
+          "f′(a) is the **slope of the tangent** at x = a and the **instantaneous rate of change** of f at a.",
+          "**Differentiable at a ⇒ continuous at a.** The converse is false: |x| is continuous but not differentiable at 0 (a corner)."
+        ],
+        "example": "|x| has a corner at 0: continuous, no unique tangent slope."
+      },
+      {
+        "id": "derivative-table",
+        "name": "Derivatives of special functions",
+        "slides": "Slide 10",
+        "simple": "A short table of the derivatives you must know by heart.",
+        "exam": [
+          "| f(x) | f′(x) |",
+          "|---|---|",
+          "| c (constant) | 0 |",
+          "| xⁿ | n·xⁿ⁻¹ |",
+          "| eˣ | eˣ |",
+          "| aˣ | aˣ·ln a |",
+          "| ln x | 1/x |",
+          "| sin x | cos x |",
+          "| cos x | −sin x |"
+        ],
+        "example": "(x⁵)′ = 5x⁴; (2ˣ)′ = 2ˣ ln 2."
+      },
+      {
+        "id": "rules",
+        "name": "Rules of differentiation",
+        "slides": "Slides 11–12",
+        "simple": "Sum: differentiate term by term. Product: ‘first′ × second + first × second′’. Quotient: ‘(top′·bottom − top·bottom′)/bottom²’. Chain: outer′ at the inner × inner′.",
+        "exam": [
+          "- (f ± g)′ = f′ ± g′ (**sum rule**) · (cf)′ = c f′ (**constant multiple**)",
+          "- **(fg)′ = f′g + fg′** (product rule)",
+          "- **(f/g)′ = (f′g − fg′)/g²** (g ≠ 0) (quotient rule)",
+          "- **(g ∘ f)′(x) = g′(f(x))·f′(x)** (chain rule)"
+        ],
+        "example": "h(x) = (2x + 1)eˣ + ln(x² + 1): h′(x) = (2x + 3)eˣ + 2x/(x² + 1)."
+      },
+      {
+        "id": "higher",
+        "name": "Higher-order derivatives",
+        "slides": "Slide 13",
+        "simple": "Differentiate again and again: f″ is the derivative of f′.",
+        "exam": "The derivative of f′ is the **second derivative f″** (or f⁽²⁾); repeat for f‴, f⁽⁴⁾, …, f⁽ⁿ⁾. Higher derivatives are used to analyse convexity and extrema (Session 6).",
+        "example": "f(x) = x⁴ − 3x²: f′ = 4x³ − 6x, f″ = 12x² − 6, f‴ = 24x. For ln x: f′ = 1/x, f″ = −1/x²."
+      }
+    ],
+    "connections": [
+      "**Session 4:** the derivative table covers the special functions.",
+      "**Session 6:** f′ gives monotonicity and critical points, f″ gives convexity.",
+      "**Math A Lecture 1:** the limit of a **sequence** (ε-definition) is the discrete version of a limit."
+    ],
+    "examFocus": {
+      "questions": [
+        "Compute limits by cancelling factors or dividing by the highest power.",
+        "Check continuity at a point (three conditions) and classify discontinuities.",
+        "Differentiate with product, quotient and chain rules; compute f″."
+      ],
+      "traps": [
+        "The limit at a does not depend on f(a).",
+        "Differentiable ⇒ continuous, **not** the converse (|x|).",
+        "Quotient rule: f′g **minus** fg′ – order matters.",
+        "(aˣ)′ = aˣ ln a, not x·aˣ⁻¹."
+      ],
+      "mistakes": [
+        "Forgetting the inner derivative in the chain rule (ln(x² + 1) → 2x/(x² + 1)).",
+        "Saying a limit exists when the one-sided limits differ."
+      ]
+    },
+    "memorize": [
+      "**f′(a) = lim_(h→0) [f(a + h) − f(a)]/h.**",
+      "**Continuity:** f(a) defined, limit exists, equal.",
+      "**Table:** c→0, xⁿ→nxⁿ⁻¹, eˣ→eˣ, aˣ→aˣ ln a, ln x→1/x, sin→cos, cos→−sin.",
+      "**(fg)′ = f′g + fg′; (f/g)′ = (f′g − fg′)/g²; (g∘f)′ = g′(f)·f′.**"
+    ],
+    "gaps": []
+  },
+  "practice": [
+    { "topic": "limits", "question": "lim_(x→2) (x² − 4)/(x − 2) =", "options": ["0", "2", "4", "does not exist"], "answer": 2, "explanation": "= x + 2 for x ≠ 2 → 4." },
+    { "topic": "one-sided", "question": "lim_(x→∞) (3x³ − x)/(2x³ + 5) =", "options": ["0", "3/2", "∞", "−1/5"], "answer": 1, "explanation": "Divide by x³." },
+    { "topic": "one-sided", "question": "f(x) = 1 for x < 0, 2 for x ≥ 0. lim_(x→0) f(x)…", "options": ["= 1", "= 2", "= 1.5", "does not exist"], "answer": 3, "explanation": "One-sided limits differ (jump)." },
+    { "topic": "continuity", "question": "Which is NOT a condition for continuity at a?", "options": ["f(a) is defined", "lim f(x) exists", "lim f(x) = f(a)", "f is differentiable at a"], "answer": 3, "explanation": "Differentiability is stronger, not required." },
+    { "topic": "continuity", "question": "A discontinuity where the limit exists but ≠ f(a) is…", "options": ["removable", "jump", "infinite", "essential"], "answer": 0, "explanation": "Fixable by redefining f(a)." },
+    { "topic": "derivative-def", "question": "f(x) = |x| at x = 0 is…", "options": ["differentiable and continuous", "continuous but not differentiable", "differentiable but not continuous", "neither"], "answer": 1, "explanation": "Corner at 0." },
+    { "topic": "derivative-table", "question": "(aˣ)′ =", "options": ["x·aˣ⁻¹", "aˣ", "aˣ·ln a", "aˣ/ln a"], "answer": 2, "explanation": "From the table." },
+    { "topic": "derivative-table", "question": "(cos x)′ =", "options": ["sin x", "−sin x", "cos x", "−cos x"], "answer": 1, "explanation": "From the table." },
+    { "topic": "rules", "question": "(x³ sin x)′ =", "options": ["3x² cos x", "3x² sin x + x³ cos x", "3x² sin x − x³ cos x", "x³ cos x"], "answer": 1, "explanation": "Product rule." },
+    { "topic": "rules", "question": "(ln(x² + 1))′ =", "options": ["1/(x² + 1)", "2x/(x² + 1)", "2x·ln(x² + 1)", "1/(2x)"], "answer": 1, "explanation": "Chain rule: inner derivative 2x." },
+    { "topic": "rules", "question": "Quotient rule: (f/g)′ =", "options": ["(f′g + fg′)/g²", "(f′g − fg′)/g²", "(fg′ − f′g)/g²", "f′/g′"], "answer": 1, "explanation": "f′g − fg′ over g²." },
+    { "topic": "higher", "question": "f(x) = ln x. f″(x) =", "options": ["1/x", "−1/x²", "1/x²", "ln x"], "answer": 1, "explanation": "f′ = x⁻¹, f″ = −x⁻²." },
+    { "topic": "higher", "question": "f(x) = x⁴ − 3x². f″(x) =", "options": ["4x³ − 6x", "12x² − 6", "24x", "12x²"], "answer": 1, "explanation": "Differentiate twice." }
+  ],
+  "mock": {
+    "questions": [
+      { "type": "mc", "points": 2, "topic": "limits", "question": "lim_(x→1) (x² − 1)/(x − 1) =", "options": ["0", "1", "2", "undefined"], "answer": 2, "explanation": "= x + 1 → 2." },
+      { "type": "mc", "points": 2, "topic": "continuity", "question": "f(x) = (x² − 1)/(x − 1) with f(1) = 2 is at x = 1…", "options": ["continuous", "jump-discontinuous", "infinitely discontinuous", "undefined"], "answer": 0, "explanation": "lim = 2 = f(1)." },
+      { "type": "mc", "points": 2, "topic": "derivative-def", "question": "Which implication is correct?", "options": ["continuous ⇒ differentiable", "differentiable ⇒ continuous", "continuous ⇔ differentiable", "neither"], "answer": 1, "explanation": "|x| is the counterexample to the converse." },
+      { "type": "mc", "points": 2, "topic": "one-sided", "question": "lim_(x→∞) (2x² + 1)/(x² − 3) =", "options": ["0", "1", "2", "−1/3"], "answer": 2, "explanation": "Divide by x²." },
+      { "type": "calc", "points": 8, "topic": "rules", "question": "Differentiate:\n(a) f(x) = x³ sin x\n(b) g(x) = eˣ/(x² + 1) (simplify)\n(c) h(x) = (2x + 1)eˣ + ln(x² + 1)", "model": "(a) f′(x) = 3x² sin x + x³ cos x (product rule).\n(b) g′(x) = [eˣ(x² + 1) − eˣ·2x]/(x² + 1)² = eˣ(x − 1)²/(x² + 1)² (quotient rule).\n(c) h′(x) = 2eˣ + (2x + 1)eˣ + 2x/(x² + 1) = (2x + 3)eˣ + 2x/(x² + 1).", "keyPoints": [ { "text": "(a) correct product rule", "points": 2 }, { "text": "(b) correct quotient rule", "points": 2 }, { "text": "(b) simplified to eˣ(x − 1)²/(x² + 1)²", "points": 1 }, { "text": "(c) product part (2x + 3)eˣ", "points": 1.5 }, { "text": "(c) chain part 2x/(x² + 1)", "points": 1.5 } ] },
+      { "type": "open", "points": 6, "topic": "continuity", "question": "State the definition of continuity at a point and name and explain the three types of discontinuity from the slides.", "model": "f is continuous at a if lim_(x→a) f(x) = f(a): f(a) defined, limit exists, both equal. Removable (hole): limit exists but ≠ f(a) or f(a) undefined – fixable by redefining f(a). Jump: one-sided limits exist but differ. Infinite (asymptote): f grows without bound near a.", "keyPoints": [ { "text": "Definition with the three conditions", "points": 2.25 }, { "text": "Removable explained", "points": 1.25 }, { "text": "Jump explained", "points": 1.25 }, { "text": "Infinite explained", "points": 1.25 } ] }
+    ]
+  }
+}

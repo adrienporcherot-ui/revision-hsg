@@ -1,0 +1,25 @@
+{
+  "title": "German A2 – Deutsch für Anfänger (Dr. phil. Judith Michelmann)",
+  "info": [
+    "**Textbook:** Buscha/Szita, *Spektrum Deutsch A1+* (ISBN 978-3-941323-29-2) with the free **Audio-App** and App **„Wort + Satz“**.",
+    "- Your PDFs cover Lectures **1–6** (15 Sept – 6 Oct). **Lecture 5 is the same session as Lecture 4** (with handwritten answers), so they form one chapter.",
+    "- The exam format is not described in your PDFs."
+  ],
+  "chapters": ["1", "2", "3", "4", "5"],
+  "courseMock": {
+    "questions": [
+      { "type": "mc", "points": 2, "chapter": "1", "topic": "accusative", "question": "„Ich suche ___ Computer.“ (my)", "options": ["mein", "meine", "meinen", "meiner"], "answer": 2, "explanation": "Masculine accusative → meinen." },
+      { "type": "mc", "points": 2, "chapter": "1", "topic": "irregular", "question": "„Du ___ den Bus.“ (nehmen)", "options": ["nehmst", "nimmst", "nimmt", "nehmt"], "answer": 1, "explanation": "du nimmst, er nimmt." },
+      { "type": "mc", "points": 2, "chapter": "2", "topic": "time-informal", "question": "„fünf vor halb zwei“ =", "options": ["13.25", "13.55", "14.25", "12.25"], "answer": 0, "explanation": "Five before half to two." },
+      { "type": "mc", "points": 2, "chapter": "2", "topic": "prepositions", "question": "„Wir treffen uns ___ Freitag ___ vier Uhr.“", "options": ["am / um", "um / am", "im / um", "am / im"], "answer": 0, "explanation": "Days → am; clock time → um." },
+      { "type": "mc", "points": 2, "chapter": "3", "topic": "separable", "question": "„Sie ___ jeden Tag ___.“ (einkaufen)", "options": ["einkauft / –", "kauft / ein", "kauft ein / –", "kaufen / ein"], "answer": 1, "explanation": "Prefix at the end." },
+      { "type": "mc", "points": 2, "chapter": "3", "topic": "non-separable", "question": "Which verb is never separable?", "options": ["anrufen", "bezahlen", "fernsehen", "ausgehen"], "answer": 1, "explanation": "be- is never separable." },
+      { "type": "mc", "points": 2, "chapter": "4", "topic": "telephone", "question": "End of a phone call:", "options": ["Auf Wiedersehen!", "Auf Wiederhören!", "Guten Appetit!", "Hier ist …"], "answer": 1, "explanation": "On the phone: Auf Wiederhören." },
+      { "type": "mc", "points": 2, "chapter": "4", "topic": "word-stress", "question": "Which verb is stressed on the prefix?", "options": ["bezahlen", "beginnen", "anfangen", "besuchen"], "answer": 2, "explanation": "Separable → prefix stress." },
+      { "type": "mc", "points": 2, "chapter": "5", "topic": "negation", "question": "„Ich habe ___ Gabel.“", "options": ["nicht", "kein", "keine", "keinen"], "answer": 2, "explanation": "die Gabel → keine." },
+      { "type": "mc", "points": 2, "chapter": "5", "topic": "adjectives", "question": "„Ich trinke gern ___ Wein.“ (italienisch)", "options": ["italienischer", "italienischen", "italienisches", "italienische"], "answer": 1, "explanation": "der Wein, accusative, no article → -en." },
+      { "type": "open", "points": 5, "chapter": "3", "topic": "koennen", "question": "Build two sentences:\n(a) können / ich / am Montag / nicht / kommen\n(b) Kerstin / um 7 Uhr / aufstehen (start with ‘Um 7 Uhr’)", "model": "(a) Ich kann am Montag nicht kommen.\n(b) Um 7 Uhr steht Kerstin auf.", "keyPoints": [ { "text": "(a) kann in position 2, kommen at the end", "points": 1.5 }, { "text": "(a) nicht before the infinitive", "points": 1 }, { "text": "(b) steht in position 2, subject after the verb", "points": 1.5 }, { "text": "(b) auf at the end", "points": 1 } ] },
+      { "type": "open", "points": 5, "chapter": "5", "topic": "restaurant-phrases", "question": "You are in a restaurant. Write (a) how you order a mineral water, (b) the answer to ‘Guten Appetit!’, (c) how you ask for the bill, and (d) negate: ‘Ich trinke Bier.’", "model": "(a) Ich hätte gern ein Mineralwasser. / Ich möchte bitte ein Mineralwasser. / Ich nehme ein Mineralwasser.\n(b) Danke, gleichfalls!\n(c) Die Rechnung, bitte!\n(d) Ich trinke kein Bier.", "keyPoints": [ { "text": "(a) Ordering phrase with ‘ein Mineralwasser’", "points": 1.5 }, { "text": "(b) Danke, gleichfalls", "points": 1 }, { "text": "(c) Die Rechnung, bitte", "points": 1 }, { "text": "(d) kein Bier", "points": 1.5 } ] }
+    ]
+  }
+}

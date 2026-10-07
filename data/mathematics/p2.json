@@ -1,0 +1,160 @@
+{
+  "id": "p2",
+  "number": "P2",
+  "title": "Pre-course 2: Numbers and Inequalities",
+  "sources": ["Pre-course Session 2 slides (14 p.)", "Math Pre-Course Study Companion, ch. 2"],
+  "summary": {
+    "bigPicture": [
+      "Number sets form a hierarchy **ℕ ⊂ ℤ ⊂ ℚ ⊂ ℝ**; irrational numbers fill the gaps in ℚ.",
+      "**Σ-notation** compresses long sums; linearity rules and **Gauss' formula** simplify them.",
+      "Solving inequalities: track the direction and **flip the sign when multiplying/dividing by a negative number** (“the #1 mistake”).",
+      "**Absolute value** = distance from 0; solve with cases or the standard equivalences."
+    ],
+    "concepts": [
+      {
+        "id": "number-sets",
+        "name": "Number sets",
+        "slides": "Slide 4",
+        "simple": "Counting numbers (ℕ), plus negatives (ℤ), plus fractions (ℚ), plus everything on the number line (ℝ).",
+        "exam": [
+          "- **ℕ = {0, 1, 2, 3, …}** natural numbers (the slides include 0)",
+          "- **ℤ = {…, −2, −1, 0, 1, 2, …}** integers",
+          "- **ℚ = {p/q : p, q ∈ ℤ, q ≠ 0}** rationals",
+          "- **ℝ**: all points on the number line, rational and irrational",
+          "- **ℕ ⊂ ℤ ⊂ ℚ ⊂ ℝ**. Domains, solution sets and intervals are described as subsets of these."
+        ],
+        "example": "−3 ∈ ℤ but −3 ∉ ℕ; 1/2 ∈ ℚ but 1/2 ∉ ℤ."
+      },
+      {
+        "id": "summation",
+        "name": "Summation notation (Σ)",
+        "slides": "Slide 5",
+        "simple": "Σ is a short way to write ‘add up all these terms’: the index i runs from the bottom number to the top number.",
+        "exam": [
+          "**Definition:** Σᵢ₌₁ⁿ aᵢ = a₁ + a₂ + ⋯ + aₙ; i is the **index**, running from the lower limit 1 to the upper limit n.",
+          "**Rules:** Σ(aᵢ + bᵢ) = Σaᵢ + Σbᵢ · Σ c·aᵢ = c·Σaᵢ · Σᵢ₌₁ⁿ c = n·c",
+          "**Gauss' formula:** **Σᵢ₌₁ⁿ i = n(n + 1)/2**"
+        ],
+        "example": "Σᵢ₌₁⁴ i² = 1 + 4 + 9 + 16 = 30 · Σᵢ₌₁⁵ (2i − 1) = 1 + 3 + 5 + 7 + 9 = 25 · Σᵢ₌₀³ 2ⁱ = 1 + 2 + 4 + 8 = 15."
+      },
+      {
+        "id": "rational-irrational",
+        "name": "Rational, irrational and real numbers",
+        "slides": "Slide 6",
+        "simple": "Rational numbers are fractions; their decimals stop or repeat. Irrational numbers (√2, π, e) have endless decimals that never repeat.",
+        "exam": [
+          "- **Rational:** p/q with p, q ∈ ℤ, q ≠ 0; decimal expansion **finite or eventually periodic** (0.75 = 3/4, 0.3̄ = 1/3). **Integers are rational** (p = p/1).",
+          "- **Irrational:** not rational; decimal expansion **infinite and non-periodic**: √2, π, e.",
+          "- **ℝ = ℚ ∪ {irrational numbers}**: the real line has no gaps.",
+          "- **Proof idea that √2 is irrational:** if √2 = p/q in lowest terms, then p² = 2q² forces both p and q to be even – contradicting lowest terms."
+        ],
+        "example": "“Every integer is rational” is true (q = 1); “every rational is an integer” is false (1/2)."
+      },
+      {
+        "id": "inequality-rules",
+        "name": "Rules for inequalities",
+        "slides": "Slides 7–8",
+        "simple": "You can add the same number to both sides, and multiply by a positive number. If you multiply or divide by a negative number, the arrow turns around.",
+        "exam": [
+          "For a, b, c ∈ ℝ:",
+          "- a < b ⇔ a + c < b + c (adding preserves the direction)",
+          "- if **c > 0**: a < b ⇔ ac < bc",
+          "- if **c < 0**: a < b ⇔ **ac > bc** (the direction **flips**!)",
+          "- a < b and b < c ⇒ a < c (**transitivity**)",
+          "Example: −3x + 5 > 2x − 4 ⇒ 9 > 5x ⇒ **x < 9/5**, i.e. x ∈ (−∞, 9/5)."
+        ],
+        "example": "4 − 2x ≤ 3x + 1 ⇒ 3 ≤ 5x ⇒ x ≥ 3/5."
+      },
+      {
+        "id": "rational-inequality",
+        "name": "Rational inequalities with a sign table",
+        "slides": "Slide 9",
+        "simple": "Find where the top and the bottom are zero, then check the sign of each part on every interval. The bottom can never be zero.",
+        "exam": [
+          "Solve (x − 1)/(x + 2) ≥ 0: zero of numerator x = 1; zero of denominator (**excluded**) x = −2.",
+          "",
+          "| | x < −2 | −2 < x < 1 | x > 1 |",
+          "|---|---|---|---|",
+          "| x − 1 | − | − | + |",
+          "| x + 2 | − | + | + |",
+          "| quotient | **+** | **−** | **+** |",
+          "",
+          "Solution: **x ∈ (−∞, −2) ∪ [1, ∞)** (x = −2 excluded, x = 1 included)."
+        ],
+        "example": "(2x + 1)/(x − 3) < 0 ⇒ x ∈ (−1/2, 3)."
+      },
+      {
+        "id": "absolute-value",
+        "name": "Absolute value: equations and inequalities",
+        "slides": "Slides 10–11",
+        "simple": "|x| is the distance of x from 0, so it is never negative. |x| = 5 means x is 5 or −5.",
+        "exam": [
+          "**Definition:** |x| = x if x ≥ 0, and |x| = −x if x < 0. Geometrically the distance from 0; |a − b| is the distance between a and b.",
+          "- Properties: |x| ≥ 0, |xy| = |x||y|, **|x + y| ≤ |x| + |y|** (triangle inequality)",
+          "- |x| = c (c ≥ 0) ⇔ x = c or x = −c",
+          "- |x| < c (c > 0) ⇔ −c < x < c",
+          "- |x| > c ⇔ x < −c or x > c"
+        ],
+        "example": "|2x − 3| = 5 ⇒ x ∈ {−1, 4}; |x + 1| ≤ 3 ⇒ −4 ≤ x ≤ 2, i.e. [−4, 2]."
+      }
+    ],
+    "connections": [
+      "**Session 1:** number sets are sets; solution sets use ∪ and intervals.",
+      "**Session 3:** natural domains require inequalities (denominator ≠ 0, root argument ≥ 0).",
+      "**Math A Lecture 1:** Σ-notation for series; Gauss' formula proved by induction."
+    ],
+    "examFocus": {
+      "questions": [
+        "Evaluate sums in Σ-notation; use Gauss' formula.",
+        "Solve linear inequalities (watch the flip) and rational inequalities (sign table).",
+        "Solve absolute-value equations and inequalities.",
+        "True/false questions on ℕ, ℤ, ℚ, ℝ and irrational numbers."
+      ],
+      "traps": [
+        "Multiplying/dividing by a negative number **flips** the inequality.",
+        "Never multiply a rational inequality by the denominator without knowing its sign – use a sign table.",
+        "Zeros of the denominator are **always excluded**; zeros of the numerator included only for ≥ / ≤.",
+        "Σ from i = 0 has one more term than from i = 1."
+      ],
+      "mistakes": [
+        "Writing |x| > c as −c > x > c (impossible) instead of x < −c **or** x > c.",
+        "Claiming 0.3̄ is irrational (it is periodic, so rational)."
+      ]
+    },
+    "memorize": [
+      "**ℕ ⊂ ℤ ⊂ ℚ ⊂ ℝ;** ℚ = {p/q : p, q ∈ ℤ, q ≠ 0}.",
+      "**Σᵢ₌₁ⁿ i = n(n + 1)/2;** Σ c = n·c; Σ c·aᵢ = c·Σ aᵢ.",
+      "**c < 0: a < b ⇔ ac > bc.**",
+      "**|x| < c ⇔ −c < x < c; |x| > c ⇔ x < −c or x > c;** |x + y| ≤ |x| + |y|."
+    ],
+    "gaps": []
+  },
+  "practice": [
+    { "topic": "number-sets", "question": "Which inclusion chain is correct?", "options": ["ℤ ⊂ ℕ ⊂ ℚ ⊂ ℝ", "ℕ ⊂ ℤ ⊂ ℚ ⊂ ℝ", "ℕ ⊂ ℚ ⊂ ℤ ⊂ ℝ", "ℚ ⊂ ℤ ⊂ ℕ ⊂ ℝ"], "answer": 1, "explanation": "Each set contains the previous one." },
+    { "topic": "summation", "question": "Σᵢ₌₁⁴ i² =", "options": ["10", "16", "30", "100"], "answer": 2, "explanation": "1 + 4 + 9 + 16 = 30." },
+    { "topic": "summation", "question": "Σᵢ₌₁¹⁰⁰ i =", "options": ["5 000", "5 050", "10 100", "4 950"], "answer": 1, "explanation": "Gauss: 100·101/2 = 5050." },
+    { "topic": "summation", "question": "Σᵢ₌₀³ 2ⁱ =", "options": ["14", "15", "16", "8"], "answer": 1, "explanation": "1 + 2 + 4 + 8 = 15 (i starts at 0)." },
+    { "topic": "summation", "question": "Σᵢ₌₁ⁿ c =", "options": ["c", "n + c", "n·c", "cⁿ"], "answer": 2, "explanation": "n terms each equal to c." },
+    { "topic": "rational-irrational", "question": "Which number is irrational?", "options": ["0.75", "0.333… (periodic)", "√2", "−7"], "answer": 2, "explanation": "√2 has an infinite, non-periodic decimal expansion." },
+    { "topic": "rational-irrational", "question": "Which statement is FALSE?", "options": ["Every integer is rational.", "Every rational number is an integer.", "π is irrational.", "ℝ = ℚ ∪ irrationals"], "answer": 1, "explanation": "1/2 is rational but not an integer." },
+    { "topic": "inequality-rules", "question": "Solve −3x + 5 > 2x − 4.", "options": ["x > 9/5", "x < 9/5", "x < −9/5", "x > −9/5"], "answer": 1, "explanation": "9 > 5x ⇒ x < 9/5." },
+    { "topic": "inequality-rules", "question": "Solve 4 − 2x ≤ 3x + 1.", "options": ["x ≤ 3/5", "x ≥ 3/5", "x ≥ 5/3", "x ≤ −3/5"], "answer": 1, "explanation": "3 ≤ 5x ⇒ x ≥ 3/5." },
+    { "topic": "inequality-rules", "question": "From −2x < 6 it follows that…", "options": ["x < −3", "x > −3", "x < 3", "x > 3"], "answer": 1, "explanation": "Divide by −2 and flip: x > −3." },
+    { "topic": "rational-inequality", "question": "Solution of (x − 1)/(x + 2) ≥ 0:", "options": ["[−2, 1]", "(−∞, −2] ∪ [1, ∞)", "(−∞, −2) ∪ [1, ∞)", "(−2, 1)"], "answer": 2, "explanation": "x = −2 excluded (denominator), x = 1 included." },
+    { "topic": "absolute-value", "question": "Solutions of |2x − 3| = 5:", "options": ["{4}", "{−1, 4}", "{1, −4}", "{−4, 4}"], "answer": 1, "explanation": "2x − 3 = 5 or 2x − 3 = −5." },
+    { "topic": "absolute-value", "question": "|x + 1| ≤ 3 ⇔", "options": ["x ∈ [−4, 2]", "x ∈ [−2, 4]", "x ≤ 2", "x ≤ −4 or x ≥ 2"], "answer": 0, "explanation": "−3 ≤ x + 1 ≤ 3." },
+    { "topic": "absolute-value", "question": "Which is the triangle inequality?", "options": ["|x + y| ≥ |x| + |y|", "|x + y| ≤ |x| + |y|", "|xy| ≤ |x| + |y|", "|x − y| = |x| − |y|"], "answer": 1, "explanation": "|x + y| ≤ |x| + |y|." }
+  ],
+  "mock": {
+    "questions": [
+      { "type": "mc", "points": 2, "topic": "summation", "question": "Σᵢ₌₁⁵ (2i − 1) =", "options": ["15", "25", "30", "35"], "answer": 1, "explanation": "1 + 3 + 5 + 7 + 9 = 25." },
+      { "type": "mc", "points": 2, "topic": "rational-irrational", "question": "Why is √2 irrational (slide proof idea)?", "options": ["Its decimals repeat", "p² = 2q² forces p and q both even, contradicting lowest terms", "Because 2 is prime and √ of a prime is an integer", "Because √2 > 1"], "answer": 1, "explanation": "Proof by contradiction." },
+      { "type": "mc", "points": 2, "topic": "inequality-rules", "question": "If a < b and c < 0, then…", "options": ["ac < bc", "ac > bc", "a + c > b + c", "a/c < b/c"], "answer": 1, "explanation": "Multiplying by a negative number flips the sign." },
+      { "type": "mc", "points": 2, "topic": "rational-inequality", "question": "Solution of (2x + 1)/(x − 3) < 0:", "options": ["(−1/2, 3)", "(−∞, −1/2) ∪ (3, ∞)", "[−1/2, 3)", "(−3, 1/2)"], "answer": 0, "explanation": "Numerator positive and denominator negative between −1/2 and 3." },
+      { "type": "mc", "points": 2, "topic": "absolute-value", "question": "|3x − 2| ≥ 7 ⇔", "options": ["−5/3 ≤ x ≤ 3", "x ≤ −5/3 or x ≥ 3", "x ≥ 3", "x ≤ −3 or x ≥ 5/3"], "answer": 1, "explanation": "3x − 2 ≤ −7 or 3x − 2 ≥ 7." },
+      { "type": "calc", "points": 6, "topic": "rational-inequality", "question": "Solve (x − 1)/(x + 2) ≥ 0 with a sign table. State the solution as an interval and say which boundary points are included.", "model": "Zero of the numerator x = 1; zero of the denominator x = −2 (excluded).\nx < −2: (−)/(−) = + · −2 < x < 1: (−)/(+) = − · x > 1: (+)/(+) = +.\nSolution: x ∈ (−∞, −2) ∪ [1, ∞); −2 excluded (division by 0), 1 included (quotient = 0 satisfies ≥).", "keyPoints": [ { "text": "Critical points 1 and −2 identified", "points": 1.5 }, { "text": "Correct signs on all three intervals", "points": 2 }, { "text": "Correct union of intervals", "points": 1.5 }, { "text": "Boundary: −2 excluded, 1 included", "points": 1 } ] },
+      { "type": "calc", "points": 6, "topic": "absolute-value", "question": "(a) Solve |3x − 2| = 7.\n(b) Solve |x + 1| ≤ 3.\n(c) Solve 4 − 2x ≤ 3x + 1.", "model": "(a) 3x − 2 = 7 ⇒ x = 3; 3x − 2 = −7 ⇒ x = −5/3 → x ∈ {−5/3, 3}.\n(b) −3 ≤ x + 1 ≤ 3 ⇒ −4 ≤ x ≤ 2 → [−4, 2].\n(c) 3 ≤ 5x ⇒ x ≥ 3/5.", "keyPoints": [ { "text": "(a) both solutions 3 and −5/3", "points": 2 }, { "text": "(b) [−4, 2]", "points": 2 }, { "text": "(c) x ≥ 3/5", "points": 2 } ] },
+      { "type": "open", "points": 4, "topic": "rational-irrational", "question": "Define rational and irrational numbers via their decimal expansion and give two examples of each.", "model": "Rational: p/q with p, q ∈ ℤ, q ≠ 0; decimal expansion finite or eventually periodic (e.g. 0.75 = 3/4, 0.3̄ = 1/3, any integer). Irrational: not rational; infinite, non-periodic expansion (e.g. √2, π, e).", "keyPoints": [ { "text": "Rational: p/q, finite or periodic decimals", "points": 1.5 }, { "text": "Irrational: infinite non-periodic", "points": 1.5 }, { "text": "Correct examples", "points": 1 } ] }
+    ]
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "id": "p3",
+  "number": "P3",
+  "title": "Pre-course 3: Functions I – Definitions and Properties",
+  "sources": ["Pre-course Session 3 slides (15 p.)", "Math Pre-Course Study Companion, ch. 3"],
+  "summary": {
+    "bigPicture": [
+      "A **function** assigns **exactly one output to each input** of its domain.",
+      "When only a formula is given, find the **natural domain** (denominators ≠ 0, roots ≥ 0, logs > 0).",
+      "**Composition** combines functions (order matters); **invertibility** needs bijectivity – find f⁻¹ by solving y = f(x) for x.",
+      "**Monotonicity, convexity, boundedness and symmetry** describe the shape of a graph – essential vocabulary for calculus."
+    ],
+    "concepts": [
+      {
+        "id": "function-def",
+        "name": "Function, domain, codomain, range",
+        "slides": "Slides 4–5",
+        "simple": "A function is a machine: you put in an x and get exactly one answer out. Different x's may give the same answer.",
+        "exam": [
+          "**Informal:** f assigns to each x of a set D (**domain**) exactly one element f(x) of a set C (**codomain**): f : D → C, x ↦ f(x).",
+          "**Formal:** f ⊆ D × C is a function if for every x ∈ D there is exactly one y ∈ C with (x, y) ∈ f.",
+          "- **Range (image)** f(D) = {f(x) : x ∈ D} ⊆ C: the set of actual outputs."
+        ],
+        "example": "f : ℝ → ℝ, f(x) = x²: domain ℝ, codomain ℝ, range [0, ∞). f(−2) = 4 = f(2): different inputs may have the same output."
+      },
+      {
+        "id": "domain",
+        "name": "Finding the natural domain",
+        "slides": "Slide 6",
+        "simple": "Find all x for which the formula makes sense: no division by zero, nothing negative under a square root, only positive numbers inside a log.",
+        "exam": [
+          "The **natural domain** is the largest subset of ℝ for which the formula makes sense.",
+          "**Typical restrictions:** denominators ≠ 0; arguments of square roots ≥ 0; arguments of logarithms > 0.",
+          "Example: f(x) = √(x + 2)/(x − 1): x + 2 ≥ 0 and x ≠ 1 ⇒ **D = [−2, 1) ∪ (1, ∞)**."
+        ],
+        "example": "f(x) = 1/√(4 − x²): need 4 − x² > 0 (root in the denominator) ⇒ D = (−2, 2)."
+      },
+      {
+        "id": "composition",
+        "name": "Operations and composition",
+        "slides": "Slide 7",
+        "simple": "Composition means: apply f first, then g to the result. Swapping the order usually gives something different.",
+        "exam": [
+          "(f + g)(x) = f(x) + g(x), (f·g)(x) = f(x)g(x), (f/g)(x) = f(x)/g(x) (g(x) ≠ 0).",
+          "**Composition:** (g ∘ f)(x) = g(f(x)). Domain: all x in the domain of f with f(x) in the domain of g. **Order matters:** generally g ∘ f ≠ f ∘ g."
+        ],
+        "example": "f(x) = x + 1, g(x) = x²: (g ∘ f)(x) = (x + 1)², (f ∘ g)(x) = x² + 1."
+      },
+      {
+        "id": "inverse",
+        "name": "Inverse functions",
+        "slides": "Slides 8–9",
+        "simple": "The inverse undoes the function. To find it, solve y = f(x) for x and rename. It only exists if each output comes from exactly one input.",
+        "exam": [
+          "f : D → C is **invertible** if for every y ∈ C there exists **exactly one** x ∈ D with f(x) = y. Then f⁻¹ : C → D with f⁻¹(f(x)) = x and f(f⁻¹(y)) = y.",
+          "**Recipe:** 1) write y = f(x); 2) solve for x in terms of y; 3) swap names.",
+          "- The graphs of f and f⁻¹ are **reflections across the line y = x**.",
+          "- On ℝ, x² is **not invertible** (f(−x) = f(x)); restricting to [0, ∞) makes it invertible with f⁻¹(x) = √x."
+        ],
+        "example": "f(x) = 3x − 2 ⇒ f⁻¹(x) = (x + 2)/3. f(x) = (2x − 1)/3 ⇒ f⁻¹(x) = (3x + 1)/2."
+      },
+      {
+        "id": "monotonicity",
+        "name": "Monotonicity",
+        "slides": "Slide 10",
+        "simple": "Increasing: the graph goes up as you move right. Decreasing: it goes down.",
+        "exam": "f is **increasing** on I if x₁ < x₂ ⇒ f(x₁) ≤ f(x₂) (**strictly** if f(x₁) < f(x₂)). Analogously decreasing.",
+        "example": "f(x) = x³ is increasing; f(x) = 1/x is decreasing on x > 0."
+      },
+      {
+        "id": "convexity",
+        "name": "Convexity and concavity",
+        "slides": "Slide 11",
+        "simple": "Convex looks like a bowl that holds water; concave looks like an upside-down bowl.",
+        "exam": "f is **convex** on I if the segment joining any two points on its graph lies **above** the graph (“holds water”); **concave** if the segment lies **below** the graph.",
+        "example": "x² is convex; ln(x) is concave."
+      },
+      {
+        "id": "bounded-symmetry",
+        "name": "Boundedness and even/odd symmetry",
+        "slides": "Slide 12",
+        "simple": "Bounded: the graph stays between two horizontal lines. Even: mirror image across the y-axis. Odd: symmetric through the origin.",
+        "exam": [
+          "- **Bounded above** on I if ∃M : f(x) ≤ M ∀x ∈ I; **bounded below** with m ≤ f(x); **bounded** = both.",
+          "- **Even:** f(−x) = f(x) (symmetric about the y-axis). **Odd:** f(−x) = −f(x) (symmetric about the origin)."
+        ],
+        "example": "x² even, x³ odd, x + 1 neither. x⁴ − 2x² is even. 1/(x² + 1) is bounded: 0 < f(x) ≤ 1 (m = 0 not attained, M = 1 attained at x = 0)."
+      }
+    ],
+    "connections": [
+      "**Session 2:** domains are found by solving inequalities.",
+      "**Session 4:** the special functions (power, exponential, log, trig) are examples; exp and ln are inverses.",
+      "**Session 6:** monotonicity and convexity are checked with f′ and f″."
+    ],
+    "examFocus": {
+      "questions": [
+        "Find the natural domain of a formula.",
+        "Compute f ∘ g and g ∘ f.",
+        "Find an inverse and check f(f⁻¹(x)) = x.",
+        "Classify a function as even, odd or neither; give bounds."
+      ],
+      "traps": [
+        "√ in the **denominator** requires > 0, not ≥ 0.",
+        "g ∘ f means **f first**, then g.",
+        "x² on ℝ has no inverse; restrict the domain.",
+        "‘Not even’ does not mean ‘odd’ (x + 1 is neither)."
+      ],
+      "mistakes": [
+        "Confusing the range with the codomain.",
+        "Forgetting to exclude points where the denominator is 0."
+      ]
+    },
+    "memorize": [
+      "**Domain rules:** denominator ≠ 0, √(·) ≥ 0, log(·) > 0.",
+      "**(g ∘ f)(x) = g(f(x))**, generally ≠ (f ∘ g)(x).",
+      "**Inverse recipe:** y = f(x) → solve for x → swap; graph reflected in y = x.",
+      "**Even** f(−x) = f(x); **odd** f(−x) = −f(x).",
+      "**Convex** holds water (x²); **concave** (ln x)."
+    ],
+    "gaps": []
+  },
+  "practice": [
+    { "topic": "domain", "question": "Natural domain of f(x) = √(x + 2)/(x − 1):", "options": ["[−2, ∞)", "[−2, 1) ∪ (1, ∞)", "(−2, 1) ∪ (1, ∞)", "ℝ \\ {1}"], "answer": 1, "explanation": "x + 2 ≥ 0 and x ≠ 1." },
+    { "topic": "domain", "question": "Natural domain of f(x) = 1/√(4 − x²):", "options": ["[−2, 2]", "(−2, 2)", "ℝ \\ {−2, 2}", "(−∞, 2)"], "answer": 1, "explanation": "4 − x² > 0 (root in the denominator)." },
+    { "topic": "domain", "question": "The argument of a logarithm must be…", "options": ["≥ 0", "> 0", "≠ 0", "≤ 1"], "answer": 1, "explanation": "Logarithm arguments > 0." },
+    { "topic": "function-def", "question": "Range of f : ℝ → ℝ, f(x) = x²:", "options": ["ℝ", "[0, ∞)", "(0, ∞)", "[1, ∞)"], "answer": 1, "explanation": "Squares are ≥ 0 and every non-negative number is attained." },
+    { "topic": "composition", "question": "f(x) = 2x + 1, g(x) = x² − 1. (f ∘ g)(x) =", "options": ["2x² − 1", "4x² + 4x", "2x² + 1", "(2x + 1)² − 1"], "answer": 0, "explanation": "f(g(x)) = 2(x² − 1) + 1." },
+    { "topic": "composition", "question": "Same f, g. (g ∘ f)(x) =", "options": ["2x² − 1", "4x² + 4x", "4x² + 4x + 2", "2x² + 1"], "answer": 1, "explanation": "(2x + 1)² − 1 = 4x² + 4x." },
+    { "topic": "inverse", "question": "Inverse of f(x) = 3x − 2:", "options": ["(x − 2)/3", "(x + 2)/3", "3x + 2", "1/(3x − 2)"], "answer": 1, "explanation": "y = 3x − 2 ⇒ x = (y + 2)/3." },
+    { "topic": "inverse", "question": "The graphs of f and f⁻¹ are reflections across…", "options": ["the x-axis", "the y-axis", "the line y = x", "the origin"], "answer": 2, "explanation": "Swap of x and y." },
+    { "topic": "inverse", "question": "Why is f(x) = x² on ℝ not invertible?", "options": ["It is not continuous", "f(−x) = f(x): two inputs share an output", "Its range is ℝ", "It is convex"], "answer": 1, "explanation": "Restrict to [0, ∞) to invert (f⁻¹ = √x)." },
+    { "topic": "bounded-symmetry", "question": "f(x) = x⁴ − 2x² is…", "options": ["even", "odd", "neither", "both"], "answer": 0, "explanation": "f(−x) = f(x)." },
+    { "topic": "bounded-symmetry", "question": "f(x) = x + 1 is…", "options": ["even", "odd", "neither", "both"], "answer": 2, "explanation": "f(−x) = −x + 1 is neither f(x) nor −f(x)." },
+    { "topic": "bounded-symmetry", "question": "Bounds of f(x) = 1/(x² + 1):", "options": ["0 < f(x) ≤ 1", "0 ≤ f(x) < 1", "unbounded above", "−1 ≤ f(x) ≤ 1"], "answer": 0, "explanation": "M = 1 attained at x = 0; m = 0 not attained." },
+    { "topic": "convexity", "question": "Which function is concave?", "options": ["x²", "eˣ", "ln(x)", "x⁴"], "answer": 2, "explanation": "ln is the slide example of concavity." },
+    { "topic": "monotonicity", "question": "f(x) = 1/x on x > 0 is…", "options": ["increasing", "decreasing", "constant", "even"], "answer": 1, "explanation": "Slide example of a decreasing function." }
+  ],
+  "mock": {
+    "questions": [
+      { "type": "mc", "points": 2, "topic": "domain", "question": "Natural domain of f(x) = ln(x − 3):", "options": ["[3, ∞)", "(3, ∞)", "ℝ \\ {3}", "(0, ∞)"], "answer": 1, "explanation": "x − 3 > 0." },
+      { "type": "mc", "points": 2, "topic": "composition", "question": "f(x) = x + 1, g(x) = x². (f ∘ g)(2) =", "options": ["9", "5", "4", "6"], "answer": 1, "explanation": "g(2) = 4, f(4) = 5. (g ∘ f)(2) = 9." },
+      { "type": "mc", "points": 2, "topic": "bounded-symmetry", "question": "f(x) = x³ is…", "options": ["even", "odd", "neither", "bounded"], "answer": 1, "explanation": "f(−x) = −f(x)." },
+      { "type": "mc", "points": 2, "topic": "convexity", "question": "A convex function…", "options": ["has segments between graph points lying below the graph", "has segments between graph points lying above the graph", "is always increasing", "is always bounded"], "answer": 1, "explanation": "Convex = holds water." },
+      { "type": "calc", "points": 6, "topic": "inverse", "question": "Find the inverse of f(x) = (2x − 1)/3 and check that f(f⁻¹(x)) = x.", "model": "y = (2x − 1)/3 ⇒ 3y = 2x − 1 ⇒ x = (3y + 1)/2, so f⁻¹(x) = (3x + 1)/2.\nCheck: f(f⁻¹(x)) = (2·(3x + 1)/2 − 1)/3 = (3x + 1 − 1)/3 = x ✓", "keyPoints": [ { "text": "Sets y = f(x) and solves for x correctly", "points": 2.5 }, { "text": "f⁻¹(x) = (3x + 1)/2", "points": 1.5 }, { "text": "Correct check", "points": 2 } ] },
+      { "type": "calc", "points": 6, "topic": "composition", "question": "f(x) = 2x + 1, g(x) = x² − 1. Compute (f ∘ g)(x) and (g ∘ f)(x). Are they equal?", "model": "(f ∘ g)(x) = 2(x² − 1) + 1 = 2x² − 1.\n(g ∘ f)(x) = (2x + 1)² − 1 = 4x² + 4x.\nNot equal: the order of composition matters.", "keyPoints": [ { "text": "(f ∘ g)(x) = 2x² − 1", "points": 2.5 }, { "text": "(g ∘ f)(x) = 4x² + 4x", "points": 2.5 }, { "text": "Conclusion: not equal, order matters", "points": 1 } ] },
+      { "type": "open", "points": 4, "topic": "bounded-symmetry", "question": "Is f(x) = 1/(x² + 1) bounded? Give the bounds and say whether they are attained. Is f even or odd?", "model": "x² + 1 ≥ 1 > 0, so 0 < f(x) ≤ 1: bounded with M = 1 (attained at x = 0) and m = 0 (not attained). f(−x) = 1/(x² + 1) = f(x): even.", "keyPoints": [ { "text": "0 < f(x) ≤ 1 with reasoning", "points": 1.5 }, { "text": "M = 1 attained at 0, m = 0 not attained", "points": 1.5 }, { "text": "Even, via f(−x) = f(x)", "points": 1 } ] }
+    ]
+  }
+}

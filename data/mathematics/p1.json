@@ -1,0 +1,202 @@
+{
+  "id": "p1",
+  "number": "P1",
+  "title": "Pre-course 1: Mathematical Logic and Sets",
+  "sources": ["Pre-course Session 1 slides (18 p.)", "Pre-course Session 0 outline", "Math Pre-Course Study Companion, ch. 1"],
+  "summary": {
+    "bigPicture": [
+      "The pre-course is a **refresher** of high-school maths, not new material (reference: *Math Refresher to be Fit for the University*, E. G. De Giorgi).",
+      "Session 1 gives the **language** of every later definition: **propositions**, the five **logical operators**, **truth tables** and the **quantifiers** ∀, ∃.",
+      "Key surprise: **A ⇒ B is false only when A is true and B is false**.",
+      "The second half covers **sets**: notation, subsets, the **power set** (2ⁿ elements), operations ∪, ∩, \\, complement, and **De Morgan's laws**."
+    ],
+    "concepts": [
+      {
+        "id": "propositions",
+        "name": "Statements vs. propositions",
+        "slides": "Slides 3–4",
+        "simple": "A proposition is a sentence that is clearly true or clearly false. ‘Zurich is the most beautiful city’ is just an opinion, so it is not one.",
+        "exam": [
+          "**Definition:** a **proposition** is a sentence that is either **true or false, but never both**; its logical value (T or F) is its **truth value**.",
+          "- A **statement** may be subjective; a proposition is objectively true or false.",
+          "- **Simple** proposition: a single statement. **Compound** proposition: two or more propositions combined with logical operators; it still has **exactly one** truth value."
+        ],
+        "example": "“St. Gallen is located in Switzerland” → proposition (true). “Zurich is the most beautiful city in the world” → not a proposition."
+      },
+      {
+        "id": "operators",
+        "name": "Logical operators and truth tables",
+        "slides": "Slides 5–6",
+        "simple": "*Not* flips true/false; *and* needs both true; *or* needs at least one; *if…then* only fails when the ‘if’ part happens but the ‘then’ part does not; *if and only if* needs both to agree.",
+        "exam": [
+          "| Name | Symbol | Reads as |",
+          "|---|---|---|",
+          "| Negation | ¬A | not A |",
+          "| Conjunction | A ∧ B | A and B |",
+          "| Disjunction | A ∨ B | A or B (**inclusive**) |",
+          "| Implication | A ⇒ B | if A then B |",
+          "| Equivalence | A ⇔ B | A if and only if B |",
+          "",
+          "| A | B | A ∧ B | A ∨ B | A ⇒ B | A ⇔ B |",
+          "|---|---|---|---|---|---|",
+          "| T | T | T | T | T | T |",
+          "| T | F | F | T | **F** | F |",
+          "| F | T | F | T | T | F |",
+          "| F | F | F | F | T | T |",
+          "",
+          "**Remark:** A ∨ B is the *inclusive* OR (true also when both hold); everyday speech often means exclusive OR – mathematics does not, unless stated."
+        ],
+        "example": "A = “it rains” is false and B = “I take an umbrella” is true ⇒ A ⇒ B is **true** (vacuously true)."
+      },
+      {
+        "id": "implication",
+        "name": "Implication: sufficient and necessary",
+        "slides": "Slides 6–7",
+        "simple": "A promise ‘If Marc wins, Jane gives him a prize’ is only broken if Marc wins and gets nothing.",
+        "exam": [
+          "- **A ⇒ B is only false when A is true and B is false.** If A is false the implication is automatically true (**vacuously true**).",
+          "- **Vocabulary:** for A ⇒ B, **A is sufficient for B**; **B is necessary for A**.",
+          "- From the exercise: **¬A ∨ B has exactly the same truth table as A ⇒ B** (they are logically equivalent)."
+        ],
+        "example": "A = “Marc wins the race”, B = “Jane gives Marc a prize”: Jane paying even though Marc lost does **not** break the promise."
+      },
+      {
+        "id": "quantifiers",
+        "name": "Quantifiers and their negation",
+        "slides": "Slide 8",
+        "simple": "∀ means ‘for all’, ∃ means ‘there exists’. To negate ‘all are …’ you say ‘at least one is not …’.",
+        "exam": [
+          "- **∀ : “for all”** (universal quantifier) · **∃ : “there exists”** (existential quantifier).",
+          "- ∀x ∈ ℝ, x² ≥ 0 (true) · ∃x ∈ ℝ : x² = 4 (true, e.g. x = 2).",
+          "- **Negation rules:** ¬(∀x, P(x)) ⇔ ∃x, ¬P(x) and ¬(∃x, P(x)) ⇔ ∀x, ¬P(x).",
+          "- ¬(∀x ∈ ℝ, x² > 0) ⇔ ∃x ∈ ℝ : x² ≤ 0 (true: x = 0) · ¬(∃x ∈ ℝ : x² < 0) ⇔ ∀x ∈ ℝ, x² ≥ 0 (true)."
+        ],
+        "example": "Negate “For every student x, x has passed the exam” → “There exists a student x who has **not** passed the exam.”"
+      },
+      {
+        "id": "liar",
+        "name": "Not every sentence is a proposition (Liar paradox)",
+        "slides": "Slides 9, 16",
+        "simple": "‘This sentence is false’ cannot be true or false without contradicting itself, so it is not a proposition.",
+        "exam": "“This sentence is false” is **not a proposition**: it leads to a contradiction (the **Liar Paradox**) – it cannot consistently be assigned a single truth value.",
+        "example": "If it were true, it would be false; if it were false, it would be true."
+      },
+      {
+        "id": "sets",
+        "name": "Sets: basic notions",
+        "slides": "Slide 10",
+        "simple": "A set is a collection of different objects. You can list them {1, 2, 3, 4} or describe them by a rule.",
+        "exam": [
+          "**Definition:** a **set** is a well-defined collection of distinct objects, called **elements**; x ∈ A if x belongs to A, x ∉ A otherwise.",
+          "- Describing a set: **by listing** A = {1, 2, 3, 4}; **by a defining property** A = {x ∈ ℕ : x ≤ 4}.",
+          "- Standard number sets: **ℕ ⊂ ℤ ⊂ ℚ ⊂ ℝ**.",
+          "- In “naive” set theory there is a **universal set Ω**; all sets A, B, … are collections of objects in Ω."
+        ],
+        "example": "{x ∈ ℕ : x ≤ 4} lists the natural numbers up to 4 (with ℕ starting at 0 as in Session 2, this also includes 0)."
+      },
+      {
+        "id": "subsets",
+        "name": "Subsets, equality, empty set, power set",
+        "slides": "Slide 11",
+        "simple": "A is inside B if every element of A is also in B. The power set is the set of all possible subsets; a set with n elements has 2ⁿ subsets.",
+        "exam": [
+          "- **Subset:** A ⊆ B if ∀x, x ∈ A ⇒ x ∈ B.",
+          "- **Equality:** A = B ⇔ A ⊆ B and B ⊆ A.",
+          "- **Empty set** ∅ has no elements; **∅ ⊆ A for every set A**.",
+          "- **Power set** 𝒫(A): the set of **all** subsets of A. If A has n elements, **𝒫(A) has 2ⁿ elements**."
+        ],
+        "example": "A = {1, 2}: 𝒫(A) = {∅, {1}, {2}, {1, 2}} – 2² = 4 elements (handwritten on the slide)."
+      },
+      {
+        "id": "set-operations",
+        "name": "Set operations, Venn diagrams and De Morgan's laws",
+        "slides": "Slides 12–13",
+        "simple": "Union = everything in either set; intersection = only what is in both; difference = in A but not in B; complement = everything outside A.",
+        "exam": [
+          "| Operation | Notation | Meaning |",
+          "|---|---|---|",
+          "| Union | A ∪ B | {x : x ∈ A or x ∈ B} |",
+          "| Intersection | A ∩ B | {x : x ∈ A and x ∈ B} |",
+          "| Difference | A \\ B | {x : x ∈ A and x ∉ B} |",
+          "| Complement | Aᶜ (in Ω) | {x ∈ Ω : x ∉ A} |",
+          "",
+          "**De Morgan's laws:** **(A ∪ B)ᶜ = Aᶜ ∩ Bᶜ** and **(A ∩ B)ᶜ = Aᶜ ∪ Bᶜ**.",
+          "Venn diagram: A ∩ B is the overlapping region, A ∪ B everything covered by either circle; Aᶜ is everything in Ω outside A."
+        ],
+        "example": "Ω = {1,…,10}, A = {1,2,3,4,5}, B = {2,4,6,8,10}: A ∪ B = {1,2,3,4,5,6,8,10}, A ∩ B = {2,4}, A \\ B = {1,3,5}, Aᶜ = {6,7,8,9,10}, (A ∪ B)ᶜ = {7,9} = Aᶜ ∩ Bᶜ ✓."
+      },
+      {
+        "id": "logic-sets",
+        "name": "Combining logic and sets",
+        "slides": "Slides 15, 17",
+        "simple": "‘and’ between conditions = intersection of the sets; ‘or’ = union.",
+        "exam": [
+          "{x : P(x) ∧ Q(x)} = {x : P(x)} ∩ {x : Q(x)} and, analogously, {x : P(x) ∨ Q(x)} = {x : P(x)} ∪ {x : Q(x)}.",
+          "Example (x ∈ {1,…,12}, P: “x even”, Q: “x divisible by 3”): P ∧ Q = {6, 12}; P ∨ Q = {2, 3, 4, 6, 8, 9, 10, 12}."
+        ],
+        "example": "The power set of A = {1,2,3,4,5} has 2⁵ = 32 elements, e.g. ∅, {1}, {1, 2}."
+      }
+    ],
+    "connections": [
+      "**Math A Lecture 1** repeats logic in more depth (exclusive OR, tautology, contradiction, proof by induction).",
+      "**Session 2:** the number sets ℕ ⊂ ℤ ⊂ ℚ ⊂ ℝ; **Session 3:** domains and ranges are sets.",
+      "The outline: “This is the language used to state every later definition – of a function, a limit, a derivative.”"
+    ],
+    "examFocus": {
+      "questions": [
+        "Build a truth table (e.g. ¬A ∨ B) and compare it with A ⇒ B.",
+        "Negate a statement with quantifiers.",
+        "Compute A ∪ B, A ∩ B, A \\ B, Aᶜ and verify De Morgan.",
+        "Number of elements of a power set (2ⁿ).",
+        "Decide whether a sentence is a proposition."
+      ],
+      "traps": [
+        "A ⇒ B is **true** when A is false.",
+        "OR is **inclusive** in mathematics.",
+        "Negation of “∀ … >” is “∃ … ≤” (both the quantifier and the inequality change).",
+        "∅ ⊆ A always; 𝒫(A) contains ∅ and A itself.",
+        "A is **sufficient** for B, B is **necessary** for A (not the other way round)."
+      ],
+      "mistakes": [
+        "Negating “all students passed” as “no student passed”.",
+        "Forgetting ∅ when listing a power set."
+      ]
+    },
+    "memorize": [
+      "**A ⇒ B false only for A = T, B = F;** A ⇒ B ≡ ¬A ∨ B.",
+      "**¬(∀x, P(x)) ⇔ ∃x, ¬P(x); ¬(∃x, P(x)) ⇔ ∀x, ¬P(x).**",
+      "**De Morgan:** (A ∪ B)ᶜ = Aᶜ ∩ Bᶜ; (A ∩ B)ᶜ = Aᶜ ∪ Bᶜ.",
+      "**|𝒫(A)| = 2ⁿ;** A = B ⇔ A ⊆ B and B ⊆ A.",
+      "**ℕ ⊂ ℤ ⊂ ℚ ⊂ ℝ.**"
+    ],
+    "gaps": [
+      "Session 1's PDF has almost no extractable text; it was read from the page images. Everything here matches the slides and the Study Companion."
+    ]
+  },
+  "practice": [
+    { "topic": "operators", "question": "When is A ⇒ B false?", "options": ["A false, B true", "A true, B false", "Both false", "Both true"], "answer": 1, "explanation": "The implication is only false when A is true and B is false." },
+    { "topic": "operators", "question": "A is true, B is true. What is A ∨ B?", "options": ["True (inclusive OR)", "False (exclusive OR)", "Undefined", "Depends on context"], "answer": 0, "explanation": "The mathematical OR is inclusive." },
+    { "topic": "implication", "question": "Which proposition has the same truth table as A ⇒ B?", "options": ["A ∨ ¬B", "¬A ∨ B", "¬A ∧ B", "A ∧ ¬B"], "answer": 1, "explanation": "¬A ∨ B is logically equivalent to A ⇒ B." },
+    { "topic": "implication", "question": "For A ⇒ B, which is correct?", "options": ["A is necessary for B", "B is sufficient for A", "A is sufficient for B", "A and B are equivalent"], "answer": 2, "explanation": "A sufficient for B; B necessary for A." },
+    { "topic": "quantifiers", "question": "Negation of ∀x ∈ ℝ, x² > 0:", "options": ["∀x ∈ ℝ, x² ≤ 0", "∃x ∈ ℝ : x² ≤ 0", "∃x ∈ ℝ : x² > 0", "∀x ∈ ℝ, x² < 0"], "answer": 1, "explanation": "∀ becomes ∃ and > becomes ≤ (true: x = 0)." },
+    { "topic": "quantifiers", "question": "Negation of “For every student x, x has passed the exam”:", "options": ["No student has passed.", "Every student has failed.", "There exists a student who has not passed.", "There exists a student who has passed."], "answer": 2, "explanation": "¬∀ = ∃¬." },
+    { "topic": "liar", "question": "“This sentence is false” is…", "options": ["a true proposition", "a false proposition", "not a proposition", "a tautology"], "answer": 2, "explanation": "Liar paradox: no consistent truth value." },
+    { "topic": "propositions", "question": "Which is a proposition?", "options": ["Zurich is the most beautiful city in the world.", "St. Gallen is located in Switzerland.", "Yes we can.", "Close the door!"], "answer": 1, "explanation": "Objectively true or false." },
+    { "topic": "subsets", "question": "A has 5 elements. How many elements does 𝒫(A) have?", "options": ["5", "10", "25", "32"], "answer": 3, "explanation": "2⁵ = 32." },
+    { "topic": "set-operations", "question": "A = {1,2,3,4,5}, B = {2,4,6,8,10}. A \\ B =", "options": ["{2,4}", "{1,3,5}", "{6,8,10}", "{1,3,5,6,8,10}"], "answer": 1, "explanation": "Elements of A not in B." },
+    { "topic": "set-operations", "question": "De Morgan: (A ∩ B)ᶜ =", "options": ["Aᶜ ∩ Bᶜ", "Aᶜ ∪ Bᶜ", "A ∪ B", "A \\ B"], "answer": 1, "explanation": "Complement swaps ∩ and ∪." },
+    { "topic": "logic-sets", "question": "x ∈ {1,…,12}, P: x even, Q: x divisible by 3. {x : P(x) ∧ Q(x)} =", "options": ["{3, 6, 9, 12}", "{6, 12}", "{2, 3, 4, 6, 8, 9, 10, 12}", "{6}"], "answer": 1, "explanation": "Even and divisible by 3." },
+    { "topic": "subsets", "question": "Which statement is always true?", "options": ["A ⊆ ∅", "∅ ⊆ A", "∅ ∈ A", "A ∈ A"], "answer": 1, "explanation": "The empty set is a subset of every set." }
+  ],
+  "mock": {
+    "questions": [
+      { "type": "mc", "points": 2, "topic": "operators", "question": "A false, B false. Which is TRUE?", "options": ["A ∨ B", "A ∧ B", "A ⇔ B", "¬(A ⇒ B)"], "answer": 2, "explanation": "A ⇔ B is true when both have the same value; A ⇒ B is true so its negation is false." },
+      { "type": "mc", "points": 2, "topic": "implication", "question": "“If it rains, I take an umbrella.” It does not rain and I take an umbrella. The implication is…", "options": ["false", "true", "not a proposition", "undefined"], "answer": 1, "explanation": "A false ⇒ implication true." },
+      { "type": "mc", "points": 2, "topic": "quantifiers", "question": "Negation of ∃x ∈ ℝ : x² < 0:", "options": ["∃x ∈ ℝ : x² ≥ 0", "∀x ∈ ℝ, x² ≥ 0", "∀x ∈ ℝ, x² < 0", "∀x ∈ ℝ, x² > 0"], "answer": 1, "explanation": "¬∃ = ∀¬; ¬(x² < 0) is x² ≥ 0 (not > 0)." },
+      { "type": "mc", "points": 2, "topic": "subsets", "question": "Which is NOT an element of 𝒫({1, 2})?", "options": ["∅", "{1}", "{1, 2}", "1"], "answer": 3, "explanation": "Elements of the power set are sets; 1 is a number." },
+      { "type": "mc", "points": 2, "topic": "set-operations", "question": "Ω = {1,…,10}, A = {1,…,5}, B = {2,4,6,8,10}. (A ∪ B)ᶜ =", "options": ["{7, 9}", "{6, 7, 8, 9, 10}", "{1, 3, 5}", "∅"], "answer": 0, "explanation": "A ∪ B = {1,2,3,4,5,6,8,10}; the rest is {7, 9}." },
+      { "type": "open", "points": 6, "topic": "implication", "question": "Build the truth table of ¬A ∨ B and compare it with A ⇒ B. What do you observe?", "model": "A, B = TT: ¬A = F, ¬A ∨ B = T\nTF: ¬A = F, ¬A ∨ B = F\nFT: ¬A = T, ¬A ∨ B = T\nFF: ¬A = T, ¬A ∨ B = T\nA ⇒ B has the column T, F, T, T as well → ¬A ∨ B and A ⇒ B are logically equivalent.", "keyPoints": [ { "text": "All four rows with the correct ¬A column", "points": 2 }, { "text": "Correct ¬A ∨ B column (T, F, T, T)", "points": 2 }, { "text": "Observation: identical to A ⇒ B, logically equivalent", "points": 2 } ] },
+      { "type": "calc", "points": 8, "topic": "set-operations", "question": "Ω = {1, 2, …, 10}, A = {1, 2, 3, 4, 5}, B = {2, 4, 6, 8, 10}.\n(a) Compute A ∪ B, A ∩ B, A \\ B and Aᶜ.\n(b) Verify (A ∪ B)ᶜ = Aᶜ ∩ Bᶜ.\n(c) How many elements does 𝒫(A) have?\n(d) Is {2, 4} ⊆ A ∩ B?", "model": "(a) A ∪ B = {1,2,3,4,5,6,8,10}; A ∩ B = {2,4}; A \\ B = {1,3,5}; Aᶜ = {6,7,8,9,10}.\n(b) (A ∪ B)ᶜ = {7,9}; Bᶜ = {1,3,5,7,9}, so Aᶜ ∩ Bᶜ = {7,9} – matches.\n(c) 2⁵ = 32.\n(d) Yes: {2,4} ⊆ A ∩ B = {2,4}.", "keyPoints": [ { "text": "(a) all four sets correct (1 pt each)", "points": 4 }, { "text": "(b) both sides computed = {7, 9}", "points": 2 }, { "text": "(c) 32", "points": 1 }, { "text": "(d) yes, with justification", "points": 1 } ] }
+    ]
+  }
+}

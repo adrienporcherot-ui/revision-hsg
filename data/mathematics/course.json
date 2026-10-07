@@ -1,0 +1,24 @@
+{
+  "title": "Mathematics with Statistics A (Prof. Dr. Enrico De Giorgi) + Math Pre-Course",
+  "info": [
+    "**Your PDFs:** the 6-session **Math Pre-Course** (refresher, chapters P1–P6) with its Study Companion, and **Math A Lecture 1** (logic, sequences, series – chapter L1).",
+    "- **Book:** E. De Giorgi, *Mathematics A* (Lecture 1 = book chapters 2, 6, 7); online exercises on **E-MATHS.CH**; information on Canvas and in “A Not Too Short Info”.",
+    "- **Past exams 2011–2023** (main and alternative-date exams) are among your PDFs; they were used only to set the style of the mock questions (points per sub-question, calculations).",
+    "- The exam format (duration, points, aids) is not described in your PDFs."
+  ],
+  "chapters": ["p1", "p2", "p3", "p4", "p5", "p6", "l1"],
+  "courseMock": {
+    "questions": [
+      { "type": "mc", "points": 2, "chapter": "p1", "topic": "quantifiers", "question": "Negation of ∀x ∈ ℝ, x² ≥ 0:", "options": ["∀x ∈ ℝ, x² < 0", "∃x ∈ ℝ : x² < 0", "∃x ∈ ℝ : x² ≥ 0", "∀x ∈ ℝ, x² ≤ 0"], "answer": 1, "explanation": "¬∀ = ∃¬; ¬(≥) is <." },
+      { "type": "mc", "points": 2, "chapter": "p2", "topic": "absolute-value", "question": "|x − 1| < 2 ⇔", "options": ["−1 < x < 3", "x < −1 or x > 3", "−3 < x < 1", "x < 3"], "answer": 0, "explanation": "−2 < x − 1 < 2." },
+      { "type": "mc", "points": 2, "chapter": "p3", "topic": "domain", "question": "Natural domain of f(x) = √(x + 2)/(x − 1):", "options": ["[−2, ∞)", "[−2, 1) ∪ (1, ∞)", "(1, ∞)", "ℝ \\ {1}"], "answer": 1, "explanation": "x ≥ −2 and x ≠ 1." },
+      { "type": "mc", "points": 2, "chapter": "p4", "topic": "exponential", "question": "Solve 3²ˣ⁻¹ = 27.", "options": ["x = 1", "x = 2", "x = 3", "x = 1.5"], "answer": 1, "explanation": "2x − 1 = 3." },
+      { "type": "mc", "points": 2, "chapter": "p5", "topic": "rules", "question": "(x·eˣ)′ =", "options": ["eˣ", "x·eˣ", "(x + 1)eˣ", "xeˣ⁻¹"], "answer": 2, "explanation": "Product rule." },
+      { "type": "mc", "points": 2, "chapter": "p6", "topic": "variations", "question": "Medals (gold/silver/bronze) among 8 athletes:", "options": ["56", "336", "512", "6"], "answer": 1, "explanation": "8·7·6." },
+      { "type": "mc", "points": 2, "chapter": "l1", "topic": "limit-sequence", "question": "Which is a sufficient condition for convergence of a sequence?", "options": ["bounded", "monotone", "bounded and monotone", "aₙ > 0"], "answer": 2, "explanation": "Bounded + monotone ⇒ convergent." },
+      { "type": "mc", "points": 2, "chapter": "l1", "topic": "geometric-series", "question": "For which q does Σₖ₌₀^∞ qᵏ converge?", "options": ["q < 1", "|q| < 1", "|q| ≤ 1", "q > −1"], "answer": 1, "explanation": "Then the sum is 1/(1 − q)." },
+      { "type": "calc", "points": 7, "chapter": "p6", "topic": "extrema", "question": "f(x) = x³ − 3x. Find the critical points, classify them with the second-derivative test, give the function values and the inflection point.", "model": "f′(x) = 3x² − 3 = 0 ⇒ x = ±1. f″(x) = 6x.\nf″(−1) = −6 < 0 ⇒ local max, f(−1) = 2.\nf″(1) = 6 > 0 ⇒ local min, f(1) = −2.\nf″ changes sign at x = 0 ⇒ inflection point (0, 0).", "keyPoints": [ { "text": "f′ and critical points ±1", "points": 2 }, { "text": "Classification with f″ (max at −1, min at 1)", "points": 2.5 }, { "text": "Function values 2 and −2", "points": 1 }, { "text": "Inflection point at (0, 0)", "points": 1.5 } ] },
+      { "type": "calc", "points": 7, "chapter": "l1", "topic": "geometric-series", "question": "You invest 10 000 CHF at 5 % per year.\n(a) Which kind of sequence is your capital Kₙ? Give its explicit form and K₂₀.\n(b) Output grows by 5 % per year from O₀. Write the total output O₀ + ⋯ + O₁₀ with Σ and give its closed form.", "model": "(a) Geometric with q = 1.05: Kₙ = 10 000 · 1.05ⁿ; K₂₀ = 10 000 · 1.05²⁰ ≈ 26 533 CHF.\n(b) Σₖ₌₀¹⁰ O₀(1.05)ᵏ = O₀(1 − 1.05¹¹)/(1 − 1.05) (11 terms, geometric series with q = 1.05).", "keyPoints": [ { "text": "(a) geometric, q = 1.05, explicit form", "points": 2 }, { "text": "(a) K₂₀ ≈ 26 533", "points": 1.5 }, { "text": "(b) correct Σ notation from k = 0 to 10", "points": 1.5 }, { "text": "(b) closed form with 11 terms", "points": 2 } ] }
+    ]
+  }
+}

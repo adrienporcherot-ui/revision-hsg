@@ -1,0 +1,489 @@
+{
+  "id": "2",
+  "number": "2",
+  "title": "Uhrzeit, Zeitangaben und Präpositionen (Kapitel 4)",
+  "sources": [
+    "Lecture 2 (22 Sept 2026)"
+  ],
+  "summary": {
+    "bigPicture": [
+      "Lecture 2 completes **telling the time**: official vs. everyday (informal) time, and how to ask for it politely.",
+      "It separates **Zeitpunkt** (*Wann?* → *um 8 Uhr*) from **Dauer** (*Wie lange?* → *zwei Stunden*, *von … bis*).",
+      "It introduces the **temporal prepositions** *um, an, in, vor, nach, zwischen, von, bis, seit* and their cases (*am Montag, im Mai*).",
+      "Vocabulary: **days of the week, times of day, months/the year**, plus the phonetics of the **ich-Laut** and **ach-Laut**."
+    ],
+    "concepts": [
+      {
+        "id": "time-informal",
+        "name": "Everyday time (inoffizielle Uhrzeit)",
+        "slides": "Uhrzeit slides",
+        "simple": "In everyday speech you count from the next half or full hour: *fünf vor halb zwei* = 1:25.",
+        "exam": [
+          "| Official | Everyday |",
+          "|---|---|",
+          "| 12.30 | **halb eins** |",
+          "| 13.25 | **fünf vor halb zwei** |",
+          "| 13.35 | **fünf nach halb zwei** |",
+          "| 13.45 | **Viertel vor zwei** |",
+          "| 21.55 | fünf vor zehn / **kurz vor zehn** |",
+          "| 22.10 | zehn nach zehn / **kurz nach zehn** |",
+          "| 0 Uhr | zwölf / **Mitternacht** |",
+          "| 1 Uhr nachts | eins |",
+          "",
+          "Everyday time uses only 1–12; official time uses 0–24 (*dreizehn Uhr fünfundzwanzig*)."
+        ],
+        "example": "*Der Zug fährt um fünf nach halb zwei.* = 13.35 Uhr."
+      },
+      {
+        "id": "asking-time",
+        "name": "Asking for the time",
+        "slides": "Uhrzeit slides",
+        "simple": "Say sorry first, then ask *Wie viel Uhr ist es?* or *Wie spät ist es?*",
+        "exam": [
+          "- *Entschuldigung, **wie viel Uhr** ist es?*",
+          "- *Entschuldigen Sie, **wie spät** ist es bitte?*",
+          "- Answer: *Es ist …* (e.g. *Es ist Viertel vor zwei.*)"
+        ],
+        "example": "„Entschuldigen Sie, wie spät ist es bitte?“ – „Es ist kurz nach zehn.“"
+      },
+      {
+        "id": "zeitpunkt-dauer",
+        "name": "Point in time (Zeitpunkt) vs. duration (Dauer)",
+        "slides": "Zeitpunkt / Dauer slides",
+        "simple": "*Wann?* asks when something happens (*um 9 Uhr*). *Wie lange?* asks how long it takes (*zwei Stunden*).",
+        "exam": [
+          "- **Zeitpunkt:** *Wann beginnt der Kurs?* – ***Um*** *9 Uhr.* · *Bis wann?* – *Bis 12 Uhr.*",
+          "- **Dauer:** *Wie lange dauert der Kurs?* – *Der Kurs **dauert** drei Stunden.* · *Von 9 **bis** 12 Uhr.*",
+          "- Durations: *eine halbe Stunde, eine Stunde, **anderthalb** Stunden, zwei Stunden, **zweieinhalb** Stunden, drei Stunden, dreieinhalb Stunden.*"
+        ],
+        "example": "*Der Film dauert anderthalb Stunden* (= 1.5 h)."
+      },
+      {
+        "id": "prepositions",
+        "name": "Temporal prepositions and their cases",
+        "slides": "Präpositionen slides",
+        "simple": "Clock times take *um*, days take *an* (*am Montag*), months and seasons take *in* (*im Mai*). *Seit* means something started in the past and is still going on.",
+        "exam": [
+          "| Preposition | Case | Use | Example |",
+          "|---|---|---|---|",
+          "| **um** | Akk. | clock time | *um 8 Uhr* |",
+          "| **an** | Dat. | days, times of day (*an dem → **am***) | *am Montag, am Abend* |",
+          "| **in** | Dat. | months, seasons, *im Moment* (*in dem → **im***) | *im Mai, im Sommer* |",
+          "| **vor / nach** | Dat. | before / after | *vor dem Kurs, nach der Arbeit* |",
+          "| **zwischen** | Dat. | between | *zwischen 12 und 14 Uhr* |",
+          "| **von** | Dat. | from | *von 9 Uhr …* |",
+          "| **bis** | Akk. | until | *… bis 17 Uhr* |",
+          "| **seit** | Dat. | since / for (still continuing) | *Ich lerne **seit** neun Monat**en** Deutsch.* |"
+        ],
+        "example": "*Ich lerne seit neun Monaten Deutsch* (dative plural adds -n; present tense, because it is still going on)."
+      },
+      {
+        "id": "year",
+        "name": "The year, months and days of the week",
+        "slides": "Das Jahr / Wochentage slides",
+        "simple": "Days of the week are masculine (*der Montag*). *Am Montag* = this Monday; *montags* = every Monday.",
+        "exam": [
+          "- **Das Jahr:** 12 Monate, 52 Wochen, 365 Tage, 8 760 Stunden, 525 600 Minuten, 31 536 000 Sekunden.",
+          "- **Wochentage:** *der* Montag, Dienstag, Mittwoch, Donnerstag, Freitag, Samstag, Sonntag (all masculine).",
+          "- ***am** Montag* = on (one) Monday · ***montags*** = jeden Montag (regularly)."
+        ],
+        "example": "*Montags habe ich Deutsch* = every Monday; *Am Montag habe ich eine Prüfung* = this Monday."
+      },
+      {
+        "id": "tageszeiten",
+        "name": "Times of day and greetings",
+        "slides": "Tageszeiten slides",
+        "simple": "The day is split into parts (morning, noon, evening…), each with its greeting.",
+        "exam": [
+          "| Tageszeit | Time | Adverb / greeting |",
+          "|---|---|---|",
+          "| der Morgen | 6–10 | morgens · *Guten Morgen* |",
+          "| der Vormittag | 10–12 | vormittags · *Guten Tag* |",
+          "| der Mittag | 12–14 | mittags · *Guten Tag* |",
+          "| der Nachmittag | 14–18 | nachmittags · *Guten Tag* |",
+          "| der Abend | 18–22 | abends · *Guten Abend* |",
+          "| die Nacht | 22–6 | nachts · *Gute Nacht* (only when saying goodbye / going to bed) |",
+          "",
+          "Combinations: ***am** Vormittag, **am** Nachmittag, **am** Mittwochvormittag, **am** Montagnachmittag* (but ***in der** Nacht*)."
+        ],
+        "example": "*Gute Nacht* is said **zum Abschied** (leaving / going to bed), not as a greeting."
+      },
+      {
+        "id": "appointment-dialog",
+        "name": "Dialogue: making an appointment",
+        "slides": "Dialog Maria / Brigitte",
+        "simple": "Two friends agree on a day, a time and a place to meet.",
+        "exam": "Maria and Brigitte agree to meet in the **Café Kandler** on **Friday at 16.00**. Structures practised with it: ***am** Vormittag*, ***am** Mittwochvormittag*, ***am** Nachmittag*, ***am** Montagnachmittag* (day + time of day = one word, with *am*).",
+        "example": "*Am Freitag um 16.00 Uhr im Café Kandler.*"
+      },
+      {
+        "id": "ich-ach",
+        "name": "Phonetics: ich-Laut and ach-Laut",
+        "slides": "Phonetik slide",
+        "simple": "*ch* sounds soft after bright vowels (*ich*) and rough, from the back of the throat, after dark vowels (*ach*).",
+        "exam": [
+          "- **ich-Laut [ç]:** after **i, e, ä, ö, ü, eu, ei** and after **n, l, r**, and in the suffix **-chen**: *ich, echt, Bücher, euch, Milch, durch, Mädchen*.",
+          "- **ach-Laut [x]:** after **a, o, u, au**: *acht, noch, Buch, auch*."
+        ],
+        "example": "*das Buch* [x] but *die Bücher* [ç]: the vowel change changes the sound."
+      }
+    ],
+    "connections": [
+      "**Lecture 1 → 2:** *um + Uhrzeit* and the clock first seen in Kapitel 4 are now extended.",
+      "**Accusative/dative:** *um* and *bis* take the accusative; *an, in, vor, nach, zwischen, von, seit* take the dative (*am, im*).",
+      "**Lecture 3:** daily routines (*Tagesabläufe*) and making appointments with *können* use these time expressions."
+    ],
+    "examFocus": {
+      "questions": [
+        "Write official times in everyday German (and vice versa).",
+        "Fill in the correct preposition: *um / am / im / seit / von … bis*.",
+        "Distinguish *Wann?* from *Wie lange?* and answer correctly.",
+        "*am Montag* vs. *montags*; times of day with the right greeting.",
+        "Decide whether *ch* is an ich-Laut or an ach-Laut."
+      ],
+      "traps": [
+        "*fünf vor halb zwei* = **1:25**, not 1:55 or 2:25.",
+        "*seit* + **present tense** + dative (*seit neun Monat**en***), not past tense.",
+        "*um* for clock times, *am* for days, *im* for months: *um 8 Uhr, am Montag, im Mai*.",
+        "*Gute Nacht* is a goodbye, not a greeting.",
+        "*in der Nacht* (not *am Nacht*)."
+      ],
+      "mistakes": [
+        "Writing *anderthalb Stunde* (plural *Stunden*).",
+        "Using the ach-Laut in *ich* or *Milch* (after l → ich-Laut)."
+      ]
+    },
+    "memorize": [
+      "**Prepositions:** um (Akk.) clock · am (Dat.) day/time of day · im (Dat.) month/season · seit (Dat.) still continuing · von … bis.",
+      "**Durations:** eine halbe Stunde, anderthalb Stunden, zweieinhalb Stunden.",
+      "**Times of day:** Morgen 6–10, Vormittag 10–12, Mittag 12–14, Nachmittag 14–18, Abend 18–22, Nacht 22–6.",
+      "**montags = jeden Montag.**",
+      "**ich-Laut** after i, e, ä, ö, ü, eu, ei, n, l, r, -chen · **ach-Laut** after a, o, u, au."
+    ],
+    "gaps": [
+      "The full text of the Maria/Brigitte dialogue is only partly on the slides; only the meeting details (Café Kandler, Friday 16.00) and the structures shown are used here."
+    ]
+  },
+  "practice": [
+    {
+      "topic": "time-informal",
+      "question": "13.25 Uhr in everyday German:",
+      "options": [
+        "fünf nach halb zwei",
+        "fünf vor halb zwei",
+        "fünf vor halb eins",
+        "fünfundzwanzig nach zwei"
+      ],
+      "answer": 1,
+      "explanation": "Five minutes before half to two = 1:25."
+    },
+    {
+      "topic": "time-informal",
+      "question": "„Viertel vor zwei“ is…",
+      "options": [
+        "13.45",
+        "14.15",
+        "12.45",
+        "13.15"
+      ],
+      "answer": 0,
+      "explanation": "15 minutes before two = 13.45 (or 1.45)."
+    },
+    {
+      "topic": "time-informal",
+      "question": "12.30 Uhr in everyday German:",
+      "options": [
+        "halb zwölf",
+        "halb eins",
+        "zwölf dreißig halb",
+        "halb dreizehn"
+      ],
+      "answer": 1,
+      "explanation": "Half to one = halb eins."
+    },
+    {
+      "topic": "asking-time",
+      "question": "Which is a polite way to ask the time?",
+      "options": [
+        "Wie lange ist es?",
+        "Entschuldigen Sie, wie spät ist es bitte?",
+        "Wann ist die Uhr?",
+        "Wie viel Stunde ist es?"
+      ],
+      "answer": 1,
+      "explanation": "Also: *Entschuldigung, wie viel Uhr ist es?*"
+    },
+    {
+      "topic": "zeitpunkt-dauer",
+      "question": "„Wie lange dauert der Kurs?“ – Correct answer:",
+      "options": [
+        "Um drei Uhr.",
+        "Drei Stunden.",
+        "Am Montag.",
+        "Im Mai."
+      ],
+      "answer": 1,
+      "explanation": "*Wie lange?* asks for a duration."
+    },
+    {
+      "topic": "zeitpunkt-dauer",
+      "question": "1.5 hours =",
+      "options": [
+        "einhalb Stunden",
+        "anderthalb Stunden",
+        "eine halbe Stunde",
+        "zweieinhalb Stunden"
+      ],
+      "answer": 1,
+      "explanation": "*anderthalb Stunden*; 2.5 h = zweieinhalb Stunden."
+    },
+    {
+      "topic": "prepositions",
+      "question": "„Der Kurs beginnt ___ 9 Uhr.“",
+      "options": [
+        "am",
+        "im",
+        "um",
+        "seit"
+      ],
+      "answer": 2,
+      "explanation": "Clock time → *um*."
+    },
+    {
+      "topic": "prepositions",
+      "question": "„___ Mai habe ich Ferien.“",
+      "options": [
+        "Am",
+        "Im",
+        "Um",
+        "An"
+      ],
+      "answer": 1,
+      "explanation": "Months → *in dem = im*."
+    },
+    {
+      "topic": "prepositions",
+      "question": "„Ich lerne ___ neun Monaten Deutsch.“",
+      "options": [
+        "vor",
+        "seit",
+        "um",
+        "bis"
+      ],
+      "answer": 1,
+      "explanation": "*seit* + dative for something still continuing."
+    },
+    {
+      "topic": "year",
+      "question": "„montags“ means…",
+      "options": [
+        "this Monday only",
+        "every Monday",
+        "last Monday",
+        "Monday morning"
+      ],
+      "answer": 1,
+      "explanation": "*montags = jeden Montag*."
+    },
+    {
+      "topic": "tageszeiten",
+      "question": "Which time span is *der Nachmittag*?",
+      "options": [
+        "10–12",
+        "12–14",
+        "14–18",
+        "18–22"
+      ],
+      "answer": 2,
+      "explanation": "Vormittag 10–12, Mittag 12–14, Nachmittag 14–18, Abend 18–22."
+    },
+    {
+      "topic": "tageszeiten",
+      "question": "When do you say *Gute Nacht*?",
+      "options": [
+        "When you arrive in the evening",
+        "When you say goodbye at night / go to bed",
+        "At midnight only",
+        "In the morning"
+      ],
+      "answer": 1,
+      "explanation": "*Gute Nacht* is used zum Abschied."
+    },
+    {
+      "topic": "ich-ach",
+      "question": "Which word has the **ach-Laut** [x]?",
+      "options": [
+        "ich",
+        "Milch",
+        "Buch",
+        "Mädchen"
+      ],
+      "answer": 2,
+      "explanation": "After u → ach-Laut. Milch (after l) and -chen → ich-Laut."
+    },
+    {
+      "topic": "ich-ach",
+      "question": "Which word has the **ich-Laut** [ç]?",
+      "options": [
+        "acht",
+        "noch",
+        "auch",
+        "Bücher"
+      ],
+      "answer": 3,
+      "explanation": "After ü → ich-Laut."
+    }
+  ],
+  "mock": {
+    "questions": [
+      {
+        "type": "mc",
+        "points": 2,
+        "topic": "time-informal",
+        "question": "13.35 Uhr in everyday German:",
+        "options": [
+          "fünf vor halb zwei",
+          "fünf nach halb zwei",
+          "fünfunddreißig nach eins halb",
+          "fünf nach halb eins"
+        ],
+        "answer": 1,
+        "explanation": "Five past half to two = 1:35."
+      },
+      {
+        "type": "mc",
+        "points": 2,
+        "topic": "time-informal",
+        "question": "„kurz nach zehn“ at night is closest to…",
+        "options": [
+          "21.55",
+          "22.10",
+          "10.30",
+          "22.45"
+        ],
+        "answer": 1,
+        "explanation": "22.10 = zehn nach zehn / kurz nach zehn."
+      },
+      {
+        "type": "mc",
+        "points": 2,
+        "topic": "prepositions",
+        "question": "Which combination is correct?",
+        "options": [
+          "um Montag",
+          "im Abend",
+          "am Nachmittag",
+          "an Mai"
+        ],
+        "answer": 2,
+        "explanation": "an dem → am Nachmittag; um + clock time; im + month."
+      },
+      {
+        "type": "mc",
+        "points": 2,
+        "topic": "prepositions",
+        "question": "„Ich wohne ___ zwei Jahren in St. Gallen.“",
+        "options": [
+          "vor",
+          "seit",
+          "nach",
+          "um"
+        ],
+        "answer": 1,
+        "explanation": "Still living there → *seit* + dative."
+      },
+      {
+        "type": "mc",
+        "points": 2,
+        "topic": "zeitpunkt-dauer",
+        "question": "Which question asks for a Zeitpunkt?",
+        "options": [
+          "Wie lange dauert das?",
+          "Wann beginnt der Film?",
+          "Wie viele Stunden?",
+          "Seit wann?"
+        ],
+        "answer": 1,
+        "explanation": "*Wann?* → point in time (*um 20 Uhr*)."
+      },
+      {
+        "type": "mc",
+        "points": 2,
+        "topic": "tageszeiten",
+        "question": "„Guten Abend“ fits best at…",
+        "options": [
+          "8.00",
+          "13.00",
+          "19.00",
+          "3.00"
+        ],
+        "answer": 2,
+        "explanation": "Abend = 18–22."
+      },
+      {
+        "type": "mc",
+        "points": 2,
+        "topic": "ich-ach",
+        "question": "In which word is *ch* pronounced like in *ich*?",
+        "options": [
+          "Nacht",
+          "doch",
+          "Milch",
+          "Bauch"
+        ],
+        "answer": 2,
+        "explanation": "After l → ich-Laut; after a, o, au → ach-Laut."
+      },
+      {
+        "type": "open",
+        "points": 6,
+        "topic": "time-informal",
+        "question": "Write these official times in everyday German:\n(a) 12.30 (b) 13.45 (c) 21.55 (d) 0.00",
+        "model": "(a) halb eins\n(b) Viertel vor zwei\n(c) fünf vor zehn / kurz vor zehn\n(d) zwölf / Mitternacht",
+        "keyPoints": [
+          {
+            "text": "(a) halb eins",
+            "points": 1.5
+          },
+          {
+            "text": "(b) Viertel vor zwei",
+            "points": 1.5
+          },
+          {
+            "text": "(c) fünf vor zehn (or kurz vor zehn)",
+            "points": 1.5
+          },
+          {
+            "text": "(d) zwölf / Mitternacht",
+            "points": 1.5
+          }
+        ]
+      },
+      {
+        "type": "open",
+        "points": 6,
+        "topic": "prepositions",
+        "question": "Fill in the gaps with the correct preposition (and article contraction if needed):\n(a) Der Kurs dauert ___ 9 ___ 12 Uhr.\n(b) Wir treffen uns ___ Freitag ___ 16 Uhr.\n(c) ___ Sommer fahre ich nach Italien.\n(d) Ich lerne ___ einem Jahr Deutsch.",
+        "model": "(a) von … bis\n(b) am … um\n(c) Im\n(d) seit",
+        "keyPoints": [
+          {
+            "text": "(a) von … bis",
+            "points": 1.5
+          },
+          {
+            "text": "(b) am … um",
+            "points": 1.5
+          },
+          {
+            "text": "(c) Im",
+            "points": 1.5
+          },
+          {
+            "text": "(d) seit",
+            "points": 1.5
+          }
+        ]
+      }
+    ]
+  }
+}

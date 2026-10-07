@@ -1,0 +1,154 @@
+{
+  "id": "3",
+  "number": "3",
+  "title": "Modalverb können, Tagesabläufe und trennbare Verben",
+  "sources": ["Lecture 3 (23 Sept 2026)"],
+  "summary": {
+    "bigPicture": [
+      "Lecture 3 introduces the modal verb **können** and the **sentence frame** (*Satzklammer*): modal verb in position 2, infinitive at the end.",
+      "It practises **daily routines** (*Tagesabläufe*: Martina in Leipzig, Jonas in Berlin) and **frequency adverbs** (*manchmal, oft, meistens, jeden Tag*).",
+      "Main grammar: **separable verbs** (*aufstehen → Ich stehe um 7 Uhr auf*) vs. **non-separable verbs** (*beginnen, bezahlen, besuchen*).",
+      "Plus fixed **noun + verb combinations** (*Tennis spielen, Ski fahren, Platz nehmen*)."
+    ],
+    "concepts": [
+      {
+        "id": "koennen",
+        "name": "The modal verb *können*",
+        "slides": "können slides",
+        "simple": "*Können* means ‘can / be able to’. It is the second word, and the main verb goes to the very end.",
+        "exam": [
+          "| | können |",
+          "|---|---|",
+          "| ich | **kann** |",
+          "| du | **kannst** |",
+          "| er/sie/es | **kann** |",
+          "| wir | können |",
+          "| ihr | könnt |",
+          "| sie/Sie | können |",
+          "",
+          "*ich* and *er/sie/es* have the same form and **no ending** (*ich kann, er kann*).",
+          "**Satzklammer:** *Ich **kann** am Freitag nicht **kommen**.* · *Wann **kannst** du **kommen**?* · ***Kannst** du am Freitag?* (short form without infinitive)."
+        ],
+        "example": "*Am Montag kann ich nicht, aber am Dienstag kann ich um 10 Uhr kommen.*"
+      },
+      {
+        "id": "tagesablauf",
+        "name": "Daily routines (Tagesabläufe)",
+        "slides": "Tagesablauf slides",
+        "simple": "You describe a person's day hour by hour, from getting up to going to bed.",
+        "exam": [
+          "- **Martina** lives in **Leipzig** and works as a **Statistikerin** at a **Fraunhofer-Institut**: she gets up at **7.00** (*Sie steht um 7.00 Uhr auf*) … and goes to bed at **23.00** (*Um 23.00 Uhr geht sie ins Bett*).",
+          "- **Jonas** is a **student in Berlin**; his day ends late, at **Mitternacht**.",
+          "Typical verbs: *aufstehen, frühstücken, arbeiten, einkaufen, fernsehen, ausgehen, ins Bett gehen*."
+        ],
+        "example": "*Martina steht um 7.00 Uhr auf. Um 23.00 Uhr geht sie ins Bett.*"
+      },
+      {
+        "id": "frequency",
+        "name": "How often? (Wie oft?)",
+        "slides": "Wie oft? slide",
+        "simple": "Words to say how often you do something.",
+        "exam": "*Wie oft …?* – ***manchmal*** (sometimes) · ***oft*** (often) · ***meistens*** (mostly / usually) · ***jeden Tag*** (every day). Like any time expression they can stand in position 1, then the verb follows: *Meistens **stehe** ich um 7 Uhr auf.*",
+        "example": "*Wie oft siehst du fern? – Manchmal am Abend.*"
+      },
+      {
+        "id": "separable",
+        "name": "Separable verbs (trennbare Verben)",
+        "slides": "trennbare Verben slides",
+        "simple": "Some verbs split in two: the small front part (prefix) jumps to the end of the sentence. *aufstehen → Ich stehe um 7 Uhr auf.*",
+        "exam": [
+          "| Infinitive | Sentence (Position 2 … Satzende) |",
+          "|---|---|",
+          "| **an**fangen | Der Kurs **fängt** um 9 Uhr **an**. |",
+          "| **auf**stehen | Ich **stehe** um 7 Uhr **auf**. |",
+          "| **aus**gehen | Am Samstag **gehen** wir **aus**. |",
+          "| **ein**kaufen | Er **kauft** im Supermarkt **ein**. |",
+          "| **fern**sehen | Sie **sieht** am Abend **fern**. |",
+          "| **an**rufen | Ich **rufe** dich morgen **an**. |",
+          "",
+          "With a modal verb the separable verb stays **together at the end**: *Ich kann morgen nicht früh **aufstehen**.*"
+        ],
+        "example": "*fernsehen* also keeps its vowel change: *du siehst fern, er sieht fern*."
+      },
+      {
+        "id": "non-separable",
+        "name": "Non-separable verbs (untrennbare Verben)",
+        "slides": "untrennbare Verben slide",
+        "simple": "Verbs starting with *be-, ver-, ent-…* never split: *Ich bezahle die Rechnung.*",
+        "exam": [
+          "- Examples: *beginnen, entwickeln, bedienen, bezahlen, besuchen*.",
+          "- Prefixes **be-, emp-, ent-, er-, ge-, miss-, ver-, zer-** are **never** separable.",
+          "- **unter-** and **über-** are **often not** separable: *unterrichten* (*Er unterrichtet Deutsch*), *übernachten* (*Wir übernachten im Hotel*)."
+        ],
+        "example": "*Der Kurs beginnt um 9 Uhr* (not *ginnt … be*), but *Der Kurs fängt um 9 Uhr an*."
+      },
+      {
+        "id": "noun-verb",
+        "name": "Noun + verb combinations",
+        "slides": "Nomen-Verb slide",
+        "simple": "Some activities are a noun plus a verb that belong together; the noun goes towards the end like a prefix.",
+        "exam": "*Tennis spielen, Schach spielen, Ski fahren, Fahrrad fahren, Platz nehmen.* In a sentence the verb is conjugated in position 2 and the noun stays at the end: *Am Wochenende **fahre** ich **Ski**.* · ***Nehmen** Sie bitte **Platz**!*",
+        "example": "*Spielst du heute Abend Schach?*"
+      }
+    ],
+    "connections": [
+      "**Satzbau (Lecture 1):** modal verbs and separable verbs both create the **Satzklammer**: one part in position 2, one part at the end.",
+      "**Time expressions (Lecture 2):** daily routines combine *um* + clock time and times of day with separable verbs.",
+      "**Lecture 4/5:** separable vs. non-separable verbs are revisited with **word stress** (prefix vs. stem) and telephone phrases with *anrufen*."
+    ],
+    "examFocus": {
+      "questions": [
+        "Conjugate *können* and build sentences with the infinitive at the end.",
+        "Put separable verbs in a sentence (prefix at the end), also after a time expression in position 1.",
+        "Decide whether a verb is separable or not (*beginnen* vs. *anfangen*; *unterrichten*, *besuchen*).",
+        "Describe a daily routine with times and frequency adverbs."
+      ],
+      "traps": [
+        "*ich kann / er kann* (no -t, no -e).",
+        "After a modal verb, the separable verb is **not** split: *Ich muss/kann früh aufstehen*.",
+        "*unterrichten, übernachten* are not separable even though *unter-/über-* look like prepositions.",
+        "*fernsehen*: vowel change + separation (*er sieht fern*)."
+      ],
+      "mistakes": [
+        "Leaving the prefix in front: *Ich aufstehe um 7 Uhr* ✗.",
+        "Separating be-/ver- verbs: *Ich zahle die Rechnung be* ✗."
+      ]
+    },
+    "memorize": [
+      "**können:** kann, kannst, kann, können, könnt, können.",
+      "**Separable:** an-fangen, auf-stehen, aus-gehen, ein-kaufen, fern-sehen, an-rufen.",
+      "**Never separable:** be-, emp-, ent-, er-, ge-, miss-, ver-, zer-.",
+      "**Frequency:** manchmal < oft < meistens < jeden Tag.",
+      "**Satzklammer:** conjugated verb in position 2 · infinitive / prefix at the end."
+    ],
+    "gaps": [
+      "Only selected times of Martina's and Jonas's daily routines are legible on the slides (Martina: 7.00 aufstehen, 23.00 ins Bett; Jonas: Mitternacht); the intermediate steps are not reproduced here."
+    ]
+  },
+  "practice": [
+    { "topic": "koennen", "question": "„Er ___ heute nicht kommen.“", "options": ["kannt", "kann", "könnt", "kanne"], "answer": 1, "explanation": "er kann (same as ich kann)." },
+    { "topic": "koennen", "question": "„___ ihr am Samstag?“", "options": ["Kann", "Kannst", "Könnt", "Können"], "answer": 2, "explanation": "ihr könnt." },
+    { "topic": "koennen", "question": "Correct word order:", "options": ["Ich kann kommen am Freitag.", "Ich kann am Freitag kommen.", "Ich am Freitag kann kommen.", "Kann ich kommen am Freitag."], "answer": 1, "explanation": "Modal in position 2, infinitive at the end." },
+    { "topic": "separable", "question": "aufstehen: „Ich ___ um 7 Uhr ___.“", "options": ["aufstehe / –", "stehe / auf", "stehe auf / –", "auf / stehe"], "answer": 1, "explanation": "Prefix *auf* goes to the end." },
+    { "topic": "separable", "question": "fernsehen, er: „Er ___ am Abend ___.“", "options": ["fernseht / –", "seht / fern", "sieht / fern", "sieht fern / –"], "answer": 2, "explanation": "Vowel change e → ie and separation." },
+    { "topic": "separable", "question": "With *können*: „Ich kann morgen nicht früh ___.“", "options": ["auf stehen", "stehen auf", "aufstehen", "aufsteht"], "answer": 2, "explanation": "After a modal verb the infinitive stays together at the end." },
+    { "topic": "non-separable", "question": "Which verb is **not** separable?", "options": ["anrufen", "einkaufen", "bezahlen", "ausgehen"], "answer": 2, "explanation": "be- is never separable." },
+    { "topic": "non-separable", "question": "Which prefix group is **never** separable?", "options": ["an-, auf-, aus-", "be-, ent-, ver-", "ein-, fern-, mit-", "unter-, über- always"], "answer": 1, "explanation": "be-, emp-, ent-, er-, ge-, miss-, ver-, zer-." },
+    { "topic": "non-separable", "question": "„Er ___ Deutsch an der Uni.“ (unterrichten)", "options": ["richtet … unter", "unterrichtet", "unterrichtet … an", "richtet unter"], "answer": 1, "explanation": "unterrichten is not separable." },
+    { "topic": "frequency", "question": "Which means ‘mostly / usually’?", "options": ["manchmal", "oft", "meistens", "jeden Tag"], "answer": 2, "explanation": "manchmal = sometimes, oft = often, meistens = mostly." },
+    { "topic": "tagesablauf", "question": "Martina works as a…", "options": ["student in Berlin", "Statistikerin at a Fraunhofer-Institut", "teacher in Leipzig", "waitress"], "answer": 1, "explanation": "Martina, Leipzig, Statistikerin at a Fraunhofer-Institut; Jonas is the Berlin student." },
+    { "topic": "noun-verb", "question": "Which combination is correct?", "options": ["Ski spielen", "Tennis fahren", "Platz nehmen", "Fahrrad spielen"], "answer": 2, "explanation": "Tennis/Schach spielen, Ski/Fahrrad fahren, Platz nehmen." }
+  ],
+  "mock": {
+    "questions": [
+      { "type": "mc", "points": 2, "topic": "koennen", "question": "„___ du am Freitag?“", "options": ["Kann", "Kannst", "Könnt", "Kannt"], "answer": 1, "explanation": "du kannst; short form without infinitive." },
+      { "type": "mc", "points": 2, "topic": "separable", "question": "anfangen: „Der Kurs ___ um 9 Uhr ___.“", "options": ["anfängt / –", "fängt / an", "fangt / an", "fängt an / –"], "answer": 1, "explanation": "Vowel change a → ä and the prefix at the end." },
+      { "type": "mc", "points": 2, "topic": "separable", "question": "Which sentence is correct?", "options": ["Morgen ich rufe dich an.", "Morgen rufe ich dich an.", "Morgen anrufe ich dich.", "Morgen rufe an ich dich."], "answer": 1, "explanation": "Position 1 Morgen, verb in position 2, prefix at the end." },
+      { "type": "mc", "points": 2, "topic": "non-separable", "question": "Which verb is separable?", "options": ["besuchen", "entwickeln", "einkaufen", "übernachten"], "answer": 2, "explanation": "ein- is separable; be-, ent- never; über- here not." },
+      { "type": "mc", "points": 2, "topic": "noun-verb", "question": "„Am Wochenende ___ ich Ski.“", "options": ["spiele", "fahre", "mache", "nehme"], "answer": 1, "explanation": "Ski fahren." },
+      { "type": "mc", "points": 2, "topic": "frequency", "question": "Correct word order:", "options": ["Manchmal ich sehe fern.", "Manchmal sehe ich fern.", "Manchmal fernsehe ich.", "Manchmal sehe fern ich."], "answer": 1, "explanation": "Frequency adverb in position 1 → verb in position 2 → subject → prefix at the end." },
+      { "type": "open", "points": 8, "topic": "separable", "question": "Write Martina's routine as full sentences (verb in position 2, time first):\n(a) 7.00 – aufstehen\n(b) 18.00 – einkaufen\n(c) 20.00 – fernsehen\n(d) Rewrite (a) with *können* + *nicht*: she cannot get up at 7.00.", "model": "(a) Um 7.00 Uhr steht Martina auf.\n(b) Um 18.00 Uhr kauft Martina ein.\n(c) Um 20.00 Uhr sieht Martina fern.\n(d) Martina kann nicht um 7.00 Uhr aufstehen. (also: Um 7.00 Uhr kann Martina nicht aufstehen.)", "keyPoints": [ { "text": "(a) steht … auf (prefix at the end)", "points": 1.5 }, { "text": "(b) kauft … ein", "points": 1.5 }, { "text": "(c) sieht … fern (vowel change)", "points": 2 }, { "text": "(d) kann in position 2, ‘aufstehen’ together at the end", "points": 2 }, { "text": "Time in position 1 with verb–subject inversion in (a)–(c)", "points": 1 } ] },
+      { "type": "open", "points": 4, "topic": "non-separable", "question": "Explain the difference between *anfangen* and *beginnen* in a sentence, and name the prefixes that are never separable.", "model": "Both mean ‘to begin’, but *anfangen* is separable (*Der Kurs fängt um 9 Uhr an*), *beginnen* is not (*Der Kurs beginnt um 9 Uhr*). Never separable: be-, emp-, ent-, er-, ge-, miss-, ver-, zer-.", "keyPoints": [ { "text": "Correct sentence with ‘fängt … an’", "points": 1.5 }, { "text": "Correct sentence with ‘beginnt’", "points": 1 }, { "text": "At least 5 of the 8 never-separable prefixes", "points": 1.5 } ] }
+    ]
+  }
+}

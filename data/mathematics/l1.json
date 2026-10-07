@@ -1,0 +1,260 @@
+{
+  "id": "l1",
+  "number": "L1",
+  "title": "Math A Lecture 1: Mathematical Logic, Sequences and Series",
+  "sources": ["Mathematics with Statistics A – Lecture 1 (Prof. Dr. Enrico De Giorgi, 83 p.)", "Book “Mathematics A”: ch. 2 (logic), ch. 6 (sequences), ch. 7 (series); E-MATHS.CH"],
+  "summary": {
+    "bigPicture": [
+      "Course goals: **formalise problems** in business and economics, **master and apply** mathematical techniques, develop **logical and critical thinking**.",
+      "**Logic:** propositions, the five logical operations and truth tables; **tautology** vs. **contradiction**; **proof by mathematical induction**.",
+      "**Sequences:** ordered lists {aₙ}; check **monotonicity, boundedness, convergence** (ε-definition). Bounded + monotone ⇒ convergent.",
+      "**Series:** sequences of partial sums. The **geometric series** sₙ = a₁(1 − qⁿ)/(1 − q) converges **iff |q| < 1** to **a₁/(1 − q)** – “the most useful result in this class”."
+    ],
+    "concepts": [
+      {
+        "id": "course-info",
+        "name": "Course organisation and how to read the slides",
+        "slides": "Slides 4–12",
+        "simple": "Keep up to date via Canvas, the info document and E-MATHS.CH. Slide colours tell you what is discussed in class and what is self-study.",
+        "exam": [
+          "- Information: **“A Not Too Short Info”**, the **Canvas** room, **E-MATHS.CH**.",
+          "- Slide backgrounds: **white** = core material discussed in class; **beige** = relevant material **primarily for self-study**; **blue** = general information.",
+          "- Icons: content in the book (focus on explanations), additional content not in the book (take notes), exercises discussed in class.",
+          "- Motivation: WEF *Future of Jobs Report 2025* – analytical thinking and quantitative reasoning; examples: portfolio manager, risk manager, business analyst, economist, data-driven decision-making.",
+          "- Today's topics: logic (book ch. 2), sequences (ch. 6), series (ch. 7)."
+        ],
+        "example": "Beige slides (e.g. the logic summary) are still exam-relevant – they are just meant for self-study."
+      },
+      {
+        "id": "propositions-L",
+        "name": "Statements, propositions and truth tables",
+        "slides": "Slides 15–21",
+        "simple": "Maths works only with sentences that are clearly true or false. A truth table lists every combination and says when a new sentence is true.",
+        "exam": [
+          "- A **statement** is “a formal written or oral account of facts, theories, opinions, events” (Oxford). A **proposition** is a statement that is clearly **either true (1) or false (0)**.",
+          "- “Yes we can” → not a proposition; “Enrico De Giorgi climbed Everest” → proposition, false; “This class is Mathematics A” → proposition, true.",
+          "- A **truth table** fully describes when a new proposition is true, depending on the values of the existing ones.",
+          "- D = “Ann, Bill AND Carl climbed Everest” is true **only** in the one row where A, B and C are all true (8 rows in total).",
+          "- The same logical operations appear in computer code (Python example)."
+        ],
+        "example": "“De Giorgi climbed Everest AND this class is Math A” is false; with OR it is true."
+      },
+      {
+        "id": "operations-L",
+        "name": "The five logical operations",
+        "slides": "Slides 22–31",
+        "simple": "NOT flips, AND needs both, OR needs at least one (both is fine too), IMPLY only fails when the promise is broken, IFF needs both to agree.",
+        "exam": [
+          "| A | B | ¬A | A ∧ B | A ∨ B | A ⇒ B | A ⇔ B |",
+          "|---|---|---|---|---|---|---|",
+          "| T | T | F | T | T | T | T |",
+          "| T | F | F | F | T | **F** | F |",
+          "| F | T | T | F | T | T | F |",
+          "| F | F | T | F | F | T | T |",
+          "",
+          "- The mathematical OR is **inclusive**. **Exclusive OR = (A ∨ B) ∧ ¬(A ∧ B)** (true only in the rows T/F and F/T).",
+          "- **Implication** = a contract: “If Ann climbs Everest, then Bill pays Ann 100 000 CHF” is only violated when Ann climbs and Bill does not pay; if Ann does not climb, the contract is fulfilled whatever Bill does.",
+          "- **Equivalence**: Bill pays if **and only if** Ann climbs – paying although Ann did not climb makes A ⇔ B false (but A ⇒ B true).",
+          "- **(A ⇔ B) ⇔ ((A ⇒ B) ∧ (B ⇒ A))**.",
+          "- A ⇒ B: A is **sufficient** for B; A ⇔ B: A is **sufficient and necessary** for B.",
+          "- **¬(A ⇒ B) ⇔ A ∧ ¬B**: an implication is rejected by finding a case where A is true but B false (counterexample)."
+        ],
+        "example": "C = (A ∨ B) ∧ ¬(A ∧ B) is true exactly when one of A, B is true – the exclusive OR (“either… or…”)."
+      },
+      {
+        "id": "three-boxes",
+        "name": "Logic quiz: the three boxes",
+        "slides": "Slides 14, 32",
+        "simple": "Exactly one of the two clues is true. Try each case and see which one does not lead to a contradiction.",
+        "exam": [
+          "Exactly one of three boxes contains 100 CHF. C = “The bill is in Box 1”, D = “The bill is not in Box 2”; at least one is true and at least one is false.",
+          "Reasoning: if C is true (Box 1), then D is also true → not allowed. So C is false and D must be true: not in Box 1 and not in Box 2 ⇒ **Box 3**."
+        ],
+        "example": "Check: bill in Box 3 → C false, D true: exactly one true ✓."
+      },
+      {
+        "id": "tautology",
+        "name": "Tautology and contradiction",
+        "slides": "Slides 35–36",
+        "simple": "A tautology is always true whatever the parts are (‘to be or not to be’). A contradiction is always false (A and not A).",
+        "exam": [
+          "- **Tautology:** a compound proposition **true in all cases**, e.g. **A ∨ ¬A** (“To be or not to be”).",
+          "- **Contradiction:** **false in all cases**, e.g. **A ∧ ¬A**.",
+          "- Tautology ↔ proof by mathematical induction; contradiction ↔ proof by contradiction."
+        ],
+        "example": "Truth table of A ∨ ¬A: T, T. Of A ∧ ¬A: F, F."
+      },
+      {
+        "id": "induction",
+        "name": "Proof by mathematical induction",
+        "slides": "Slides 37–40",
+        "simple": "Show it works for 1, and show ‘if it works for n, it works for n + 1’. Then it works for every n, like falling dominoes.",
+        "exam": [
+          "Based on the tautology **[A ∧ (A ⇒ B)] ⇒ B**: if A and A ⇒ B are true, B must be true.",
+          "**Induction:** if A₁ is true and all implications Aₙ ⇒ Aₙ₊₁ are true, then Aₙ is true for all n.",
+          "**Example:** Aₙ = “1 + ⋯ + n = n(n + 1)/2”. A₁: 1 = 1·2/2 ✓. Step: 1 + ⋯ + n + (n + 1) = n(n + 1)/2 + (n + 1) = (n² + 3n + 2)/2 = (n + 1)(n + 2)/2 ✓.",
+          "**“All horses are of the same colour”** – a false induction proof; the slide asks: *where is the flaw?*"
+        ],
+        "example": "The horse flaw: the step Hₙ ⇒ Hₙ₊₁ fails for n = 1 (two horses: removing one leaves groups that do not overlap), so the chain of implications breaks."
+      },
+      {
+        "id": "sequences",
+        "name": "Sequences: definition, explicit and recursive",
+        "slides": "Slides 42–50",
+        "simple": "A sequence is a numbered list of numbers. You can give a formula for the n-th number, or a rule to get the next number from the previous one.",
+        "exam": [
+          "**Definition:** a **sequence** is an ordered list {a₁, a₂, a₃, …} where each n ∈ ℕ corresponds exactly to a real number aₙ; written **{aₙ}ₙ∈ℕ**, n = index, aₙ = n-th term.",
+          "- **Order matters:** the same 20 numbers reordered follow yₖ = 2 cos(0.5k).",
+          "- **Explicit:** aₙ = 1/n → {1, 1/2, 1/3, …}.",
+          "- **Recursive:** a₁ = 1, aₙ = ½(aₙ₋₁ + 3/aₙ₋₁).",
+          "- **Fibonacci:** a₁ = 0, a₂ = 1, aₙ₊₁ = aₙ + aₙ₋₁ → 0, 1, 1, 2, 3, 5, 8, …, 10946, 17711, **28657**.",
+          "- **Golden ratio:** (a + b)/a = a/b = **(1 + √5)/2 ≈ 1.618** equals lim aₙ₊₁/aₙ for the Fibonacci sequence."
+        ],
+        "example": "Next Fibonacci number after 10946, 17711: 10946 + 17711 = 28657."
+      },
+      {
+        "id": "geometric-sequence",
+        "name": "Geometric sequences",
+        "slides": "Slides 51–54, 63",
+        "simple": "Each term is the previous one times the same number q (like interest: × 1.05 every year).",
+        "exam": [
+          "**Definition:** {aₙ} is **geometric** if aₙ₊₁/aₙ = q is constant, q ∈ ℝ, q ≠ 0. Recursive aₙ₊₁ = aₙq ⇒ explicit **aₙ = a₁qⁿ⁻¹**.",
+          "Properties (a₁ ≠ 0):",
+          "- q > 0: monotone (a₁ > 0, q > 1 strictly increasing; a₁ > 0, 0 < q < 1 strictly decreasing; a₁ < 0 reverses this). q < 0: not monotone.",
+          "- Bounded for **|q| ≤ 1**, unbounded for |q| > 1.",
+          "- Convergent for **|q| < 1 (limit 0)** and **q = 1 (limit a₁)**; divergent for |q| > 1 and q = −1.",
+          "",
+          "| | q < −1 | q = −1 | −1 < q < 0 | 0 < q < 1 | q = 1 | q > 1 |",
+          "|---|---|---|---|---|---|---|",
+          "| Monotone | No | No | No | Yes | Yes | Yes |",
+          "| Bounded | No | Yes | Yes | Yes | Yes | No |",
+          "| Convergent | No | No | Yes | Yes | Yes | No |"
+        ],
+        "example": "Invest 10 000 CHF at 5 % p.a.: capital at n = 20 is 10 000 · 1.05²⁰ ≈ 26 533 CHF."
+      },
+      {
+        "id": "monotone-bounded",
+        "name": "Monotonicity and boundedness of sequences",
+        "slides": "Slides 55–56",
+        "simple": "Increasing: each term is at least as big as the one before. Bounded: all terms stay between two fixed numbers.",
+        "exam": [
+          "- **Increasing** if aₙ ≤ aₙ₊₁ ∀n (strictly: <); **decreasing** if aₙ ≥ aₙ₊₁ (strictly: >). Either one → **monotone**.",
+          "- **Bounded from above** if ∃M ∈ ℝ: aₙ ≤ M ∀n; **from below** if ∃m: aₙ ≥ m.",
+          "- **Bounded** if ∃c ∈ ℝ with |aₙ| ≤ c for all n."
+        ],
+        "example": "aₙ = 1/n is strictly decreasing and bounded (0 < aₙ ≤ 1)."
+      },
+      {
+        "id": "limit-sequence",
+        "name": "Limit of a sequence (ε-definition) and convergence theorems",
+        "slides": "Slides 57–62",
+        "simple": "a is the limit if, however small a band you draw around a, from some point on all terms stay inside it.",
+        "exam": [
+          "**Definition:** a ∈ ℝ (finite) is the **limit** of {aₙ} if for any ε > 0 there is n(ε) ∈ ℕ such that the distance between aₙ and a is smaller than ε for all n ≥ n(ε); we write a = lim_(n→∞) aₙ.",
+          "**Theorem:** a convergent sequence is (i) **bounded** and (ii) its limit is **unique**. Boundedness is **necessary**, not sufficient.",
+          "**Theorem:** **bounded + monotone ⇒ convergent**.",
+          "**Attention:**",
+          "- bounded AND divergent: aₙ = cos(n);",
+          "- monotone AND divergent: aₙ = n²;",
+          "- convergent AND non-monotone: aₙ = (−1)ⁿ/n."
+        ],
+        "example": "aₙ = 1 − 1/n: increasing and bounded above by 1 ⇒ convergent, limit 1."
+      },
+      {
+        "id": "series",
+        "name": "Partial sums and series",
+        "slides": "Slides 65–69",
+        "simple": "A series is the running total of a sequence: s₁ = a₁, s₂ = a₁ + a₂, and so on. The infinite sum is the limit of these running totals.",
+        "exam": [
+          "**Definition:** sₙ = a₁ + ⋯ + aₙ = Σₖ₌₁ⁿ aₖ is the **n-th partial sum**; the sequence {sₙ} is a **series**; sₙ = sₙ₋₁ + aₙ.",
+          "- **Harmonic series:** aₖ = 1/k: s₁ = 1, s₂ = 3/2, s₃ = 11/6.",
+          "- Series are sequences; the key question is **convergence**: if s = lim sₙ exists, we write s = Σₖ₌₁^∞ aₖ.",
+          "- **Marathon example:** speed 20 km/h in hour 1, −10 % each hour (aₖ₊₁ = 0.9aₖ); the distance after n hours is sₙ."
+        ],
+        "example": "Total output growing 5 % p.a. over 10 years: O₀ + O₁ + ⋯ + O₁₀ = Σₖ₌₀¹⁰ O₀(1.05)ᵏ – a geometric series with q = 1.05."
+      },
+      {
+        "id": "geometric-series",
+        "name": "Geometric series: closed form and convergence",
+        "slides": "Slides 70–74",
+        "simple": "Adding up a geometric sequence has a shortcut formula. If |q| < 1 the infinite sum is finite: a₁/(1 − q).",
+        "exam": [
+          "**Formula:** **sₙ = Σₖ₌₁ⁿ a₁qᵏ⁻¹ = a₁(1 − qⁿ)/(1 − q)** (q ≠ 1).",
+          "**Proof:** q·sₙ = a₂ + ⋯ + aₙ₊₁ ⇒ (1 − q)sₙ = a₁ − aₙ₊₁ = a₁(1 − qⁿ).",
+          "**Lemma (“the most useful result in this class”):** the geometric series converges **if and only if |q| < 1**, and then **Σₖ₌₀^∞ a₁qᵏ = a₁/(1 − q)**.",
+          "Example: 1/2 + 1/4 + ⋯ : s₁ = 1/2, s₂ = 3/4, s₃ = 7/8, s₄ = 15/16, s₅ = 31/32 → limit 1."
+        ],
+        "example": "Marathon: lim sₙ = 20/(1 − 0.9) = **200 km** if she runs forever. After 2 h she has run 38 km, after 3 h 54.2 km → finishes 42.195 km between 2 and 3 h."
+      }
+    ],
+    "connections": [
+      "**Pre-course 1** introduced the operators; Lecture 1 adds exclusive OR, tautologies and induction.",
+      "**Pre-course 2:** Σ-notation and Gauss' formula (proved here by induction).",
+      "**Pre-course 5:** limits of functions ↔ limits of sequences; the geometric sequence is exponential in n (Pre-course 4).",
+      "**Past exams (2011–2023)** regularly ask for the convergence of sequences and for which parameter a geometric series converges and its value."
+    ],
+    "examFocus": {
+      "questions": [
+        "Build truth tables of compound propositions (e.g. exclusive OR).",
+        "Prove a formula by induction.",
+        "Decide whether a sequence is monotone, bounded, convergent; compute the limit.",
+        "Recognise a geometric sequence/series; compute sₙ and the infinite sum; find parameter values for convergence."
+      ],
+      "traps": [
+        "Bounded does **not** imply convergent (cos n); monotone does not imply convergent (n²).",
+        "Geometric series converges only for **|q| < 1** – q = −1 diverges.",
+        "Check the starting index: Σₖ₌₁ⁿ a₁qᵏ⁻¹ vs. Σₖ₌₀ⁿ⁻¹ a₁qᵏ (same sum).",
+        "In finance problems, n = 0 to 20 gives 21 terms."
+      ],
+      "mistakes": [
+        "Using a₁/(1 − q) when |q| ≥ 1.",
+        "Writing aₙ = a₁qⁿ instead of a₁qⁿ⁻¹."
+      ]
+    },
+    "memorize": [
+      "**Exclusive OR = (A ∨ B) ∧ ¬(A ∧ B); ¬(A ⇒ B) ⇔ A ∧ ¬B; (A ⇔ B) ⇔ (A ⇒ B) ∧ (B ⇒ A).**",
+      "**Induction:** A₁ true and Aₙ ⇒ Aₙ₊₁ ⇒ Aₙ true ∀n.",
+      "**Convergent ⇒ bounded; bounded + monotone ⇒ convergent.**",
+      "**Geometric sequence aₙ = a₁qⁿ⁻¹;** converges for −1 < q ≤ 1.",
+      "**sₙ = a₁(1 − qⁿ)/(1 − q); Σ = a₁/(1 − q) iff |q| < 1.**",
+      "**Golden ratio (1 + √5)/2 ≈ 1.618.**"
+    ],
+    "gaps": [
+      "The slides give **no solution** for the three-boxes quiz, the compound-proposition exercise or the “all horses” flaw; the reasoning shown here is derived from the slide definitions.",
+      "The exercise “aₙ = (−1)ⁿ … n + 1” (slide 59) is not fully legible in the PDF; it is left out.",
+      "The E-MATHS.CH example (slides 76–77) and the Python code are screenshots without readable content.",
+      "The marathon times (38 km after 2 h, 54.2 km after 3 h) are computed with the slide formula; the slide only says “between 2 and 3 hours”."
+    ]
+  },
+  "practice": [
+    { "topic": "operations-L", "question": "Which formula gives the exclusive OR?", "options": ["A ∨ B", "(A ∨ B) ∧ ¬(A ∧ B)", "A ∧ B", "¬(A ∨ B)"], "answer": 1, "explanation": "True when exactly one of A, B is true." },
+    { "topic": "operations-L", "question": "¬(A ⇒ B) is equivalent to…", "options": ["¬A ⇒ ¬B", "A ∧ ¬B", "¬A ∨ B", "B ⇒ A"], "answer": 1, "explanation": "An implication fails only when A is true and B false." },
+    { "topic": "operations-L", "question": "A ⇔ B means A is…", "options": ["sufficient for B only", "necessary for B only", "sufficient and necessary for B", "the negation of B"], "answer": 2, "explanation": "(A ⇒ B) ∧ (B ⇒ A)." },
+    { "topic": "operations-L", "question": "Ann does not climb Everest, Bill pays anyway. Which is TRUE?", "options": ["A ⇒ B", "A ⇔ B", "A ∧ B", "¬B"], "answer": 0, "explanation": "A false ⇒ the implication holds; the equivalence fails." },
+    { "topic": "tautology", "question": "Which is a contradiction?", "options": ["A ∨ ¬A", "A ∧ ¬A", "A ⇒ A", "[A ∧ (A ⇒ B)] ⇒ B"], "answer": 1, "explanation": "Always false." },
+    { "topic": "induction", "question": "Proof by induction rests on the tautology…", "options": ["A ∨ ¬A", "[A ∧ (A ⇒ B)] ⇒ B", "A ∧ ¬A", "(A ⇒ B) ⇒ A"], "answer": 1, "explanation": "If A and A ⇒ B hold, B holds." },
+    { "topic": "three-boxes", "question": "Three boxes: C = “bill in Box 1”, D = “bill not in Box 2”, exactly one is true. Where is the bill?", "options": ["Box 1", "Box 2", "Box 3", "Cannot be determined"], "answer": 2, "explanation": "C true would make D true too; so C false, D true ⇒ Box 3." },
+    { "topic": "sequences", "question": "Next Fibonacci number after 10946, 17711:", "options": ["27657", "28657", "35422", "6765"], "answer": 1, "explanation": "10946 + 17711." },
+    { "topic": "sequences", "question": "The golden ratio equals…", "options": ["(1 + √5)/2 ≈ 1.618", "√2", "e", "(1 − √5)/2"], "answer": 0, "explanation": "Limit of aₙ₊₁/aₙ for Fibonacci." },
+    { "topic": "geometric-sequence", "question": "Explicit form of a geometric sequence:", "options": ["aₙ = a₁ + (n − 1)q", "aₙ = a₁qⁿ", "aₙ = a₁qⁿ⁻¹", "aₙ = qⁿ/a₁"], "answer": 2, "explanation": "a₂ = a₁q, a₃ = a₁q², …" },
+    { "topic": "geometric-sequence", "question": "A geometric sequence with q = −1 is…", "options": ["convergent", "bounded but divergent", "monotone", "unbounded"], "answer": 1, "explanation": "Alternates between a₁ and −a₁." },
+    { "topic": "geometric-sequence", "question": "For −1 < q < 0 the geometric sequence is…", "options": ["monotone and convergent", "not monotone, bounded, convergent", "not bounded", "divergent"], "answer": 1, "explanation": "From the summary table; limit 0." },
+    { "topic": "limit-sequence", "question": "Which statement is TRUE?", "options": ["Every bounded sequence converges.", "Every monotone sequence converges.", "Every convergent sequence is bounded.", "Every convergent sequence is monotone."], "answer": 2, "explanation": "Counterexamples: cos n, n², (−1)ⁿ/n." },
+    { "topic": "limit-sequence", "question": "aₙ = 1 − 1/n:", "options": ["diverges", "converges to 0", "converges to 1", "is unbounded"], "answer": 2, "explanation": "Increasing and bounded by 1." },
+    { "topic": "series", "question": "Harmonic series: s₃ =", "options": ["11/6", "3/2", "1/6", "6/11"], "answer": 0, "explanation": "1 + 1/2 + 1/3." },
+    { "topic": "geometric-series", "question": "The geometric series converges if and only if…", "options": ["q < 1", "|q| < 1", "|q| ≤ 1", "q > 0"], "answer": 1, "explanation": "Then the limit is a₁/(1 − q)." },
+    { "topic": "geometric-series", "question": "1/2 + 1/4 + 1/8 + ⋯ (infinitely) =", "options": ["1/2", "1", "2", "∞"], "answer": 1, "explanation": "a₁/(1 − q) = (1/2)/(1/2)." },
+    { "topic": "geometric-series", "question": "Marathon: 20 km in hour 1, −10 % per hour. Maximum distance if running forever:", "options": ["100 km", "180 km", "200 km", "Infinite"], "answer": 2, "explanation": "20/(1 − 0.9) = 200." }
+  ],
+  "mock": {
+    "questions": [
+      { "type": "mc", "points": 2, "topic": "operations-L", "question": "A true, B false. Which is TRUE?", "options": ["A ⇒ B", "A ⇔ B", "(A ∨ B) ∧ ¬(A ∧ B)", "A ∧ B"], "answer": 2, "explanation": "Exactly one is true → exclusive OR true." },
+      { "type": "mc", "points": 2, "topic": "limit-sequence", "question": "Which sequence is bounded but divergent?", "options": ["aₙ = 1/n", "aₙ = n²", "aₙ = cos(n)", "aₙ = (−1)ⁿ/n"], "answer": 2, "explanation": "Slide example." },
+      { "type": "mc", "points": 2, "topic": "geometric-sequence", "question": "a₁ = −2, q = 1/2. The geometric sequence is…", "options": ["strictly decreasing", "strictly increasing, limit 0", "divergent", "not monotone"], "answer": 1, "explanation": "a₁ < 0, q ∈ (0, 1): strictly increasing towards 0." },
+      { "type": "mc", "points": 2, "topic": "geometric-series", "question": "Σₖ₌₀^∞ 3·(2/3)ᵏ =", "options": ["9", "6", "4.5", "diverges"], "answer": 0, "explanation": "3/(1 − 2/3) = 9." },
+      { "type": "mc", "points": 2, "topic": "tautology", "question": "A ∨ ¬A is…", "options": ["a contradiction", "a tautology", "not a proposition", "equivalent to A"], "answer": 1, "explanation": "“To be or not to be.”" },
+      { "type": "calc", "points": 6, "topic": "induction", "question": "Prove by induction that 1 + 2 + ⋯ + n = n(n + 1)/2 for all n ≥ 1.", "model": "Base case: n = 1: 1 = 1·2/2 ✓.\nInduction step: assume 1 + ⋯ + n = n(n + 1)/2. Then 1 + ⋯ + n + (n + 1) = n(n + 1)/2 + (n + 1) = (n² + 3n + 2)/2 = (n + 1)(n + 2)/2, which is the formula for n + 1.\nBy induction the formula holds for all n ≥ 1.", "keyPoints": [ { "text": "Base case n = 1 checked", "points": 1.5 }, { "text": "Induction hypothesis stated", "points": 1 }, { "text": "Correct algebra to (n + 1)(n + 2)/2", "points": 2.5 }, { "text": "Conclusion", "points": 1 } ] },
+      { "type": "calc", "points": 8, "topic": "geometric-series", "question": "A runner covers 20 km in the first hour; each hour her average speed drops by 10 %.\n(a) Show that the hourly distances form a geometric sequence and give q.\n(b) Give the formula for the distance sₙ after n hours and compute s₂ and s₃.\n(c) Can she finish a marathon (42.195 km)? What distance would she reach if she ran forever?", "model": "(a) aₖ₊₁ = 0.9aₖ: constant ratio q = 0.9, a₁ = 20.\n(b) sₙ = 20(1 − 0.9ⁿ)/(1 − 0.9) = 200(1 − 0.9ⁿ); s₂ = 38 km, s₃ = 54.2 km.\n(c) Yes – she passes 42.195 km between hour 2 and 3. Since |q| < 1 the series converges: lim sₙ = 20/(1 − 0.9) = 200 km.", "keyPoints": [ { "text": "(a) q = 0.9, a₁ = 20", "points": 1.5 }, { "text": "(b) formula sₙ = a₁(1 − qⁿ)/(1 − q)", "points": 2 }, { "text": "(b) s₂ = 38, s₃ = 54.2", "points": 1.5 }, { "text": "(c) finishes between 2 and 3 h", "points": 1 }, { "text": "(c) limit 200 km with |q| < 1 argument", "points": 2 } ] }
+    ]
+  }
+}

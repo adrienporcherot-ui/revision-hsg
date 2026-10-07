@@ -1,0 +1,187 @@
+{
+  "id": "5",
+  "number": "5",
+  "title": "Lebensmittel, Negation, im Restaurant und Adjektive ohne Artikel",
+  "sources": ["Lecture 6 (6 Oct 2026)"],
+  "summary": {
+    "bigPicture": [
+      "Lecture 6 continues **Essen und Trinken**: food vocabulary (pictures), **learning strategies** (LEO, Übersichten p. 109, Canvas quizzes).",
+      "Grammar 1: **negation** – *kein-* negates **nouns**, *nicht* negates the **sentence** or parts of it; where *nicht* goes.",
+      "Communication: **in the restaurant** – reserving, ordering, wishing *Guten Appetit*, toasting, paying; **kitchen items**.",
+      "Grammar 2: **adjectives without an article** (*französischer Käse, deutsches Brot*), plus the **r-Laut** and D-A-CH facts on restaurants and sweets."
+    ],
+    "concepts": [
+      {
+        "id": "learning",
+        "name": "Food pictures and learning strategies",
+        "slides": "Opening slides",
+        "simple": "Food is shown as pictures; to learn vocabulary use LEO, the overview pages in the book and the Canvas quizzes.",
+        "exam": "Lernstrategien on the slides: **LEO** online dictionary · **Übersichten** in the textbook (**p. 109**) · **quizzes on Canvas**. The Lebensmittel slides are picture-only.",
+        "example": "Look up a food in LEO and note it **with its article and plural**."
+      },
+      {
+        "id": "negation",
+        "name": "Negation: *kein* vs. *nicht*",
+        "slides": "Negation slides",
+        "simple": "Use *kein* in front of a noun that would have *ein* or no article. Use *nicht* for everything else (a verb, a whole sentence, a noun with *der/die/das*).",
+        "exam": [
+          "- ***kein-*** only **before nouns** (instead of *ein-* or no article), with case endings: *Ich trinke **keinen** Alkohol.* · *Ich habe **keine** Gabel.*",
+          "- ***nicht*** negates the **sentence** or a part of it: *Ich trinke den Kaffee **nicht**.*",
+          "**Position of *nicht*:**",
+          "| Rule | Example |",
+          "|---|---|",
+          "| at the **end** of the sentence (whole sentence) | *Ich trinke den Kaffee **nicht**.* |",
+          "| **before the infinitive** / second verb part | *Ohne Messer kann ich **nicht** essen.* |",
+          "| **before adjectives / adverbs** | *Der Kaffee ist **nicht** heiß.* |",
+          "| **before local phrases** (place) | *Ich wohne **nicht** in Berlin.* |"
+        ],
+        "example": "*Ich esse **kein** Fleisch* (noun without article) but *Ich esse **das** Fleisch **nicht*** (noun with definite article)."
+      },
+      {
+        "id": "kitchen",
+        "name": "In the kitchen: tableware and spices",
+        "slides": "Küche slide",
+        "simple": "Names of things on the table, always with the article, and how to say you don't have one.",
+        "exam": [
+          "- **das** Messer · **die** Gabel · **der** Löffel · **der** Teller · **die** Tasse · **das** Glas · **der** Topf · **die** Pfanne · **der** Pfeffer · **das** Salz",
+          "- *Tut mir leid, ich habe **keinen** Löffel / **keine** Gabel / **kein** Messer.*",
+          "- *Ohne Messer kann ich nicht essen.*"
+        ],
+        "example": "*Hast du einen Teller für mich? – Tut mir leid, ich habe keinen Teller.*"
+      },
+      {
+        "id": "r-sound",
+        "name": "Phonetics: the r-Laut",
+        "slides": "Phonetik slide",
+        "simple": "*r* is a real, rough sound at the start of a syllable (*Rose*) but sounds almost like a short ‘a’ at the end (*Butter*, *der*).",
+        "exam": "**Consonantal r [ʁ]**: at the beginning of a word/syllable and after consonants (*rot, Brot, Preis*). **Vocalic r [ɐ]**: at the end of a word/syllable and in *-er* (*der, Butter, Bier*).",
+        "example": "*Brot* [ʁ] vs. *Butter* [ɐ]."
+      },
+      {
+        "id": "restaurant-facts",
+        "name": "Restaurants in Deutschland",
+        "slides": "Restaurants slide",
+        "simple": "Germany has about 125 000 restaurants; Berlin has many Italian ones.",
+        "exam": [
+          "- About **125 000** restaurants in Germany.",
+          "- **Berlin:** 190 Italian, 64 French, 36 Indian, 30 Spanish, 29 Chinese, 26 Greek, 23 Thai, 10 Mexican, 8 Russian restaurants.",
+          "- **Michelin:** **282** starred restaurants, **11** of them with **3 stars**."
+        ],
+        "example": "*In Berlin gibt es 190 italienische Restaurants.*"
+      },
+      {
+        "id": "restaurant-phrases",
+        "name": "In the restaurant: reserve, order, eat, pay",
+        "slides": "Dialogue and Redemittel slides",
+        "simple": "Fixed phrases for each step: book a table, order, say ‘enjoy your meal’ and ‘cheers’, ask how it tastes, ask for the bill.",
+        "exam": [
+          "| Step | Phrases |",
+          "|---|---|",
+          "| **reservieren** | Table reservation by phone (dialogue *Restaurant Napoli*) |",
+          "| **bestellen** | *Ich **hätte gern** …* · *Ich **möchte** bitte …* · *Ich **nehme** …* |",
+          "| **beim Essen** | *Guten Appetit!* – *Danke, gleichfalls!* |",
+          "| **anstoßen** | *Prost!* / *Zum Wohl!* |",
+          "| **fragen** | *Wie schmeckt …?* |",
+          "| **bezahlen** | *Die Rechnung, bitte!* |",
+          "",
+          "Inviting someone (Sascha/Kerstin dialogue): ***Kommst du mit?***"
+        ],
+        "example": "*Ich hätte gern eine Pizza und ich nehme ein Mineralwasser.* … *Die Rechnung, bitte!*"
+      },
+      {
+        "id": "adjectives",
+        "name": "Adjectives without an article",
+        "slides": "Adjektivdeklination slide",
+        "simple": "With no article, the adjective itself shows the gender: *französischer Käse* (der), *deutsches Brot* (das).",
+        "exam": [
+          "| | maskulin | feminin | neutral | Plural |",
+          "|---|---|---|---|---|",
+          "| **Nominativ** | französisch**er** Käse | ungarisch**e** Salami | deutsch**es** Brot | italienisch**e** Gerichte |",
+          "| **Akkusativ** | französisch**en** Käse | ungarisch**e** Salami | deutsch**es** Brot | italienisch**e** Gerichte |",
+          "",
+          "The ending is like the **definite article**: der → -er, die → -e, das → -es; only the masculine accusative changes (den → **-en**)."
+        ],
+        "example": "*Ich kaufe französischen Käse und deutsches Brot.*"
+      },
+      {
+        "id": "sweets",
+        "name": "Süße Leckereien (D-A-CH sweets)",
+        "slides": "Süße Leckereien slides",
+        "simple": "Three famous sweets: Mozartkugeln (Austria), Swiss chocolate and Gummibärchen (Germany).",
+        "exam": [
+          "- **Mozartkugel** (Salzburg): pistachio, marzipan, nougat; by **Paul Fürst** since **1890**; **2.75 million** per year.",
+          "- **Schweizer Schokolade:** cocoa from **Latin America**, in Switzerland since the **17th century**; **150 000 t** per year; the Swiss eat about **12 kg** per person per year; **Toblerone** (Theodor **Tobler**, since **1908**) sold in **122 countries**.",
+          "- **Gummibärchen:** **Hans Riegel**, **Bonn** – **Haribo** since **1922**; Germans spend **657 million euros** per year on them."
+        ],
+        "example": "*Haribo* = **Ha**ns **Ri**egel **Bo**nn."
+      }
+    ],
+    "connections": [
+      "**Accusative (Lecture 1):** *keinen Alkohol, französischen Käse* – the masculine accusative again takes **-en**.",
+      "**Lecture 4:** continues *Essen und Trinken* and the drinks vocabulary; ordering uses *möchte* (Lecture 1) and *nehmen* (*ich nehme*, *du nimmst*).",
+      "**Satzbau:** *nicht* before the infinitive at the end (*Ohne Messer kann ich nicht essen*) builds on the modal-verb frame (Lecture 3)."
+    ],
+    "examFocus": {
+      "questions": [
+        "Negate sentences with *kein-* or *nicht* and place *nicht* correctly.",
+        "Complete adjective endings without an article (nominative/accusative).",
+        "Complete a restaurant dialogue (order, Guten Appetit, Prost, pay).",
+        "Kitchen vocabulary with articles; *Tut mir leid, ich habe keinen/keine/kein …*",
+        "Consonantal vs. vocalic r."
+      ],
+      "traps": [
+        "*kein* replaces *ein* or zero article; with *der/die/das* use *nicht*.",
+        "*keinen* for masculine accusative (*keinen Löffel, keinen Teller*).",
+        "*französisch**en** Käse* in the accusative, *französisch**er** Käse* in the nominative.",
+        "*Danke, gleichfalls* answers *Guten Appetit*.",
+        "*das Messer, das Glas, das Salz* are neuter."
+      ],
+      "mistakes": [
+        "*Ich trinke nicht Alkohol* ✗ → *Ich trinke keinen Alkohol*.",
+        "*Ich kann nicht ohne Messer essen nicht* – putting *nicht* twice or after the infinitive."
+      ]
+    },
+    "memorize": [
+      "**kein** before nouns (ein/zero article) · **nicht** at the end / before infinitive, adjective, place.",
+      "**Adjectives without article:** Nom -er/-e/-es/-e · Akk -en/-e/-es/-e.",
+      "**Restaurant:** Ich hätte gern … · Ich nehme … · Guten Appetit – Danke, gleichfalls · Prost / Zum Wohl · Die Rechnung, bitte.",
+      "**Kitchen:** das Messer, die Gabel, der Löffel, der Teller, die Tasse, das Glas, der Topf, die Pfanne, der Pfeffer, das Salz.",
+      "**Facts:** ~125 000 restaurants; Michelin 282 (11 with 3 stars) · Mozartkugel Paul Fürst 1890 · Toblerone 1908, 122 countries · Haribo 1922, 657 Mio. €."
+    ],
+    "gaps": [
+      "The **Lebensmittel** vocabulary slides are **pictures only**; no word list is in the PDF.",
+      "The full texts of the Napoli reservation and the Sascha/Kerstin dialogue are only partly legible; only the phrases printed on the slides are used here.",
+      "The r-Laut slide gives the two variants; the detailed rule wording here (start of syllable vs. end/-er) summarises the slide examples."
+    ]
+  },
+  "practice": [
+    { "topic": "negation", "question": "„Ich trinke ___ Alkohol.“", "options": ["nicht", "kein", "keinen", "keine"], "answer": 2, "explanation": "der Alkohol, accusative, noun without article → keinen." },
+    { "topic": "negation", "question": "„Ich trinke den Kaffee ___.“", "options": ["kein", "keinen", "nicht", "nichts"], "answer": 2, "explanation": "Definite article → *nicht*, at the end." },
+    { "topic": "negation", "question": "Where does *nicht* go? „Ohne Messer kann ich ___ essen ___.“", "options": ["nicht before ‘essen’", "nicht after ‘essen’", "nicht after ‘kann’ only if stressed", "nicht at the start"], "answer": 0, "explanation": "*nicht* before the infinitive: *kann ich nicht essen*." },
+    { "topic": "negation", "question": "„Ich wohne ___ in Berlin.“", "options": ["kein", "nicht", "keine", "keinen"], "answer": 1, "explanation": "*nicht* before a local phrase." },
+    { "topic": "kitchen", "question": "Which article is correct?", "options": ["der Messer", "die Gabel", "das Löffel", "die Teller"], "answer": 1, "explanation": "das Messer, die Gabel, der Löffel, der Teller." },
+    { "topic": "kitchen", "question": "„Tut mir leid, ich habe ___ Löffel.“", "options": ["kein", "keine", "keinen", "nicht"], "answer": 2, "explanation": "der Löffel → accusative keinen." },
+    { "topic": "restaurant-phrases", "question": "Someone says „Guten Appetit!“. You answer:", "options": ["Prost!", "Danke, gleichfalls!", "Die Rechnung, bitte!", "Zum Wohl!"], "answer": 1, "explanation": "Prost / Zum Wohl are for toasting." },
+    { "topic": "restaurant-phrases", "question": "Which phrase is used to order?", "options": ["Wie schmeckt es?", "Ich hätte gern eine Suppe.", "Kommst du mit?", "Auf Wiederhören."], "answer": 1, "explanation": "Also: *Ich möchte bitte …*, *Ich nehme …*" },
+    { "topic": "adjectives", "question": "„___ Käse ist teuer.“ (französisch, nominative)", "options": ["Französische", "Französischer", "Französischen", "Französisches"], "answer": 1, "explanation": "der Käse → -er (like *der*)." },
+    { "topic": "adjectives", "question": "„Ich kaufe ___ Brot.“ (deutsch)", "options": ["deutsche", "deutscher", "deutsches", "deutschen"], "answer": 2, "explanation": "das Brot → -es (Nom. and Akk.)." },
+    { "topic": "adjectives", "question": "„Ich esse gern ___ Käse.“ (französisch, accusative)", "options": ["französischer", "französischen", "französische", "französisches"], "answer": 1, "explanation": "Masculine accusative → -en." },
+    { "topic": "r-sound", "question": "In which word is *r* vocalic [ɐ]?", "options": ["rot", "Brot", "Butter", "Preis"], "answer": 2, "explanation": "-er at the end → vocalic r." },
+    { "topic": "restaurant-facts", "question": "Most common foreign restaurants in Berlin (slides)?", "options": ["Chinese", "French", "Italian", "Turkish"], "answer": 2, "explanation": "190 Italian, 64 French, 36 Indian…" },
+    { "topic": "sweets", "question": "Haribo was founded by…", "options": ["Theodor Tobler", "Paul Fürst", "Hans Riegel, Bonn", "Mozart"], "answer": 2, "explanation": "HAns RIegel BOnn, since 1922." },
+    { "topic": "sweets", "question": "Toblerone is sold in…", "options": ["22 countries", "122 countries", "150 countries", "12 countries"], "answer": 1, "explanation": "Theodor Tobler, since 1908, 122 countries." }
+  ],
+  "mock": {
+    "questions": [
+      { "type": "mc", "points": 2, "topic": "negation", "question": "„Ich habe ___ Zeit.“", "options": ["nicht", "keine", "keinen", "kein"], "answer": 1, "explanation": "die Zeit, no article → keine." },
+      { "type": "mc", "points": 2, "topic": "negation", "question": "Which sentence is correct?", "options": ["Der Kaffee ist heiß nicht.", "Der Kaffee ist nicht heiß.", "Der Kaffee ist kein heiß.", "Nicht der Kaffee ist heiß nicht."], "answer": 1, "explanation": "*nicht* before adjectives." },
+      { "type": "mc", "points": 2, "topic": "adjectives", "question": "„Wir essen ___ Gerichte.“ (italienisch, plural)", "options": ["italienischen", "italienischer", "italienische", "italienisches"], "answer": 2, "explanation": "Plural without article → -e." },
+      { "type": "mc", "points": 2, "topic": "adjectives", "question": "„___ Salami schmeckt gut.“ (ungarisch)", "options": ["Ungarischer", "Ungarische", "Ungarisches", "Ungarischen"], "answer": 1, "explanation": "die Salami → -e." },
+      { "type": "mc", "points": 2, "topic": "kitchen", "question": "Which group contains only neuter nouns?", "options": ["Messer, Glas, Salz", "Gabel, Tasse, Pfanne", "Löffel, Teller, Topf", "Messer, Teller, Glas"], "answer": 0, "explanation": "das Messer, das Glas, das Salz." },
+      { "type": "mc", "points": 2, "topic": "restaurant-phrases", "question": "You want to pay. You say:", "options": ["Zum Wohl!", "Die Rechnung, bitte!", "Ich hätte gern …", "Guten Appetit!"], "answer": 1, "explanation": "bezahlen → Die Rechnung, bitte." },
+      { "type": "mc", "points": 2, "topic": "sweets", "question": "Which fact matches the slides?", "options": ["Mozartkugeln: Paul Fürst since 1890", "Toblerone: since 1922", "Haribo: Theodor Tobler", "The Swiss eat 2.75 kg chocolate per year"], "answer": 0, "explanation": "Toblerone 1908; Haribo Hans Riegel 1922; Swiss ~12 kg; 2.75 million Mozartkugeln per year." },
+      { "type": "open", "points": 8, "topic": "negation", "question": "Negate each sentence (kein- or nicht, correct position):\n(a) Ich esse Fleisch.\n(b) Ich esse das Fleisch.\n(c) Ich habe einen Teller.\n(d) Ich kann heute kommen.", "model": "(a) Ich esse kein Fleisch.\n(b) Ich esse das Fleisch nicht.\n(c) Ich habe keinen Teller.\n(d) Ich kann heute nicht kommen.", "keyPoints": [ { "text": "(a) kein Fleisch (zero article → kein)", "points": 2 }, { "text": "(b) das Fleisch nicht (nicht at the end)", "points": 2 }, { "text": "(c) keinen Teller (masc. accusative)", "points": 2 }, { "text": "(d) nicht before the infinitive", "points": 2 } ] },
+      { "type": "open", "points": 4, "topic": "restaurant-phrases", "question": "Write a short restaurant exchange with four phrases from the slides: ordering, the wish before eating with its answer, a toast, and asking for the bill.", "model": "„Ich hätte gern eine Pizza.“ (or Ich möchte bitte … / Ich nehme …) – „Guten Appetit!“ – „Danke, gleichfalls!“ – „Prost!“ / „Zum Wohl!“ – „Die Rechnung, bitte!“", "keyPoints": [ { "text": "Correct ordering phrase", "points": 1 }, { "text": "Guten Appetit – Danke, gleichfalls", "points": 1 }, { "text": "Prost / Zum Wohl", "points": 1 }, { "text": "Die Rechnung, bitte", "points": 1 } ] }
+    ]
+  }
+}

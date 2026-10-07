@@ -1,0 +1,143 @@
+{
+  "id": "4",
+  "number": "4",
+  "title": "Wortakzent, Telefonieren und Essen & Trinken",
+  "sources": ["Lecture 4 (29 Sept 2026)", "Lecture 5 (same session as Lecture 4, with handwritten answers)"],
+  "summary": {
+    "bigPicture": [
+      "Lecture 4 (29 Sept) reviews **prefix verbs** with the **LEO** dictionary and sentence building (*Ihre Arbeit fängt um 10.00 Uhr an*).",
+      "New rule: **word stress** – separable verbs are stressed on the **prefix** (*AUFstehen*), non-separable verbs on the **stem** (*beZAHlen*).",
+      "Communication: **telephone phrases** (*Hier ist …, Ich möchte bitte mit … sprechen, Auf Wiederhören*).",
+      "Start of the topic **Essen und Trinken**: facts on what Germans, Swiss and Austrians eat and drink, and **drinks vocabulary with articles**."
+    ],
+    "concepts": [
+      {
+        "id": "leo-review",
+        "name": "Review: prefix verbs and the LEO dictionary",
+        "slides": "Lecture 4, opening slides",
+        "simple": "Use the online dictionary LEO to check whether a verb is separable and what its article/forms are; then build sentences.",
+        "exam": [
+          "- **LEO Wörterbuch** (online dictionary) recommended to check meanings and forms.",
+          "- Satzbau with separable verbs (Sabine's day), e.g. ***Ihre Arbeit fängt um 10.00 Uhr an.*** – verb in position 2, prefix at the end."
+        ],
+        "example": "*Sabine steht um 8 Uhr auf* follows the same pattern as *Ihre Arbeit fängt um 10.00 Uhr an*."
+      },
+      {
+        "id": "word-stress",
+        "name": "Word stress (Wortakzent) of prefix verbs",
+        "slides": "Wortakzent slide",
+        "simple": "If a verb can split, you stress the front part (*EINkaufen*). If it cannot split, you stress the main part (*beSUchen*).",
+        "exam": [
+          "| Separable → stress on the **prefix** | Non-separable → stress on the **stem** |",
+          "|---|---|",
+          "| **auf**stehen | be**gin**nen |",
+          "| **ein**kaufen | be**zah**len |",
+          "| **fern**sehen | be**su**chen |",
+          "| **an**fangen | ent**wi**ckeln |",
+          "| **an**rufen | über**nach**ten, unter**rich**ten |"
+        ],
+        "example": "You can hear whether a verb separates: *ANrufen* → *Ich rufe dich an*; *beZAHlen* → *Ich bezahle*."
+      },
+      {
+        "id": "telephone",
+        "name": "Telephoning (Redemittel)",
+        "slides": "Telefonieren slides",
+        "simple": "Fixed phrases to start a call, ask for someone, leave a message and say goodbye.",
+        "exam": [
+          "- Start: ***Guten Tag. Hier ist …*** (you say your name, not *Ich bin …*)",
+          "- Ask for someone: ***Ich möchte bitte mit … sprechen.***",
+          "- Reply/questions: ***Ist es dringend?*** · ***Hat … morgen Zeit?*** · ***Welche Telefonnummer hat …?***",
+          "- Offer: ***Sie können gerne am … wieder anrufen.***",
+          "- Goodbye on the phone: ***Auf Wiederhören!*** (not *Auf Wiedersehen*)"
+        ],
+        "example": "„Guten Tag, hier ist Anna Meier. Ich möchte bitte mit Herrn Weber sprechen.“ – „Ist es dringend?“"
+      },
+      {
+        "id": "food-facts",
+        "name": "Essen und Trinken in D-A-CH",
+        "slides": "Essen und Trinken slides",
+        "simple": "Fun facts: Germans drink lots of beer, mineral water and coffee; the Swiss love cheese and chocolate; Austrians drink lots of coffee and eat Wiener Schnitzel.",
+        "exam": [
+          "| | Facts on the slides |",
+          "|---|---|",
+          "| **Deutschland** | Lunch in the **Kantine**: Currywurst or Pizza · per person/year: **110 l beer**, **140 l mineral water**, **1 184 cups of coffee** · **500** sorts of mineral water · evening: *Brot mit Käse und Wurst* |",
+          "| **Schweiz** | Breakfast: **Milchkaffee** · per year **57 l beer**, **37 l wine** · famous for **Käse** and **Schokolade** · lunch: **Rösti mit Bratwurst** |",
+          "| **Österreich** | per year **162 l coffee**, **126 l tea** · **Wiener Schnitzel mit Kartoffelsalat** |"
+        ],
+        "example": "*In der Schweiz trinkt man zum Frühstück Milchkaffee.*"
+      },
+      {
+        "id": "drinks",
+        "name": "Drinks vocabulary with articles",
+        "slides": "Getränke slide",
+        "simple": "Learn every drink with its article.",
+        "exam": [
+          "- **der:** Kaffee, Tee, Wein, Saft, Kakao",
+          "- **die:** Milch, Limonade, Cola",
+          "- **das:** Bier, Wasser, Mineralwasser",
+          "In the accusative only the masculine ones change: *Ich trinke **einen** Kaffee / **einen** Tee*, but *eine Cola, ein Bier*."
+        ],
+        "example": "*Ich möchte einen Saft und ein Mineralwasser, bitte.*"
+      }
+    ],
+    "connections": [
+      "**Lecture 3 → 4:** separable/non-separable verbs are now recognised **by ear** (word stress).",
+      "**Accusative (Lecture 1):** ordering drinks (*einen Kaffee, eine Cola, ein Bier*).",
+      "**Lecture 6:** Essen und Trinken continues with food, negation (*kein/nicht*), restaurants and adjective endings."
+    ],
+    "examFocus": {
+      "questions": [
+        "Mark the stressed syllable / decide whether a verb is separable from its stress.",
+        "Complete a telephone dialogue with the right phrases.",
+        "Give the article of drinks and use them in the accusative.",
+        "Recall the D-A-CH food and drink facts (who drinks/eats what)."
+      ],
+      "traps": [
+        "*Auf Wiederhören* on the phone vs. *Auf Wiedersehen* face to face.",
+        "*Hier ist …* (not *Ich bin …*) at the start of a call.",
+        "*die Cola*, *der Saft*, *das Bier* – genders are not predictable.",
+        "Austria: tea 126 l and coffee 162 l; Switzerland: beer 57 l, wine 37 l – don't mix the countries."
+      ],
+      "mistakes": [
+        "Stressing *beSUchen* on the prefix (*BEsuchen*).",
+        "Forgetting *einen* for masculine drinks in the accusative."
+      ]
+    },
+    "memorize": [
+      "**Stress:** separable → prefix (AUFstehen); non-separable → stem (beZAHlen).",
+      "**Phone:** Guten Tag, hier ist … · Ich möchte bitte mit … sprechen · Ist es dringend? · Auf Wiederhören.",
+      "**der** Kaffee/Tee/Wein/Saft/Kakao · **die** Milch/Limonade/Cola · **das** Bier/Wasser/Mineralwasser.",
+      "**D:** 110 l beer, 140 l mineral water, 1 184 cups of coffee, 500 sorts of mineral water · **CH:** 57 l beer, 37 l wine, Rösti mit Bratwurst · **A:** 162 l coffee, 126 l tea, Wiener Schnitzel mit Kartoffelsalat."
+    ],
+    "gaps": [
+      "**Lecture 5 is a duplicate of Lecture 4** (same date, 29 Sept, same slides) with handwritten answers filled in; both are treated as one chapter.",
+      "The full telephone dialogue and the complete Sabine exercise are only partly legible; the phrases listed are those printed on the slides."
+    ]
+  },
+  "practice": [
+    { "topic": "word-stress", "question": "Where is the stress in *einkaufen*?", "options": ["EINkaufen", "einKAUfen", "einkauFEN", "No stress"], "answer": 0, "explanation": "Separable → stress on the prefix." },
+    { "topic": "word-stress", "question": "Where is the stress in *bezahlen*?", "options": ["BEzahlen", "beZAHlen", "bezahLEN", "Same on all syllables"], "answer": 1, "explanation": "Non-separable → stress on the stem." },
+    { "topic": "word-stress", "question": "A verb stressed on its prefix is usually…", "options": ["non-separable", "separable", "a modal verb", "irregular"], "answer": 1, "explanation": "AUFstehen, ANrufen, FERNsehen…" },
+    { "topic": "telephone", "question": "How do you start a phone call?", "options": ["Guten Tag. Ich bin hier.", "Guten Tag. Hier ist Anna Meier.", "Hallo, wer bin ich?", "Auf Wiederhören, hier Anna."], "answer": 1, "explanation": "*Hier ist + name*." },
+    { "topic": "telephone", "question": "How do you say goodbye on the phone?", "options": ["Auf Wiedersehen", "Auf Wiederhören", "Gute Nacht", "Bis gleich sehen"], "answer": 1, "explanation": "hören = to hear (you don't see each other)." },
+    { "topic": "telephone", "question": "„Ich möchte bitte mit Frau Weber ___.“", "options": ["sprechen", "telefonieren an", "rufen", "hören"], "answer": 0, "explanation": "*mit jemandem sprechen*." },
+    { "topic": "drinks", "question": "Which article is correct?", "options": ["das Kaffee", "der Saft", "der Milch", "die Bier"], "answer": 1, "explanation": "der Kaffee, der Saft, die Milch, das Bier." },
+    { "topic": "drinks", "question": "„Ich trinke ___ Tee.“", "options": ["ein", "eine", "einen", "einem"], "answer": 2, "explanation": "der Tee → accusative einen Tee." },
+    { "topic": "drinks", "question": "Which article is correct?", "options": ["der Cola", "die Cola", "das Limonade", "der Wasser"], "answer": 1, "explanation": "die Cola, die Limonade, das Wasser." },
+    { "topic": "food-facts", "question": "According to the slides, what do the Swiss drink for breakfast?", "options": ["Tee", "Milchkaffee", "Bier", "Kakao"], "answer": 1, "explanation": "Switzerland: Milchkaffee at breakfast." },
+    { "topic": "food-facts", "question": "Which dish is mentioned for Austria?", "options": ["Rösti mit Bratwurst", "Currywurst", "Wiener Schnitzel mit Kartoffelsalat", "Pizza"], "answer": 2, "explanation": "Rösti mit Bratwurst = Switzerland; Currywurst/Pizza = German canteen." },
+    { "topic": "food-facts", "question": "How many sorts of mineral water are there in Germany (slides)?", "options": ["50", "140", "500", "1 184"], "answer": 2, "explanation": "140 l = consumption per year; 1 184 = cups of coffee." }
+  ],
+  "mock": {
+    "questions": [
+      { "type": "mc", "points": 2, "topic": "word-stress", "question": "Which verb is stressed on the stem?", "options": ["anrufen", "fernsehen", "besuchen", "aufstehen"], "answer": 2, "explanation": "be- verbs are non-separable → stem stress." },
+      { "type": "mc", "points": 2, "topic": "word-stress", "question": "*unterRICHten* is stressed on the stem. Therefore…", "options": ["Er richtet Deutsch unter.", "Er unterrichtet Deutsch.", "Er unter richtet Deutsch.", "Er richtet unter Deutsch."], "answer": 1, "explanation": "Stem stress → non-separable." },
+      { "type": "mc", "points": 2, "topic": "telephone", "question": "Which phrase asks whether the matter is urgent?", "options": ["Hat er morgen Zeit?", "Ist es dringend?", "Welche Telefonnummer hat er?", "Sie können gerne wieder anrufen."], "answer": 1, "explanation": "dringend = urgent." },
+      { "type": "mc", "points": 2, "topic": "drinks", "question": "„Ich möchte ___ Kakao und ___ Limonade.“", "options": ["ein / ein", "einen / eine", "eine / einen", "einen / einen"], "answer": 1, "explanation": "der Kakao → einen; die Limonade → eine." },
+      { "type": "mc", "points": 2, "topic": "food-facts", "question": "Which statement matches the slides?", "options": ["Austrians drink 126 l coffee and 162 l tea per year.", "Germans drink about 110 l beer per year.", "The Swiss drink 110 l beer per year.", "Germans eat Rösti in the canteen."], "answer": 1, "explanation": "A: 162 l coffee, 126 l tea; CH: 57 l beer; D canteen: Currywurst/Pizza." },
+      { "type": "mc", "points": 2, "topic": "telephone", "question": "Which is NOT a telephone phrase from the slides?", "options": ["Hier ist …", "Auf Wiederhören", "Ich möchte bitte mit … sprechen", "Guten Appetit"], "answer": 3, "explanation": "*Guten Appetit* is for meals (Lecture 6)." },
+      { "type": "open", "points": 8, "topic": "telephone", "question": "Complete the telephone dialogue (one phrase per gap):\nA: „Guten Tag. ___ (a) Paul Klein. ___ (b) Frau Roth.“\nB: „Frau Roth ist nicht da. ___ (c)?“\nA: „Nein, nicht dringend.“\nB: „Sie können gerne am Montag ___ (d).“\nA: „Danke. ___ (e)!“", "model": "(a) Hier ist\n(b) Ich möchte bitte mit … sprechen\n(c) Ist es dringend\n(d) wieder anrufen\n(e) Auf Wiederhören", "keyPoints": [ { "text": "(a) Hier ist", "points": 1.5 }, { "text": "(b) Ich möchte bitte mit Frau Roth sprechen", "points": 2 }, { "text": "(c) Ist es dringend?", "points": 1.5 }, { "text": "(d) wieder anrufen", "points": 1.5 }, { "text": "(e) Auf Wiederhören (not Wiedersehen)", "points": 1.5 } ] },
+      { "type": "open", "points": 4, "topic": "word-stress", "question": "Mark the stressed part of each verb and say whether it is separable: *anfangen, entwickeln, fernsehen, übernachten*.", "model": "ANfangen – separable; entWIckeln – non-separable; FERNsehen – separable; überNACHten – non-separable.", "keyPoints": [ { "text": "anfangen: AN, separable", "points": 1 }, { "text": "entwickeln: WI(ck), non-separable", "points": 1 }, { "text": "fernsehen: FERN, separable", "points": 1 }, { "text": "übernachten: NACH, non-separable", "points": 1 } ] }
+    ]
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "id": "p4",
+  "number": "P4",
+  "title": "Pre-course 4: Special Functions",
+  "sources": ["Pre-course Session 4 slides (16 p.)", "Math Pre-Course Study Companion, ch. 4"],
+  "summary": {
+    "bigPicture": [
+      "Five families cover almost every function in first-year calculus: **power, polynomial, exponential, logarithmic, trigonometric**.",
+      "Polynomials: factor to find roots; quadratics via the **quadratic formula** and the **discriminant Δ**.",
+      "**Exponential and logarithm are inverses**; use their rules (not intuition) to solve equations – and check the domain.",
+      "Trig functions are **periodic**; use the **unit circle** and **reference angles**."
+    ],
+    "concepts": [
+      {
+        "id": "power",
+        "name": "Power functions",
+        "slides": "Slide 4",
+        "simple": "x², x³, √x, 1/x … are all ‘x to some power’. Even powers make a U, odd powers an S through the origin.",
+        "exam": [
+          "**Definition:** f(x) = xᵃ, a ∈ ℝ, is a power function of degree a.",
+          "- Integer a > 0: **even** a → symmetric “U”; **odd** a → “S”-shape through the origin.",
+          "- Negative a (e.g. x⁻¹): domain excludes 0, hyperbola-like shape.",
+          "- Rational a (e.g. x^(1/2) = √x): domain restricted to x ≥ 0."
+        ],
+        "example": "a = 2 (even), a = 3 (odd), a = 1/2 (√x, only x ≥ 0)."
+      },
+      {
+        "id": "polynomials",
+        "name": "Polynomials and roots",
+        "slides": "Slide 5",
+        "simple": "A polynomial is a sum of powers of x. Its roots are where the graph hits the x-axis; a degree-n polynomial has at most n of them.",
+        "exam": [
+          "**Definition:** p(x) = aₙxⁿ + aₙ₋₁xⁿ⁻¹ + ⋯ + a₁x + a₀, aₙ ≠ 0, n ∈ ℕ, aᵢ ∈ ℝ; n is the **degree**. Domain always ℝ.",
+          "- A degree-n polynomial has **at most n real roots** (p(x) = 0; graph crosses or touches the x-axis).",
+          "- **Factoring:** p(x) = aₙ(x − r₁)(x − r₂)⋯(x − rₙ) if all roots rᵢ are real."
+        ],
+        "example": "x² − 5x + 6 = (x − 2)(x − 3), roots 2 and 3."
+      },
+      {
+        "id": "quadratic",
+        "name": "The quadratic formula",
+        "slides": "Slide 6",
+        "simple": "For ax² + bx + c = 0, the discriminant b² − 4ac tells you how many solutions there are; the formula gives them.",
+        "exam": [
+          "For ax² + bx + c = 0, a ≠ 0: **x₁,₂ = (−b ± √Δ)/(2a)**, **Δ = b² − 4ac** (discriminant).",
+          "- Δ > 0: two distinct real roots · Δ = 0: one repeated real root · Δ < 0: no real roots."
+        ],
+        "example": "2x² − 3x − 2 = 0: Δ = 9 + 16 = 25, x = (3 ± 5)/4 ⇒ x₁ = 2, x₂ = −1/2."
+      },
+      {
+        "id": "exponential",
+        "name": "Exponential functions",
+        "slides": "Slide 7",
+        "simple": "aˣ grows fast if a > 1 and shrinks towards 0 if 0 < a < 1. It always passes through (0, 1) and never touches the x-axis.",
+        "exam": [
+          "**Definition:** f(x) = aˣ, a > 0, a ≠ 1; domain ℝ, range (0, ∞).",
+          "- a > 1: strictly increasing (growth); 0 < a < 1: strictly decreasing (decay).",
+          "- Always through (0, 1); horizontal asymptote y = 0.",
+          "- **Rules:** aˣ⁺ʸ = aˣaʸ, a⁻ˣ = 1/aˣ, (aˣ)ʸ = aˣʸ.",
+          "- Special base: **Euler's number e ≈ 2.71828**."
+        ],
+        "example": "Solve 3²ˣ⁻¹ = 27: 27 = 3³ ⇒ 2x − 1 = 3 ⇒ x = 2."
+      },
+      {
+        "id": "logarithm",
+        "name": "Logarithmic functions and rules",
+        "slides": "Slides 8–10",
+        "simple": "log_a x asks ‘to which power must I raise a to get x?’. It undoes aˣ. It only works for x > 0.",
+        "exam": [
+          "**Definition:** f(x) = logₐ x, a > 0, a ≠ 1; the **inverse of the exponential**: logₐ x = y ⇔ aʸ = x. Domain (0, ∞), range ℝ. ln x = logₑ x, log x = log₁₀ x.",
+          "**Rules:** logₐ(xy) = logₐ x + logₐ y · logₐ(x/y) = logₐ x − logₐ y · logₐ(xʳ) = r·logₐ x · **logₐ x = ln x / ln a** (change of base).",
+          "All log graphs pass through (1, 0); log₁/₂ x is decreasing."
+        ],
+        "example": "ln(x + 1) + ln(x − 1) = ln 3 (need x > 1) ⇒ x² − 1 = 3 ⇒ x = ±2; domain ⇒ **only x = 2**."
+      },
+      {
+        "id": "trig",
+        "name": "Trigonometric functions and the unit circle",
+        "slides": "Slides 11–13",
+        "simple": "Walk an angle θ around a circle of radius 1: the x-coordinate is cos θ, the y-coordinate is sin θ.",
+        "exam": [
+          "For angle θ (radians), P = (cos θ, sin θ) on the unit circle; tan θ = sin θ / cos θ.",
+          "",
+          "| θ | 0 | π/6 | π/4 | π/3 | π/2 |",
+          "|---|---|---|---|---|---|",
+          "| sin θ | 0 | 1/2 | √2/2 | √3/2 | 1 |",
+          "| cos θ | 1 | √3/2 | √2/2 | 1/2 | 0 |",
+          "",
+          "**Identities:** sin²θ + cos²θ = 1 (because x² + y² = 1 on the unit circle) · sin(θ + 2π) = sin θ · cos(θ + 2π) = cos θ · cos(x) = sin(x + π/2).",
+          "sin is odd, cos is even; both have range [−1, 1] and period 2π."
+        ],
+        "example": "2 sin θ − 1 = 0, θ ∈ [0, 2π): sin θ = 1/2, reference angle π/6, sine positive in quadrants I and II ⇒ θ = π/6 or 5π/6."
+      }
+    ],
+    "connections": [
+      "**Session 3:** exp/log illustrate inverse functions; domains (log > 0) matter when solving.",
+      "**Session 5:** the derivative table covers xⁿ, eˣ, aˣ, ln x, sin x, cos x.",
+      "**Math A Lecture 1:** geometric sequences aₙ = a₁qⁿ⁻¹ are exponential in n."
+    ],
+    "examFocus": {
+      "questions": [
+        "Solve a quadratic with the formula; interpret Δ.",
+        "Solve exponential and log equations (state the domain first).",
+        "Evaluate sin, cos, tan at standard angles; solve simple trig equations on [0, 2π).",
+        "Recognise graph shapes of the five families."
+      ],
+      "traps": [
+        "After solving a log equation, **discard solutions outside the domain**.",
+        "logₐ(x + y) ≠ logₐ x + logₐ y.",
+        "Trig equations usually have **two** solutions in [0, 2π).",
+        "aˣ never reaches 0 (range (0, ∞))."
+      ],
+      "mistakes": [
+        "Forgetting the ± in the quadratic formula.",
+        "Using degrees instead of radians."
+      ]
+    },
+    "memorize": [
+      "**x₁,₂ = (−b ± √Δ)/(2a), Δ = b² − 4ac.**",
+      "**aˣ⁺ʸ = aˣaʸ; a⁻ˣ = 1/aˣ; (aˣ)ʸ = aˣʸ.**",
+      "**log(xy) = log x + log y; log(x/y) = log x − log y; log(xʳ) = r log x; logₐ x = ln x / ln a.**",
+      "**sin/cos table** for 0, π/6, π/4, π/3, π/2; **sin² + cos² = 1**; period 2π.",
+      "**e ≈ 2.71828.**"
+    ],
+    "gaps": [
+      "Session 4's PDF has little extractable text; it was read from the page images."
+    ]
+  },
+  "practice": [
+    { "topic": "quadratic", "question": "Solutions of x² + 2x − 8 = 0:", "options": ["2 and −4", "−2 and 4", "2 and 4", "No real roots"], "answer": 0, "explanation": "Δ = 4 + 32 = 36, x = (−2 ± 6)/2." },
+    { "topic": "quadratic", "question": "If Δ < 0, the quadratic has…", "options": ["two real roots", "one repeated root", "no real roots", "infinitely many roots"], "answer": 2, "explanation": "Square root of a negative number is not real." },
+    { "topic": "polynomials", "question": "A polynomial of degree 4 has at most…", "options": ["2 real roots", "3 real roots", "4 real roots", "8 real roots"], "answer": 2, "explanation": "At most n real roots." },
+    { "topic": "polynomials", "question": "x² − 5x + 6 factors as…", "options": ["(x − 1)(x − 6)", "(x − 2)(x − 3)", "(x + 2)(x + 3)", "(x − 2)(x + 3)"], "answer": 1, "explanation": "Roots 2 and 3." },
+    { "topic": "exponential", "question": "Solve 5ˣ⁺¹ = 125.", "options": ["x = 3", "x = 2", "x = 4", "x = 1"], "answer": 1, "explanation": "125 = 5³ ⇒ x + 1 = 3." },
+    { "topic": "exponential", "question": "Range of f(x) = aˣ (a > 0, a ≠ 1):", "options": ["ℝ", "[0, ∞)", "(0, ∞)", "(1, ∞)"], "answer": 2, "explanation": "Never touches the x-axis." },
+    { "topic": "exponential", "question": "(aˣ)ʸ =", "options": ["aˣ⁺ʸ", "aˣʸ", "aˣ·aʸ", "aˣ/aʸ"], "answer": 1, "explanation": "Power of a power: multiply exponents." },
+    { "topic": "logarithm", "question": "logₐ(x/y) =", "options": ["logₐ x / logₐ y", "logₐ x − logₐ y", "logₐ x + logₐ y", "logₐ(x − y)"], "answer": 1, "explanation": "Quotient rule." },
+    { "topic": "logarithm", "question": "log₂ x + log₂(x − 2) = 3. Solution:", "options": ["x = 4 and x = −2", "x = 4", "x = −2", "x = 8"], "answer": 1, "explanation": "x² − 2x = 8 ⇒ x = 4 or −2; domain x > 2 ⇒ only 4." },
+    { "topic": "logarithm", "question": "Change of base: logₐ x =", "options": ["ln a / ln x", "ln x / ln a", "ln x − ln a", "ln(x/a)"], "answer": 1, "explanation": "logₐ x = ln x / ln a." },
+    { "topic": "trig", "question": "cos(π/3) =", "options": ["√3/2", "1/2", "√2/2", "0"], "answer": 1, "explanation": "From the table." },
+    { "topic": "trig", "question": "tan(π/4) =", "options": ["0", "1", "√2/2", "undefined"], "answer": 1, "explanation": "sin = cos = √2/2." },
+    { "topic": "trig", "question": "Solutions of 2 cos θ + √3 = 0 in [0, 2π):", "options": ["π/6, 11π/6", "5π/6, 7π/6", "2π/3, 4π/3", "π/3, 5π/3"], "answer": 1, "explanation": "cos θ = −√3/2, reference π/6, cosine negative in quadrants II and III." },
+    { "topic": "power", "question": "f(x) = x^(1/2) has domain…", "options": ["ℝ", "x ≥ 0", "x > 0", "x ≠ 0"], "answer": 1, "explanation": "Rational exponent √x: x ≥ 0." }
+  ],
+  "mock": {
+    "questions": [
+      { "type": "mc", "points": 2, "topic": "quadratic", "question": "2x² − 3x − 2 = 0. Roots:", "options": ["2 and −1/2", "−2 and 1/2", "1 and −2", "No real roots"], "answer": 0, "explanation": "Δ = 25, x = (3 ± 5)/4." },
+      { "type": "mc", "points": 2, "topic": "exponential", "question": "Which statement about f(x) = (1/2)ˣ is correct?", "options": ["Strictly increasing", "Strictly decreasing, passes through (0, 1)", "Passes through (1, 0)", "Has range ℝ"], "answer": 1, "explanation": "0 < a < 1: decay; through (0, 1)." },
+      { "type": "mc", "points": 2, "topic": "logarithm", "question": "logₐ(x³) =", "options": ["(logₐ x)³", "3 logₐ x", "logₐ 3x", "logₐ x + 3"], "answer": 1, "explanation": "Power rule." },
+      { "type": "mc", "points": 2, "topic": "trig", "question": "sin(π) =", "options": ["1", "−1", "0", "1/2"], "answer": 2, "explanation": "Point (−1, 0) on the unit circle." },
+      { "type": "mc", "points": 2, "topic": "trig", "question": "Which identity is on the slides?", "options": ["sin²θ − cos²θ = 1", "sin²θ + cos²θ = 1", "sin θ + cos θ = 1", "tan θ = cos θ / sin θ"], "answer": 1, "explanation": "From x² + y² = 1." },
+      { "type": "calc", "points": 7, "topic": "logarithm", "question": "Solve log₂(x) + log₂(x − 2) = 3. State the domain restriction first.", "model": "Domain: x > 0 and x − 2 > 0 ⇒ x > 2.\nlog₂(x(x − 2)) = 3 ⇒ x² − 2x = 8 ⇒ x² − 2x − 8 = 0 ⇒ x = 4 or x = −2.\nOnly x = 4 satisfies x > 2.", "keyPoints": [ { "text": "Domain x > 2 stated first", "points": 1.5 }, { "text": "Product rule: log₂(x(x − 2)) = 3", "points": 1.5 }, { "text": "x² − 2x − 8 = 0 solved: 4 and −2", "points": 2.5 }, { "text": "−2 rejected, answer x = 4", "points": 1.5 } ] },
+      { "type": "calc", "points": 7, "topic": "trig", "question": "(a) Solve 2 sin θ − 1 = 0 for θ ∈ [0, 2π).\n(b) Evaluate cos(π/3), tan(π/4) and sin(π).", "model": "(a) sin θ = 1/2; reference angle π/6; sine positive in quadrants I and II ⇒ θ = π/6 or θ = π − π/6 = 5π/6.\n(b) cos(π/3) = 1/2; tan(π/4) = 1; sin(π) = 0.", "keyPoints": [ { "text": "(a) sin θ = 1/2 and reference angle π/6", "points": 1.5 }, { "text": "(a) both solutions π/6 and 5π/6", "points": 2.5 }, { "text": "(b) three values correct (1 pt each)", "points": 3 } ] }
+    ]
+  }
+}

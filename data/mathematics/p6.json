@@ -1,0 +1,147 @@
+{
+  "id": "p6",
+  "number": "P6",
+  "title": "Pre-course 6: Applications of Derivatives and Combinatorics",
+  "sources": ["Pre-course Session 6 slides (15 p.)", "Math Pre-Course Study Companion, ch. 6"],
+  "summary": {
+    "bigPicture": [
+      "**f′ controls monotonicity**, **f″ controls convexity**; critical points plus derivative tests locate and classify **extrema**.",
+      "Curve sketching combines critical points, the second-derivative test and inflection points.",
+      "**Combinatorics** answers “how many ways…”: counting principle → **permutations** (order, all objects) → **variations** (order, subset) → **combinations** (no order, subset).",
+      "The **binomial theorem** expands (x + y)ⁿ using binomial coefficients."
+    ],
+    "concepts": [
+      {
+        "id": "monotonicity-derivative",
+        "name": "Monotonicity via the first derivative",
+        "slides": "Slide 4",
+        "simple": "If the slope is positive the function goes up; if negative it goes down.",
+        "exam": [
+          "Let f be differentiable on an interval I:",
+          "- f′(x) > 0 ∀x ∈ I ⇒ f (strictly) **increasing** on I",
+          "- f′(x) < 0 ∀x ∈ I ⇒ f (strictly) **decreasing** on I",
+          "- f′(x) = 0 ∀x ∈ I ⇒ f **constant** on I"
+        ],
+        "example": "f(x) = x³ − 3x: f′ = 3(x − 1)(x + 1) > 0 on (−∞, −1) ∪ (1, ∞) (increasing), < 0 on (−1, 1) (decreasing)."
+      },
+      {
+        "id": "convexity-derivative",
+        "name": "Convexity via the second derivative; inflection points",
+        "slides": "Slide 5",
+        "simple": "f″ > 0: the curve bends upwards (convex). f″ < 0: it bends downwards (concave). Where it switches is an inflection point.",
+        "exam": "f twice differentiable on I: **f″ > 0 ⇒ convex**, **f″ < 0 ⇒ concave**. A point where **f″ changes sign** is an **inflection point**.",
+        "example": "f(x) = x³ − 3x: f″ = 6x: concave for x < 0, convex for x > 0; inflection point at x = 0."
+      },
+      {
+        "id": "extrema",
+        "name": "Critical points and derivative tests",
+        "slides": "Slide 6",
+        "simple": "Peaks and valleys can only be where the slope is zero (or undefined), or at the edges. Check how the slope changes sign, or look at f″.",
+        "exam": [
+          "**Critical point:** f′(x₀) = 0 or f′(x₀) does not exist. Local extrema can only occur at critical points (interior) or at the **boundaries** of the domain.",
+          "**First derivative test:** f′ changes + → − at x₀: **local max**; − → +: **local min**; no sign change: neither.",
+          "**Second derivative test:** f′(x₀) = 0 and f″(x₀) > 0: **local min**; f″(x₀) < 0: **local max**; f″(x₀) = 0: **inconclusive**."
+        ],
+        "example": "f(x) = x³ − 3x: f′ = 0 at ±1; f″(−1) = −6 < 0 ⇒ local max (−1, 2); f″(1) = 6 > 0 ⇒ local min (1, −2); inflection at (0, 0)."
+      },
+      {
+        "id": "counting",
+        "name": "Fundamental counting principle",
+        "slides": "Slide 8",
+        "simple": "If you choose step by step, multiply the number of choices at each step.",
+        "exam": "A task with k steps and n₁, n₂, …, nₖ ways per step can be carried out in **n₁ · n₂ · … · nₖ** ways.",
+        "example": "3 drinks and 4 pastries ⇒ 3 × 4 = 12 combos."
+      },
+      {
+        "id": "permutations",
+        "name": "Permutations (ordering all objects)",
+        "slides": "Slide 9",
+        "simple": "How many ways can you line up n different things? n! (n × (n − 1) × … × 1). If some are identical, divide by their factorials.",
+        "exam": [
+          "**Without repetition:** n! = n·(n − 1)·⋯·2·1, **0! := 1**.",
+          "**With repetition** (groups of n₁, …, nₖ identical objects, n₁ + ⋯ + nₖ = n): **n!/(n₁! n₂! ⋯ nₖ!)**."
+        ],
+        "example": "4 books on a shelf: 4! = 24. MISSISSIPPI: 11!/(1!·4!·4!·2!). STATISTICS: 10!/(3!·3!·1!·2!·1!) = 50 400."
+      },
+      {
+        "id": "variations",
+        "name": "Variations (ordered selections)",
+        "slides": "Slide 10",
+        "simple": "Choose k out of n where the order matters (like medals). With repetition allowed (like PIN codes) it is nᵏ.",
+        "exam": [
+          "**Without repetition:** **V(n, k) = n!/(n − k)! = n(n − 1)⋯(n − k + 1)**.",
+          "**With repetition:** **nᵏ**."
+        ],
+        "example": "Gold/silver/bronze among 8 athletes: V(8, 3) = 8·7·6 = 336. 4-digit PINs: 10⁴ = 10 000. 4 distinct letters out of 26: 26·25·24·23 = 358 800."
+      },
+      {
+        "id": "combinations",
+        "name": "Combinations and the binomial theorem",
+        "slides": "Slide 11",
+        "simple": "Choose k out of n when the order does not matter (a committee). The same numbers appear when you expand (x + y)ⁿ.",
+        "exam": [
+          "**C(n, k) = n!/(k!(n − k)!)**: ways to choose k out of n **without regard to order** (no repetition).",
+          "**Binomial theorem:** **(x + y)ⁿ = Σₖ₌₀ⁿ C(n, k)·xⁿ⁻ᵏ·yᵏ**.",
+          "(x + y)³ = x³ + 3x²y + 3xy² + y³, coefficients C(3,0), C(3,1), C(3,2), C(3,3) = 1, 3, 3, 1."
+        ],
+        "example": "3 students out of 10: C(10, 3) = 120. Committee of 4 out of 12: C(12, 4) = 495. (x − 2)⁴ = x⁴ − 8x³ + 24x² − 32x + 16."
+      }
+    ],
+    "connections": [
+      "**Session 5:** derivatives and second derivatives are the tools; **Session 3:** monotonicity/convexity definitions.",
+      "Combinatorics is the building block of **probability and statistics** later in the assessment year.",
+      "**Session 2:** Σ-notation appears in the binomial theorem."
+    ],
+    "examFocus": {
+      "questions": [
+        "Find and classify critical points; determine convex/concave intervals and inflection points.",
+        "Decide permutation vs. variation vs. combination and compute.",
+        "Arrangements of words with repeated letters.",
+        "Expand a binomial."
+      ],
+      "traps": [
+        "Second-derivative test is **inconclusive** when f″(x₀) = 0.",
+        "Extrema can also lie at the **boundary** of the domain.",
+        "Order matters → variation; order does not matter → combination.",
+        "Signs alternate when expanding (x − 2)ⁿ; 0! = 1."
+      ],
+      "mistakes": [
+        "Calling every point with f′ = 0 an extremum (x³ at 0 has no sign change).",
+        "Using n! instead of n!/(n − k)! for medals."
+      ]
+    },
+    "memorize": [
+      "**f′ > 0 increasing; f″ > 0 convex; f″ sign change = inflection.**",
+      "**f′(x₀) = 0, f″(x₀) > 0 → min; < 0 → max; = 0 → inconclusive.**",
+      "**n!; n!/(n₁!⋯nₖ!); V(n,k) = n!/(n − k)!; nᵏ; C(n,k) = n!/(k!(n − k)!).**",
+      "**(x + y)ⁿ = Σ C(n,k) xⁿ⁻ᵏ yᵏ.**"
+    ],
+    "gaps": []
+  },
+  "practice": [
+    { "topic": "monotonicity-derivative", "question": "If f′(x) < 0 on I, then f is…", "options": ["increasing", "decreasing", "convex", "constant"], "answer": 1, "explanation": "Negative slope." },
+    { "topic": "convexity-derivative", "question": "f″ changes sign at x₀. x₀ is…", "options": ["a local max", "a local min", "an inflection point", "a critical point"], "answer": 2, "explanation": "Definition of an inflection point." },
+    { "topic": "extrema", "question": "f′(x₀) = 0 and f″(x₀) > 0 ⇒", "options": ["local max", "local min", "inflection point", "inconclusive"], "answer": 1, "explanation": "Second derivative test." },
+    { "topic": "extrema", "question": "f′(x₀) = 0 and f″(x₀) = 0 ⇒", "options": ["local max", "local min", "inflection point", "test inconclusive"], "answer": 3, "explanation": "The second-derivative test says nothing." },
+    { "topic": "extrema", "question": "f(x) = x³ − 6x² + 9x. Critical points:", "options": ["x = 1, 3", "x = 0, 3", "x = 2", "x = −1, 3"], "answer": 0, "explanation": "f′ = 3(x − 1)(x − 3)." },
+    { "topic": "extrema", "question": "For the same f, x = 1 is a…", "options": ["local max with f(1) = 4", "local min with f(1) = 4", "local max with f(1) = 0", "inflection point"], "answer": 0, "explanation": "f″(1) = −6 < 0." },
+    { "topic": "counting", "question": "3 drinks and 4 pastries – number of (drink, pastry) combos:", "options": ["7", "12", "24", "81"], "answer": 1, "explanation": "3 × 4." },
+    { "topic": "permutations", "question": "Number of ways to arrange 4 books:", "options": ["4", "16", "24", "256"], "answer": 2, "explanation": "4! = 24." },
+    { "topic": "permutations", "question": "Distinct arrangements of STATISTICS:", "options": ["10!", "3 628 800 / 12", "50 400", "151 200"], "answer": 2, "explanation": "10!/(3!3!2!) = 50 400." },
+    { "topic": "variations", "question": "Gold/silver/bronze among 8 athletes:", "options": ["56", "336", "512", "24"], "answer": 1, "explanation": "V(8, 3) = 8·7·6." },
+    { "topic": "variations", "question": "Number of 4-digit PIN codes (0–9, repetition allowed):", "options": ["5 040", "10 000", "40", "210"], "answer": 1, "explanation": "10⁴." },
+    { "topic": "combinations", "question": "Committee of 4 from 12 people:", "options": ["11 880", "495", "48", "12⁴"], "answer": 1, "explanation": "C(12, 4) = 495." },
+    { "topic": "combinations", "question": "Coefficient of x²y in (x + y)³:", "options": ["1", "2", "3", "6"], "answer": 2, "explanation": "C(3, 1) = 3." },
+    { "topic": "combinations", "question": "(x − 2)⁴ – coefficient of x³:", "options": ["8", "−8", "24", "−32"], "answer": 1, "explanation": "C(4,1)·(−2) = −8." }
+  ],
+  "mock": {
+    "questions": [
+      { "type": "mc", "points": 2, "topic": "extrema", "question": "f(x) = x³ − 3x has a local maximum at…", "options": ["(1, −2)", "(−1, 2)", "(0, 0)", "(2, 2)"], "answer": 1, "explanation": "f″(−1) = −6 < 0, f(−1) = 2." },
+      { "type": "mc", "points": 2, "topic": "convexity-derivative", "question": "f(x) = x³ − 3x is concave on…", "options": ["x > 0", "x < 0", "(−1, 1)", "ℝ"], "answer": 1, "explanation": "f″ = 6x < 0 for x < 0." },
+      { "type": "mc", "points": 2, "topic": "variations", "question": "Passwords of 4 distinct letters (26-letter alphabet), order matters:", "options": ["C(26, 4)", "26⁴", "26·25·24·23", "4!"], "answer": 2, "explanation": "Variation without repetition = 358 800." },
+      { "type": "mc", "points": 2, "topic": "combinations", "question": "Choose 3 out of 10 students for a committee:", "options": ["720", "120", "30", "1 000"], "answer": 1, "explanation": "C(10, 3) = 10!/(3!7!) = 120." },
+      { "type": "calc", "points": 8, "topic": "extrema", "question": "f(x) = x³ − 6x² + 9x.\n(a) Find the critical points and classify them.\n(b) Where is f convex/concave? Give the inflection point.", "model": "(a) f′(x) = 3x² − 12x + 9 = 3(x − 1)(x − 3) ⇒ x = 1, 3. f″(x) = 6x − 12: f″(1) = −6 < 0 ⇒ local max, f(1) = 4; f″(3) = 6 > 0 ⇒ local min, f(3) = 0.\n(b) f″ < 0 for x < 2 (concave), f″ > 0 for x > 2 (convex); inflection at x = 2 (f(2) = 2).", "keyPoints": [ { "text": "f′ correct and factorised; critical points 1 and 3", "points": 2 }, { "text": "f″ = 6x − 12 and classification (max at 1, min at 3)", "points": 2 }, { "text": "Function values f(1) = 4, f(3) = 0", "points": 1 }, { "text": "Concave x < 2, convex x > 2, inflection at x = 2", "points": 3 } ] },
+      { "type": "calc", "points": 6, "topic": "combinations", "question": "(a) In how many distinct ways can the letters of STATISTICS be arranged?\n(b) Expand (x − 2)⁴ with the binomial theorem.", "model": "(a) n = 10; S:3, T:3, A:1, I:2, C:1 ⇒ 10!/(3!·3!·1!·2!·1!) = 3 628 800/72 = 50 400.\n(b) Σ C(4,k) x⁴⁻ᵏ(−2)ᵏ = x⁴ − 8x³ + 24x² − 32x + 16.", "keyPoints": [ { "text": "(a) correct letter counts and formula", "points": 2 }, { "text": "(a) 50 400", "points": 1 }, { "text": "(b) binomial coefficients 1, 4, 6, 4, 1 used", "points": 1.5 }, { "text": "(b) correct signs and powers of 2", "points": 1.5 } ] }
+    ]
+  }
+}
